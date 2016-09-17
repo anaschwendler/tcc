@@ -31,6 +31,10 @@ Is the process of reducing a textual document in order to create a summary that 
     * Cross-lingual: it get a source text in a particular language and built the summary in another language.
     
 ## Model and representation
+Extractive summarization relies on graph representation of documents for computing relative importance (salience) of its textual units[Erkan and Radev 2004]. That representation consists in sentences being representated as nodes and its similarity are represented by edges. The salient nodes represent the most representative sentences, which should be included in the final summary.
+- There are two points that should be considered in the definition of centrality.
+    - How to define the similarity between two sentences;
+    - How to compute the overall (global) centrality of a sentence
 
 ## Similarity mesures
 
