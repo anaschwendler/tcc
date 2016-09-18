@@ -52,16 +52,57 @@ A good summary contains
 - Coverage - Contain the main topics of the original document.
 - High diversity - Keep the redundancy to a minimum.
 - High coherence - Have smooth connection among sentences.
-There are many methods to perform intrinsec evaluation, but in our work we will be using the **[ROUGE](http://kavita-ganesan.com/rouge-howto){:target="_blank"}** method, which is inspired by the success of the BLUE evaluation, using n-gram overlaps as the basis of mesure. It will be more explained in the next section.
+There are many methods to perform intrinsec evaluation, but in our work we will be using [ROUGE](http://anthology.aclweb.org/W/W04/W04-1013.pdf) method, which is inspired by the success of the BLUE evaluation, using n-gram overlaps as the basis of mesure. It will be more explained in the next section.
 
 ## ROUGE
+ROUGE stands for Recall-Oriented Understudy for Gisting Evaluation, this method mesure the quality of a summary by comparing it to other summaries created by humans. The mesures count the number of overlapping units such as n-gram, word sequences and word pairs between the computer generated summary and the ideal one.
 
-## CST-News
+Rouge has four different mesures:
+
+* ROUGE-N: N-gram Co-Ocurrence Statistics
+Is an *n-gram* recall between candidate summary (generated) and a set of reference summaries. In its computation, n stands for the length of the n-gram, and gram-m is the maximum number of n-gramns.
+*n-gram is a contiguous sequence of n items from a given sequence of text.
+
+ROUGE-N is a recall-related mesure because the denominator of the equation is the total sum of the number of n-gram ocurring in the **reference** summary side.
+
+Knowing about that, we can notice that the number in the denominator of the rouge-n formula increases as we add more references. When we add a reference summary into the pool, we expand the space of alternative summaries, and by controling this we can design evaluations that focus on different aspects of summarization.
+
+When using multiple references, we compute pairwise summary-level rouge-n between a candidate summary s and every reference, in the reference set.
+
+* ROUGE-L: Longest Common Subsequence
+Given two sequences X and Y, the longest common subsequence (LCS) of X and Y is a common subsequence with maximum length. When we apply LCS in summarization evaluation, we view a summary sentence as a sequence of words.
+
+* ROUGE-W: Weighted Longest Common Subsequence
+This method improve the basic LCS method, it add an weight to remember the lenght of consecutive matches encountered so far to a regular two dimensional dynamic program table computing LCS.
+
+* ROUGE-S: Skip-Bigram Co-Occurrence Statistics
+Skip-bigram is any pair of words in their sentence order, allowing for arbitrary gaps. Skip-bigram co-occurrence statistics measure the overlap of skip-bigrams between a candidate translation and a set of reference translations.
+Example: 
+
+S1 - police killed the gunman
+
+S1 has six skip-bigrams: police killed, police the, police gunman, killed the, killed gunman, the gunman.
+
+* ROUGE-SU: Extension of ROUGE-S
+For example, when we get the inverse of S1, in this case S2, and there's no skip-bigram match between them. But, we would like to differentiate sentences similar to S2 from sentences that do not have single word occurence with S1.
+
+S2 - gunman the killed police
+
+To achieve this, we extend ROUGE-S with the addition of unigram as counting unit.
+
+
+## CSTNews
+CSTNews is a discourse-annotated corpus for fostering research on single and multidocument summarization. The corpus comprises 50 clusters of news texts in Brazilian Portuguese and some related material. It is composed of 50 clusters of news texts in Brazilian Portuguese (BP), which each cluster comprising 2 or 3 texts collected from on-line Brazilian news agencies as *Folha de São Paulo*, *Estadão*, *O globo*, *Gazeta do Povo* and *Jornal do Brasil*.
+
+The texts are annotated in different ways for discourse organization, following both the Rhetorical Structure Theory (RTS) and Cross-document Structure Theory (CTS).
+
+* RTS - Is a theory of text organization based upon its underlaying propositions and their functions (proposições subjacentes e suas funções). It prescribes a way to retrieve and generate relationships among propositions under the assumption that the writer rhetorically organizes a text based upon his/her intentions towards the reader.
+* CTS - Is a way of relate text passages from different texts on the same topic. It was devised mainly for dealing with multi-document organization, and may be used to solve several problems such as summarization and question-answering ones. Although seeming simpler than RTS, involves difficult issues concerning its set of relations.
 
 ## Tasks
 
 - [x] attempt to adjust the lexRank algorithm to concept version
-- [ ] write about the project, to clear things
+- [x] write about the project, to clear things
 - [ ] collect results for our algorithm to one document
 - [ ] collect results for our algorithm for all CST documents.
 
