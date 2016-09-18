@@ -38,7 +38,8 @@ Extractive summarization relies on graph representation of documents for computi
 
 ## Similarity mesures
 Answering about the points above, the similarity between two sentences can be defined as the amount of information in commom that they share. For example, to define the similarity between two sentences using the **cosine between two vectors**, defined by the value of the corresponding dimension of the vector representation of the sentence (number of ocurrence of the word in the sentence * idf of the word) can be affected by NLP problems, as we mentioned before.
-Concepts represent real world attributes and they help understanding ideas and ideologies present in texts. Concepts are not in the same level of terms of words, so it can minimize the vocabulary problem, and the effort necessary to extract useful information.
+
+**Concepts** represent real world attributes and they help understanding ideas and ideologies present in texts. Concepts are not in the same level of terms of words, so it can minimize the vocabulary problem, and the effort necessary to extract useful information.
 The first thing to do is to identify or extract concepts from documents (in our case, sentences). To do it is sugested by [Loh et al. 2000] applying an automatic **categorization** task. 
 - This categorization is guided by a set of *rules* that describe how a concept should be identified.
 - These rules include cue *terms* that once found in a document may indicate the presence of concept.
