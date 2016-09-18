@@ -52,7 +52,7 @@ A good summary contains
 - Coverage - Contain the main topics of the original document.
 - High diversity - Keep the redundancy to a minimum.
 - High coherence - Have smooth connection among sentences.
-There are many methods to perform intrinsec evaluation, but in our work we will be using the **[ROUGE](http://kavita-ganesan.com/rouge-howto)** method, which is inspired by the success of the BLUE evaluation, using n-gram overlaps as the basis of mesure. It will be more explained in the next section.
+There are many methods to perform intrinsec evaluation, but in our work we will be using the **[ROUGE](http://kavita-ganesan.com/rouge-howto){:target="_blank"}** method, which is inspired by the success of the BLUE evaluation, using n-gram overlaps as the basis of mesure. It will be more explained in the next section.
 
 ## ROUGE
 
