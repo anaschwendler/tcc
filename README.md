@@ -37,10 +37,21 @@ Extractive summarization relies on graph representation of documents for computi
     - How to compute the overall (global) centrality of a sentence
 
 ## Similarity mesures
-
-## Centrality
+Answering about the points above, the similarity between two sentences can be defined as the amount of information in commom that they share. For example, to define the similarity between two sentences using the **cosine between two vectors**, defined by the value of the corresponding dimension of the vector representation of the sentence (number of ocurrence of the word in the sentence * idf of the word) can be affected by NLP problems, as we mentioned before.
+Concepts represent real world attributes and they help understanding ideas and ideologies present in texts. Concepts are not in the same level of terms of words, so it can minimize the vocabulary problem, and the effort necessary to extract useful information.
+The first thing to do is to identify or extract concepts from documents (in our case, sentences). To do it is sugested by [Loh et al. 2000] applying an automatic **categorization** task. 
+- This categorization is guided by a set of *rules* that describe how a concept should be identified.
+- These rules include cue *terms* that once found in a document may indicate the presence of concept.
+- The terms may include synonyms, lexical variations and derivations, and semantic related words.
+- Each term has an weight associated that correspond to the relative importance of this term from 0 (irrelevant) to 1 (relevant). It can be manually assigned or can use learning process.
+Once the concepts are identified, we can identify the similarity among the concepts of each sentence. To do this we calculate the grade of similarity (gs) between two vectors (v1, v2).
 
 ## Evaluation strategies
+A good summary contains
+- Coverage - Contain the main topics of the original document.
+- High diversity - Keep the redundancy to a minimum.
+- High coherence - Have smooth connection among sentences.
+There are many methods to perform intrinsec evaluation, but in our work we will be using the ROUGE method, which is inspired by the success of the BLUE evaluation, using n-gram overlaps as the basis of mesure. It will be more explained in the next section.
 
 ## ROUGE
 
