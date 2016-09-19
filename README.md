@@ -103,7 +103,9 @@ The texts are annotated in different ways for discourse organization, following 
 
 - [x] attempt to adjust the lexRank algorithm to concept version
 - [x] write about the project, to clear things
-- [ ] collect results for our algorithm to one document
+- [x] collect results for our algorithm to one document
 - [ ] collect results for our algorithm for all CST documents.
+- [ ] bar graph representando média de valores pra todas as métricas pra todos os valores.
+- [ ] media com desvio padrao.
 
 
