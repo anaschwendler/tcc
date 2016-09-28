@@ -1,7 +1,0 @@
-[Segundo a pesquisa CNI/Ibope, realizada em julho para o primeiro turno da eleição presidencial, Luiz Inácio Lula da Silva teria 44% dos votos contra 25% de Geraldo Alckmin e 11% de Heloisa Helena.]DECLARATION/WHEN/WHAT/WHO_AFFECTED/COMPARISON
-[Cristovam Buarque e Luciano Bivar têm, cada um, 1% dos votos.]WHAT_EXTRA/WHO_AFFECTED_EXTRA/COMPARISON
-[Já José Maria Eymael e Ruy Pimenta não pontuaram.]WHAT_EXTRA/WHO_AFFECTED_EXTRA/COMPARISON
-[Esta pesquisa foi a primeira da série CNI/Ibope com a lista oficial dos candidatos à Presidência, fornecido pelo TSE.]HISTORY/WHAT_EXTRA
-[Com 2 pontos percentuais para mais e para menos, os resultados assegurariam vitória de Lula no primeiro turno.]WHO_AFFECTED_EXTRA/PREDICTION/WHAT_EXTRA
-[Para o segundo turno, as intenções de voto para Lula caíram quando se compara com os candidatos Geraldo e Heloisa.]WHO_AFFECTED_EXTRA/WHAT_EXTRA/COMPARISON
-[Quando se compara com uma pesquisa sem a lista oficial dos candidatos, Lula sobe de 27% para 31%, Geraldo de 4% a 14% e Heloisa de 1% a 6%.]WHO_AFFECTED_EXTRA/WHAT_EXTRA/COMPARISON

@@ -1,5 +1,0 @@
-[O senador João Pedro (PT-AM), relator da segunda representação contra Renan Calheiros (PMDB-AL) no Senado, confirmou que vai apresentar nesta quarta-feira, 26, na reunião do Conselho de Ética, pedido de sobrestamento (suspensão temporária) das investigações sobre o caso.]WHO_AGENT/WHO_AFFECTED/WHAT/WHEN
-[O senador defende que o conselho, antes de concluir se Renan quebrou ou não o decoro parlamentar na segunda representação, espere a Câmara dos Deputados investigar se há envolvimento do irmão de Renan, o deputado Olavo Calheiros (PMDB-AL).]WHAT_EXTRA/WHO_AGENT_EXTRA
-[O conselho se reúne amanhã para votar o relatório de João Pedro, com a recomendação para o sobrestamento.]WHEN_EXTRA/WHO_AGENT_EXTRA/WHAT_EXTRA
-[Na segunda representação, Renan é acusado de trabalhar para reverter dívida de R$100 milhões da Schincariol junto ao INSS como gratidão ao fato da empresa ter comprado uma fábrica de seu irmão por preço acima do mercado.]WHAT_EXTRA/WHY_EXTRA/SITUATION
-[João Pedro informou que nesta terça deve se encontrar com o relator do caso na Câmara, deputado José Carlos Araújo (PR-BA), para tratar do assunto.]WHO_AGENT_EXTRA/WHEN_EXTRA/WHAT_EXTRA

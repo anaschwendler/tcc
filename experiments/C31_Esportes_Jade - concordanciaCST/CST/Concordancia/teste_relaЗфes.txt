@@ -1,8 +1,0 @@
-	thiago		erick_vinicius
-1-1	overlap		overlap
-1-2	elaboration	elaboration
-2-1	elaboration	no-relation
-2-3	subsumption	subsumption
-3-4	overlap		overlap
-4-4	follow-up	follow-up
-4-6	subsumption	overlap

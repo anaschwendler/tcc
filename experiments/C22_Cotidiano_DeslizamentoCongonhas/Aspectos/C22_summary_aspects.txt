@@ -1,9 +1,0 @@
-[Depois de uma segunda-feira caótica, em que 38,1% dos vôos atrasaram em todo o país, o aeroporto de Congonhas esteve fechado nesta manhã de terça-feira, devido ao nevoeiro que cobria a região sul de São Paulo.]WHEN/WHAT/WHY/WHERE
-[Metade dos vôos programados entre 6 e 8 horas foram cancelados.]CONSEQUENCE
-[O aeroporto só abriu para pousos às 8:50h.]CONSEQUENCE
-[A TAM cancelou 68 vôos e transferiu 22 para Guarulhos.]CONSEQUENCE/COUNTERMEASURES
-[A Ocean Air e BRA transferiram todos os vôos para Cumbica.]COUNTERMEASURES
-[A Infraero não contabilizava atrasos superiores a uma hora, mas quase nenhum vôo saia no horário programado do aeroporto.]COMMENT
-[Houve muita irritação no aeroporto Tom Jobim, com 14 atrasos e 4 cancelamentos de chegadas.]CONSEQUENCE
-[Em Confins, cinco vôos tiveram atrasos e um foi cancelado.]CONSEQUENCE
-[Já no Santos Dumont, uma chegada apresentou alteração de horário e dez foram canceladas, todas vindas de São Paulo.]CONSEQUENCE

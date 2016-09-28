@@ -1,5 +1,0 @@
-[A forte chuva em São Paulo complicava o trânsito na manhã desta segunda-feira, 16.]WHAT/WHERE/WHEN
-[Às 9h, a cidade tinha oito pontos de alagamento, sendo dois intransitáveis.]WHEN/CONSEQUENCE
-[O risco de que novos alagamentos surgissem fez com que o Centro de Gerenciamento de Emergência (CGE) da Prefeitura colocasse a cidade em estado de atenção.]COUNTERMEASURES
-[A Companhia de Engenharia de Tráfego (CET) anunciou que o índice de congestionamento era de 54 quilômetros às 8h , 113 km às 9h e 110 km meia hora depois, valores bem acima das médias para os horários, que eram de 36, 82 e 76 quilômetros respectivamente, mas não havia registro de acidentes graves, apesar de haver feridos.]DECLARATION/CONSEQUENCE/WHO_AFFECTED/WHEN_EXTRA
-[O estado de atenção foi suspenso às 9h25.]WHAT_EXTRA/WHEN_EXTRA
