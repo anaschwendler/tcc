@@ -1,0 +1,43 @@
+<align SENT="1">
+	<DOC="D1_C44_Folha.txt.seg" SENT="15" TYPE="parcial/neutro-generalizacao" JUDGE="renata-veronica/renata-veronica"/>
+	<DOC="D2_C44_JB.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="renata-veronica/renata-veronica"/>
+</align>
+
+<align SENT="2">
+	<DOC="D1_C44_Folha.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="renata-veronica/renata-veronica"/>
+	<DOC="D1_C44_Folha.txt.seg" SENT="3" TYPE="parcial/neutro" JUDGE="renata-veronica/renata-veronica"/>
+	<DOC="D1_C44_Folha.txt.seg" SENT="4" TYPE="diferente/neutro" JUDGE="renata-veronica/renata-veronica"/>
+	<DOC="D2_C44_JB.txt.seg" SENT="2" TYPE="parcial/neutro" JUDGE="renata-veronica/renata-veronica"/>
+	<DOC="D2_C44_JB.txt.seg" SENT="4" TYPE="diferente/neutro" JUDGE="renata-veronica/renata-veronica"/>
+</align>
+
+<align SENT="3">
+	<DOC="D1_C44_Folha.txt.seg" SENT="2" TYPE="parcial/neutro" JUDGE="renata-veronica/renata-veronica"/>
+	<DOC="D1_C44_Folha.txt.seg" SENT="7" TYPE="parcial/neutro" JUDGE="renata-veronica/renata-veronica"/>
+</align>
+
+<align SENT="4">
+	<DOC="D2_C44_JB.txt.seg" SENT="5" TYPE="parcial/neutro" JUDGE="renata-veronica/renata-veronica"/>
+</align>
+
+<align SENT="5">
+	<DOC="D2_C44_JB.txt.seg" SENT="6" TYPE="parcial/neutro" JUDGE="renata-veronica/renata-veronica"/>
+</align>
+
+<align SENT="6">
+	<DOC="D1_C44_Folha.txt.seg" SENT="13" TYPE="parcial/neutro" JUDGE="renata-veronica/renata-veronica"/>
+	<DOC="D1_C44_Folha.txt.seg" SENT="14" TYPE="diferente/neutro" JUDGE="renata-veronica/renata-veronica"/>
+</align>
+
+<align SENT="7">
+	<DOC="D2_C44_JB.txt.seg" SENT="8" TYPE="parcial/neutro" JUDGE="renata-veronica/renata-veronica"/>
+</align>
+
+<align SENT="8">
+	<DOC="D1_C44_Folha.txt.seg" SENT="17" TYPE="parcial/neutro" JUDGE="renata-veronica/renata-veronica"/>
+	<DOC="D2_C44_JB.txt.seg" SENT="7" TYPE="parcial/neutro" JUDGE="renata-veronica/renata-veronica"/>
+</align>
+
+<align SENT="9">
+	<DOC="D1_C44_Folha.txt.seg" SENT="18" TYPE="parcial/neutro" JUDGE="renata-veronica/renata-veronica"/>
+</align>

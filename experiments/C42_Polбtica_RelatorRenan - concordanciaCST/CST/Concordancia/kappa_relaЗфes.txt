@@ -1,0 +1,69 @@
+----------- KAPPA -------------
+K=0.254, P(A)=0.438, P(E)=0.246, N=16, k=2,  n=6 ( follow-up overlap_attribution no-relation elaboration subsumption overlap )
+
+---- COLLAPSING CATEGORIES ----
+
+Collapsing elaboration and follow-up:
+K=0.236, P(A)=0.438, P(E)=0.264, N=16, k=2,  n=5 ( elaborationfollow-up overlap_attribution no-relation subsumption overlap )
+
+Collapsing elaboration and overlap_attribution:
+K=0.236, P(A)=0.438, P(E)=0.264, N=16, k=2,  n=5 ( follow-up no-relation subsumption elaborationoverlap_attribution overlap )
+
+Collapsing elaboration and no-relation:
+K=0.281, P(A)=0.500, P(E)=0.305, N=16, k=2,  n=5 ( follow-up overlap_attribution subsumption elaborationno-relation overlap )
+
+Collapsing elaboration and subsumption:
+K=0.242, P(A)=0.438, P(E)=0.258, N=16, k=2,  n=5 ( follow-up overlap_attribution no-relation elaborationsubsumption overlap )
+
+Collapsing elaboration and overlap:
+K=0.184, P(A)=0.438, P(E)=0.311, N=16, k=2,  n=5 ( follow-up no-relation elaborationoverlap elaborationoverlap_attribution subsumption )
+
+Collapsing follow-up and overlap_attribution:
+K=0.236, P(A)=0.438, P(E)=0.264, N=16, k=2,  n=5 ( no-relation elaboration subsumption follow-upoverlap_attribution overlap )
+
+Collapsing follow-up and no-relation:
+K=0.371, P(A)=0.563, P(E)=0.305, N=16, k=2,  n=5 ( overlap_attribution follow-upno-relation elaboration subsumption overlap )
+
+Collapsing follow-up and subsumption:
+K=0.242, P(A)=0.438, P(E)=0.258, N=16, k=2,  n=5 ( follow-upsubsumption overlap_attribution no-relation elaboration overlap )
+
+Collapsing follow-up and overlap:
+K=0.275, P(A)=0.500, P(E)=0.311, N=16, k=2,  n=5 ( no-relation elaboration follow-upoverlap_attribution subsumption follow-upoverlap )
+
+Collapsing no-relation and overlap_attribution:
+K=0.191, P(A)=0.438, P(E)=0.305, N=16, k=2,  n=5 ( follow-up no-relationoverlap_attribution elaboration subsumption overlap )
+
+Collapsing no-relation and subsumption:
+K=0.301, P(A)=0.500, P(E)=0.285, N=16, k=2,  n=5 ( follow-up overlap_attribution elaboration no-relationsubsumption overlap )
+
+Collapsing no-relation and overlap:
+K=-0.043, P(A)=0.438, P(E)=0.461, N=16, k=2,  n=5 ( follow-up no-relationoverlap_attribution elaboration subsumption no-relationoverlap )
+
+Collapsing overlap and overlap_attribution:
+K=0.254, P(A)=0.438, P(E)=0.246, N=16, k=2,  n=6 ( follow-up overlapoverlap_attribution_attribution no-relation elaboration subsumption overlapoverlap_attribution )
+
+Collapsing overlap and subsumption:
+K=0.297, P(A)=0.500, P(E)=0.289, N=16, k=2,  n=5 ( overlapsubsumption_attribution follow-up overlapsubsumption no-relation elaboration )
+
+Collapsing overlap_attribution and subsumption:
+K=0.242, P(A)=0.438, P(E)=0.258, N=16, k=2,  n=5 ( follow-up no-relation elaboration overlap_attributionsubsumption overlap )
+
+----- ISOLATING CATEGORIES ----
+
+Isolating elaboration:
+K=0.224, P(A)=0.750, P(E)=0.678, N=16, k=2,  n=3 ( elaboration X X_attribution )
+
+Isolating follow-up:
+K=-0.164, P(A)=0.625, P(E)=0.678, N=16, k=2,  n=3 ( follow-up X X_attribution )
+
+Isolating no-relation:
+K=0.191, P(A)=0.563, P(E)=0.459, N=16, k=2,  n=3 ( no-relation X X_attribution )
+
+Isolating overlap:
+K=0.307, P(A)=0.688, P(E)=0.549, N=16, k=2,  n=2 ( X overlap )
+
+Isolating overlap_attribution:
+K=-0.103, P(A)=0.813, P(E)=0.830, N=16, k=2,  n=2 ( X X_attribution )
+
+Isolating subsumption:
+K=-0.135, P(A)=0.688, P(E)=0.725, N=16, k=2,  n=3 ( X subsumption X_attribution )

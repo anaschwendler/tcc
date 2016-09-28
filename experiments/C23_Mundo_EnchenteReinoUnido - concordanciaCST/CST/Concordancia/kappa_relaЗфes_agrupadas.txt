@@ -1,0 +1,36 @@
+----------- KAPPA -------------
+K=0.649, P(A)=0.815, P(E)=0.473, N=18, k=3,  n=4 ( complemento no-relation redundancia fonte_redundancia )
+
+---- COLLAPSING CATEGORIES ----
+
+Collapsing complemento and no-relation:
+K=0.816, P(A)=0.963, P(E)=0.799, N=18, k=3,  n=3 ( complementono-relation redundancia fonte_redundancia )
+
+Collapsing complemento and redundancia:
+K=0.614, P(A)=0.815, P(E)=0.521, N=18, k=3,  n=3 ( no-relation complementoredundancia fonte_complementoredundancia )
+
+Collapsing complemento and fonte_redundancia:
+K=0.642, P(A)=0.815, P(E)=0.482, N=18, k=3,  n=3 ( no-relation complementofonte_redundancia redundancia )
+
+Collapsing fonte_redundancia and no-relation:
+K=0.633, P(A)=0.815, P(E)=0.496, N=18, k=3,  n=3 ( complemento redundancia fonte_redundanciano-relation )
+
+Collapsing fonte_redundancia and redundancia:
+K=0.717, P(A)=0.852, P(E)=0.476, N=18, k=3,  n=3 ( complemento no-relation fonte_redundanciaredundancia )
+
+Collapsing no-relation and redundancia:
+K=0.549, P(A)=0.815, P(E)=0.589, N=18, k=3,  n=3 ( complemento fonte_no-relationredundancia no-relationredundancia )
+
+----- ISOLATING CATEGORIES ----
+
+Isolating complemento:
+K=0.614, P(A)=0.852, P(E)=0.616, N=18, k=3,  n=2 ( complemento X )
+
+Isolating fonte_redundancia:
+K=-0.019, P(A)=0.963, P(E)=0.964, N=18, k=3,  n=2 ( X fonte_X )
+
+Isolating no-relation:
+K=0.682, P(A)=0.852, P(E)=0.534, N=18, k=3,  n=2 ( no-relation X )
+
+Isolating redundancia:
+K=0.780, P(A)=0.963, P(E)=0.832, N=18, k=3,  n=2 ( X redundancia )

@@ -1,0 +1,121 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="15" relname="span">Astrônomos do Observatório Europeu Austral,</segment>
+    <segment id="10" parent="1" relname="elaboration"> localizado no Chile,</segment>
+    <segment id="9" parent="26" relname="span"> anunciaram a descoberta de uma dupla de planetas errantes</segment>
+    <segment id="11" parent="9" relname="parenthetical"> (sem estrela-mãe)</segment>
+    <segment id="12" parent="27" relname="list"> que giram ao redor deles mesmos</segment>
+    <segment id="13" parent="27" relname="list"> e que vagam livremente pelo espaço.</segment>
+    <segment id="6" parent="16" relname="span"> Esta é a primeira vez que se observam dois corpos celestes unidos pela gravidade de &quot;planetas flutuantes livres&quot;</segment>
+    <segment id="14" parent="6" relname="parenthetical"> (&quot;free floating planets&quot;, em inglês).</segment>
+    <segment id="2" parent="32" relname="span">
+
+O maior corpo celeste, com uma massa sete vezes maior do que a de Júpiter, foi detectado a cerca de 400 anos-luz de nosso sistema solar.</segment>
+    <segment id="7" parent="31" relname="span"> O fato extraordinário é que ele não gira em volta de uma estrela,</segment>
+    <segment id="17" parent="7" relname="concession"> mas em torno de outro corpo frio com o dobro de sua massa.</segment>
+    <segment id="3" parent="41" relname="list">
+
+Ray Jayawardhana, da Universidade de Toronto, e Valentin Ivanov, do Observatório Europeu Austral, publicarão a descoberta na &quot;Science Express&quot;, site da revista &quot;Science&quot;.</segment>
+    <segment id="4" parent="34" relname="circumstance">
+
+Durante os últimos cinco anos,</segment>
+    <segment id="18" parent="33" relname="span"> os astrônomos identificaram algumas dúzias de objetos com massas inferiores,</segment>
+    <segment id="19" parent="18" relname="circumstance"> flutuando livres nas proximidades de regiões de formação estelar próximas,</segment>
+    <segment id="20" parent="33" relname="elaboration"> aos quais chamam de &quot;planemos&quot;,</segment>
+    <segment id="21" parent="33" relname="concession"> mas nunca até agora unidos.</segment>
+    <segment id="5" parent="36" relname="span">
+
+&quot;Este é um par de gêmeos verdadeiramente de destaque,</segment>
+    <segment id="22" parent="5" relname="explanation"> já que cada um tem uma massa de apenas 1% de nosso Sol&quot;,</segment>
+    <segment id="23" parent="36" relname="attribution"> declarou Jayawardhana.</segment>
+    <segment id="8" parent="38" relname="list"> &quot;Sua mera existência é uma surpresa</segment>
+    <segment id="24" parent="38" relname="list"> e sua origem e seu futuro são um mistério&quot;,</segment>
+    <segment id="25" parent="38" relname="attribution"> declarou.</segment>
+<group id="16" type="span" parent="29" relname="circumstance" />
+<group id="15" type="span" parent="29" relname="same-unit" />
+<group id="26" type="span" parent="28" relname="span" />
+<group id="27" type="multinuc" parent="26" relname="elaboration" />
+<group id="28" type="span" parent="29" relname="same-unit" />
+<group id="29" type="multinuc" parent="30" relname="span" />
+<group id="30" type="span" parent="40" relname="span" />
+<group id="31" type="span" parent="2" relname="elaboration" />
+<group id="32" type="span" parent="30" relname="elaboration" />
+<group id="33" type="span" parent="34" relname="span" />
+<group id="34" type="span" parent="35" relname="span" />
+<group id="35" type="span" parent="41" relname="list" />
+<group id="36" type="span" parent="37" relname="span" />
+<group id="37" type="span" parent="42" relname="span" />
+<group id="38" type="multinuc" parent="39" relname="span" />
+<group id="39" type="span" parent="37" relname="elaboration" />
+<group id="40" type="span" parent="41" relname="list" />
+<group id="41" type="multinuc" parent="43" relname="span" />
+<group id="42" type="span" parent="41" relname="elaboration" />
+<group id="43" type="span" />
+  </body>
+</rst>

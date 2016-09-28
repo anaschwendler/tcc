@@ -1,0 +1,62 @@
+<ET ID="00" TIPO="TEMPO_CALEND" SUBTIPO="DATA" VAL_NORM="+20070416T1546E--LM-">
+Um atirador matou ao menos 30 pessoas em dois diferentes locais da Universidade Técnica da Virgínia, em Blacksburg (Virgínia), 
+<ET ID="01" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+nesta segunda-feira
+</ET>
+, no pior ataque a tiros contra um campus universitário da história dos Estados Unidos.
+
+O agressor também morreu. Não ficou claro se ele foi morto por policiais ou se se suicidou após o ataque. O presidente George W. Bush disse estar horrorizado com o ocorrido, segundo a Casa Branca.
+
+"
+<ET ID="02" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+Hoje
+</ET>
+a universidade foi atingida por uma tragédia que consideramos de proporções monumentais", afirmou o presidente da escola, Charles Steger. "Estamos chocados".
+
+Os dois ataques, que ocorreram em lados opostos do campus de 1.050 hectares, tiveram início 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="HORA" VAL_NORM="+--------T0815E--LM-">
+às 7h15 (8h15 de Brasília)
+</ET>
+em West Ambler Johnston Hall, residência estudantil que abriga ao menos 895 pessoas. 
+<ET ID="04" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="TEXTUAL" SENTIDO="POSTERIOR"><!--Correto?-->
+Pouco depois
+</ET>
+, Norris Hall, edifício da engenharia, foi alvo de outro ataque a tiros.
+
+A maioria dos mortos eram estudantes da universidade. Um deles foi morto em um dormitório e outros foram assassinados dentro de uma sala de aula, segundo o chefe de polícia do campus, W.R. Flinchum.
+
+O nome do homem armado não foi divulgado, tampouco se ele era estudante da escola.
+
+<ET ID="04" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR">
+Antes desta segunda-feira
+</ET>
+, o pior ataque contra um campus da história dos EUA havia ocorrido 
+<ET ID="05" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+1966----T----E--LM-">
+em 1966
+</ET>
+na Universidade do Texas, quando Charles Whitman subiu em uma torre de observação de 27 andares e abriu fogo. Ela matou 16 pessoas antes de ser baleado e morto.
+
+Após os ataques a tiros, todas as entradas do campus foram fechadas, e as aulas foram suspensas. A universidade estabeleceu um local de encontro entre famílias e representantes estudantis. Uma reunião deve ocorrer 
+<ET ID="06" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="POSTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">
+nesta terça-feira
+</ET>
+na quadra de basquete da escola.
+
+"Há forte comoção. É difícil dizer exatamente o que está acontecendo", disse Jason Anthony Smith, 19, que mora no dormitório onde um dos ataques a tiros ocorreu.
+
+Segundo Aimee Kanode, aluna do primeiro ano, o primeiro ataque ocorreu no primeiro andar do West Ambler Johnston, um andar acima do quarto em que ela dorme.
+
+"Eles [a universidade] nos trancaram temporariamente nos quartos", afirmou. "Ficamos todos trancados nos quartos e acessando a internet para tentar saber o que acontecia".
+
+A Universidade de Tecnologia da Virgínia tem 26 mil estudantes e fica a 390 km de Washington.
+
+É a 
+<ET ID="07" TIPO="FREQUENCIA" VAL_QUANT="2" VAL_MODULO="A2M0S0D0H0M0S0"><!--Não ocorre todo ano, por isso pode não ser frequência-->
+segunda vez em menos de um ano
+</ET>
+que a universidade, que abriga 26 mil alunos, teve de ser fechada devido a um tiroteio.
+
+<ET ID="08" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+200608--T----E--LM-">
+Em agosto de 2006
+</ET>
+, o reinício das aulas foi suspenso e a entrada no campus foi bloqueada depois que um fugitivo matou um segurança e um policial envolvidos em uma perseguição ocorrida em um ponto próximo da universidade.

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xml>
+<corpus>
+
+	<body>
+<s id="s1" ref="1" source="Running text" forest="1" text="Polícia prende desembargadores, juízes e parlamentares em Rondônia A operação é destinada a prender funcionários públicos do alto escalão acusados de envolvimento em desvio de recursos públicos e venda de sentenças judiciais.">
+	<graph root="s1_500">
+		<terminals>
+			<t id="s1_1" word="Polícia" lemma="polícia" pos="n" morph="M S" sem="Hprof" extra="--"/>
+			<t id="s1_2" word="prende" lemma="prender" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="cjt-head cjt-head-STA fmc mv"/>
+			<t id="s1_3" word="desembargadores" lemma="desembargador" pos="n" morph="M P" sem="Hprof" extra="cjt-head cjt-head-Od"/>
+			<t id="s1_4" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_5" word="juízes" lemma="juíz" pos="n" morph="M P" sem="Hprof" extra="cjt-Od"/>
+			<t id="s1_6" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-acc co-acc"/>
+			<t id="s1_7" word="parlamentares" lemma="parlamentar" pos="n" morph="M P" sem="H" extra="cjt-Od"/>
+			<t id="s1_8" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s1_9" word="Rondônia" lemma="Rondônia" pos="prop" morph="F S" sem="--" extra="civ"/>
+			<t id="s1_10" word="A" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s1_11" word="operação" lemma="operação" pos="n" morph="F S" sem="act-d" extra="--"/>
+			<t id="s1_12" word="é" lemma="ser" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="cjt-STA fmc aux"/>
+			<t id="s1_13" word="destinada" lemma="destinar" pos="v-pcp" morph="F S" sem="--" extra="mv"/>
+			<t id="s1_14" word="a" lemma="a" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s1_15" word="prender" lemma="prender" pos="v-inf" morph="--" sem="--" extra="mv"/>
+			<t id="s1_16" word="funcionários_públicos" lemma="funcionário_público" pos="n" morph="M P" sem="Hprof" extra="--"/>
+			<t id="s1_17" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s1_18" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s1_19" word="alto" lemma="alto" pos="adj" morph="M S" sem="--" extra="--"/>
+			<t id="s1_20" word="escalão" lemma="escalão" pos="n" morph="M S" sem="amount Labs HH" extra="--"/>
+			<t id="s1_21" word="acusados" lemma="acusar" pos="v-pcp" morph="M P" sem="--" extra="mv np-close"/>
+			<t id="s1_22" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s1_23" word="envolvimento" lemma="envolvimento" pos="n" morph="M S" sem="event act" extra="--"/>
+			<t id="s1_24" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_25" word="desvio" lemma="desvio" pos="n" morph="M S" sem="event act" extra="--"/>
+			<t id="s1_26" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s1_27" word="recursos" lemma="recurso" pos="n" morph="M P" sem="sem-s act-d ac mon" extra="cjt-head cjt-head-DP"/>
+			<t id="s1_28" word="públicos" lemma="público" pos="adj" morph="M P" sem="--" extra="np-close"/>
+			<t id="s1_29" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-prparg"/>
+			<t id="s1_30" word="venda" lemma="venda" pos="n" morph="F S" sem="inst act cloH" extra="cjt-DP"/>
+			<t id="s1_31" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_32" word="sentenças" lemma="sentença" pos="n" morph="F P" sem="sem-s act-s" extra="--"/>
+			<t id="s1_33" word="judiciais" lemma="judicial" pos="adj" morph="F P" sem="--" extra="np-close"/>
+			<t id="s1_34" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s1_500" cat="s">
+				<edge label="STA" idref="s1_501"/>
+			</nt>
+			<nt id="s1_501" cat="par">
+				<edge label="CJT" idref="s1_502"/>
+				<edge label="CJT" idref="s1_505"/>
+				<edge label="PU" idref="s1_34"/>
+			</nt>
+			<nt id="s1_502" cat="fcl">
+				<edge label="S" idref="s1_1"/>
+				<edge label="P" idref="s1_2"/>
+				<edge label="Od" idref="s1_503"/>
+				<edge label="fA" idref="s1_504"/>
+			</nt>
+			<nt id="s1_503" cat="par">
+				<edge label="CJT" idref="s1_3"/>
+				<edge label="PU" idref="s1_4"/>
+				<edge label="CJT" idref="s1_5"/>
+				<edge label="CO" idref="s1_6"/>
+				<edge label="CJT" idref="s1_7"/>
+			</nt>
+			<nt id="s1_504" cat="pp">
+				<edge label="H" idref="s1_8"/>
+				<edge label="DP" idref="s1_9"/>
+			</nt>
+			<nt id="s1_505" cat="fcl">
+				<edge label="S" idref="s1_506"/>
+				<edge label="P" idref="s1_507"/>
+				<edge label="Op" idref="s1_508"/>
+			</nt>
+			<nt id="s1_506" cat="np">
+				<edge label="DN" idref="s1_10"/>
+				<edge label="H" idref="s1_11"/>
+			</nt>
+			<nt id="s1_507" cat="vp">
+				<edge label="Vaux" idref="s1_12"/>
+				<edge label="Vm" idref="s1_13"/>
+			</nt>
+			<nt id="s1_508" cat="pp">
+				<edge label="H" idref="s1_14"/>
+				<edge label="DP" idref="s1_509"/>
+			</nt>
+			<nt id="s1_509" cat="icl">
+				<edge label="P" idref="s1_15"/>
+				<edge label="Od" idref="s1_510"/>
+			</nt>
+			<nt id="s1_510" cat="np">
+				<edge label="H" idref="s1_16"/>
+				<edge label="DN" idref="s1_511"/>
+			</nt>
+			<nt id="s1_511" cat="pp">
+				<edge label="H" idref="s1_17"/>
+				<edge label="DP" idref="s1_512"/>
+			</nt>
+			<nt id="s1_512" cat="np">
+				<edge label="DN" idref="s1_18"/>
+				<edge label="DN" idref="s1_19"/>
+				<edge label="H" idref="s1_20"/>
+				<edge label="DN" idref="s1_513"/>
+			</nt>
+			<nt id="s1_513" cat="icl">
+				<edge label="P" idref="s1_21"/>
+				<edge label="Op" idref="s1_514"/>
+				<edge label="Op" idref="s1_517"/>
+			</nt>
+			<nt id="s1_514" cat="pp">
+				<edge label="H" idref="s1_22"/>
+				<edge label="DP" idref="s1_515"/>
+			</nt>
+			<nt id="s1_515" cat="np">
+				<edge label="H" idref="s1_23"/>
+				<edge label="DN" idref="s1_516"/>
+			</nt>
+			<nt id="s1_516" cat="pp">
+				<edge label="H" idref="s1_24"/>
+				<edge label="DP" idref="s1_25"/>
+			</nt>
+			<nt id="s1_517" cat="pp">
+				<edge label="H" idref="s1_26"/>
+				<edge label="DP" idref="s1_518"/>
+			</nt>
+			<nt id="s1_518" cat="par">
+				<edge label="CJT" idref="s1_519"/>
+				<edge label="CO" idref="s1_29"/>
+				<edge label="CJT" idref="s1_520"/>
+			</nt>
+			<nt id="s1_519" cat="np">
+				<edge label="H" idref="s1_27"/>
+				<edge label="DN" idref="s1_28"/>
+			</nt>
+			<nt id="s1_520" cat="np">
+				<edge label="H" idref="s1_30"/>
+				<edge label="DN" idref="s1_521"/>
+			</nt>
+			<nt id="s1_521" cat="pp">
+				<edge label="H" idref="s1_31"/>
+				<edge label="DP" idref="s1_522"/>
+			</nt>
+			<nt id="s1_522" cat="np">
+				<edge label="H" idref="s1_32"/>
+				<edge label="DN" idref="s1_33"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+	</body>
+</corpus>
+</xml>

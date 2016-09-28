@@ -1,0 +1,31 @@
+<align SENT="1">
+	<DOC="D2_C4_Estadao.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+</align>
+
+<align SENT="2">
+	<DOC="D1_C4_Folha.txt.seg" SENT="1" TYPE="parcial/contradicao" JUDGE="renata/renata"/>
+	<DOC="D2_C4_Estadao.txt.seg" SENT="3" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+	<DOC="D3_C4_OGlobo.txt.seg" SENT="12" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+</align>
+
+<align SENT="3">
+	<DOC="D1_C4_Folha.txt.seg" SENT="6" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+	<DOC="D2_C4_Estadao.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+</align>
+
+<align SENT="4">
+	<DOC="D1_C4_Folha.txt.seg" SENT="2" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+	<DOC="D1_C4_Folha.txt.seg" SENT="3" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+	<DOC="D1_C4_Folha.txt.seg" SENT="8" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+	<DOC="D2_C4_Estadao.txt.seg" SENT="2" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+	<DOC="D3_C4_OGlobo.txt.seg" SENT="11" TYPE="parcial/especificacao" JUDGE="renata/renata"/>
+	<DOC="D3_C4_OGlobo.txt.seg" SENT="14" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+	<DOC="D3_C4_OGlobo.txt.seg" SENT="15" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+	<DOC="D3_C4_OGlobo.txt.seg" SENT="16" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+	<DOC="D3_C4_OGlobo.txt.seg" SENT="17" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+	<DOC="D3_C4_OGlobo.txt.seg" SENT="18" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+</align>
+
+<align SENT="5">
+	<DOC="D1_C4_Folha.txt.seg" SENT="5" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+</align>

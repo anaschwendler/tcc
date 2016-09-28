@@ -1,0 +1,144 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="17" relname="span">Um forte terremoto matou ao menos cinco pessoas no noroeste do Japão nesta segunda-feira.</segment>
+    <segment id="2" parent="16" relname="list"> Mais de 600 pessoas ficaram feridas,</segment>
+    <segment id="14" parent="16" relname="list"> casas foram derrubadas</segment>
+    <segment id="15" parent="16" relname="list"> e houve um pequeno incêndio na maior usina nuclear do mundo.</segment>
+    <segment id="3" parent="23" relname="list">
+
+Os prédios chegaram a tremer em Tóquio, </segment>
+    <segment id="18" parent="21" relname="span">e os reatores de usinas nucleares em Niigata desligaram-se automaticamente</segment>
+    <segment id="20" parent="18" relname="purpose"> para checagens,</segment>
+    <segment id="19" parent="21" relname="concession"> embora não haja relatos de vazamento de radiação.</segment>
+    <segment id="4" parent="27" relname="span">
+
+Duas mulheres na faixa dos 80 anos morreram </segment>
+    <segment id="24" parent="4" relname="circumstance">quando suas casas ruíram durante o tremor de magnitude 6,8, na área de Niigata, cerca de 250 km noroeste de Tóquio,</segment>
+    <segment id="25" parent="27" relname="attribution"> informou a imprensa japonesa.</segment>
+    <segment id="5" parent="30" relname="span">
+
+Um porta-voz policial confirmou cinco mortes.</segment>
+    <segment id="6" parent="26" relname="attribution"> A imprensa noticiou que </segment>
+    <segment id="26" parent="29" relname="span">uma outra idosa e um casal estariam entre os mortos.</segment>
+    <segment id="7" parent="37" relname="list">
+
+- Prateleiras altas caíram </segment>
+    <segment id="33" parent="37" relname="list">e as coisas voaram por toda parte</segment>
+    <segment id="34" parent="38" relname="span"> - contou Harumi Mikami, 55, </segment>
+    <segment id="35" parent="34" relname="elaboration">uma professora que estava em sua escola na Cidade de Kashiwazaki, perto do epicentro do terremoto.</segment>
+    <segment id="8" parent="40" relname="span">
+
+- Metade da minha casa está destruída - </segment>
+    <segment id="36" parent="8" relname="attribution">disse Mikami.</segment>
+    <segment id="9" parent="40" relname="elaboration"> 
+
+- Minha maior preocupação é onde vou viver agora.</segment>
+    <segment id="10" parent="48" relname="span">
+
+Cerca de 1.700 pessoas fugiram de suas casas para quase 100 centros de resgate,</segment>
+    <segment id="43" parent="10" relname="attribution"> segundo a rede NHK e a Prefeitura de Niigata.</segment>
+    <segment id="11" parent="44" relname="concession">
+
+Um incêndio em um transformador elétrico na usina nuclear de Kashiwazaki Kariwa foi rapidamente extinto,</segment>
+    <segment id="44" parent="49" relname="span"> mas ainda não está claro quando a companhia elétrica de Tóquio vai religar três unidades no complexo, </segment>
+    <segment id="45" parent="49" relname="attribution">disse Yoshinobu Kamijima, porta-voz da empresa.</segment>
+    <segment id="12" parent="51" relname="span">
+
+O Japão é um dos países do mundo mais suscetíveis a terremotos,</segment>
+    <segment id="46" parent="12" relname="evidence"> com um tremor ocorrendo a ao menos cada cinco minutos.</segment>
+    <segment id="13" parent="52" relname="span">
+
+Os mercados financeiros do país estão fechados nesta segunda-feira </segment>
+    <segment id="47" parent="13" relname="explanation">devido a um feriado.</segment>
+<group id="16" type="multinuc" parent="1" relname="non-volitional-result" />
+<group id="17" type="span" parent="32" relname="span" />
+<group id="21" type="span" parent="22" relname="span" />
+<group id="22" type="span" parent="23" relname="list" />
+<group id="23" type="multinuc" parent="31" relname="list" />
+<group id="27" type="span" parent="28" relname="span" />
+<group id="28" type="span" parent="5" relname="elaboration" />
+<group id="29" type="span" parent="5" relname="elaboration" />
+<group id="30" type="span" parent="31" relname="list" />
+<group id="31" type="multinuc" parent="17" relname="elaboration" />
+<group id="32" type="span" parent="53" relname="span" />
+<group id="37" type="multinuc" parent="39" relname="span" />
+<group id="38" type="span" parent="37" relname="attribution" />
+<group id="39" type="span" parent="42" relname="list" />
+<group id="40" type="span" parent="41" relname="span" />
+<group id="41" type="span" parent="42" relname="list" />
+<group id="42" type="multinuc" parent="32" relname="elaboration" />
+<group id="48" type="span" parent="42" relname="list" />
+<group id="49" type="span" parent="50" relname="span" />
+<group id="50" type="span" parent="42" relname="list" />
+<group id="51" type="span" parent="53" relname="elaboration" />
+<group id="52" type="span" parent="55" relname="joint" />
+<group id="53" type="span" parent="54" relname="span" />
+<group id="54" type="span" parent="55" relname="joint" />
+<group id="55" type="multinuc" />
+  </body>
+</rst>

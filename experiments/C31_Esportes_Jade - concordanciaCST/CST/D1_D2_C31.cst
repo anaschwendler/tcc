@@ -1,0 +1,21 @@
+<R SDID="D1_C31_Folha.txt.seg" SSENT="1" TDID="D2_C31_Estadao.txt.seg" TSENT="1">
+<RELATION TYPE="Overlap" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C31_Estadao.txt.seg" SSENT="2" TDID="D1_C31_Folha.txt.seg" TSENT="1">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C31_Folha.txt.seg" SSENT="2" TDID="D2_C31_Estadao.txt.seg" TSENT="1">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C31_Folha.txt.seg" SSENT="2" TDID="D2_C31_Estadao.txt.seg" TSENT="3">
+<RELATION TYPE="Subsumption" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C31_Folha.txt.seg" SSENT="3" TDID="D2_C31_Estadao.txt.seg" TSENT="4">
+<RELATION TYPE="Overlap" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C31_Folha.txt.seg" SSENT="4" TDID="D2_C31_Estadao.txt.seg" TSENT="4">
+<RELATION TYPE="Follow-up" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C31_Folha.txt.seg" SSENT="4" TDID="D2_C31_Estadao.txt.seg" TSENT="6">
+<RELATION TYPE="Overlap" JUDGE="thiago"/>
+</R>

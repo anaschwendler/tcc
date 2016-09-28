@@ -1,0 +1,36 @@
+*formação dos subtópicos do cluster 12
+SUBTOPICO 1: D1T1, D2T1, D3T1
+SUBTOPICO 2: D1T2, D3T2
+SUBTOPICO 3: D3T3
+
+documento_numeroDeSentencas_quantidade de palavras
+SUBTOPICO 1: D1T1_6_163, D2T1_10_299, D3T1_12_210 = 28 sentenças ; 672 palavras 
+SUBTOPICO 2: D1T2_4_142, D3T2_3_74 = 7 sentenças ; 216 palavras
+SUBTOPICO 3: D3T3_3_72 = 3 sentenças ; 72 palavras
+
+Cluster tem 960 palavras
+SUBTOPICO 1 = 70% do cluster  //mortos do conflito, bombardeio, conflito
+SUBTOPICO 2 = 22.5%  //bloqueio da represa
+SUBTOPICO 3 = 7.5%  //histórico
+
+Sumário humano: 6 sentenças ; 120 palavras
+S1: 38 palavras
+S2: 9
+S3: 17
+S4: 22
+S5: 15
+S6: 19
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico  //A barra | indica diferente subtopico
+S1: D1T1, D2T1, D3T1 - SUBTOPICO 1
+S2: D2T1 - SUBTOPICO 1
+S3: D1T1, D2T1, D3T1 - SUBTOPICO 1
+S4: D2T1 | D1T2, D3T2 - SUBTOPICO 1 [11 palavras] e SUBTOPICO 2 [11 palavras]
+S5: D1T2, D2T2, D3T2 - SUBTOPICO 2
+S6: D3T3 - SUBTOPICO 3
+
+*% dos subtopicos no sumário
+Sentenças 1, 2, 3 e 4 = 75 palavras - 62.5% Subtopico 1
+Sentenças 4 e 5 = 26 palavras - 21.5% Subtopico 2
+sentença 6 = 19 palavras - 16% Subtopico 3

@@ -1,0 +1,34 @@
+<R SDID="D1_C44_Folha.txt.seg" SSENT="1" TDID="D2_C44_JB.txt.seg" TSENT="1">
+<RELATION TYPE="Overlap" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C44_Folha.txt.seg" SSENT="1" TDID="D2_C44_JB.txt.seg" TSENT="2">
+<RELATION TYPE="Overlap" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C44_Folha.txt.seg" SSENT="4" TDID="D2_C44_JB.txt.seg" TSENT="2">
+<RELATION TYPE="Attribution" JUDGE="Lucia"/>
+</R>
+
+<R SDID="D1_C44_Folha.txt.seg" SSENT="4" TDID="D2_C44_JB.txt.seg" TSENT="3">
+<RELATION TYPE="Indirect-speech" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C44_Folha.txt.seg" SSENT="4" TDID="D2_C44_JB.txt.seg" TSENT="3">
+<RELATION TYPE="Subsumption" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C44_Folha.txt.seg" SSENT="8" TDID="D2_C44_JB.txt.seg" TSENT="1">
+<RELATION TYPE="Elaboration" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C44_Folha.txt.seg" SSENT="10" TDID="D2_C44_JB.txt.seg" TSENT="2">
+<RELATION TYPE="Elaboration" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C44_Folha.txt.seg" SSENT="15" TDID="D2_C44_JB.txt.seg" TSENT="1">
+<RELATION TYPE="Overlap" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C44_Folha.txt.seg" SSENT="17" TDID="D2_C44_JB.txt.seg" TSENT="1">
+<RELATION TYPE="Elaboration" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C44_Folha.txt.seg" SSENT="17" TDID="D2_C44_JB.txt.seg" TSENT="7">
+<RELATION TYPE="Overlap" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C44_Folha.txt.seg" SSENT="18" TDID="D2_C44_JB.txt.seg" TSENT="7">
+<RELATION TYPE="Elaboration" JUDGE="Lucia"/>
+</R>

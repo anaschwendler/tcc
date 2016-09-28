@@ -1,0 +1,135 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="29" relname="span">O Itaú, segundo maior banco privado do País, obteve lucro líquido de R$ 4,016 bilhões no primeiro semestre desse ano,</segment>
+    <segment id="14" parent="28" relname="list"> superando o rival Bradesco</segment>
+    <segment id="15" parent="28" relname="list"> e registrando o maior lucro entre bancos privados nos últimos 20 anos.</segment>
+    <segment id="2" parent="29" relname="elaboration"> Na segunda-feira, o Bradesco havia anunciado lucro de R$ 4,007 bilhões no período.</segment>
+    <segment id="3" parent="31" relname="list"> 
+
+Em comparação com a receita obtida nos seis primeiros meses de 2006, de R$ 2,958 bilhões, o lucro do Itaú cresceu 36% neste ano.</segment>
+    <segment id="4" parent="31" relname="list"> 
+
+No segundo trimestre, a instituição financeira teve um lucro líquido de R$ 2,115 bilhões, contra R$ 1,498 bilhão em igual período do ano anterior.</segment>
+    <segment id="5" parent="34" relname="span"> A alta, de 41,2%, foi impulsionada pela vendas de ativos e crescimento da carteira de empréstimos.</segment>
+    <segment id="6" parent="32" relname="span"> 
+
+Esse resultado inclui entre outros efeitos não recorrentes as vendas da participação acionária do banco na empresa de informações de crédito Serasa e da sede do BankBoston em São Paulo e constituição de provisão para créditos &quot;de liquidação duvidosa excedente ao mínimo requerido</segment>
+    <segment id="16" parent="6" relname="purpose"> de forma a permitir a absorção de eventuais aumentos de inadimplência ocasionados por forte reversão do ciclo econômico em situações de stress&quot;,</segment>
+    <segment id="17" parent="32" relname="attribution"> informou o Itaú.</segment>
+    <segment id="7" parent="37" relname="list"> No total, os efeitos não recorrentes foram de R$ 196 milhões de reais.</segment>
+    <segment id="8" parent="36" relname="span"> 
+
+O lucro líquido recorrente no período foi de R$ 1,919 bilhão,</segment>
+    <segment id="18" parent="8" relname="comparison"> comparado a R$ 1,477 bilhão no segundo trimestre de 2006.</segment>
+    <segment id="19" parent="40" relname="list"> Em relação aos primeiros três meses do ano o resultado recorrente da instituição cresceu 0,9%.</segment>
+    <segment id="9" parent="38" relname="span"> 
+
+A carteira de crédito do Itaú,</segment>
+    <segment id="20" parent="9" relname="elaboration"> incluindo avais e fianças,</segment>
+    <segment id="21" parent="39" relname="same-unit"> saltou de R$ 74,8 bilhões em junho de 2006 para R$ 104,8 bilhões ao final do segundo trimestre deste ano, um salto de 40,2%.</segment>
+    <segment id="10" parent="44" relname="span"> Na comparação com os primeiros três meses deste ano, a carteira cresceu 3,7%.</segment>
+    <segment id="11" parent="41" relname="span"> 
+
+O desempenho da carteira foi puxado por financiamento de veículos,</segment>
+    <segment id="22" parent="11" relname="elaboration"> que cresceu 58,6% no período,</segment>
+    <segment id="23" parent="42" relname="span"> e por crédito para micro, pequenas e médias empresas,</segment>
+    <segment id="24" parent="23" relname="elaboration"> que avançou 59,7%.</segment>
+    <segment id="12" parent="40" relname="list"> 
+
+O retorno sobre o patrimônio líquido médio anualizado ficou em 32,8%, abaixo dos 35,1% há um ano.</segment>
+    <segment id="13" parent="47" relname="circumstance"> 
+
+Se considerados bancos públicos e privados,</segment>
+    <segment id="25" parent="47" relname="span"> o maior lucro entre janeiro e junho dos últimos 20 anos pertence ao Banco do Brasil</segment>
+    <segment id="26" parent="46" relname="span"> que em 2006 informou receita de R$ 4,032 bilhões</segment>
+    <segment id="27" parent="26" relname="parenthetical"> (valor ajustado pelo IPCA até 30 de junho de 2007).</segment>
+<group id="28" type="multinuc" parent="1" relname="non-volitional-result" />
+<group id="29" type="span" parent="30" relname="span" />
+<group id="30" type="span" parent="35" relname="span" />
+<group id="31" type="multinuc" parent="30" relname="elaboration" />
+<group id="32" type="span" parent="33" relname="span" />
+<group id="33" type="span" parent="5" relname="elaboration" />
+<group id="34" type="span" parent="31" relname="list" />
+<group id="35" type="span" parent="49" relname="span" />
+<group id="36" type="span" parent="37" relname="list" />
+<group id="37" type="multinuc" parent="40" relname="list" />
+<group id="38" type="span" parent="39" relname="same-unit" />
+<group id="39" type="multinuc" parent="45" relname="list" />
+<group id="40" type="multinuc" parent="35" relname="elaboration" />
+<group id="41" type="span" parent="43" relname="list" />
+<group id="42" type="span" parent="43" relname="list" />
+<group id="43" type="multinuc" parent="10" relname="elaboration" />
+<group id="44" type="span" parent="45" relname="list" />
+<group id="45" type="multinuc" parent="40" relname="list" />
+<group id="46" type="span" parent="25" relname="elaboration" />
+<group id="47" type="span" parent="48" relname="span" />
+<group id="48" type="span" parent="49" relname="elaboration" />
+<group id="49" type="span" parent="50" relname="span" />
+<group id="50" type="span" />
+  </body>
+</rst>

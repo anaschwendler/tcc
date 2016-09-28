@@ -1,0 +1,76 @@
+<ET ID="00" TIPO="TEMPO_CALEND" SUBTIPO="DATA" VAL_NORM="+20070723T1358E--LM-">
+LONDRES - A chuva torrencial que atinge o Reino Unido encobriu estradas e milhares de pessoas estão sem fornecimento de eletricidade e de água potável em decorrência da pior enchente 
+<ET ID="01" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A60M0S0D0H0M0S0">
+nos últimos 60 anos
+</ET>
+no país, segundo informou 
+<ET ID="02" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+nesta segunda-feira, 23
+</ET>
+, a rede de televisão BBC. 
+ 
+
+Os dois maiores rios do Reino Unido, Severn e Tâmisa, ameaçam transbordar 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+nesta segunda
+</ET>
+, agravando ainda mais a situação nas regiões centro e sul da Inglaterra, que vêm sendo castigadas por inundações 
+<ET ID="04" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D4H0M0S0">
+desde a última sexta-feira
+</ET>
+.
+
+ 
+Serviços de metereologia acreditam que este seja 
+<ET ID="05" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0"><!--!?Correto?-->
+o mês de julho
+</ET>
+mais chuvoso da história e prevêem mais chuvas para 
+<ET ID="06" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0"><!--Correto?-->
+esta semana
+</ET>
+e 
+<ET ID="07" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="POSTERIOR" VAL_DELTA="A0M1S0D0H0M0S0">
+início de agosto
+</ET>
+. 
+
+O nível da água do rio Severn atingiu 10,4 metros em alguns pontos, quase ultrapassando as barreiras de defesa, que medem 10,7 metros de altura, segundo informou 
+<ET ID="08" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+nesta segunda-feira, 23
+</ET>
+, a BBC.
+
+Já o rio Tâmisa, que está com seu leito no limite, pode transbordar 
+<ET ID="09" TIPO="TEMPO_CALEND"><!--!?Como classificar? Como resolver?-->
+durante a próxima madrugada
+</ET>
+caso as chuvas cotinuem, informou a Agência de Meio-Ambiente do Reino Unido.
+
+O primeiro-ministro Gordon Brown está em Gloucestershire, o condado mais afetado pelas enchentes, que deixaram 150 mil casas sem água. 
+
+Cerca de 43 mil residências também estão sem eletricidade, depois que uma estação na cidade de Gloucester teve de ser desligada quando o nível da água começou a subir. Em Oxford, 1.500 pessoas foram evacuadas para o maior estádio de futebol da cidade. 
+
+O condado de Worcestershire também foi castigado pelas enchentes, onde o nível da água atingiu 1,82 metro e cerca de quatro mil pessoas estão sem água. 
+
+<ET ID="09" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D3H0M0S0">
+Desde sexta-feira
+</ET>
+, centenas de pessoas na Inglaterra foram resgatadas de suas casas, no que a Força Aérea britânica chamou de "a maior operação de resgate em tempos de paz". Nas piores áreas, o Exército pediu ajuda à Aeronáutica, que enviou helicópteros para resgatar mais de cem moradores de suas casas. 
+
+<ET ID="10" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ENUNCIACAO" SENTIDO1="ANTERIOR" VAL_DELTA1="A0M0S0D2H0M0S0" TEMPO_REF2="ENUNCIACAO" SENTIDO2="ANTERIOR" VAL_DELTA2="A0M0S0D3H0M0S0">
+No fim de semana
+</ET>
+, Gordon Brown prometeu destinar recursos adicionais para ajudar autoridades locais a recuperar os danos no período posterior às chuvas, e garantiu que o governo vai tirar lições da situação. 
+
+Fontes da Agência de Meio Ambiente do Reino Unido disseram à BBC que seria necessário 1 bilhão de libras por ano (R$ 3,8 bilhões) para aprimorar o sistema de barreiras contra inundações. 
+
+A Associação de Seguradores Britânicos estima que a conta para cobrir os estragos provocados pelas enchentes 
+<ET ID="11" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M1S0D0H0M0S0">
+dos meses de junho
+</ET> 
+<ET ID="12" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+e julho
+</ET>
+no país chegue a 2 bilhões de libras (R$ 7,6 bilhões). 
+

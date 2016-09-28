@@ -1,0 +1,96 @@
+<ET ID="00" TIPO="TEMPO_CALEND" SUBTIPO="DATA" VAL_NORM="+20070820T1322E--LM-">
+BRASÍLIA - A Receita Federal intensificou a fiscalização e o resultado foi um aumento do número de contribuintes que caíram na malha fina. Balanço da fiscalização, divulgado 
+<ET ID="01" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+nesta segunda-feira
+</ET>
+pela Receita mostra que as autuações cresceram 316,5% 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ENUNCIACAO" SENTIDO1="ANTERIOR" VAL_DELTA1="A0M8S0D19H0M0S0" TEMPO_REF2="ENUNCIACAO" SENTIDO2="ANTERIOR" VAL_DELTA2="A0M1S0D19H0M0S0">
+nos sete primeiros meses deste ano
+</ET>
+e chegaram a R$ 1,339 bilhão. Foram autuados 208.471 contribuintes, um crescimento de 104,47% em relação 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ENUNCIACAO" SENTIDO1="ANTERIOR" VAL_DELTA1="A1M8S0D19H0M0S0" TEMPO_REF2="ENUNCIACAO" SENTIDO2="ANTERIOR" VAL_DELTA2="A1M1S0D19H0M0S0">
+ao mesmo período do ano passado
+</ET>
+. A expectativa da Receita é que 
+<ET ID="04" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="POSTERIOR">
+até o final do ano
+</ET>
+mais de 300 mil contribuintes sejam autuados pela malha fina. Valor que pode chegar a 400 mil, segundo o coordenador de Fiscalização da Receita Federal, Marcelo Fisch. 
+
+Tomando por base as autuações totais (empresas e pessoas físicas), o valor sonegado chega a R$ 39,99 bilhões 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ENUNCIACAO" SENTIDO1="ANTERIOR" VAL_DELTA1="A0M8S0D19H0M0S0" TEMPO_REF2="ENUNCIACAO" SENTIDO2="ANTERIOR" VAL_DELTA2="A0M1S0D19H0M0S0">
+de janeiro a julho
+</ET>
+, com uma expansão de 66,22%. Nesse período, 233.182 contribuintes (pessoa física e empresas), um aumento de 90,28%. 
+<ET ID="06" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ABSOLUTO" VAL_NORM1="+200601--T----E--LM-" TEMPO_REF1="ABSOLUTO" VAL_NORM1="+200607--T----E--LM-">
+De janeiro a julho de 2006
+</ET>
+, as autuações somaram R$ 24,062 bilhões em 122.543 contribuintes.
+
+Além de intensificar a fiscalização, a Receita mudou alguns procedimentos, o que também contribuiu para o aumento das autuações. Um dos procedimentos alterados foi a forma de análise dos contribuintes. Antes, a Receita autuava o contribuinte na malha isoladamente para cada ano-calendário. 
+<ET ID="07" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+Hoje
+</ET>
+, se a pessoa cai na malha fina, a Receita fiscaliza também as declarações 
+<ET ID="08" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR">
+de anos anteriores
+</ET>
+. "A produtividade da malha ficou maior", disse o coordenador.
+
+Segundo o secretário-adjunto da Receita Federal, Paulo Ricardo, dois terços das autuações de contribuintes pela malha fina são por omissão de renda. Também é freqüente sonegação de despesas médicas e de omissão de renda de aluguel. Os dados de renda de aluguel são verificados por meio da Dimob (declaração relativa ao mercado imobiliário). O secretário rechaçou a avaliação de que o leão - apelido dado ao Fisco - esteja mais guloso 
+<ET ID="09" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+2007----T----E--LM-">
+em 2007
+</ET>
+. "O leão está mais atento e não guloso", disse.
+
+Além da malha fina, a Receita também centrou o foco na fiscalização de pessoas físicas que são proprietários e dirigentes de empresas. Esses fiscalizações renderam, 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ENUNCIACAO" SENTIDO1="ANTERIOR" VAL_DELTA1="A0M8S0D19H0M0S0" TEMPO_REF2="ENUNCIACAO" SENTIDO2="ANTERIOR" VAL_DELTA2="A0M1S0D19H0M0S0">
+de janeiro a julho
+</ET>
+, R$ 2,136 bilhões de autuações. Um crescimento de 558,7% em relação ao 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ENUNCIACAO" SENTIDO1="ANTERIOR" VAL_DELTA1="A1M8S0D19H0M0S0" TEMPO_REF2="ENUNCIACAO" SENTIDO2="ANTERIOR" VAL_DELTA2="A1M1S0D19H0M0S0">
+mesmo período do ano passado
+</ET>
+. Foram autuadas 1.230 pessoas. 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ENUNCIACAO" SENTIDO1="ANTERIOR" VAL_DELTA1="A1M8S0D19H0M0S0" TEMPO_REF2="ENUNCIACAO" SENTIDO2="ANTERIOR" VAL_DELTA2="A1M1S0D19H0M0S0">
+No mesmo período do ano passado
+</ET>
+, as atuações de proprietários e dirigentes de empresas somaram R$ 324,43 milhões.
+
+De acordo com o balanço da Receita, as autuações totais de pessoas físicas 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ENUNCIACAO" SENTIDO1="ANTERIOR" VAL_DELTA1="A0M8S0D19H0M0S0" TEMPO_REF2="ENUNCIACAO" SENTIDO2="ANTERIOR" VAL_DELTA2="A0M1S0D19H0M0S0">
+nos sete primeiros meses deste ano 
+</ET>
+somaram R$ 5,356 bilhões, com crescimento de 352% em relação 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ENUNCIACAO" SENTIDO1="ANTERIOR" VAL_DELTA1="A1M8S0D19H0M0S0" TEMPO_REF2="ENUNCIACAO" SENTIDO2="ANTERIOR" VAL_DELTA2="A1M1S0D19H0M0S0">
+ao mesmo período do ano passado
+</ET>
+.
+
+A Receita também intensificou a fiscalização nas instituições financeiras. O resultado, neste caso, foi que as autuações triplicaram 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ENUNCIACAO" SENTIDO1="ANTERIOR" VAL_DELTA1="A0M8S0D19H0M0S0" TEMPO_REF2="ENUNCIACAO" SENTIDO2="ANTERIOR" VAL_DELTA2="A0M1S0D19H0M0S0">
+nos sete primeiros meses desse ano
+</ET>
+. Responsáveis por lucros recordes, as instituições financeiras foram autuadas, 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ENUNCIACAO" SENTIDO1="ANTERIOR" VAL_DELTA1="A0M8S0D19H0M0S0" TEMPO_REF2="ENUNCIACAO" SENTIDO2="ANTERIOR" VAL_DELTA2="A0M1S0D19H0M0S0">
+de janeiro a julho
+</ET>
+, em R$ 9,44 bilhões. Esse valor representa um aumento de 229% em relação 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ENUNCIACAO" SENTIDO1="ANTERIOR" VAL_DELTA1="A1M8S0D19H0M0S0" TEMPO_REF2="ENUNCIACAO" SENTIDO2="ANTERIOR" VAL_DELTA2="A1M1S0D19H0M0S0">
+ao mesmo período do ano passado
+</ET>
+, quando as instituições foram autuadas em R$ 2,871 bilhões. Foi o maior aumento de autuações entre os setores econômicos fiscalizados 
+<ET ID="18" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+2007----T----E--LM-">
+em 2007
+</ET>
+.
+
+Em valores nominais, as empresas do setor industrial foram as mais autuadas: R$ 11,13 bilhões, com crescimento de 118,27%. As autuações no setor de comércio tiveram queda de 17,3%, atingindo R$ 4,08 bilhões 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ENUNCIACAO" SENTIDO1="ANTERIOR" VAL_DELTA1="A0M8S0D19H0M0S0" TEMPO_REF2="ENUNCIACAO" SENTIDO2="ANTERIOR" VAL_DELTA2="A0M1S0D19H0M0S0">
+nos sete primeiros meses do ano
+</ET>
+. As empresas prestadoras de serviço foram autuadas em R$ 2,46 bilhões, resultado que representou uma queda de 30,5% em comparação 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ENUNCIACAO" SENTIDO1="ANTERIOR" VAL_DELTA1="A1M8S0D19H0M0S0" TEMPO_REF2="ENUNCIACAO" SENTIDO2="ANTERIOR" VAL_DELTA2="A1M1S0D19H0M0S0">
+ao mesmo período de 2006
+</ET>
+.

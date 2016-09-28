@@ -1,0 +1,116 @@
+<ET ID="00" TIPO="TEMPO_CALEND" SUBTIPO="DATA" VAL_NORM="">
+RIO - Presença constante na cena política brasileira 
+<ET ID="01" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A40M0S0D0H0M0S0">
+nas últimas quatro décadas
+</ET>
+, o senador Antonio Carlos Magalhães (DEM-BA) morreu 
+<ET ID="02" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="" VAL_DELTA="AxMxSxDxHxMxSx">
+na manhã desta sexta-feira
+</ET>
+, em São Paulo, vítima de insuficiência cardíaca. O parlamentar estava internado no Instituto do Coração, do Hospital das Clínicas, 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="AxMxSxDxHxMxSx">
+desde o dia 13 de junho
+</ET>
+, quando passou mal no plenário e foi transferido para a capital paulista. 
+
+<ET ID="04" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="AxMxSxDxHxMxSx">
+Na segunda-feira
+</ET>
+, o quadro de saúde do parlamentar baiano agravou-se, por causa de complicações gástricas, e ele foi transferido para a Unidade de Terapia Intensiva do Incor.
+
+Dono de língua afiada, ACM, como era conhecido, colecionou amigos e desafetos indistintamente. Consolidou imagem de aliado de governos dos mais variados matizes ideológicos: dos governos JK e Jânio Quadros, passando pelo regime militar pós-64, até a era tucana de Fernando Henrique Cardoso. Foi, seguramente, um mestre na arte da sobrevivência política. Poucos souberam adaptar-se a mudanças bruscas de rota em período político tão conturbado. Tal capacidade de mutação fez escola, mas dificilmente as criaturas saberão superar o criador. Governista por vocação, ensaiou uma aliança até com o presidente Luiz Inácio Lula da Silva, mas o namoro político não resistiu 
+<ET ID="04" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR"><!--Ocultar VAL-->
+aos primeiros meses
+</ET>
+do governo petista.
+
+Nascido na ladeira da Independência, em Salvador, 
+<ET ID="05" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="19270904T----E--LM-">
+em 4 de setembro de 1927
+</ET>
+, Antonio Carlos Peixoto de Magalhães formou-se médico, mas encontrou na política a sua profissão e nunca exerceu a medicina. Iniciou sua vida política no movimento estudantil. Na política partidária, iniciou na extinta UDN, tendo sido eleito para um mandato de deputado estadual e dois de federal 
+<ET ID="06" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="1967----T----E--LM-">
+até 1967
+</ET>
+, até ser nomeado prefeito de Salvador. Pela via biônica, já na Arena, governaria a Bahia por duas vezes (
+<ET ID="07" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ABSOLUTO" VAL_NORM1="1971----T----E--LM-" TEMPO_REF2="ABSOLUTO" VAL_NORM2="1975----T----E--LM-">
+1971-75
+</ET>
+e 
+<ET ID="08" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ABSOLUTO" VAL_NORM1="1979----T----E--LM-" TEMPO_REF2="ABSOLUTO" VAL_NORM2="1982----T----E--LM-">
+1979-82
+</ET>
+).
+
+<ET ID="09" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ABSOLUTO" VAL_NORM1="1975----T----E--LM-" TEMPO_REF2="ABSOLUTO" VAL_NORM2="1979----T----E--LM-">
+Entre 1975 e 79
+</ET>
+, presidiu a Eletrobrás e foi membro do Conselho de Administração da Itaipu Binacional. Com o fim do bipartidarismo, filiou-se ao PDS e, 
+<ET ID="10" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="1984----T----E--LM-">
+em 1984
+</ET>
+, enquanto o país buscava a redemocratização, com a campanha das Diretas Já, ACM opôs-se à candidatura presidencial de Paulo Maluf e declarou apoio a Tancredo Neves. Ao lado de dissidentes do PDS, fundou a Frente Liberal, posteriormente transformada no PFL (atual DEM). Com a morte de Tancredo e a posse de José Sarney, 
+<ET ID="11" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="1984----T----E--LM-">
+em 1985
+</ET>
+, assumiu o Ministério das Comunicações, nele permanecendo 
+<ET ID="12" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="199003--T----E--LM-">
+até março de 1990
+</ET>
+, numa gestão foi marcada por denúncias de distribuição de concessões de rádio e TV em troca de apoio aos interesses do governo.
+
+<ET ID="13" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="1986----T----E--LM-">
+Em 1986
+</ET>
+, ACM viveu um de seus maiores dramas pessoais: o suicídio de sua filha mais nova. Ana Lúcia Magalhães, de 28 anos. Episódio igualmente dramático seria vivido por ACM 
+<ET ID="14" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="199804--T----E--LM-">
+em abril de 1998
+</ET>
+, quando morreu seu filho Luís Eduardo Magalhães, seu provável sucessor político, vítima de infarto, aos 43 anos. 
+
+<ET ID="15" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="1989----T----E--LM-">
+Em 1989
+</ET>
+, ACM sofreu um infarto e, operado pelo cardiologista Adib Jatene, recebeu o implante de duas pontes de safena e duas mamárias. 
+<ET ID="16" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="1991----T----E--LM-">
+Em 1991
+</ET>
+, foi operado em Londres para a retirada de três cálculos renais. 
+
+Ao deixar o Ministério das Comunicações, assumiu 
+<ET ID="17" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="199103--T----E--LM-">
+em março de 1991
+</ET>
+, pela terceira vez, o governo da Bahia. Desta vez pelo voto. Elegeu-se senador 
+<ET ID="18" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="1995----T----E--LM-">
+em 1995
+</ET>
+e 
+<ET ID="19" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="TEXTUAL" SENTIDO="POSTERIOR" VAL_DELTA="A3M0S0D0H0M0S0">
+três anos depois
+</ET>
+foi eleito presidente da Casa. 
+<ET ID="20" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="2001----T----E--LM-">
+Em 2001
+</ET>
+, a denúncia de que manipulara o painel eletrônico do Senado custou-lhe o mandato. Para não ser cassado, preferiu renunciar. 
+<ET ID="21" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="TEXTUAL" SENTIDO="POSTERIOR" VAL_DELTA="A1M0S0D0H0M0S0">
+No ano seguinte
+</ET>
+, voltou ao Senado com votação expressiva. Era o começo da era Lula e o coronel ainda mostrava-se politicamente forte.
+
+Em baixa no cenário nacional, ainda manteve a força no reduto eleitoral. 
+<ET ID="22" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="2000----T----E--LM-">
+Em 2000
+</ET>
+, fez de Antônio Imbassahy prefeito de Salvador; em
+<ET ID="23" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="2004----T----E--LM-">
+Em 2004
+</ET>
+ o candidato que recebeu seu apoio a candidatura para prefeito de Salvador, o ex-governador e senador César Borges, foi derrotado pela oposição, que elegeu João Henrique Carneiro como prefeito. Já 
+<ET ID="24" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="2006----T----E--LM-">
+em 2006
+</ET>
+, seu grupo político colheu, graças ao progresso do lulismo no Nordeste, dois prejuízos: a não reeleição do governador Paulo Souto, tendo sido eleito logo no primeiro turno o candidato Jaques Wagner (PT), e a não reeleição de Rodolfo Tourinho para o Senado. Nas duas cezes em que o grupo de ACM levou a pior na Bahia foi preciso construir uma enorme aliança suprapartidária. Para superar o carlismo, Wagner precisou unir PT, PMDB e PSDB. Ainda assim, deu a volta por cima reassumindo o controle da poderosa Comissão de Constituição e Justiça da Casa. 
+
+Sobreviver politicamente era questão de honra para ACM que um disse: “Em política, é muito errado dizer que é o fim de qualquer coisa. Política é como maré. Vai e volta. E esses movimentos pendulares da política de um lado para outro é que fazem a democracia”.

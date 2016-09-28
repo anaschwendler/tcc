@@ -1,0 +1,21 @@
+<R SDID="D5_C35_GPovo.txt.seg" SSENT="1" TDID="D4_C35_JB.txt.seg" TSENT="1">
+<RELATION TYPE="Elaboration" JUDGE="Lucia"/>
+</R>
+<R SDID="D4_C35_JB.txt.seg" SSENT="1" TDID="D5_C35_GPovo.txt.seg" TSENT="2">
+<RELATION TYPE="Overlap" JUDGE="Lucia"/>
+</R>
+<R SDID="D5_C35_GPovo.txt.seg" SSENT="1" TDID="D4_C35_JB.txt.seg" TSENT="2">
+<RELATION TYPE="Subsumption" JUDGE="Lucia"/>
+</R>
+<R SDID="D5_C35_GPovo.txt.seg" SSENT="3" TDID="D4_C35_JB.txt.seg" TSENT="2">
+<RELATION TYPE="Historical-background" JUDGE="Lucia"/>
+</R>
+<R SDID="D5_C35_GPovo.txt.seg" SSENT="8" TDID="D4_C35_JB.txt.seg" TSENT="2">
+<RELATION TYPE="Elaboration" JUDGE="Lucia"/>
+</R>
+<R SDID="D4_C35_JB.txt.seg" SSENT="3" TDID="D5_C35_GPovo.txt.seg" TSENT="1">
+<RELATION TYPE="Elaboration" JUDGE="Lucia"/>
+</R>
+<R SDID="D5_C35_GPovo.txt.seg" SSENT="7" TDID="D4_C35_JB.txt.seg" TSENT="3">
+<RELATION TYPE="Historical-background" JUDGE="Lucia"/>
+</R>

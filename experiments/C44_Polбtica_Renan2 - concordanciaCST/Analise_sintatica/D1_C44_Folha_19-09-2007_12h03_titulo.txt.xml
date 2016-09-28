@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xml>
+<corpus>
+
+	<body>
+<s id="s1" ref="1" source="Running text" forest="1" text="Quintanilha critica proposta do PT de unir processos contra Renan.">
+	<graph root="s1_500">
+		<terminals>
+			<t id="s1_1" word="Quintanilha" lemma="Quintanilha" pos="prop" morph="M/F S" sem="--" extra="hum"/>
+			<t id="s1_2" word="critica" lemma="criticar" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s1_3" word="proposta" lemma="proposta" pos="n" morph="F S" sem="act-s" extra="--"/>
+			<t id="s1_4" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s1_5" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s1_6" word="PT" lemma="PT" pos="prop" morph="M S" sem="--" extra="party"/>
+			<t id="s1_7" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s1_8" word="unir" lemma="unir" pos="v-inf" morph="--" sem="--" extra="mv"/>
+			<t id="s1_9" word="processos" lemma="processo" pos="n" morph="M P" sem="activity process occ" extra="--"/>
+			<t id="s1_10" word="contra" lemma="contra" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_11" word="Renan" lemma="Renan" pos="prop" morph="M/F S" sem="--" extra="hum"/>
+			<t id="s1_12" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s1_500" cat="s">
+				<edge label="STA" idref="s1_501"/>
+			</nt>
+			<nt id="s1_501" cat="fcl">
+				<edge label="S" idref="s1_1"/>
+				<edge label="P" idref="s1_2"/>
+				<edge label="Od" idref="s1_502"/>
+				<edge label="fA" idref="s1_505"/>
+				<edge label="PU" idref="s1_12"/>
+			</nt>
+			<nt id="s1_502" cat="np">
+				<edge label="H" idref="s1_3"/>
+				<edge label="DN" idref="s1_503"/>
+			</nt>
+			<nt id="s1_503" cat="pp">
+				<edge label="H" idref="s1_4"/>
+				<edge label="DP" idref="s1_504"/>
+			</nt>
+			<nt id="s1_504" cat="np">
+				<edge label="DN" idref="s1_5"/>
+				<edge label="H" idref="s1_6"/>
+			</nt>
+			<nt id="s1_505" cat="pp">
+				<edge label="H" idref="s1_7"/>
+				<edge label="DP" idref="s1_506"/>
+			</nt>
+			<nt id="s1_506" cat="icl">
+				<edge label="P" idref="s1_8"/>
+				<edge label="Od" idref="s1_507"/>
+			</nt>
+			<nt id="s1_507" cat="np">
+				<edge label="H" idref="s1_9"/>
+				<edge label="DN" idref="s1_508"/>
+			</nt>
+			<nt id="s1_508" cat="pp">
+				<edge label="H" idref="s1_10"/>
+				<edge label="DP" idref="s1_11"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+	</body>
+</corpus>
+</xml>

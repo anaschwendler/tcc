@@ -1,0 +1,52 @@
+<ET ID="00" TIPO="TEMPO_CALEND" SUBTIPO="DATA" VAL_NORM="+20070716T----E--LM-">
+Os advogados de mais de 500 pessoas que se dizem vítimas de abusos sexuais cometidos por padres e religiosos católicos no Estado da Califórnia anunciaram, 
+<ET ID="01" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D2H0M0S0">
+na noite de sábado
+</ET>
+, ter feito um acordo de US$ 660 milhões (R$ 1,227 bilhão) com a Arquidiocese de Los Angeles para encerrar os processos movidos contra ela.
+"Tudo foi resolvido", afirmou Raymond Boucher, advogado de 242 vítimas. "Estou feliz que tenha acabado", comentou o advogado da igreja, Michael Hennigan. Se aprovado pela Justiça, será o maior valor pago por uma diocese desde que veio à tona nos EUA pela primeira vez um escândalo de pedofilia, em Boston, 
+<ET ID="02" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+2002----T----E--LM-">
+em 2002
+</ET>
+.
+O arcebispo de Los Angeles, Roger Mahony, foi a público desculpar-se: "Mais uma vez, eu peço perdão a todos que foram ofendidos, abusados. Nunca deveria ter acontecido, e não vai acontecer novamente".
+
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+Hoje
+</ET>
+, começa o primeiro julgamento relativo ao caso, e mais de uma dúzia estão marcados para
+<ET ID="04" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="POSTERIOR">
+os próximos seis meses
+</ET>
+. Tratam de acusações contra o padre Clinton Hagenbach, morto 
+<ET ID="05" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+1987----T----E--LM-">
+em 1987
+</ET>
+. O acerto divulgado evita que Mahony seja chamado a depor e explicar se a igreja tinha conhecimento dos abusos -cometidos 
+<ET ID="06" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ABSOLUTO" VAL_NORM1="+1940----T----E--LM-" TEMPO_REF2="ABSOLUTO" VAL_NORM2="+1990----T----E--LM-">
+entre as décadas de 40 e 90
+</ET>
+-, porém exige que documentos e arquivos sejam revelados.
+Muitos dos padres são acusados por diversas vítimas, pois eram transferidos de paróquia pelos seus superiores ao surgirem acusações. Tratamento psicológico era recomendado, pois acreditava-se que os religiosos pudessem se recuperar.
+
+A grande maioria dos processos referentes a acusações de abuso sexual acabou em acordos, os quais já custaram à Igreja Católica mais de US$ 1,5 bilhão nos EUA. Os montantes devem ser desembolsado pelas próprias dioceses, sem a ajuda do Vaticano.
+
+<ET ID="07" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+2002----T----E--LM-">
+Desde 2002
+</ET>
+, mais de mil pessoas deram entrada em processos contra a Igreja Católica por abusos sexuais na Califórnia e, 
+<ET ID="08" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR">
+nos últimos anos
+</ET>
+, a arquidiocese de Los Angeles já pagou US$ 114 milhões a 86 vítimas. Segundo o cardeal Mahony, agora será preciso vender propriedades para conseguir bancar o acordo -e o valor poderia ser ainda maior se os processos fossem até o fim.
+Cada vítima contemplada pelo acerto deve receber mais de US$ 1 milhão, mas discute-se o quanto o dinheiro vai reparar o sofrimento dos que, quando criança, sofreram abusos. "Realmente, não há como voltar atrás e devolver a inocência que lhes foi roubada", lamentou Mahony, acrescentando que, 
+<ET ID="09" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR">
+nos últimos meses
+</ET>
+, encontrou-se com muitas vítimas, o que o ajudou a compreender a importância de dar uma solução rápida aos processos.
+"Entendemos que há pessoas necessitando desesperadamente de cuidados médicos, terapia", disse Mary Grant, uma das vítimas na Califórnia e diretora regional da Rede de Sobreviventes aos Abusos de Padres. "Elas podem não ter condições de enfrentar um julgamento. Mas, por outro lado, há muitos que realmente gostariam de ter seu dia no tribunal."
+Para o presidente da organização, David Clohessy, os sobreviventes que conseguiram acordo devem se sentir orgulhosos. "Sem a sua coragem, dezenas de predadores ainda não seriam conhecidos e talvez estivessem em paróquias 
+<ET ID="10" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+hoje
+</ET>
+."

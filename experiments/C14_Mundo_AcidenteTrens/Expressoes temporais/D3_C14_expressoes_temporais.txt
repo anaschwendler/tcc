@@ -1,0 +1,29 @@
+<ET ID="00" TIPO="TEMPO_CALEND" SUBTIPO="DATA" VAL_NORM="+20060821T0740E--LM-">
+Uma colisão entre dois trens de passageiros provocou a morte de pelo menos 80 pessoas e deixou 165 feridas. O acidente ocorreu no delta do Nilo, ao norte de Cairo, no Egito. No entanto, o ministro da Saúde, Hatem El-Gabaly, insistiu que 
+<ET ID="01" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT">
+até o momento
+</ET>
+foram recuperados apenas 36 cadáveres e que 133 feridos foram encaminhados a hospitais da região.
+
+A emissora de TV estatal Nile News mostrou as primeiras imagens do acidente, nas quais era possível ver vários cadáveres que ainda se encontram no interior ou sob os vagões descarrilados.
+
+Fontes do Ministério de Transporte disseram que o número de mortos pode aumentar devido ao estado grave de vários dos feridos e que ainda há cadáveres sob os vagões dos dois trens.
+
+Mais de 45 ambulâncias foram enviadas ao local do acidente para socorrer as vítimas. O governador de Qaluibiya, Adli Hussein, que se deslocou junto com outros vários altos funcionários egípcios ao local do acidente, afirmou que a colisão ocorreu quando o trem número 808 que circulava em alta velocidade se chocou com a parte traseira de outro, que vinha de Qaliub.
+
+Trata-se do terceiro acidente deste tipo no Delta do Nilo 
+<ET ID="02" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M6S0D0H0M0S0">
+desde 28 de fevereiro
+</ET>
+, quando cerca de 20 pessoas ficaram feridas em choque entre dois trens em Beheira, 150 quilômetros ao norte do Cairo.
+
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M3S0D20H0M0S0">
+No dia 1° de maio
+</ET>
+, mais de 40 pessoas ficaram feridas em um acidente similar na província de Al Sharquiya, cerca de 100 quilômetros ao norte da capital.
+
+A maior tragédia ferroviária da história do Egito ocorreu 
+<ET ID="04" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+200202--T----E--LM-">
+em fevereiro de 2002
+</ET>
+, após o incêndio de um trem que cobria o trajeto entre Cairo e Luxor (sul), lotado de passageiros, e que deixou 376 mortos, segundo números oficiais.

@@ -1,0 +1,120 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="24" relname="span">Terminou a rebelião de presos no Centro de Custódia de Presos de Justiça</segment>
+    <segment id="12" parent="1" relname="parenthetical"> (CCPJ),</segment>
+    <segment id="13" parent="26" relname="span"> em São Luís, no começo da tarde desta quarta-feira</segment>
+    <segment id="14" parent="13" relname="parenthetical"> (17).</segment>
+    <segment id="6" parent="27" relname="sequence"> Os presos entregaram as armas</segment>
+    <segment id="15" parent="27" relname="sequence"> e a polícia faz uma revista dentro da unidade.</segment>
+    <segment id="7" parent="30" relname="span"> O motim começou durante a festa do Dia das Crianças,</segment>
+    <segment id="16" parent="29" relname="span"> realizada na terça-feira</segment>
+    <segment id="17" parent="16" relname="parenthetical"> (16).</segment>
+    <segment id="8" parent="31" relname="volitional-result"> As 16 crianças e 14 adultos foram libertados.</segment>
+    <segment id="2" parent="33" relname="sequence">
+
+Segundo informações da polícia, o líder da rebelião foi transferido para o Presídio de Pedrinhas, na capital maranhense.</segment>
+    <segment id="9" parent="33" relname="explanation"> Os presos receberam garantias, por parte do diretor da unidade, de que não haveria represálias e novas transferências.</segment>
+    <segment id="3" parent="35" relname="sequence">
+
+Os presos tentaram fugir durante a festa,</segment>
+    <segment id="18" parent="35" relname="sequence"> mas o plano foi descoberto.</segment>
+    <segment id="10" parent="36" relname="span"> No começo da rebelião quatro pessoas ficaram feridas, entre elas uma auxiliar de enfermagem e um agente de polícia </segment>
+    <segment id="19" parent="10" relname="elaboration">que trabalham no presídio.</segment>
+    <segment id="11" parent="35" relname="sequence"> A unidade ficou sem luz e água </segment>
+    <segment id="20" parent="41" relname="span">e as negociações para a libertação dos reféns foi retomada na manhã desta quarta-feira.</segment>
+    <segment id="4" parent="39" relname="span">
+
+Segundo informações da polícia, os presos temiam uma transferência em massa </segment>
+    <segment id="21" parent="38" relname="span">depois de terem iniciado uma outra rebelião </segment>
+    <segment id="22" parent="21" relname="circumstance">durante a greve de policiais no estado, na semana passada.</segment>
+    <segment id="5" parent="37" relname="contrast">
+
+A CCPJ tem capacidade para cerca de 80 presos, </segment>
+    <segment id="23" parent="37" relname="contrast">mas abriga 203 homens.</segment>
+<group id="24" type="span" parent="25" relname="same-unit" />
+<group id="25" type="multinuc" parent="28" relname="span" />
+<group id="26" type="span" parent="25" relname="same-unit" />
+<group id="27" type="multinuc" parent="25" relname="elaboration" />
+<group id="28" type="span" parent="31" relname="span" />
+<group id="29" type="span" parent="7" relname="elaboration" />
+<group id="30" type="span" parent="28" relname="elaboration" />
+<group id="31" type="span" parent="32" relname="span" />
+<group id="32" type="span" parent="33" relname="sequence" />
+<group id="33" type="multinuc" parent="34" relname="span" />
+<group id="34" type="span" parent="40" relname="span" />
+<group id="35" type="multinuc" parent="34" relname="elaboration" />
+<group id="36" type="span" parent="35" relname="sequence" />
+<group id="37" type="multinuc" parent="42" relname="background" />
+<group id="38" type="span" parent="4" relname="explanation" />
+<group id="39" type="span" parent="20" relname="elaboration" />
+<group id="40" type="span" parent="42" relname="span" />
+<group id="41" type="span" parent="40" relname="volitional-cause" />
+<group id="42" type="span" parent="43" relname="span" />
+<group id="43" type="span" />
+  </body>
+</rst>

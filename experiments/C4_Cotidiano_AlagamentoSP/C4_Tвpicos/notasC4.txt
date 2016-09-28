@@ -1,0 +1,43 @@
+*formação dos subtópicos do cluster 4
+SUBTOPICO 1: D1_TOP1, D2_TOP1, D3_TOP1
+SUBTOPICO 2: D1_TOP2
+SUBTOPICO 3: D3_TOP3
+SUBTOPICO 4: D3_TOP4
+
+
+documento_numeroDeSentencas_quantidade de palavras
+SUBTOPICO 1: D1_TOP1_5_183, D2_TOP1_8_229, D3_TOP1_15_265 = 28 sentenças ; 677 palavras
+SUBTOPICO 2: D1_TOP2_5_82 = 5 sentenças ; 82 palavras
+SUBTOPICO 3: D3_TOP3_2_23 = 2 sentençaS ; 23 palavras
+SUBTOPICO 4: D3_TOP4_3_48 = 3 sentenças ; 48 palavras
+
+
+Cluster tem 830 palavras
+SUBTOPICO 1 = 81.6% do cluster  //alagamento e seus efeitos - A forte chuva em SP e suas consequências - tempo, clima e chuvas - volta da chuva em SP
+SUBTOPICO 2 = 9.9%  //o alerta
+SUBTOPICO 3 = 2.7%  //situação dos voos
+SUBTOPICO 4 = 5.8%  //previsão do tempo
+
+
+Sumário humano: 5 sentenças ; 117 palavras
+S1: 14 palavras
+S2: 12
+S3: 26
+S4: 57
+S5: 8
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico
+S1: D2_TOP1 - SUBTOPICO 1
+S2: D1_TOP1, D2_TOP1, D3_TOP1 - SUBTOPICO 1
+S3: D1_TOP2, D2_TOP1 - SUBTOPICO [13] 1, SUBTOPICO [13] 2, 	// dividir a sentença e distribuir igualmente
+S4: D1_TOP1, D1_TOP2, D2_TOP1, D3_TOP1 - SUBTOPICO [29] 1 , SUBTOPICO [28] 2 // dividir a sentença e distribuir igualmente
+S5: D1_TOP2 SUBTOPICO 2
+
+*% dos subtopicos no sumário
+Sentenças de 1, 2, 3, 4 = 68 palavras = 58% Subtopico 1
+Sentenças 3 e 5 =  49 palavras = 42% Subtopico 2
+
+
+
+*não apareceram subtopicos 

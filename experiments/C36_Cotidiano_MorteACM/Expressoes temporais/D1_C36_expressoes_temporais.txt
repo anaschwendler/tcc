@@ -1,0 +1,54 @@
+<ET ID="00" TIPO="TEMPO_CALEND" SUBTIPO="DATA" VAL_NORM="">
+O senador Antonio Carlos Magalhães (DEM-BA) morreu 
+<ET ID="01" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+às 11h40 de hoje
+</ET>
+, aos 79 anos, em São Paulo, em decorrência de falência de múltiplos órgãos secundária à insuficiência cardíaca. ACM estava internado no InCor-SP (Instituto do Coração), do Hospital das Clínicas, 
+<ET ID="02" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="AxMxSxDxHxMxSx">
+desde o dia 13 de junho
+</ET>
+, quando deu entrada para tratar de complicações renais e cardíacas. 
+
+A família ainda não confirmou o local onde será realizado o velório e o enterro do senador. A expectativa é que o corpo de ACM seja levado para Salvador (BA), onde nasceu. Os familiares de ACM estão no hospital. 
+
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="AxMxSxDxHxMxSx">
+No começo deste mês
+</ET>
+, ACM apresentou complicações gástricas. No seu período de internação, ele apresentou oscilações entre melhoras e agravamento do estado de saúde. 
+
+A Folha Online apurou que ele teria tido uma parada cardíaca 
+<ET ID="04" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="" VAL_DELTA="AxMxSxDxHxMxSx">
+na madrugada desta sexta-feira
+</ET>
+. A informação foi transmitida aos parentes e amigos próximos de ACM. A pedido da família do senador não foi autorizada divulgação de informações sobre seu estado de saúde. 
+
+O senador, que completaria 80 anos 
+<ET ID="05" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="POSTERIOR" VAL_DELTA="AxMxSxDxHxMxSx">
+em 4 de setembro
+</ET>
+, deixa a mulher, Arlete, e os filhos Antonio Carlos Magalhães Júnior e Teresa Helena Magalhães Mata Pires. Outros dois filhos de ACM já morreram: Luís Eduardo Maron de Magalhães e Ana Lúcia Maron de Magalhães. 
+
+O estado de saúde do senador começou a se complicar 
+<ET ID="06" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="AxMxSxDxHxMxSx">
+neste ano, a partir de março
+</ET>
+, quando o político ficou internado para se curar de uma pneumonia e de uma disfunção renal. Desde então, ACM vinha se submetendo a check-ups de rotina 
+<ET ID="07" TIPO="FREQUENCIA" VAL_QUANT="1" VAL_MODULO="A0M1S0D0H0M0S0">
+todo mês
+</ET>
+. 
+
+<ET ID="08" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="AxMxSxDxHxMxSx">
+Em abril
+</ET>
+, o senador foi internado no InCor com insuficiência cardíaca. 
+<ET ID="09" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="AxMxSxDxHxMxSx">
+No final de maio
+</ET>
+, o parlamentar sentiu-se mal no Senado e chegou a cair em frente ao seu gabinete. Na ocasião, ele foi submetido a uma série de exames no InCor. 
+
+ACM era cardiopata, portador de insuficiência cardíaca congestiva, em decorrência de um infarto, ocorrido 
+<ET ID="10" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+1989----T----E--LM-">
+em 1989
+</ET>
+. 

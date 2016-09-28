@@ -1,0 +1,38 @@
+*formação dos subtópicos do cluster 50
+SUBTOPICO 1: D1T1_16_288, D3T1_16_428, D4T1_10_263 - 42 sentenças ; 979 palavras
+SUBTOPICO 2: D1T2_11_325, D3T2_3_78 - 14 sentenças ; 403 palavras
+SUBTOPICO 3: D3T3_4_114 - 4 sentenças ; 114 palavras
+SUBTOPICO 4: D4T4_1_49 - 1 sentença ; 49 palavras
+
+Cluster tem 1545 palavras 
+SUBTOPICO 1: [63.36] 63.4 //proposta de prorrogação da PEC - avaliação do PSDB - A proposta do Governo - estratégia de neGociação entre governo e PSDB
+SUBTOPICO 2: [26.08] 26.1 //Decisões resultantes da prorrogação da CPMF - posionameno do governo - 
+SUBTOPICO 3: [7.37] 7.4 //posicionamentos esperançosos quanto à cpmf
+SUBTOPICO 4: [3.17]  3.1 //outras propostas
+
+Sumário humano: 8 sentenças ; 173 palavras
+S1: 40 palavras
+S2: 26
+S3: 12
+S4: 12
+S5: 22
+S6: 13
+S7: 22
+S8: 26
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico  //A barra | indica diferente subtopico
+S1: D1T1, D4T1, D3T1 - SUBTOPICO 1
+S2: D1T1, D3T1, D4T1| D1T2 - SUBTOPICO 1 [13 palavras] e SUBTOPICO 2 [13 palavras]
+S3: D1T2, D3T1, D4T1 | D3T3 - SUBTOPICO 1 [6] e SUBTOPICO 3 [6]
+S4: D3T2 - SUBTOPICO 2
+S5: D1T1, D3T1, D4T1 - SUBTOPICO 1
+S6: D3T3 - SUBTOPICO 3
+S7: D1T1, D3T1 | D3T3 - SUBTOPICO 1 [11] e SUBTOPICO 3 [11]
+S8: D1T1, D3T1 - SUBTOPICO 1
+
+Sentenças 1, 2, 3, 4, 7, 8 - 96 palavras - SUBTOPICO 1 [68.2] 68.2%
+Sentenças 2, 4 - 25 palavras - SUBTOPICO 2 [14.45] 14.5%
+Sentenças 3, 6, 7 - 30 palavras - SUBTOPICO 3 [17.34] 17.3
+
+*nao apareceu subtopico 4

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xml>
+<corpus>
+
+	<body>
+<s id="s1" ref="1" source="Running text" forest="1" text="Brasil vence Rússia e conquista o hepta da Liga Mundial Topo do mundo do voleibol masculino ainda é brasileiro;">
+	<graph root="s1_500">
+		<terminals>
+			<t id="s1_1" word="Brasil" lemma="Brasil" pos="prop" morph="M S" sem="--" extra="civ"/>
+			<t id="s1_2" word="vence" lemma="vencer" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="cjt-head cjt-head-STA fmc mv"/>
+			<t id="s1_3" word="Rússia" lemma="Rússia" pos="prop" morph="F S" sem="--" extra="cjt-head cjt-head-Od civ"/>
+			<t id="s1_4" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-acc co-acc"/>
+			<t id="s1_5" word="conquista" lemma="conquista" pos="n" morph="F S" sem="act" extra="cjt-Od"/>
+			<t id="s1_6" word="o" lemma="ele" pos="pron-pers" morph="M 3S ACC" sem="--" extra="--"/>
+			<t id="s1_7" word="hepta" lemma="hepto" pos="adj" morph="F S" sem="--" extra="n"/>
+			<t id="s1_8" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s1_9" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s1_10" word="Liga_Mundial_Topo" lemma="Liga_Mundial_Topo" pos="prop" morph="F S" sem="--" extra="org"/>
+			<t id="s1_11" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s1_12" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s1_13" word="mundo" lemma="mundo" pos="n" morph="M S" sem="L" extra="--"/>
+			<t id="s1_14" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s1_15" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s1_16" word="voleibol" lemma="voleibol" pos="n" morph="M S" sem="sport" extra="--"/>
+			<t id="s1_17" word="masculino" lemma="masculino" pos="adj" morph="M S" sem="--" extra="np-close"/>
+			<t id="s1_18" word="ainda" lemma="ainda" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s1_19" word="é" lemma="ser" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="cjt-STA fmc mv"/>
+			<t id="s1_20" word="brasileiro" lemma="brasileiro" pos="n" morph="M S" sem="Hnat" extra="--"/>
+			<t id="s1_21" word=";" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s1_500" cat="s">
+				<edge label="STA" idref="s1_501"/>
+			</nt>
+			<nt id="s1_501" cat="par">
+				<edge label="CJT" idref="s1_502"/>
+				<edge label="CJT" idref="s1_504"/>
+				<edge label="PU" idref="s1_21"/>
+			</nt>
+			<nt id="s1_502" cat="fcl">
+				<edge label="S" idref="s1_1"/>
+				<edge label="P" idref="s1_2"/>
+				<edge label="Od" idref="s1_503"/>
+			</nt>
+			<nt id="s1_503" cat="par">
+				<edge label="CJT" idref="s1_3"/>
+				<edge label="CO" idref="s1_4"/>
+				<edge label="CJT" idref="s1_5"/>
+			</nt>
+			<nt id="s1_504" cat="fcl">
+				<edge label="Od" idref="s1_6"/>
+				<edge label="S" idref="s1_505"/>
+				<edge label="fA" idref="s1_18"/>
+				<edge label="P" idref="s1_19"/>
+				<edge label="Cs" idref="s1_20"/>
+			</nt>
+			<nt id="s1_505" cat="np">
+				<edge label="H" idref="s1_7"/>
+				<edge label="DN" idref="s1_506"/>
+			</nt>
+			<nt id="s1_506" cat="pp">
+				<edge label="H" idref="s1_8"/>
+				<edge label="DP" idref="s1_507"/>
+			</nt>
+			<nt id="s1_507" cat="np">
+				<edge label="DN" idref="s1_9"/>
+				<edge label="H" idref="s1_10"/>
+				<edge label="DN" idref="s1_508"/>
+			</nt>
+			<nt id="s1_508" cat="pp">
+				<edge label="H" idref="s1_11"/>
+				<edge label="DP" idref="s1_509"/>
+			</nt>
+			<nt id="s1_509" cat="np">
+				<edge label="DN" idref="s1_12"/>
+				<edge label="H" idref="s1_13"/>
+				<edge label="DN" idref="s1_510"/>
+			</nt>
+			<nt id="s1_510" cat="pp">
+				<edge label="H" idref="s1_14"/>
+				<edge label="DP" idref="s1_511"/>
+			</nt>
+			<nt id="s1_511" cat="np">
+				<edge label="DN" idref="s1_15"/>
+				<edge label="H" idref="s1_16"/>
+				<edge label="DN" idref="s1_17"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s2" ref="2" source="Running text" forest="1" text="meta agora é o Pan-Americano do Rio.">
+	<graph root="s2_500">
+		<terminals>
+			<t id="s2_1" word="meta" lemma="meta" pos="n" morph="F S" sem="Labs" extra="--"/>
+			<t id="s2_2" word="agora" lemma="agora" pos="adv" morph="--" sem="--" extra="kc"/>
+			<t id="s2_3" word="é" lemma="ser" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s2_4" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s2_5" word="Pan-Americano" lemma="Pan-Americano" pos="prop" morph="M S" sem="inst" extra="--"/>
+			<t id="s2_6" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s2_7" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s2_8" word="Rio" lemma="Rio" pos="prop" morph="M S" sem="--" extra="civ"/>
+			<t id="s2_9" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s2_500" cat="s">
+				<edge label="STA" idref="s2_501"/>
+			</nt>
+			<nt id="s2_501" cat="fcl">
+				<edge label="S" idref="s2_1"/>
+				<edge label="fA" idref="s2_2"/>
+				<edge label="P" idref="s2_3"/>
+				<edge label="Cs" idref="s2_502"/>
+				<edge label="PU" idref="s2_9"/>
+			</nt>
+			<nt id="s2_502" cat="np">
+				<edge label="DN" idref="s2_4"/>
+				<edge label="H" idref="s2_5"/>
+				<edge label="DN" idref="s2_503"/>
+			</nt>
+			<nt id="s2_503" cat="pp">
+				<edge label="H" idref="s2_6"/>
+				<edge label="DP" idref="s2_504"/>
+			</nt>
+			<nt id="s2_504" cat="np">
+				<edge label="DN" idref="s2_7"/>
+				<edge label="H" idref="s2_8"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+	</body>
+</corpus>
+</xml>

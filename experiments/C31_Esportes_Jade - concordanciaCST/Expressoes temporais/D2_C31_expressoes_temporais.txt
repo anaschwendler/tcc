@@ -1,0 +1,22 @@
+<ET ID="00" TIPO="TEMPO_CALEND" SUBTIPO="DATA" VAL_NORM="+20071017T0932E--LM-">
+RIO - Um dos destaques desta temporada do esporte brasileiro, a ginasta Jade Barbosa foi escolhida, 
+<ET ID="01" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">
+na noite desta terça-feira
+</ET>
+, para ser a representante do Brasil no revezamento da tocha dos Jogos Olímpicos de Pequim. 
+ 
+Em votação pela internet, a ginasta recebeu mais de 100 mil votos e superou o nadador Thiago Pereira, que ganhou seis ouros nos Jogos Pan-Americanos.
+ 
+O Brasil não faz parte do trajeto da tocha olímpica. Na América do Sul, a chama passará por Buenos Aires, onde Jade participará do revezamento, 
+<ET ID="02" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="POSTERIOR" VAL_DELTA="A0M5S0D25H0M0S0">
+no dia 11 de abril
+</ET>
+.
+
+Aos 16 anos, Jade conquistou três medalhas no Pan: ouro na disputa dos saltos, prata na apresentação por equipes e bronze no solo.
+
+Ao todo, a chama olímpica percorrerá 20 países antes de chegar a Pequim para a abertura da competição, 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="POSTERIOR" VAL_DELTA="A0M9S0D22H0M0S0">
+no dia 8 de agosto
+</ET>
+.

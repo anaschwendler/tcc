@@ -1,0 +1,111 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="18" relname="span">Nove pessoas morreram,</segment>
+    <segment id="8" parent="1" relname="elaboration"> três delas crianças,</segment>
+    <segment id="9" parent="19" relname="list"> e outras 25 ficaram feridas nesta segunda-feira em uma explosão ocorrida em um mercado de Moscou,</segment>
+    <segment id="7" parent="19" relname="attribution"> informou a polícia.</segment>
+    <segment id="2" parent="22" relname="span">
+
+A explosão,</segment>
+    <segment id="10" parent="2" relname="non-volitional-cause"> supostamente causada por vazamento de um botijão de gás,</segment>
+    <segment id="11" parent="21" relname="span"> foi registrada por volta das 10h40</segment>
+    <segment id="12" parent="11" relname="parenthetical"> (3h40 de Brasília)</segment>
+    <segment id="13" parent="23" relname="elaboration"> no setor denominado Evrazia do mercado Cherkizov, um dos maiores shoppings da capital da Rússia.</segment>
+    <segment id="3" parent="25" relname="span">
+
+A maioria dos feridos,</segment>
+    <segment id="14" parent="3" relname="elaboration"> entre os quais há quatro com menos de 18 anos,</segment>
+    <segment id="15" parent="26" relname="same-unit"> foi hospitalizada.</segment>
+    <segment id="4" parent="27" relname="span">
+
+Cerca de dez de carros de bombeiros e mais de uma dezena de ambulâncias foram enviadas ao local,</segment>
+    <segment id="16" parent="4" relname="elaboration"> que foi isolado pela polícia.</segment>
+    <segment id="5" parent="28" relname="span">
+
+A procuradoria de Moscou anunciou a criação de um grupo especial</segment>
+    <segment id="17" parent="5" relname="purpose"> para investigar o acidente.</segment>
+    <segment id="6" parent="31" relname="list">
+
+Fontes do Ministério do Interior da Rússia citadas pela agência Interfax descartaram a possibilidade de a explosão em Cherkizov ter sido um ataque terrorista.</segment>
+<group id="18" type="span" parent="19" relname="list" />
+<group id="19" type="multinuc" parent="20" relname="span" />
+<group id="20" type="span" parent="29" relname="span" />
+<group id="21" type="span" parent="23" relname="same-unit" />
+<group id="22" type="span" parent="23" relname="same-unit" />
+<group id="23" type="multinuc" parent="24" relname="span" />
+<group id="24" type="span" parent="20" relname="elaboration" />
+<group id="25" type="span" parent="26" relname="same-unit" />
+<group id="26" type="multinuc" parent="20" relname="elaboration" />
+<group id="27" type="span" parent="29" relname="non-volitional-result" />
+<group id="28" type="span" parent="31" relname="list" />
+<group id="29" type="span" parent="30" relname="span" />
+<group id="30" type="span" parent="32" relname="span" />
+<group id="31" type="multinuc" parent="30" relname="elaboration" />
+<group id="32" type="span" />
+  </body>
+</rst>

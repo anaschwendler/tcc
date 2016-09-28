@@ -1,0 +1,31 @@
+<align SENT="1">
+	<DOC="D2_C41_Estadao.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="veronica/renata-veronica"/>
+	<DOC="D5_C41_GPovo.txt.seg" SENT="19" TYPE="parcial/neutro" JUDGE="veronica/renata-veronica"/>
+</align>
+
+<align SENT="2">
+	<DOC="D2_C41_Estadao.txt.seg" SENT="2" TYPE="parcial/neutro-especificacao" JUDGE="veronica/renata-veronica"/>
+</align>
+
+<align SENT="3">
+	<DOC="D2_C41_Estadao.txt.seg" SENT="6" TYPE="parcial/neutro-inferencia-especificacao" JUDGE="veronica/renata-veronica"/>
+	<DOC="D4_C41_JB.txt.seg" SENT="2" TYPE="parcial/neutro-inferencia" JUDGE="veronica/renata-veronica"/>
+	<DOC="D5_C41_GPovo.txt.seg" SENT="13" TYPE="parcial/neutro" JUDGE="veronica/renata-veronica"/>
+</align>
+
+<align SENT="4">
+	<DOC="D2_C41_Estadao.txt.seg" SENT="4" TYPE="parcial/neutro" JUDGE="veronica/renata-veronica"/>
+	<DOC="D4_C41_JB.txt.seg" SENT="4" TYPE="parcial/neutro-especificacao_antroponimia" JUDGE="veronica/renata-veronica"/>
+	<DOC="D4_C41_JB.txt.seg" SENT="5" TYPE="parcial/neutro" JUDGE="veronica/renata-veronica"/>
+	<DOC="D5_C41_GPovo.txt.seg" SENT="2" TYPE="parcial/neutro" JUDGE="veronica/renata-veronica"/>
+	<DOC="D5_C41_GPovo.txt.seg" SENT="3" TYPE="parcial/neutro" JUDGE="veronica/renata-veronica"/>
+</align>
+
+<align SENT="5">
+	<DOC="D5_C41_GPovo.txt.seg" SENT="20" TYPE="parcial/neutro" JUDGE="veronica/renata-veronica"/>
+	<DOC="D5_C41_GPovo.txt.seg" SENT="24" TYPE="parcial/neutro" JUDGE="veronica/renata-veronica"/>
+</align>
+
+<align SENT="6">
+	<DOC="D5_C41_GPovo.txt.seg" SENT="7" TYPE="parcial/neutro" JUDGE="veronica/renata-veronica"/>
+</align>

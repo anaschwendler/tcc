@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xml>
+<corpus>
+
+	<body>
+<s id="s1" ref="1" source="Running text" forest="1" text="Terminou a rebelião de presos no Centro de Custódia de Presos de Justiça (CCPJ), em São Luís, no começo da tarde desta quarta-feira (17).">
+	<graph root="s1_500">
+		<terminals>
+			<t id="s1_1" word="Terminou" lemma="terminar" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s1_2" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s1_3" word="rebelião" lemma="rebelião" pos="n" morph="F S" sem="occ" extra="--"/>
+			<t id="s1_4" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_5" word="presos" lemma="preso" pos="n" morph="M P" sem="H" extra="--"/>
+			<t id="s1_6" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s1_7" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s1_8" word="Centro_de_Custódia_de_Presos_de_Justiça" lemma="Centro_de_Custódia_de_Presos_de_Justiça" pos="prop" morph="M S" sem="inst" extra="--"/>
+			<t id="s1_9" word="(" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_10" word="CCPJ" lemma="CCPJ" pos="prop" morph="M/F S" sem="--" extra="org np-close"/>
+			<t id="s1_11" word=")" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_12" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_13" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s1_14" word="São_Luís" lemma="São_Luís" pos="prop" morph="M S" sem="--" extra="civ"/>
+			<t id="s1_15" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_16" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s1_17" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s1_18" word="começo" lemma="começo" pos="n" morph="M S" sem="temp" extra="--"/>
+			<t id="s1_19" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s1_20" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s1_21" word="tarde" lemma="tarde" pos="n" morph="F S" sem="per" extra="--"/>
+			<t id="s1_22" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s1_23" word="esta" lemma="este" pos="pron-dem" morph="DET F S" sem="--" extra="dem -sam"/>
+			<t id="s1_24" word="quarta-feira" lemma="quarta-feira" pos="n" morph="F S" sem="temp" extra="--"/>
+			<t id="s1_25" word="(" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_26" word="17" lemma="17" pos="num" morph="M/F P" sem="--" extra="card np-close"/>
+			<t id="s1_27" word=")" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_28" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s1_500" cat="s">
+				<edge label="STA" idref="s1_501"/>
+			</nt>
+			<nt id="s1_501" cat="fcl">
+				<edge label="P" idref="s1_1"/>
+				<edge label="Od" idref="s1_502"/>
+				<edge label="fA" idref="s1_504"/>
+				<edge label="PU" idref="s1_12"/>
+				<edge label="fA" idref="s1_506"/>
+				<edge label="PU" idref="s1_15"/>
+				<edge label="fA" idref="s1_507"/>
+				<edge label="PU" idref="s1_28"/>
+			</nt>
+			<nt id="s1_502" cat="np">
+				<edge label="DN" idref="s1_2"/>
+				<edge label="H" idref="s1_3"/>
+				<edge label="DN" idref="s1_503"/>
+			</nt>
+			<nt id="s1_503" cat="pp">
+				<edge label="H" idref="s1_4"/>
+				<edge label="DP" idref="s1_5"/>
+			</nt>
+			<nt id="s1_504" cat="pp">
+				<edge label="H" idref="s1_6"/>
+				<edge label="DP" idref="s1_505"/>
+			</nt>
+			<nt id="s1_505" cat="np">
+				<edge label="DN" idref="s1_7"/>
+				<edge label="H" idref="s1_8"/>
+				<edge label="PU" idref="s1_9"/>
+				<edge label="DNc" idref="s1_10"/>
+				<edge label="PU" idref="s1_11"/>
+			</nt>
+			<nt id="s1_506" cat="pp">
+				<edge label="H" idref="s1_13"/>
+				<edge label="DP" idref="s1_14"/>
+			</nt>
+			<nt id="s1_507" cat="pp">
+				<edge label="H" idref="s1_16"/>
+				<edge label="DP" idref="s1_508"/>
+			</nt>
+			<nt id="s1_508" cat="np">
+				<edge label="DN" idref="s1_17"/>
+				<edge label="H" idref="s1_18"/>
+				<edge label="DN" idref="s1_509"/>
+			</nt>
+			<nt id="s1_509" cat="pp">
+				<edge label="H" idref="s1_19"/>
+				<edge label="DP" idref="s1_510"/>
+			</nt>
+			<nt id="s1_510" cat="np">
+				<edge label="DN" idref="s1_20"/>
+				<edge label="H" idref="s1_21"/>
+				<edge label="DN" idref="s1_511"/>
+			</nt>
+			<nt id="s1_511" cat="pp">
+				<edge label="H" idref="s1_22"/>
+				<edge label="DP" idref="s1_512"/>
+			</nt>
+			<nt id="s1_512" cat="np">
+				<edge label="DN" idref="s1_23"/>
+				<edge label="H" idref="s1_24"/>
+				<edge label="PU" idref="s1_25"/>
+				<edge label="DNc" idref="s1_26"/>
+				<edge label="PU" idref="s1_27"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s2" ref="2" source="Running text" forest="1" text="Os presos entregaram as armas e a polícia faz uma revista dentro de a unidade.">
+	<graph root="s2_500">
+		<terminals>
+			<t id="s2_1" word="Os" lemma="o" pos="art" morph="M P" sem="--" extra="--"/>
+			<t id="s2_2" word="presos" lemma="preso" pos="n" morph="M P" sem="H" extra="--"/>
+			<t id="s2_3" word="entregaram" lemma="entregar" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="cjt-head cjt-head-STA fmc mv"/>
+			<t id="s2_4" word="as" lemma="o" pos="art" morph="F P" sem="--" extra="--"/>
+			<t id="s2_5" word="armas" lemma="arma" pos="n" morph="F P" sem="anzo pict tool" extra="--"/>
+			<t id="s2_6" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-fin co-fmc co-fin"/>
+			<t id="s2_7" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s2_8" word="polícia" lemma="polícia" pos="n" morph="F S" sem="HH" extra="--"/>
+			<t id="s2_9" word="faz" lemma="fazer" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="cjt-STA fmc mv"/>
+			<t id="s2_10" word="uma" lemma="um" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s2_11" word="revista" lemma="revista" pos="n" morph="F S" sem="sem-r act occ" extra="--"/>
+			<t id="s2_12" word="dentro_de" lemma="dentro_de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s2_13" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="-sam "/>
+			<t id="s2_14" word="unidade" lemma="unidade" pos="n" morph="F S" sem="ac-cat Lh" extra="--"/>
+			<t id="s2_15" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s2_500" cat="s">
+				<edge label="STA" idref="s2_501"/>
+			</nt>
+			<nt id="s2_501" cat="par">
+				<edge label="CJT" idref="s2_502"/>
+				<edge label="CO" idref="s2_6"/>
+				<edge label="CJT" idref="s2_505"/>
+				<edge label="PU" idref="s2_15"/>
+			</nt>
+			<nt id="s2_502" cat="fcl">
+				<edge label="S" idref="s2_503"/>
+				<edge label="P" idref="s2_3"/>
+				<edge label="Od" idref="s2_504"/>
+			</nt>
+			<nt id="s2_503" cat="np">
+				<edge label="DN" idref="s2_1"/>
+				<edge label="H" idref="s2_2"/>
+			</nt>
+			<nt id="s2_504" cat="np">
+				<edge label="DN" idref="s2_4"/>
+				<edge label="H" idref="s2_5"/>
+			</nt>
+			<nt id="s2_505" cat="fcl">
+				<edge label="S" idref="s2_506"/>
+				<edge label="P" idref="s2_9"/>
+				<edge label="Od" idref="s2_507"/>
+			</nt>
+			<nt id="s2_506" cat="np">
+				<edge label="DN" idref="s2_7"/>
+				<edge label="H" idref="s2_8"/>
+			</nt>
+			<nt id="s2_507" cat="np">
+				<edge label="DN" idref="s2_10"/>
+				<edge label="H" idref="s2_11"/>
+				<edge label="DN" idref="s2_508"/>
+			</nt>
+			<nt id="s2_508" cat="pp">
+				<edge label="H" idref="s2_12"/>
+				<edge label="DP" idref="s2_509"/>
+			</nt>
+			<nt id="s2_509" cat="np">
+				<edge label="DN" idref="s2_13"/>
+				<edge label="H" idref="s2_14"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s3" ref="3" source="Running text" forest="1" text="O motim começou durante a festa do Dia das Crianças, realizada na terça-feira (16).">
+	<graph root="s3_500">
+		<terminals>
+			<t id="s3_1" word="O" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s3_2" word="motim" lemma="motim" pos="n" morph="M S" sem="percep-l sit event" extra="--"/>
+			<t id="s3_3" word="começou" lemma="começar" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s3_4" word="durante" lemma="durante" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s3_5" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s3_6" word="festa" lemma="festa" pos="n" morph="F S" sem="occ" extra="--"/>
+			<t id="s3_7" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s3_8" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s3_9" word="Dia_das_Crianças" lemma="Dia_das_Crianças" pos="prop" morph="M S" sem="occ" extra="--"/>
+			<t id="s3_10" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s3_11" word="realizada" lemma="realizar" pos="v-pcp" morph="F S" sem="--" extra="mv"/>
+			<t id="s3_12" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s3_13" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s3_14" word="terça-feira" lemma="terça-feira" pos="n" morph="F S" sem="temp" extra="--"/>
+			<t id="s3_15" word="(" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s3_16" word="16" lemma="16" pos="num" morph="M/F P" sem="--" extra="card np-close"/>
+			<t id="s3_17" word=")" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s3_18" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s3_500" cat="s">
+				<edge label="STA" idref="s3_501"/>
+			</nt>
+			<nt id="s3_501" cat="fcl">
+				<edge label="S" idref="s3_502"/>
+				<edge label="P" idref="s3_3"/>
+				<edge label="fA" idref="s3_503"/>
+				<edge label="PU" idref="s3_18"/>
+			</nt>
+			<nt id="s3_502" cat="np">
+				<edge label="DN" idref="s3_1"/>
+				<edge label="H" idref="s3_2"/>
+			</nt>
+			<nt id="s3_503" cat="pp">
+				<edge label="H" idref="s3_4"/>
+				<edge label="DP" idref="s3_504"/>
+			</nt>
+			<nt id="s3_504" cat="np">
+				<edge label="DN" idref="s3_5"/>
+				<edge label="H" idref="s3_6"/>
+				<edge label="DN" idref="s3_505"/>
+			</nt>
+			<nt id="s3_505" cat="pp">
+				<edge label="H" idref="s3_7"/>
+				<edge label="DP" idref="s3_506"/>
+			</nt>
+			<nt id="s3_506" cat="np">
+				<edge label="DN" idref="s3_8"/>
+				<edge label="H" idref="s3_9"/>
+				<edge label="PU" idref="s3_10"/>
+				<edge label="DNc" idref="s3_507"/>
+			</nt>
+			<nt id="s3_507" cat="icl">
+				<edge label="P" idref="s3_11"/>
+				<edge label="fA" idref="s3_508"/>
+			</nt>
+			<nt id="s3_508" cat="pp">
+				<edge label="H" idref="s3_12"/>
+				<edge label="DP" idref="s3_509"/>
+			</nt>
+			<nt id="s3_509" cat="np">
+				<edge label="DN" idref="s3_13"/>
+				<edge label="H" idref="s3_14"/>
+				<edge label="PU" idref="s3_15"/>
+				<edge label="DNc" idref="s3_16"/>
+				<edge label="PU" idref="s3_17"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s4" ref="4" source="Running text" forest="1" text="As 16 crianças e 14 adultos foram libertados.">
+	<graph root="s4_500">
+		<terminals>
+			<t id="s4_1" word="As" lemma="o" pos="art" morph="F P" sem="--" extra="--"/>
+			<t id="s4_2" word="16" lemma="16" pos="num" morph="F P" sem="--" extra="card"/>
+			<t id="s4_3" word="crianças" lemma="criança" pos="n" morph="F P" sem="H" extra="cjt-head cjt-head-S cjt-head cjt-head-S"/>
+			<t id="s4_4" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-subj co-subj"/>
+			<t id="s4_5" word="14" lemma="14" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s4_6" word="adultos" lemma="adulto" pos="n" morph="M P" sem="Hbio" extra="cjt-S"/>
+			<t id="s4_7" word="foram" lemma="ser" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="fmc aux"/>
+			<t id="s4_8" word="libertados" lemma="libertar" pos="v-pcp" morph="M P" sem="--" extra="mv"/>
+			<t id="s4_9" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s4_500" cat="s">
+				<edge label="STA" idref="s4_501"/>
+			</nt>
+			<nt id="s4_501" cat="fcl">
+				<edge label="S" idref="s4_502"/>
+				<edge label="P" idref="s4_505"/>
+				<edge label="PU" idref="s4_9"/>
+			</nt>
+			<nt id="s4_502" cat="par">
+				<edge label="CJT" idref="s4_503"/>
+				<edge label="CO" idref="s4_4"/>
+				<edge label="CJT" idref="s4_504"/>
+			</nt>
+			<nt id="s4_503" cat="np">
+				<edge label="DN" idref="s4_1"/>
+				<edge label="DN" idref="s4_2"/>
+				<edge label="H" idref="s4_3"/>
+			</nt>
+			<nt id="s4_504" cat="np">
+				<edge label="DN" idref="s4_5"/>
+				<edge label="H" idref="s4_6"/>
+			</nt>
+			<nt id="s4_505" cat="vp">
+				<edge label="Vaux" idref="s4_7"/>
+				<edge label="Vm" idref="s4_8"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s5" ref="5" source="Running text" forest="1" text="Segundo informações da polícia, o líder da rebelião foi transferido para o Presídio de Pedrinhas, na capital maranhense.">
+	<graph root="s5_500">
+		<terminals>
+			<t id="s5_1" word="Segundo" lemma="segundo" pos="prp" morph="--" sem="--" extra="com adv-rel"/>
+			<t id="s5_2" word="informações" lemma="informação" pos="n" morph="F P" sem="ac" extra="asarg"/>
+			<t id="s5_3" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s5_4" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s5_5" word="polícia" lemma="polícia" pos="n" morph="F S" sem="HH" extra="--"/>
+			<t id="s5_6" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s5_7" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s5_8" word="líder" lemma="líder" pos="n" morph="M S" sem="Htit" extra="--"/>
+			<t id="s5_9" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s5_10" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s5_11" word="rebelião" lemma="rebelião" pos="n" morph="F S" sem="occ" extra="--"/>
+			<t id="s5_12" word="foi" lemma="ser" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="fmc aux"/>
+			<t id="s5_13" word="transferido" lemma="transferir" pos="v-pcp" morph="M S" sem="--" extra="mv"/>
+			<t id="s5_14" word="para" lemma="para" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s5_15" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s5_16" word="Presídio_de_Pedrinhas" lemma="Presídio_de_Pedrinhas" pos="prop" morph="M S" sem="inst" extra="--"/>
+			<t id="s5_17" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s5_18" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s5_19" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s5_20" word="capital" lemma="capital" pos="n" morph="F S" sem="Lciv ac-sign" extra="--"/>
+			<t id="s5_21" word="maranhense" lemma="maranhense" pos="adj" morph="F S" sem="--" extra="nat np-close"/>
+			<t id="s5_22" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s5_500" cat="s">
+				<edge label="STA" idref="s5_501"/>
+			</nt>
+			<nt id="s5_501" cat="fcl">
+				<edge label="fA" idref="s5_502"/>
+				<edge label="PU" idref="s5_6"/>
+				<edge label="S" idref="s5_506"/>
+				<edge label="P" idref="s5_509"/>
+				<edge label="fA" idref="s5_510"/>
+				<edge label="PU" idref="s5_17"/>
+				<edge label="fA" idref="s5_512"/>
+				<edge label="PU" idref="s5_22"/>
+			</nt>
+			<nt id="s5_502" cat="pp">
+				<edge label="H" idref="s5_1"/>
+				<edge label="DP" idref="s5_503"/>
+			</nt>
+			<nt id="s5_503" cat="np">
+				<edge label="H" idref="s5_2"/>
+				<edge label="DN" idref="s5_504"/>
+			</nt>
+			<nt id="s5_504" cat="pp">
+				<edge label="H" idref="s5_3"/>
+				<edge label="DP" idref="s5_505"/>
+			</nt>
+			<nt id="s5_505" cat="np">
+				<edge label="DN" idref="s5_4"/>
+				<edge label="H" idref="s5_5"/>
+			</nt>
+			<nt id="s5_506" cat="np">
+				<edge label="DN" idref="s5_7"/>
+				<edge label="H" idref="s5_8"/>
+				<edge label="DN" idref="s5_507"/>
+			</nt>
+			<nt id="s5_507" cat="pp">
+				<edge label="H" idref="s5_9"/>
+				<edge label="DP" idref="s5_508"/>
+			</nt>
+			<nt id="s5_508" cat="np">
+				<edge label="DN" idref="s5_10"/>
+				<edge label="H" idref="s5_11"/>
+			</nt>
+			<nt id="s5_509" cat="vp">
+				<edge label="Vaux" idref="s5_12"/>
+				<edge label="Vm" idref="s5_13"/>
+			</nt>
+			<nt id="s5_510" cat="pp">
+				<edge label="H" idref="s5_14"/>
+				<edge label="DP" idref="s5_511"/>
+			</nt>
+			<nt id="s5_511" cat="np">
+				<edge label="DN" idref="s5_15"/>
+				<edge label="H" idref="s5_16"/>
+			</nt>
+			<nt id="s5_512" cat="pp">
+				<edge label="H" idref="s5_18"/>
+				<edge label="DP" idref="s5_513"/>
+			</nt>
+			<nt id="s5_513" cat="np">
+				<edge label="DN" idref="s5_19"/>
+				<edge label="H" idref="s5_20"/>
+				<edge label="DN" idref="s5_21"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s6" ref="6" source="Running text" forest="1" text="Os presos receberam garantias, por parte de o diretor da unidade, de que não haveria represálias e novas transferências.">
+	<graph root="s6_500">
+		<terminals>
+			<t id="s6_1" word="Os" lemma="o" pos="art" morph="M P" sem="--" extra="--"/>
+			<t id="s6_2" word="presos" lemma="preso" pos="n" morph="M P" sem="H" extra="--"/>
+			<t id="s6_3" word="receberam" lemma="receber" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s6_4" word="garantias" lemma="garantia" pos="n" morph="F P" sem="act-s act-d" extra="--"/>
+			<t id="s6_5" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s6_6" word="por_parte_de" lemma="por_parte_de" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s6_7" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="-sam "/>
+			<t id="s6_8" word="diretor" lemma="diretor" pos="n" morph="M S" sem="Hprof" extra="--"/>
+			<t id="s6_9" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s6_10" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s6_11" word="unidade" lemma="unidade" pos="n" morph="F S" sem="ac-cat Lh" extra="--"/>
+			<t id="s6_12" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s6_13" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s6_14" word="que" lemma="que" pos="conj-s" morph="--" sem="--" extra="--"/>
+			<t id="s6_15" word="não" lemma="não" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s6_16" word="haveria" lemma="haver" pos="v-fin" morph="COND 3S VFIN" sem="--" extra="mv"/>
+			<t id="s6_17" word="represálias" lemma="represália" pos="n" morph="F P" sem="act-d" extra="cjt-head cjt-head-Od"/>
+			<t id="s6_18" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-acc co-acc"/>
+			<t id="s6_19" word="novas" lemma="novo" pos="adj" morph="F P" sem="--" extra="--"/>
+			<t id="s6_20" word="transferências" lemma="transferência" pos="n" morph="F P" sem="act" extra="cjt-Od"/>
+			<t id="s6_21" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s6_500" cat="s">
+				<edge label="STA" idref="s6_501"/>
+			</nt>
+			<nt id="s6_501" cat="fcl">
+				<edge label="S" idref="s6_502"/>
+				<edge label="P" idref="s6_3"/>
+				<edge label="Od" idref="s6_4"/>
+				<edge label="PU" idref="s6_5"/>
+				<edge label="fA" idref="s6_503"/>
+				<edge label="PU" idref="s6_21"/>
+			</nt>
+			<nt id="s6_502" cat="np">
+				<edge label="DN" idref="s6_1"/>
+				<edge label="H" idref="s6_2"/>
+				<edge label="Od" idref="s6_507"/>
+			</nt>
+			<nt id="s6_503" cat="pp">
+				<edge label="H" idref="s6_6"/>
+				<edge label="DP" idref="s6_504"/>
+			</nt>
+			<nt id="s6_504" cat="np">
+				<edge label="DN" idref="s6_7"/>
+				<edge label="H" idref="s6_8"/>
+				<edge label="DN" idref="s6_505"/>
+			</nt>
+			<nt id="s6_505" cat="pp">
+				<edge label="H" idref="s6_9"/>
+				<edge label="DP" idref="s6_506"/>
+				<edge label="PU" idref="s6_12"/>
+				<edge label="fA" idref="s6_13"/>
+			</nt>
+			<nt id="s6_506" cat="np">
+				<edge label="DN" idref="s6_10"/>
+				<edge label="H" idref="s6_11"/>
+			</nt>
+			<nt id="s6_507" cat="fcl">
+				<edge label="SUB" idref="s6_14"/>
+				<edge label="fA" idref="s6_15"/>
+				<edge label="P" idref="s6_16"/>
+				<edge label="Od" idref="s6_508"/>
+			</nt>
+			<nt id="s6_508" cat="par">
+				<edge label="CJT" idref="s6_17"/>
+				<edge label="CO" idref="s6_18"/>
+				<edge label="CJT" idref="s6_509"/>
+			</nt>
+			<nt id="s6_509" cat="np">
+				<edge label="DN" idref="s6_19"/>
+				<edge label="H" idref="s6_20"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s7" ref="7" source="Running text" forest="1" text="Os presos tentaram fugir durante a festa, mas o plano foi descoberto.">
+	<graph root="s7_500">
+		<terminals>
+			<t id="s7_1" word="Os" lemma="o" pos="art" morph="M P" sem="--" extra="--"/>
+			<t id="s7_2" word="presos" lemma="preso" pos="n" morph="M P" sem="H" extra="--"/>
+			<t id="s7_3" word="tentaram" lemma="tentar" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="cjt-head cjt-head-STA fmc mv"/>
+			<t id="s7_4" word="fugir" lemma="fugir" pos="v-inf" morph="--" sem="--" extra="mv"/>
+			<t id="s7_5" word="durante" lemma="durante" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s7_6" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s7_7" word="festa" lemma="festa" pos="n" morph="F S" sem="occ" extra="--"/>
+			<t id="s7_8" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s7_9" word="mas" lemma="mas" pos="conj-c" morph="--" sem="--" extra="co-fin co-fmc co-fin"/>
+			<t id="s7_10" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s7_11" word="plano" lemma="plano" pos="n" morph="M S" sem="sem-c Labs" extra="--"/>
+			<t id="s7_12" word="foi" lemma="ser" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="cjt-STA fmc aux"/>
+			<t id="s7_13" word="descoberto" lemma="descobrir" pos="v-pcp" morph="M S" sem="--" extra="mv"/>
+			<t id="s7_14" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s7_500" cat="s">
+				<edge label="STA" idref="s7_501"/>
+			</nt>
+			<nt id="s7_501" cat="par">
+				<edge label="CJT" idref="s7_502"/>
+				<edge label="PU" idref="s7_8"/>
+				<edge label="CO" idref="s7_9"/>
+				<edge label="CJT" idref="s7_507"/>
+				<edge label="PU" idref="s7_14"/>
+			</nt>
+			<nt id="s7_502" cat="fcl">
+				<edge label="S" idref="s7_503"/>
+				<edge label="P" idref="s7_3"/>
+				<edge label="Od" idref="s7_504"/>
+			</nt>
+			<nt id="s7_503" cat="np">
+				<edge label="DN" idref="s7_1"/>
+				<edge label="H" idref="s7_2"/>
+			</nt>
+			<nt id="s7_504" cat="icl">
+				<edge label="P" idref="s7_4"/>
+				<edge label="fA" idref="s7_505"/>
+			</nt>
+			<nt id="s7_505" cat="pp">
+				<edge label="H" idref="s7_5"/>
+				<edge label="DP" idref="s7_506"/>
+			</nt>
+			<nt id="s7_506" cat="np">
+				<edge label="DN" idref="s7_6"/>
+				<edge label="H" idref="s7_7"/>
+			</nt>
+			<nt id="s7_507" cat="fcl">
+				<edge label="S" idref="s7_508"/>
+				<edge label="P" idref="s7_509"/>
+			</nt>
+			<nt id="s7_508" cat="np">
+				<edge label="DN" idref="s7_10"/>
+				<edge label="H" idref="s7_11"/>
+			</nt>
+			<nt id="s7_509" cat="vp">
+				<edge label="Vaux" idref="s7_12"/>
+				<edge label="Vm" idref="s7_13"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s8" ref="8" source="Running text" forest="1" text="Em o começo da rebelião quatro pessoas ficaram feridas, entre elas uma auxiliar de enfermagem e um agente de polícia que trabalham no presídio.">
+	<graph root="s8_500">
+		<terminals>
+			<t id="s8_1" word="Em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s8_2" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s8_3" word="começo" lemma="começo" pos="n" morph="M S" sem="temp" extra="--"/>
+			<t id="s8_4" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s8_5" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s8_6" word="rebelião" lemma="rebelião" pos="n" morph="F S" sem="occ" extra="--"/>
+			<t id="s8_7" word="quatro" lemma="quatro" pos="num" morph="F P" sem="--" extra="card"/>
+			<t id="s8_8" word="pessoas" lemma="pessoa" pos="n" morph="F P" sem="H" extra="--"/>
+			<t id="s8_9" word="ficaram" lemma="ficar" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s8_10" word="feridas" lemma="ferir" pos="v-pcp" morph="F P" sem="--" extra="cjt-head cjt-head-Cs"/>
+			<t id="s8_11" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s8_12" word="entre" lemma="entre" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s8_13" word="elas" lemma="elas" pos="pron-pers" morph="F 3P NOM/PIV" sem="--" extra="--"/>
+			<t id="s8_14" word="uma" lemma="um" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s8_15" word="auxiliar" lemma="auxiliar" pos="n" morph="F S" sem="Hprof" extra="cjt-Cs"/>
+			<t id="s8_16" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s8_17" word="enfermagem" lemma="enfermagem" pos="n" morph="F S" sem="HH" extra="cjt-head cjt-head-DP"/>
+			<t id="s8_18" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-prparg co-prparg"/>
+			<t id="s8_19" word="um" lemma="um" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s8_20" word="agente_de_polícia" lemma="agente_de_polícia" pos="n" morph="M S" sem="Hprof" extra="cjt-DP"/>
+			<t id="s8_21" word="que" lemma="que" pos="conj-s" morph="--" sem="--" extra="clb"/>
+			<t id="s8_22" word="trabalham" lemma="trabalhar" pos="v-fin" morph="PR 3P IND VFIN" sem="--" extra="mv"/>
+			<t id="s8_23" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s8_24" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s8_25" word="presídio" lemma="presídio" pos="n" morph="M S" sem="inst" extra="--"/>
+			<t id="s8_26" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s8_500" cat="s">
+				<edge label="STA" idref="s8_501"/>
+			</nt>
+			<nt id="s8_501" cat="fcl">
+				<edge label="fA" idref="s8_502"/>
+				<edge label="S" idref="s8_506"/>
+				<edge label="P" idref="s8_9"/>
+				<edge label="Cs" idref="s8_507"/>
+				<edge label="PU" idref="s8_11"/>
+				<edge label="fA" idref="s8_508"/>
+				<edge label="Od" idref="s8_513"/>
+				<edge label="PU" idref="s8_26"/>
+			</nt>
+			<nt id="s8_502" cat="pp">
+				<edge label="H" idref="s8_1"/>
+				<edge label="DP" idref="s8_503"/>
+			</nt>
+			<nt id="s8_503" cat="np">
+				<edge label="DN" idref="s8_2"/>
+				<edge label="H" idref="s8_3"/>
+				<edge label="DN" idref="s8_504"/>
+			</nt>
+			<nt id="s8_504" cat="pp">
+				<edge label="H" idref="s8_4"/>
+				<edge label="DP" idref="s8_505"/>
+			</nt>
+			<nt id="s8_505" cat="np">
+				<edge label="DN" idref="s8_5"/>
+				<edge label="H" idref="s8_6"/>
+			</nt>
+			<nt id="s8_506" cat="np">
+				<edge label="DN" idref="s8_7"/>
+				<edge label="H" idref="s8_8"/>
+			</nt>
+			<nt id="s8_507" cat="par">
+				<edge label="CJT" idref="s8_10"/>
+			</nt>
+			<nt id="s8_508" cat="pp">
+				<edge label="H" idref="s8_12"/>
+				<edge label="DP" idref="s8_13"/>
+				<edge label="CJT" idref="s8_509"/>
+			</nt>
+			<nt id="s8_509" cat="np">
+				<edge label="DN" idref="s8_14"/>
+				<edge label="H" idref="s8_15"/>
+				<edge label="DN" idref="s8_510"/>
+			</nt>
+			<nt id="s8_510" cat="pp">
+				<edge label="H" idref="s8_16"/>
+				<edge label="DP" idref="s8_511"/>
+			</nt>
+			<nt id="s8_511" cat="par">
+				<edge label="CJT" idref="s8_17"/>
+				<edge label="CO" idref="s8_18"/>
+				<edge label="CJT" idref="s8_512"/>
+			</nt>
+			<nt id="s8_512" cat="np">
+				<edge label="DN" idref="s8_19"/>
+				<edge label="H" idref="s8_20"/>
+			</nt>
+			<nt id="s8_513" cat="fcl">
+				<edge label="SUB" idref="s8_21"/>
+				<edge label="P" idref="s8_22"/>
+				<edge label="Op" idref="s8_514"/>
+			</nt>
+			<nt id="s8_514" cat="pp">
+				<edge label="H" idref="s8_23"/>
+				<edge label="DP" idref="s8_515"/>
+			</nt>
+			<nt id="s8_515" cat="np">
+				<edge label="DN" idref="s8_24"/>
+				<edge label="H" idref="s8_25"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s9" ref="9" source="Running text" forest="1" text="A unidade ficou sem luz e água e as negociações para a libertação dos reféns foi retomada na manhã desta quarta-feira.">
+	<graph root="s9_500">
+		<terminals>
+			<t id="s9_1" word="A" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s9_2" word="unidade" lemma="unidade" pos="n" morph="F S" sem="ac-cat Lh" extra="--"/>
+			<t id="s9_3" word="ficou" lemma="ficar" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="predco predco fmc mv"/>
+			<t id="s9_4" word="sem" lemma="sem" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s9_5" word="luz" lemma="luz" pos="n" morph="F S" sem="am cc-light" extra="cjt-head cjt-head-DP"/>
+			<t id="s9_6" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-prparg co-prparg"/>
+			<t id="s9_7" word="água" lemma="água" pos="n" morph="F S" sem="drink cm-liq f-q" extra="cjt-DP"/>
+			<t id="s9_8" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-fin co-fmc co-fin"/>
+			<t id="s9_9" word="as" lemma="o" pos="art" morph="F P" sem="--" extra="--"/>
+			<t id="s9_10" word="negociações" lemma="negociação" pos="n" morph="F P" sem="activity" extra="--"/>
+			<t id="s9_11" word="para" lemma="para" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s9_12" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s9_13" word="libertação" lemma="libertação" pos="n" morph="F S" sem="act" extra="--"/>
+			<t id="s9_14" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s9_15" word="os" lemma="o" pos="art" morph="M P" sem="--" extra=" -sam"/>
+			<t id="s9_16" word="reféns" lemma="refém" pos="n" morph="M P" sem="Hattr" extra="--"/>
+			<t id="s9_17" word="foi" lemma="ser" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="nosubj cjt-STA nosubj cjt-STA fmc aux"/>
+			<t id="s9_18" word="retomada" lemma="retomar" pos="v-pcp" morph="F S" sem="--" extra="mv"/>
+			<t id="s9_19" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s9_20" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s9_21" word="manhã" lemma="manhã" pos="n" morph="F S" sem="temp per" extra="--"/>
+			<t id="s9_22" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s9_23" word="esta" lemma="este" pos="pron-dem" morph="DET F S" sem="--" extra="dem -sam"/>
+			<t id="s9_24" word="quarta-feira" lemma="quarta-feira" pos="n" morph="F S" sem="temp" extra="--"/>
+			<t id="s9_25" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s9_500" cat="s">
+				<edge label="STA" idref="s9_501"/>
+			</nt>
+			<nt id="s9_501" cat="fcl">
+				<edge label="S" idref="s9_502"/>
+				<edge label="X" idref="s9_503"/>
+				<edge label="PU" idref="s9_25"/>
+			</nt>
+			<nt id="s9_502" cat="np">
+				<edge label="DN" idref="s9_1"/>
+				<edge label="H" idref="s9_2"/>
+			</nt>
+			<nt id="s9_503" cat="par">
+				<edge label="CJT" idref="s9_504"/>
+				<edge label="CO" idref="s9_8"/>
+				<edge label="CJT" idref="s9_507"/>
+			</nt>
+			<nt id="s9_504" cat="x">
+				<edge label="P" idref="s9_3"/>
+				<edge label="Cs" idref="s9_505"/>
+			</nt>
+			<nt id="s9_505" cat="pp">
+				<edge label="H" idref="s9_4"/>
+				<edge label="DP" idref="s9_506"/>
+			</nt>
+			<nt id="s9_506" cat="par">
+				<edge label="CJT" idref="s9_5"/>
+				<edge label="CO" idref="s9_6"/>
+				<edge label="CJT" idref="s9_7"/>
+			</nt>
+			<nt id="s9_507" cat="x">
+				<edge label="fCs" idref="s9_508"/>
+				<edge label="P" idref="s9_513"/>
+				<edge label="fA" idref="s9_514"/>
+			</nt>
+			<nt id="s9_508" cat="np">
+				<edge label="DN" idref="s9_9"/>
+				<edge label="H" idref="s9_10"/>
+				<edge label="DN" idref="s9_509"/>
+			</nt>
+			<nt id="s9_509" cat="pp">
+				<edge label="H" idref="s9_11"/>
+				<edge label="DP" idref="s9_510"/>
+			</nt>
+			<nt id="s9_510" cat="np">
+				<edge label="DN" idref="s9_12"/>
+				<edge label="H" idref="s9_13"/>
+				<edge label="DN" idref="s9_511"/>
+			</nt>
+			<nt id="s9_511" cat="pp">
+				<edge label="H" idref="s9_14"/>
+				<edge label="DP" idref="s9_512"/>
+			</nt>
+			<nt id="s9_512" cat="np">
+				<edge label="DN" idref="s9_15"/>
+				<edge label="H" idref="s9_16"/>
+			</nt>
+			<nt id="s9_513" cat="vp">
+				<edge label="Vaux" idref="s9_17"/>
+				<edge label="Vm" idref="s9_18"/>
+			</nt>
+			<nt id="s9_514" cat="pp">
+				<edge label="H" idref="s9_19"/>
+				<edge label="DP" idref="s9_515"/>
+			</nt>
+			<nt id="s9_515" cat="np">
+				<edge label="DN" idref="s9_20"/>
+				<edge label="H" idref="s9_21"/>
+				<edge label="DN" idref="s9_516"/>
+			</nt>
+			<nt id="s9_516" cat="pp">
+				<edge label="H" idref="s9_22"/>
+				<edge label="DP" idref="s9_517"/>
+			</nt>
+			<nt id="s9_517" cat="np">
+				<edge label="DN" idref="s9_23"/>
+				<edge label="H" idref="s9_24"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s10" ref="10" source="Running text" forest="1" text="Segundo informações da polícia, os presos temiam uma transferência em massa depois de terem iniciado uma outra rebelião durante a greve de policiais no estado, na semana passada.">
+	<graph root="s10_500">
+		<terminals>
+			<t id="s10_1" word="Segundo" lemma="segundo" pos="prp" morph="--" sem="--" extra="com adv-rel"/>
+			<t id="s10_2" word="informações" lemma="informação" pos="n" morph="F P" sem="ac" extra="asarg"/>
+			<t id="s10_3" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s10_4" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s10_5" word="polícia" lemma="polícia" pos="n" morph="F S" sem="HH" extra="--"/>
+			<t id="s10_6" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s10_7" word="os" lemma="o" pos="art" morph="M P" sem="--" extra="--"/>
+			<t id="s10_8" word="presos" lemma="preso" pos="n" morph="M P" sem="H" extra="--"/>
+			<t id="s10_9" word="temiam" lemma="temer" pos="v-fin" morph="IMPF 3P IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s10_10" word="uma" lemma="um" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s10_11" word="transferência" lemma="transferência" pos="n" morph="F S" sem="act" extra="--"/>
+			<t id="s10_12" word="em_massa" lemma="em_massa" pos="adj" morph="--" sem="--" extra="--"/>
+			<t id="s10_13" word="depois" lemma="depois" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s10_14" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s10_15" word="terem" lemma="ter" pos="v-inf" morph="3P" sem="--" extra="aux"/>
+			<t id="s10_16" word="iniciado" lemma="iniciar" pos="v-pcp" morph="--" sem="--" extra="mv"/>
+			<t id="s10_17" word="uma" lemma="um" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s10_18" word="outra" lemma="outro" pos="pron-indef" morph="DET F S" sem="--" extra="KOMP diff"/>
+			<t id="s10_19" word="rebelião" lemma="rebelião" pos="n" morph="F S" sem="occ" extra="--"/>
+			<t id="s10_20" word="durante" lemma="durante" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s10_21" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s10_22" word="greve" lemma="greve" pos="n" morph="F S" sem="occ" extra="--"/>
+			<t id="s10_23" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s10_24" word="policiais" lemma="policial" pos="n" morph="M P" sem="Hprof" extra="--"/>
+			<t id="s10_25" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s10_26" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s10_27" word="estado" lemma="estado" pos="n" morph="M S" sem="Lciv state" extra="--"/>
+			<t id="s10_28" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s10_29" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s10_30" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s10_31" word="semana" lemma="semana" pos="n" morph="F S" sem="dur" extra="--"/>
+			<t id="s10_32" word="passada" lemma="passado" pos="adj" morph="F S" sem="--" extra="np-close"/>
+			<t id="s10_33" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s10_500" cat="s">
+				<edge label="STA" idref="s10_501"/>
+			</nt>
+			<nt id="s10_501" cat="fcl">
+				<edge label="fA" idref="s10_502"/>
+				<edge label="PU" idref="s10_6"/>
+				<edge label="S" idref="s10_506"/>
+				<edge label="P" idref="s10_9"/>
+				<edge label="Od" idref="s10_507"/>
+				<edge label="fA" idref="s10_508"/>
+				<edge label="PU" idref="s10_33"/>
+			</nt>
+			<nt id="s10_502" cat="pp">
+				<edge label="H" idref="s10_1"/>
+				<edge label="DP" idref="s10_503"/>
+			</nt>
+			<nt id="s10_503" cat="np">
+				<edge label="H" idref="s10_2"/>
+				<edge label="DN" idref="s10_504"/>
+			</nt>
+			<nt id="s10_504" cat="pp">
+				<edge label="H" idref="s10_3"/>
+				<edge label="DP" idref="s10_505"/>
+			</nt>
+			<nt id="s10_505" cat="np">
+				<edge label="DN" idref="s10_4"/>
+				<edge label="H" idref="s10_5"/>
+			</nt>
+			<nt id="s10_506" cat="np">
+				<edge label="DN" idref="s10_7"/>
+				<edge label="H" idref="s10_8"/>
+			</nt>
+			<nt id="s10_507" cat="np">
+				<edge label="DN" idref="s10_10"/>
+				<edge label="H" idref="s10_11"/>
+				<edge label="DN" idref="s10_12"/>
+			</nt>
+			<nt id="s10_508" cat="advp">
+				<edge label="H" idref="s10_13"/>
+				<edge label="DA" idref="s10_509"/>
+			</nt>
+			<nt id="s10_509" cat="pp">
+				<edge label="H" idref="s10_14"/>
+				<edge label="DP" idref="s10_510"/>
+			</nt>
+			<nt id="s10_510" cat="icl">
+				<edge label="P" idref="s10_511"/>
+				<edge label="Od" idref="s10_512"/>
+				<edge label="fA" idref="s10_513"/>
+				<edge label="fA" idref="s10_516"/>
+				<edge label="PU" idref="s10_28"/>
+				<edge label="fA" idref="s10_518"/>
+			</nt>
+			<nt id="s10_511" cat="vp">
+				<edge label="Vaux" idref="s10_15"/>
+				<edge label="Vm" idref="s10_16"/>
+			</nt>
+			<nt id="s10_512" cat="np">
+				<edge label="DN" idref="s10_17"/>
+				<edge label="DN" idref="s10_18"/>
+				<edge label="H" idref="s10_19"/>
+			</nt>
+			<nt id="s10_513" cat="pp">
+				<edge label="H" idref="s10_20"/>
+				<edge label="DP" idref="s10_514"/>
+			</nt>
+			<nt id="s10_514" cat="np">
+				<edge label="DN" idref="s10_21"/>
+				<edge label="H" idref="s10_22"/>
+				<edge label="DN" idref="s10_515"/>
+			</nt>
+			<nt id="s10_515" cat="pp">
+				<edge label="H" idref="s10_23"/>
+				<edge label="DP" idref="s10_24"/>
+			</nt>
+			<nt id="s10_516" cat="pp">
+				<edge label="H" idref="s10_25"/>
+				<edge label="DP" idref="s10_517"/>
+			</nt>
+			<nt id="s10_517" cat="np">
+				<edge label="DN" idref="s10_26"/>
+				<edge label="H" idref="s10_27"/>
+			</nt>
+			<nt id="s10_518" cat="pp">
+				<edge label="H" idref="s10_29"/>
+				<edge label="DP" idref="s10_519"/>
+			</nt>
+			<nt id="s10_519" cat="np">
+				<edge label="DN" idref="s10_30"/>
+				<edge label="H" idref="s10_31"/>
+				<edge label="DN" idref="s10_32"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s11" ref="11" source="Running text" forest="1" text="A CCPJ tem capacidade para cerca de 80 presos, mas abriga 203 homens.">
+	<graph root="s11_500">
+		<terminals>
+			<t id="s11_1" word="A" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s11_2" word="CCPJ" lemma="CCPJ" pos="prop" morph="F S" sem="--" extra="org"/>
+			<t id="s11_3" word="tem" lemma="ter" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="predco predco fmc mv"/>
+			<t id="s11_4" word="capacidade" lemma="capacidade" pos="n" morph="F S" sem="am percep-f" extra="--"/>
+			<t id="s11_5" word="para" lemma="para" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s11_6" word="cerca_de" lemma="cerca_de" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s11_7" word="80" lemma="80" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s11_8" word="presos" lemma="preso" pos="n" morph="M P" sem="H" extra="--"/>
+			<t id="s11_9" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s11_10" word="mas" lemma="mas" pos="conj-c" morph="--" sem="--" extra="co-fin co-fmc co-fin"/>
+			<t id="s11_11" word="abriga" lemma="abrigar" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="nosubj cjt-STA nosubj cjt-STA fmc mv"/>
+			<t id="s11_12" word="203" lemma="203" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s11_13" word="homens" lemma="homem" pos="n" morph="M P" sem="Hattr" extra="--"/>
+			<t id="s11_14" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s11_500" cat="s">
+				<edge label="STA" idref="s11_501"/>
+			</nt>
+			<nt id="s11_501" cat="fcl">
+				<edge label="S" idref="s11_502"/>
+				<edge label="X" idref="s11_503"/>
+				<edge label="PU" idref="s11_14"/>
+			</nt>
+			<nt id="s11_502" cat="np">
+				<edge label="DN" idref="s11_1"/>
+				<edge label="H" idref="s11_2"/>
+			</nt>
+			<nt id="s11_503" cat="par">
+				<edge label="CJT" idref="s11_504"/>
+				<edge label="PU" idref="s11_9"/>
+				<edge label="CO" idref="s11_10"/>
+				<edge label="CJT" idref="s11_509"/>
+			</nt>
+			<nt id="s11_504" cat="x">
+				<edge label="P" idref="s11_3"/>
+				<edge label="Od" idref="s11_505"/>
+			</nt>
+			<nt id="s11_505" cat="np">
+				<edge label="H" idref="s11_4"/>
+				<edge label="DN" idref="s11_506"/>
+			</nt>
+			<nt id="s11_506" cat="pp">
+				<edge label="H" idref="s11_5"/>
+				<edge label="DP" idref="s11_507"/>
+			</nt>
+			<nt id="s11_507" cat="np">
+				<edge label="DN" idref="s11_508"/>
+				<edge label="H" idref="s11_8"/>
+			</nt>
+			<nt id="s11_508" cat="adjp">
+				<edge label="DA" idref="s11_6"/>
+				<edge label="H" idref="s11_7"/>
+			</nt>
+			<nt id="s11_509" cat="x">
+				<edge label="P" idref="s11_11"/>
+				<edge label="Od" idref="s11_510"/>
+			</nt>
+			<nt id="s11_510" cat="np">
+				<edge label="DN" idref="s11_12"/>
+				<edge label="H" idref="s11_13"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+	</body>
+</corpus>
+</xml>

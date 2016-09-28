@@ -1,0 +1,31 @@
+<align SENT="1">
+	<DOC="D1_C28_Folha.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="renata-veronica/veronica"/>
+	<DOC="D2_C28_Estadao.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="renata-veronica/veronica"/>
+</align>
+
+<align SENT="2">
+	<DOC="D1_C28_Folha.txt.seg" SENT="2" TYPE="parcial/neutro" JUDGE="renata-veronica/veronica"/>
+	<DOC="D2_C28_Estadao.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="renata-veronica/veronica"/>
+	<DOC="D2_C28_Estadao.txt.seg" SENT="4" TYPE="parcial/neutro" JUDGE="renata-veronica/veronica"/>
+	<DOC="D2_C28_Estadao.txt.seg" SENT="6" TYPE="parcial/neutro" JUDGE="renata-veronica/veronica"/>
+	<DOC="D2_C28_Estadao.txt.seg" SENT="8" TYPE="parcial/neutro" JUDGE="renata-veronica/veronica"/>
+	<DOC="D2_C28_Estadao.txt.seg" SENT="10" TYPE="parcial/neutro" JUDGE="renata-veronica/veronica"/>
+	<DOC="D3_C28_OGlobo.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="renata-veronica/veronica"/>
+	<DOC="D3_C28_OGlobo.txt.seg" SENT="2" TYPE="parcial/neutro" JUDGE="renata-veronica/veronica"/>
+</align>
+
+<align SENT="3">
+	<DOC="D1_C28_Folha.txt.seg" SENT="2" TYPE="parcial/neutro" JUDGE="renata-veronica/veronica"/>
+	<DOC="D1_C28_Folha.txt.seg" SENT="4" TYPE="parcial/neutro" JUDGE="renata-veronica/veronica"/>
+	<DOC="D1_C28_Folha.txt.seg" SENT="7" TYPE="parcial/neutro" JUDGE="renata-veronica/veronica"/>
+	<DOC="D2_C28_Estadao.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="renata-veronica/veronica"/>
+	<DOC="D2_C28_Estadao.txt.seg" SENT="2" TYPE="parcial/neutro" JUDGE="renata-veronica/veronica"/>
+	<DOC="D3_C28_OGlobo.txt.seg" SENT="3" TYPE="parcial/neutro" JUDGE="renata-veronicav"/>
+	<DOC="D3_C28_OGlobo.txt.seg" SENT="4" TYPE="parcial/neutro" JUDGE="renata-veronica/veronica"/>
+</align>
+
+<align SENT="4">
+	<DOC="D1_C28_Folha.txt.seg" SENT="13" TYPE="parcial/neutro-especificacao-inferencia" JUDGE="renata-veronica/veronica"/>
+	<DOC="D2_C28_Estadao.txt.seg" SENT="3" TYPE="parcial/neutro" JUDGE="renata-veronica/veronica"/>
+	<DOC="D3_C28_OGlobo.txt.seg" SENT="6" TYPE="parcial/neutro-inferencia" JUDGE="renata-veronica/veronica"/>
+</align>

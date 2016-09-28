@@ -1,0 +1,39 @@
+*formação dos subtópicos do cluster 42
+SUBTOPICO 1: D1T1_4_140, D2T1_14_344 = 18 sentenças , 484 palavras
+SUBTOPICO 2: D1T2_3_87 = 3 sentenças , 87 palavras
+SUBTOPICO 3: D1T3_8_226 = 8 sentenças , 226 palavras
+SUBTOPICO 4: D2T4_10_266 = 10 sentenças , 266 palavras 
+
+Cluster tem 1063 palavras
+SUBTOPICO 1: [45.53] 45.5% //investigações - defesa e votação da recomendação - pedido de sobrestamento das investigações contra Renan - pedido de sobrestamento das investigações contra Renan
+Sentenças: D1 [1 a 2, 6 a 7], D2 [1 a 12, 23 a 24]
+
+SUBTOPICO 2: [8.18] 8.2% //paralisação das investigações
+Sentenças: D1[3 a 5]
+
+SUBTOPICO 3: [21.26] 21.3% //expectativa da votação e defesa dos trabalhos da Câmara
+Sentenças: D1 [8 a 15]
+
+SUBTOPICO 4: [25.02] 25% //sobre a unificação dos processos contra Renan
+Sentenças: D2 [13 a 22]
+
+Sumário humano: 5 sentenças ; 156 palavras
+S1: 38 palavras
+S2: 38
+S3: 18
+S4: 37
+S5: 25
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico  //A barra | indica diferente subtopico
+S1: D1T1, D2T1 - SUBTOPICO 1
+S2: D1T1, D2T1 | D1T3 - SUBTOPICO 1 [19 palavras] e SUBTOPICO 3 [19 palavras]
+S3: D1T1 - SUBTOPICO 1
+S4: D1T1, D2T1 | D1T3 | D2T4 - SUBTOPICO 1 [13 palavras], SUBTOPICO 3 [12 palavras] e SUBTOPICO 4 [12 palavras] 
+S5: D1T3 | D2T1 - SUBTOPICO 1 [13 palavras] e SUBTOPICO 3 [12 palavras]
+
+Sentenças 1, 2, 3, 4 e 5 - 101 palavras - SUBTOPICO 1 : [64.74] 64.7%
+Sentenças 2, 4 e 5 - 43 palavras - SUBTOPICO 3 : [27.56] 27.6%
+Sentenças 4 - 12 palavras - SUBTOPICO 4 : [7.69] 7.7%
+
+*nao apareceu subtopico 2

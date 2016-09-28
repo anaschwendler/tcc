@@ -1,0 +1,69 @@
+<R SDID="D4_C47_JB.txt.seg" SSENT="1" TDID="D5_C47_GPovo.txt.seg" TSENT="1">
+<RELATION TYPE="Identity" JUDGE="Erick"/>
+</R>
+<R SDID="D5_C47_GPovo.txt.seg" SSENT="10" TDID="D4_C47_JB.txt.seg" TSENT="1">
+<RELATION TYPE="Follow-up" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C47_JB.txt.seg" SSENT="2" TDID="D5_C47_GPovo.txt.seg" TSENT="2">
+<RELATION TYPE="Identity" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C47_JB.txt.seg" SSENT="3" TDID="D5_C47_GPovo.txt.seg" TSENT="3">
+<RELATION TYPE="Identity" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C47_JB.txt.seg" SSENT="3" TDID="D5_C47_GPovo.txt.seg" TSENT="15">
+<RELATION TYPE="Follow-up" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C47_JB.txt.seg" SSENT="4" TDID="D5_C47_GPovo.txt.seg" TSENT="4">
+<RELATION TYPE="Identity" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C47_JB.txt.seg" SSENT="5" TDID="D5_C47_GPovo.txt.seg" TSENT="5">
+<RELATION TYPE="Identity" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C47_JB.txt.seg" SSENT="6" TDID="D5_C47_GPovo.txt.seg" TSENT="6">
+<RELATION TYPE="Identity" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C47_JB.txt.seg" SSENT="7" TDID="D5_C47_GPovo.txt.seg" TSENT="7">
+<RELATION TYPE="Identity" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C47_JB.txt.seg" SSENT="8" TDID="D5_C47_GPovo.txt.seg" TSENT="8">
+<RELATION TYPE="Identity" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C47_JB.txt.seg" SSENT="9" TDID="D5_C47_GPovo.txt.seg" TSENT="9">
+<RELATION TYPE="Identity" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C47_JB.txt.seg" SSENT="10" TDID="D5_C47_GPovo.txt.seg" TSENT="1">
+<RELATION TYPE="Elaboration" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C47_JB.txt.seg" SSENT="10" TDID="D5_C47_GPovo.txt.seg" TSENT="10">
+<RELATION TYPE="Identity" JUDGE="Erick"/>
+</R>
+<R SDID="D5_C47_GPovo.txt.seg" SSENT="12" TDID="D4_C47_JB.txt.seg" TSENT="10">
+<RELATION TYPE="Elaboration" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C47_JB.txt.seg" SSENT="11" TDID="D5_C47_GPovo.txt.seg" TSENT="11">
+<RELATION TYPE="Identity" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C47_JB.txt.seg" SSENT="12" TDID="D5_C47_GPovo.txt.seg" TSENT="10">
+<RELATION TYPE="Elaboration" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C47_JB.txt.seg" SSENT="12" TDID="D5_C47_GPovo.txt.seg" TSENT="12">
+<RELATION TYPE="Identity" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C47_JB.txt.seg" SSENT="13" TDID="D5_C47_GPovo.txt.seg" TSENT="13">
+<RELATION TYPE="Identity" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C47_JB.txt.seg" SSENT="14" TDID="D5_C47_GPovo.txt.seg" TSENT="14">
+<RELATION TYPE="Identity" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C47_JB.txt.seg" SSENT="15" TDID="D5_C47_GPovo.txt.seg" TSENT="3">
+<RELATION TYPE="Elaboration" JUDGE="Erick"/>
+</R>
+<R SDID="D5_C47_GPovo.txt.seg" SSENT="5" TDID="D4_C47_JB.txt.seg" TSENT="15">
+<RELATION TYPE="Follow-up" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C47_JB.txt.seg" SSENT="15" TDID="D5_C47_GPovo.txt.seg" TSENT="15">
+<RELATION TYPE="Identity" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C47_JB.txt.seg" SSENT="16" TDID="D5_C47_GPovo.txt.seg" TSENT="16">
+<RELATION TYPE="Identity" JUDGE="Erick"/>
+</R>

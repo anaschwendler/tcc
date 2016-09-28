@@ -1,0 +1,5 @@
+[Terminou a rebelião de presos no Centro de Custódia de Presos de Justiça (CCPJ), em São Luís, no começo da tarde desta quarta-feira (17).]WHAT/WHERE/WHEN
+[O motim começou durante a festa do Dia das Crianças.]WHAT_EXTRA
+[Depois que os presos entregaram o revólver usado para dar início ao motim, a Tropa de Choque da Polícia Militar entrou no presídio e liberou os 30 reféns - sendo 16 crianças.]HOW/WHO_AGENT/WHO_AFFECTED
+[Alguns menores saíram desmaiados e foram conduzidos para o atendimento médico.]WHO_AFFECTED
+[Quatro pessoas teriam ficado feridas.]WHO_AFFECTED

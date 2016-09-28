@@ -1,0 +1,36 @@
+<R SDID="D4_C50_JB.txt.seg" SSENT="3" TDID="D1_C50_Folha.txt.seg" TSENT="1">
+<RELATION TYPE="Follow-up" JUDGE="thiago"/>
+</R>
+<R SDID="D4_C50_JB.txt.seg" SSENT="5" TDID="D1_C50_Folha.txt.seg" TSENT="2">
+<RELATION TYPE="Subsumption" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C50_Folha.txt.seg" SSENT="3" TDID="D4_C50_JB.txt.seg" TSENT="3">
+<RELATION TYPE="Indirect-speech" JUDGE="thiago"/>
+</R>
+<R SDID="D4_C50_JB.txt.seg" SSENT="3" TDID="D1_C50_Folha.txt.seg" TSENT="3">
+<RELATION TYPE="Subsumption" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C50_Folha.txt.seg" SSENT="15" TDID="D4_C50_JB.txt.seg" TSENT="3">
+<RELATION TYPE="Follow-up" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C50_Folha.txt.seg" SSENT="15" TDID="D4_C50_JB.txt.seg" TSENT="11">
+<RELATION TYPE="Overlap" JUDGE="thiago"/>
+</R>
+<R SDID="D4_C50_JB.txt.seg" SSENT="5" TDID="D1_C50_Folha.txt.seg" TSENT="18">
+<RELATION TYPE="Subsumption" JUDGE="thiago"/>
+</R>
+<R SDID="D4_C50_JB.txt.seg" SSENT="6" TDID="D1_C50_Folha.txt.seg" TSENT="19">
+<RELATION TYPE="Subsumption" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C50_Folha.txt.seg" SSENT="21" TDID="D4_C50_JB.txt.seg" TSENT="5">
+<RELATION TYPE="Overlap" JUDGE="thiago"/>
+</R>
+<R SDID="D4_C50_JB.txt.seg" SSENT="6" TDID="D1_C50_Folha.txt.seg" TSENT="21">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C50_Folha.txt.seg" SSENT="22" TDID="D4_C50_JB.txt.seg" TSENT="5">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D4_C50_JB.txt.seg" SSENT="6" TDID="D1_C50_Folha.txt.seg" TSENT="23">
+<RELATION TYPE="Subsumption" JUDGE="thiago"/>
+</R>

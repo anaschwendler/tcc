@@ -1,0 +1,48 @@
+<R SDID="D1_C25_Folha.txt.seg" SSENT="1" TDID="D5_C25_GPovo.txt.seg" TSENT="6">
+<RELATION TYPE="Elaboration" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D5_C25_GPovo.txt.seg" SSENT="9" TDID="D1_C25_Folha.txt.seg" TSENT="1">
+<RELATION TYPE="Elaboration" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D1_C25_Folha.txt.seg" SSENT="7" TDID="D5_C25_GPovo.txt.seg" TSENT="1">
+<RELATION TYPE="Overlap" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D5_C25_GPovo.txt.seg" SSENT="5" TDID="D1_C25_Folha.txt.seg" TSENT="8">
+<RELATION TYPE="Subsumption" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D1_C25_Folha.txt.seg" SSENT="12" TDID="D5_C25_GPovo.txt.seg" TSENT="5">
+<RELATION TYPE="Overlap" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D1_C25_Folha.txt.seg" SSENT="13" TDID="D5_C25_GPovo.txt.seg" TSENT="1">
+<RELATION TYPE="Historical-background" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D1_C25_Folha.txt.seg" SSENT="15" TDID="D5_C25_GPovo.txt.seg" TSENT="10">
+<RELATION TYPE="Overlap" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D1_C25_Folha.txt.seg" SSENT="21" TDID="D5_C25_GPovo.txt.seg" TSENT="13">
+<RELATION TYPE="Contradiction" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D1_C25_Folha.txt.seg" SSENT="22" TDID="D5_C25_GPovo.txt.seg" TSENT="18">
+<RELATION TYPE="Overlap" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D1_C25_Folha.txt.seg" SSENT="23" TDID="D5_C25_GPovo.txt.seg" TSENT="13">
+<RELATION TYPE="Contradiction" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D5_C25_GPovo.txt.seg" SSENT="24" TDID="D1_C25_Folha.txt.seg" TSENT="25">
+<RELATION TYPE="Follow-up" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D5_C25_GPovo.txt.seg" SSENT="19" TDID="D1_C25_Folha.txt.seg" TSENT="26">
+<RELATION TYPE="Subsumption" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D5_C25_GPovo.txt.seg" SSENT="21" TDID="D1_C25_Folha.txt.seg" TSENT="28">
+<RELATION TYPE="Subsumption" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D1_C25_Folha.txt.seg" SSENT="34" TDID="D5_C25_GPovo.txt.seg" TSENT="11">
+<RELATION TYPE="Follow-up" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D1_C25_Folha.txt.seg" SSENT="34" TDID="D5_C25_GPovo.txt.seg" TSENT="19">
+<RELATION TYPE="Follow-up" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D1_C25_Folha.txt.seg" SSENT="34" TDID="D5_C25_GPovo.txt.seg" TSENT="24">
+<RELATION TYPE="Subsumption" JUDGE="Lucia_Vinicius"/>
+</R>

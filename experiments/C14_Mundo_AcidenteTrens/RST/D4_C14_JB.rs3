@@ -1,0 +1,124 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="26" relname="list">Pelo menos 80 pessoas morreram</segment>
+    <segment id="7" parent="26" relname="list"> e mais de 165 ficaram feridas nesta segunda-feira</segment>
+    <segment id="8" parent="26" relname="non-volitional-cause"> após a colisão de dois trens de passageiros no delta do Nilo, ao norte do Cairo,</segment>
+    <segment id="9" parent="27" relname="attribution"> informaram fontes policiais e médicas.</segment>
+    <segment id="2" parent="32" relname="span">
+
+A emissora de TV estatal &quot;Nile News&quot; mostrou as primeiras imagens do acidente,</segment>
+    <segment id="10" parent="29" relname="span"> nas quais era possível ver vários cadáveres</segment>
+    <segment id="11" parent="10" relname="elaboration"> que ainda se encontram no interior ou sob os vagões descarrilados.</segment>
+    <segment id="3" parent="30" relname="list">
+
+No entanto, o ministro da Saúde, Hatem El-Gabaly, insistiu que até o momento foram recuperados apenas 36 cadáveres</segment>
+    <segment id="12" parent="30" relname="list"> e que 133 feridos foram encaminhados a hospitais da região.</segment>
+    <segment id="4" parent="25" relname="span"> Mais de 45 ambulâncias foram enviadas ao local do acidente</segment>
+    <segment id="13" parent="4" relname="purpose"> para socorrer as vítimas</segment>
+    <segment id="6" parent="33" relname="span">
+
+O governador de Qaluibiya, Adli Hussein, </segment>
+    <segment id="14" parent="6" relname="elaboration">que se deslocou junto com outros vários altos funcionários egípcios ao local do acidente,</segment>
+    <segment id="15" parent="38" relname="same-unit"> afirmou que </segment>
+    <segment id="16" parent="37" relname="span">a colisão ocorreu</segment>
+    <segment id="17" parent="36" relname="span"> quando o trem número 808 </segment>
+    <segment id="18" parent="17" relname="elaboration">que circulava em alta velocidade</segment>
+    <segment id="19" parent="34" relname="span"> se chocou com a parte traseira de outro,</segment>
+    <segment id="20" parent="19" relname="elaboration"> que vinha de Qaliub.</segment>
+    <segment id="5" parent="43" relname="span">
+
+A maior tragédia ferroviária da história do Egito ocorreu em fevereiro de 2002,</segment>
+    <segment id="21" parent="41" relname="span"> após o incêndio de um trem</segment>
+    <segment id="22" parent="40" relname="list"> que cobria o trajeto entre Cairo e Luxor,</segment>
+    <segment id="23" parent="40" relname="list"> lotado de passageiros,</segment>
+    <segment id="24" parent="41" relname="elaboration"> e que deixou 376 mortos, segundo números oficiais.</segment>
+<group id="26" type="multinuc" parent="27" relname="span" />
+<group id="27" type="span" parent="28" relname="span" />
+<group id="28" type="span" parent="44" relname="span" />
+<group id="29" type="span" parent="2" relname="elaboration" />
+<group id="30" type="multinuc" parent="31" relname="list" />
+<group id="31" type="multinuc" parent="45" relname="span" />
+<group id="32" type="span" parent="31" relname="list" />
+<group id="33" type="span" parent="38" relname="same-unit" />
+<group id="34" type="span" parent="35" relname="same-unit" />
+<group id="35" type="multinuc" parent="16" relname="circumstance" />
+<group id="36" type="span" parent="35" relname="same-unit" />
+<group id="37" type="span" parent="39" relname="span" />
+<group id="38" type="multinuc" parent="37" relname="attribution" />
+<group id="39" type="span" parent="44" relname="elaboration" />
+<group id="40" type="multinuc" parent="21" relname="elaboration" />
+<group id="41" type="span" parent="42" relname="span" />
+<group id="42" type="span" parent="5" relname="non-volitional-cause" />
+<group id="43" type="span" parent="46" relname="comparison" />
+<group id="25" type="span" parent="31" relname="list" />
+<group id="44" type="span" parent="46" relname="span" />
+<group id="45" type="span" parent="28" relname="elaboration" />
+<group id="46" type="span" parent="47" relname="span" />
+<group id="47" type="span" />
+  </body>
+</rst>

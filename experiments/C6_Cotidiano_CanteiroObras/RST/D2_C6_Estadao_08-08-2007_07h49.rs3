@@ -1,0 +1,182 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="14" relname="attribution">O presidente Luiz Inácio Lula da Silva disse, nesta segunda-feira, 6, que</segment>
+    <segment id="14" parent="54" relname="span"> irá transformar o Brasil em &quot;um verdadeiro canteiro de obra&quot;.</segment>
+    <segment id="2" parent="57" relname="attribution">  Lula disse que, na próxima semana,</segment>
+    <segment id="15" parent="55" relname="span"> quando voltar da viagem</segment>
+    <segment id="16" parent="15" relname="elaboration"> que está fazendo pela América Central,</segment>
+    <segment id="17" parent="56" relname="same-unit"> irá começar a anunciar as obras de infra-estrutura em transporte</segment>
+    <segment id="20" parent="56" relname="elaboration"> como estradas, ferrovias, gasodutos a portos e aeroportos.</segment>
+    <segment id="3" parent="59" relname="span"> &quot;Algumas</segment>
+    <segment id="18" parent="3" relname="parenthetical"> (obras)</segment>
+    <segment id="19" parent="60" relname="same-unit"> já estão em andamento,</segment>
+    <segment id="21" parent="61" relname="list"> outras vão começar a andar agora,</segment>
+    <segment id="22" parent="61" relname="list"> outras ainda precisam de licenciamento&quot;.</segment>
+    <segment id="4" parent="66" relname="attribution"> 
+ 
+Lula anunciou na sexta-feira</segment>
+    <segment id="23" parent="65" relname="span"> R$ 6 bilhões em investimentos do Programa de Aceleração do Crescimento</segment>
+    <segment id="24" parent="23" relname="parenthetical"> (PAC)</segment>
+    <segment id="25" parent="65" relname="purpose"> para urbanização de favelas e saneamento básico.</segment>
+    <segment id="5" parent="26" relname="attribution"> Em seu programa semanal de rádio, Café com o Presidente, Lula disse que</segment>
+    <segment id="26" parent="68" relname="span"> este será o maior investimento em saneamento &quot;da história do País&quot;.</segment>
+    <segment id="6" parent="70" relname="attribution"> 
+
+Para o presidente,</segment>
+    <segment id="27" parent="70" relname="span"> &quot;na cabeça de muitos políticos&quot; saneamento não dá voto,</segment>
+    <segment id="28" parent="27" relname="justify"> porque não dá para colocar nome de parente na obra.</segment>
+    <segment id="7" parent="73" relname="span"> &quot;A saúde preventiva é importante</segment>
+    <segment id="29" parent="72" relname="span"> porque fica mais barato você evitar que a pessoa fique doente</segment>
+    <segment id="30" parent="29" relname="comparison"> do que você cuidar da pessoa depois que ela ficou doente&quot;,</segment>
+    <segment id="31" parent="73" relname="attribution"> disse Lula.</segment>
+    <segment id="8" parent="77" relname="attribution">
+
+Segundo o presidente,</segment>
+    <segment id="32" parent="76" relname="span"> serão investidos R$ 504 bilhões no PAC</segment>
+    <segment id="33" parent="32" relname="parenthetical"> - R$ 106 bilhões em habitação e R$ 40 bilhões em saneamento -</segment>
+    <segment id="34" parent="77" relname="same-unit"> até 2010.</segment>
+    <segment id="35" parent="36" relname="attribution"> Lula disse que</segment>
+    <segment id="36" parent="79" relname="span"> o critério para o investimento nas cidades será técnico, não partidário.</segment>
+    <segment id="9" parent="81" relname="attribution">
+
+Lula disse que</segment>
+    <segment id="37" parent="81" relname="span"> o governo federal chamou governadores e prefeitos de 375 cidades</segment>
+    <segment id="38" parent="37" relname="purpose"> para assinarem um protocolo com as obras de prioridade.</segment>
+    <segment id="10" parent="85" relname="attribution"> Ele explicou que</segment>
+    <segment id="39" parent="85" relname="span"> a prioridade foi para regiões metropolitanas,</segment>
+    <segment id="40" parent="84" relname="same-unit"> porque,</segment>
+    <segment id="41" parent="42" relname="attribution"> segundo ele,</segment>
+    <segment id="42" parent="83" relname="span"> é lá que está o maior problema de degradação de moradia, estrutura familiar, violência, crime e narcotráfico.</segment>
+    <segment id="11" parent="88" relname="circumstance"> 
+
+&quot;Quando nós chegarmos com urbanização de uma favela, o saneamento básico,</segment>
+    <segment id="43" parent="88" relname="list"> junto vai chegar uma escola,</segment>
+    <segment id="44" parent="88" relname="list"> junto vai chegar uma área de lazer,</segment>
+    <segment id="45" parent="88" relname="list"> junto vai chegar um ponto de cultura,</segment>
+    <segment id="46" parent="88" relname="list"> junto vai chegar, sabe, uma melhoria na segurança pública naquele bairro&quot;.</segment>
+    <segment id="12" parent="95" relname="attribution">
+
+Lula disse que</segment>
+    <segment id="47" parent="95" relname="list"> além de melhorar a qualidade de vida dos brasileiros,</segment>
+    <segment id="48" parent="95" relname="list"> as obras vão gerar empregos.</segment>
+    <segment id="13" parent="90" relname="span"> &quot;O nosso desejo, agora, é que essas obras</segment>
+    <segment id="49" parent="13" relname="elaboration"> que foram anunciadas agora,</segment>
+    <segment id="50" parent="92" relname="same-unit"> até fevereiro elas estejam licitadas</segment>
+    <segment id="51" parent="91" relname="sequence"> e estejam gerando os empregos</segment>
+    <segment id="52" parent="91" relname="sequence"> e a melhoria de vida</segment>
+    <segment id="53" parent="91" relname="elaboration"> que tanto nós precisamos para o nosso Brasil&quot;.</segment>
+<group id="54" type="span" parent="62" relname="span" />
+<group id="55" type="span" parent="56" relname="same-unit" />
+<group id="56" type="multinuc" parent="57" relname="span" />
+<group id="57" type="span" parent="58" relname="span" />
+<group id="58" type="span" parent="63" relname="span" />
+<group id="59" type="span" parent="60" relname="same-unit" />
+<group id="60" type="multinuc" parent="61" relname="list" />
+<group id="61" type="multinuc" parent="58" relname="elaboration" />
+<group id="62" type="span" parent="64" relname="span" />
+<group id="63" type="span" parent="62" relname="elaboration" />
+<group id="64" type="span" parent="100" relname="span" />
+<group id="65" type="span" parent="66" relname="span" />
+<group id="66" type="span" parent="67" relname="span" />
+<group id="67" type="span" parent="69" relname="span" />
+<group id="68" type="span" parent="67" relname="elaboration" />
+<group id="69" type="span" parent="99" relname="span" />
+<group id="70" type="span" parent="71" relname="span" />
+<group id="71" type="span" parent="75" relname="list" />
+<group id="72" type="span" parent="7" relname="justify" />
+<group id="73" type="span" parent="74" relname="span" />
+<group id="74" type="span" parent="75" relname="list" />
+<group id="75" type="multinuc" parent="69" relname="elaboration" />
+<group id="76" type="span" parent="77" relname="same-unit" />
+<group id="77" type="multinuc" parent="78" relname="span" />
+<group id="78" type="span" parent="80" relname="span" />
+<group id="79" type="span" parent="78" relname="elaboration" />
+<group id="80" type="span" parent="98" relname="list" />
+<group id="81" type="span" parent="82" relname="span" />
+<group id="82" type="span" parent="87" relname="span" />
+<group id="83" type="span" parent="84" relname="same-unit" />
+<group id="84" type="multinuc" parent="39" relname="justify" />
+<group id="85" type="span" parent="86" relname="span" />
+<group id="86" type="span" parent="82" relname="elaboration" />
+<group id="87" type="span" parent="98" relname="list" />
+<group id="88" type="multinuc" parent="89" relname="span" />
+<group id="89" type="span" parent="98" relname="list" />
+<group id="90" type="span" parent="92" relname="same-unit" />
+<group id="91" type="multinuc" parent="93" relname="span" />
+<group id="92" type="multinuc" parent="94" relname="sequence" />
+<group id="93" type="span" parent="94" relname="sequence" />
+<group id="94" type="multinuc" parent="96" relname="elaboration" />
+<group id="95" type="multinuc" parent="96" relname="span" />
+<group id="96" type="span" parent="97" relname="span" />
+<group id="97" type="span" parent="98" relname="list" />
+<group id="98" type="multinuc" parent="100" relname="elaboration" />
+<group id="99" type="span" parent="64" relname="elaboration" />
+<group id="100" type="span" parent="101" relname="span" />
+<group id="101" type="span" />
+  </body>
+</rst>

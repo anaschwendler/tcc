@@ -1,0 +1,48 @@
+<R SDID="D1_C42_Folha.txt.seg" SSENT="1" TDID="D2_C42_Estadao.txt.seg" TSENT="1">
+<RELATION TYPE="Overlap" JUDGE="todos"/>
+</R>
+<R SDID="D2_C42_Estadao.txt.seg" SSENT="5" TDID="D1_C42_Folha.txt.seg" TSENT="1">
+<RELATION TYPE="Overlap" JUDGE="todos"/>
+</R>
+<R SDID="D2_C42_Estadao.txt.seg" SSENT="8" TDID="D1_C42_Folha.txt.seg" TSENT="1">
+<RELATION TYPE="Follow-up" JUDGE="todos"/>
+</R>
+<R SDID="D1_C42_Folha.txt.seg" SSENT="1" TDID="D2_C42_Estadao.txt.seg" TSENT="13">
+<RELATION TYPE="Elaboration" JUDGE="todos"/>
+</R>
+<R SDID="D2_C42_Estadao.txt.seg" SSENT="22" TDID="D1_C42_Folha.txt.seg" TSENT="1">
+<RELATION TYPE="Follow-up" JUDGE="todos"/>
+</R>
+<R SDID="D1_C42_Folha.txt.seg" SSENT="2" TDID="D2_C42_Estadao.txt.seg" TSENT="2">
+<RELATION TYPE="Overlap" JUDGE="todos"/>
+</R>
+<R SDID="D1_C42_Folha.txt.seg" SSENT="7" TDID="D2_C42_Estadao.txt.seg" TSENT="3">
+<RELATION TYPE="Subsumption" JUDGE="todos"/>
+</R>
+<R SDID="D1_C42_Folha.txt.seg" SSENT="7" TDID="D2_C42_Estadao.txt.seg" TSENT="4">
+<RELATION TYPE="Subsumption" JUDGE="todos"/>
+</R>
+<R SDID="D1_C42_Folha.txt.seg" SSENT="7" TDID="D2_C42_Estadao.txt.seg" TSENT="20">
+<RELATION TYPE="Overlap" JUDGE="todos"/>
+</R>
+<R SDID="D1_C42_Folha.txt.seg" SSENT="9" TDID="D2_C42_Estadao.txt.seg" TSENT="7">
+<RELATION TYPE="Overlap" JUDGE="todos"/>
+</R>
+<R SDID="D2_C42_Estadao.txt.seg" SSENT="7" TDID="D1_C42_Folha.txt.seg" TSENT="9">
+<RELATION TYPE="Attribution" JUDGE="todos"/>
+</R>
+<R SDID="D1_C42_Folha.txt.seg" SSENT="9" TDID="D2_C42_Estadao.txt.seg" TSENT="9">
+<RELATION TYPE="Overlap" JUDGE="todos"/>
+</R>
+<R SDID="D2_C42_Estadao.txt.seg" SSENT="9" TDID="D1_C42_Folha.txt.seg" TSENT="9">
+<RELATION TYPE="Attribution" JUDGE="todos"/>
+</R>
+<R SDID="D1_C42_Folha.txt.seg" SSENT="12" TDID="D2_C42_Estadao.txt.seg" TSENT="12">
+<RELATION TYPE="Overlap" JUDGE="todos"/>
+</R>
+<R SDID="D1_C42_Folha.txt.seg" SSENT="13" TDID="D2_C42_Estadao.txt.seg" TSENT="9">
+<RELATION TYPE="Overlap" JUDGE="todos"/>
+</R>
+<R SDID="D2_C42_Estadao.txt.seg" SSENT="9" TDID="D1_C42_Folha.txt.seg" TSENT="13">
+<RELATION TYPE="Attribution" JUDGE="todos"/>
+</R>

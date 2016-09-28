@@ -1,0 +1,42 @@
+<R SDID="D2_C32_Estadao.txt.seg" SSENT="1" TDID="D4_C32_GPovo.txt.seg" TSENT="1">
+<RELATION TYPE="Overlap" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D2_C32_Estadao.txt.seg" SSENT="1" TDID="D4_C32_GPovo.txt.seg" TSENT="2">
+<RELATION TYPE="Overlap" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D2_C32_Estadao.txt.seg" SSENT="2" TDID="D4_C32_GPovo.txt.seg" TSENT="2">
+<RELATION TYPE="Elaboration" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D2_C32_Estadao.txt.seg" SSENT="2" TDID="D4_C32_GPovo.txt.seg" TSENT="19">
+<RELATION TYPE="Overlap" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D2_C32_Estadao.txt.seg" SSENT="2" TDID="D4_C32_GPovo.txt.seg" TSENT="20">
+<RELATION TYPE="Overlap" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D2_C32_Estadao.txt.seg" SSENT="6" TDID="D4_C32_GPovo.txt.seg" TSENT="4">
+<RELATION TYPE="Overlap" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D4_C32_GPovo.txt.seg" SSENT="9" TDID="D2_C32_Estadao.txt.seg" TSENT="6">
+<RELATION TYPE="Elaboration" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D4_C32_GPovo.txt.seg" SSENT="29" TDID="D2_C32_Estadao.txt.seg" TSENT="6">
+<RELATION TYPE="Historical-background" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D2_C32_Estadao.txt.seg" SSENT="7" TDID="D4_C32_GPovo.txt.seg" TSENT="2">
+<RELATION TYPE="Overlap" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D2_C32_Estadao.txt.seg" SSENT="9" TDID="D4_C32_GPovo.txt.seg" TSENT="19">
+<RELATION TYPE="Overlap" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D2_C32_Estadao.txt.seg" SSENT="11" TDID="D4_C32_GPovo.txt.seg" TSENT="3">
+<RELATION TYPE="Contradiction" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D2_C32_Estadao.txt.seg" SSENT="16" TDID="D4_C32_GPovo.txt.seg" TSENT="4">
+<RELATION TYPE="Historical-background" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D4_C32_GPovo.txt.seg" SSENT="9" TDID="D2_C32_Estadao.txt.seg" TSENT="16">
+<RELATION TYPE="Elaboration" JUDGE="Lucia_Vinicius"/>
+</R>
+<R SDID="D4_C32_GPovo.txt.seg" SSENT="29" TDID="D2_C32_Estadao.txt.seg" TSENT="16">
+<RELATION TYPE="Subsumption" JUDGE="Lucia_Vinicius"/>
+</R>

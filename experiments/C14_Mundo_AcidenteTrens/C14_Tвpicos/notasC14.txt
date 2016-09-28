@@ -1,0 +1,34 @@
+*formação dos subtópicos do cluster 14
+SUBTOPICO 1: D2T1, D3T1, D4T1
+SUBTOPICO 2: D2T2, D3T2
+SUBTOPICO 3: D2T3, D3T3, D4T3
+
+documento_numeroDeSentencas_quantidade de palavras
+SUBTOPICO 1: D2T1_6_145, D3T1_5_123, D4T1_5_154 = 16 sentenças ; 284 palavras
+SUBTOPICO 2: D2T2_2_74, D3T2_2_61 = 4 sentenças ; 135 palavras
+SUBTOPICO 3: D2T3_1_39, D3T3_3_101, D4T3_1_38 = 5 sentenças ; 178 palavras
+
+Cluster tem 597 palavras
+SUBTOPICO 1 = 47.6% do cluster  //colisão
+SUBTOPICO 2 = 22.6%  //como aconteceu o acidente
+SUBTOPICO 3 = 29.8%  //historico de tragedias
+
+Sumário humano: 5 sentenças ; 97 palavras
+S1: 23 palavras
+S2: 17
+S3: 14
+S4: 24
+S5: 19
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico  //A barra | indica diferente subtopico
+S1: D2T1, D3T1, D4T1 - SUBTOPICO 1
+S2: D2T1, D3T1, D4T1 | D3T2 - SUBTOPICO 1 [9 palavras] e SUBTOPICO 2 [8]
+S3: D2T2, D3T2 - SUBTOPICO 2
+S4: D2T2, D3T2 | D4T1 - SUBTOPICO 1 [12] e SUBTOPICO 2 [12]
+S5: D2T1 | D2T3, D3T3, D4T3 - SUBTOPICO 1 [10] e SUBTOPICO 3 [9]
+
+*% dos subtopicos no sumário
+Sentenças 1, 2, 4 e 5 = 54 palavras - 56% Subtopico 1
+Sentenças 2, 3 e 4 = 34 palavras - 35% Subtopico 2
+sentença 5 = 9 palavras - 9% Subtopico 3

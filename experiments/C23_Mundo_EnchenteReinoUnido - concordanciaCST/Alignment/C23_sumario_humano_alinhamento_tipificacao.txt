@@ -1,0 +1,30 @@
+<align SENT="1">
+	<DOC="D1_C23_Folha.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="renata/renata-veronica"/>
+	<DOC="D2_C23_Estadao.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="renata/renata-veronica"/>
+	<DOC="D2_C23_Estadao.txt.seg" SENT="6" TYPE="parcial/neutro-inferencia" JUDGE="renata/renata-veronica"/>
+	<DOC="D2_C23_Estadao.txt.seg" SENT="7" TYPE="parcial/neutro-inferencia" JUDGE="renata/renata-veronica"/>
+	<DOC="D2_C23_Estadao.txt.seg" SENT="9" TYPE="parcial/neutro" JUDGE="renata/renata-veronica"/>
+</align>
+
+<align SENT="2">
+	<DOC="D1_C23_Folha.txt.seg" SENT="3" TYPE="parcial/neutro-generalizacao" JUDGE="renata/renata-veronica"/>
+</align>
+
+<align SENT="3">
+	<DOC="D1_C23_Folha.txt.seg" SENT="11" TYPE="parcial/neutro-generalizacao" JUDGE="renata/renata-veronica"/>
+	<DOC="D2_C23_Estadao.txt.seg" SENT="2" TYPE="parcial/neutro" JUDGE="renata/renata-veronica"/>
+	<DOC="D2_C23_Estadao.txt.seg" SENT="5" TYPE="parcial/neutro" JUDGE="renata/renata-veronica"/>
+</align>
+
+<align SENT="4">
+	<DOC="D1_C23_Folha.txt.seg" SENT="8" TYPE="igual/neutro" JUDGE="renata/renata-veronica"/>
+</align>
+
+<align SENT="5">
+	<DOC="D2_C23_Estadao.txt.seg" SENT="10" TYPE="igual/neutro" JUDGE="renata/renata-veronica"/>
+	<DOC="D2_C23_Estadao.txt.seg" SENT="11" TYPE="diferente/neutro" JUDGE="renata/renata-veronica"/>
+</align>
+
+<align SENT="6">
+	<DOC="D2_C23_Estadao.txt.seg" SENT="14" TYPE="parcial/neutro" JUDGE="renata/renata-veronica"/>
+</align>

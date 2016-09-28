@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xml>
+<corpus>
+
+	<body>
+<s id="s1" ref="1" source="Running text" forest="1" text="10% dos acusados devem renunciar;">
+	<graph root="s1_500">
+		<terminals>
+			<t id="s1_1" word="10" lemma="10" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s1_2" word="%" lemma="%" pos="n" morph="M P" sem="--" extra="--"/>
+			<t id="s1_3" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s1_4" word="os" lemma="o" pos="art" morph="M P" sem="--" extra=" -sam"/>
+			<t id="s1_5" word="acusados" lemma="acusado" pos="n" morph="M P" sem="H" extra="--"/>
+			<t id="s1_6" word="devem" lemma="dever" pos="v-fin" morph="PR 3P IND VFIN" sem="--" extra="fmc aux"/>
+			<t id="s1_7" word="renunciar" lemma="renunciar" pos="v-inf" morph="--" sem="--" extra="mv"/>
+			<t id="s1_8" word=";" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s1_500" cat="s">
+				<edge label="STA" idref="s1_501"/>
+			</nt>
+			<nt id="s1_501" cat="fcl">
+				<edge label="S" idref="s1_502"/>
+				<edge label="P" idref="s1_505"/>
+				<edge label="PU" idref="s1_8"/>
+			</nt>
+			<nt id="s1_502" cat="np">
+				<edge label="DN" idref="s1_1"/>
+				<edge label="H" idref="s1_2"/>
+				<edge label="DN" idref="s1_503"/>
+			</nt>
+			<nt id="s1_503" cat="pp">
+				<edge label="H" idref="s1_3"/>
+				<edge label="DP" idref="s1_504"/>
+			</nt>
+			<nt id="s1_504" cat="np">
+				<edge label="DN" idref="s1_4"/>
+				<edge label="H" idref="s1_5"/>
+			</nt>
+			<nt id="s1_505" cat="vp">
+				<edge label="Vaux" idref="s1_6"/>
+				<edge label="Vm" idref="s1_7"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s2" ref="2" source="Running text" forest="1" text="prazo termina hoje">
+	<graph root="s2_500">
+		<terminals>
+			<t id="s2_1" word="prazo" lemma="prazo" pos="n" morph="M S" sem="per temp" extra="--"/>
+			<t id="s2_2" word="termina" lemma="terminar" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s2_3" word="hoje" lemma="hoje" pos="adv" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s2_500" cat="s">
+				<edge label="STA" idref="s2_501"/>
+			</nt>
+			<nt id="s2_501" cat="fcl">
+				<edge label="S" idref="s2_1"/>
+				<edge label="P" idref="s2_2"/>
+				<edge label="fA" idref="s2_3"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s3" ref="3" source="Running text" forest="1" text="Desistência do mandato pode ser feita até as 20 horas;">
+	<graph root="s3_500">
+		<terminals>
+			<t id="s3_1" word="Desistência" lemma="desistência" pos="n" morph="F S" sem="am" extra="--"/>
+			<t id="s3_2" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s3_3" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s3_4" word="mandato" lemma="mandato" pos="n" morph="M S" sem="f-right" extra="--"/>
+			<t id="s3_5" word="pode" lemma="poder" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="fmc aux"/>
+			<t id="s3_6" word="ser" lemma="ser" pos="v-inf" morph="--" sem="--" extra="aux"/>
+			<t id="s3_7" word="feita" lemma="fazer" pos="v-pcp" morph="F S" sem="--" extra="mv"/>
+			<t id="s3_8" word="até" lemma="até" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s3_9" word="as" lemma="o" pos="art" morph="F P" sem="--" extra="--"/>
+			<t id="s3_10" word="20" lemma="20" pos="num" morph="F P" sem="--" extra="card"/>
+			<t id="s3_11" word="horas" lemma="hora" pos="n" morph="F P" sem="temp dur unit" extra="--"/>
+			<t id="s3_12" word=";" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s3_500" cat="s">
+				<edge label="STA" idref="s3_501"/>
+			</nt>
+			<nt id="s3_501" cat="fcl">
+				<edge label="S" idref="s3_502"/>
+				<edge label="P" idref="s3_505"/>
+				<edge label="fA" idref="s3_506"/>
+				<edge label="PU" idref="s3_12"/>
+			</nt>
+			<nt id="s3_502" cat="np">
+				<edge label="H" idref="s3_1"/>
+				<edge label="DN" idref="s3_503"/>
+			</nt>
+			<nt id="s3_503" cat="pp">
+				<edge label="H" idref="s3_2"/>
+				<edge label="DP" idref="s3_504"/>
+			</nt>
+			<nt id="s3_504" cat="np">
+				<edge label="DN" idref="s3_3"/>
+				<edge label="H" idref="s3_4"/>
+			</nt>
+			<nt id="s3_505" cat="vp">
+				<edge label="Vaux" idref="s3_5"/>
+				<edge label="Vaux" idref="s3_6"/>
+				<edge label="Vm" idref="s3_7"/>
+			</nt>
+			<nt id="s3_506" cat="pp">
+				<edge label="H" idref="s3_8"/>
+				<edge label="DP" idref="s3_507"/>
+			</nt>
+			<nt id="s3_507" cat="np">
+				<edge label="DN" idref="s3_9"/>
+				<edge label="DN" idref="s3_10"/>
+				<edge label="H" idref="s3_11"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s4" ref="4" source="Running text" forest="1" text="processo contra os deputados será instaurado amanhã.">
+	<graph root="s4_500">
+		<terminals>
+			<t id="s4_1" word="processo" lemma="processo" pos="n" morph="M S" sem="activity process occ" extra="--"/>
+			<t id="s4_2" word="contra" lemma="contra" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s4_3" word="os" lemma="o" pos="art" morph="M P" sem="--" extra="--"/>
+			<t id="s4_4" word="deputados" lemma="deputado" pos="n" morph="M P" sem="Hprof" extra="--"/>
+			<t id="s4_5" word="será" lemma="ser" pos="v-fin" morph="FUT 3S IND VFIN" sem="--" extra="fmc aux"/>
+			<t id="s4_6" word="instaurado" lemma="instaurar" pos="v-pcp" morph="M S" sem="--" extra="mv"/>
+			<t id="s4_7" word="amanhã" lemma="amanhã" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s4_8" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s4_500" cat="s">
+				<edge label="STA" idref="s4_501"/>
+			</nt>
+			<nt id="s4_501" cat="fcl">
+				<edge label="S" idref="s4_502"/>
+				<edge label="P" idref="s4_505"/>
+				<edge label="fA" idref="s4_7"/>
+				<edge label="PU" idref="s4_8"/>
+			</nt>
+			<nt id="s4_502" cat="np">
+				<edge label="H" idref="s4_1"/>
+				<edge label="DN" idref="s4_503"/>
+			</nt>
+			<nt id="s4_503" cat="pp">
+				<edge label="H" idref="s4_2"/>
+				<edge label="DP" idref="s4_504"/>
+			</nt>
+			<nt id="s4_504" cat="np">
+				<edge label="DN" idref="s4_3"/>
+				<edge label="H" idref="s4_4"/>
+			</nt>
+			<nt id="s4_505" cat="vp">
+				<edge label="Vaux" idref="s4_5"/>
+				<edge label="Vm" idref="s4_6"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+	</body>
+</corpus>
+</xml>

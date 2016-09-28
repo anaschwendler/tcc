@@ -1,0 +1,114 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="6" relname="span">A seleção brasileira de vôlei voltou a fazer bonito, desta vez na final da Liga Mundial,</segment>
+    <segment id="2" parent="1" relname="elaboration"> disputada contra a Rússia neste domingo no ginásio de Spodekna, em Katowice, na Polônia.</segment>
+    <segment id="3" parent="6" relname="elaboration">
+
+O placar da partida foi de 3 sets a 1, com parciais de 18/25, 25/23, 28/26 e 25/22.</segment>
+    <segment id="4" parent="23" relname="span"> 
+
+Com a vitória, a seleção de Bernardinho conquistou seu quinto título consecutivo e o sétimo no total, na Liga Mundial.</segment>
+    <segment id="5" parent="17" relname="circumstance"> 
+
+Em 2008, quando a Liga será disputada em Roma,</segment>
+    <segment id="9" parent="10" relname="volitional-result"> a seleção brasileira tem a chance de, na casa do adversário, igualar a Itália em número de títulos da Liga,</segment>
+    <segment id="10" parent="17" relname="span"> conquistando o octacampeonato. </segment>
+    <segment id="11" parent="20" relname="span">
+
+De 2001 para cá, a seleção brasileira chegou a todas as finais,</segment>
+    <segment id="12" parent="19" relname="span"> só perdendo em 2002,</segment>
+    <segment id="13" parent="12" relname="elaboration"> justamente para a Rússia.</segment>
+    <segment id="14" parent="15" relname="justify"> 
+
+E agora com mais esse título na bagagem,</segment>
+    <segment id="15" parent="22" relname="span"> a seleção chega ainda com mais moral para disputar o ouro nos Jogos Pan-Americanos.</segment>
+    <segment id="16" parent="25" relname="volitional-cause"> 
+
+Os Estados Unidos, por sua vez, derrotaram a Polônia por 3 sets a 1 </segment>
+    <segment id="25" parent="28" relname="span">e garantiram a terceira posição da Liga Mundial. </segment>
+    <segment id="26" parent="28" relname="elaboration">A equipe americana venceu com parciais de 25/19, 25/21, 22/25 e 25/19. </segment>
+    <segment id="27" parent="29" relname="elaboration">
+
+A equipe principal de vôlei dos EUA não alcança um pódio de competições de âmbito mundial desde 1992.</segment>
+<group id="6" type="span" parent="7" relname="span" />
+<group id="7" type="span" parent="8" relname="span" />
+<group id="8" type="span" parent="24" relname="span" />
+<group id="17" type="span" parent="18" relname="span" />
+<group id="18" type="span" parent="21" relname="list" />
+<group id="19" type="span" parent="11" relname="elaboration" />
+<group id="20" type="span" parent="21" relname="list" />
+<group id="21" type="multinuc" parent="4" relname="elaboration" />
+<group id="22" type="span" parent="8" relname="volitional-result" />
+<group id="23" type="span" parent="7" relname="volitional-result" />
+<group id="24" type="span" parent="31" relname="list" />
+<group id="28" type="span" parent="29" relname="span" />
+<group id="29" type="span" parent="30" relname="span" />
+<group id="30" type="span" parent="31" relname="list" />
+<group id="31" type="multinuc" />
+  </body>
+</rst>

@@ -1,0 +1,21 @@
+<ET ID="00" TIPO="TEMPO_CALEND" SUBTIPO="DATA" VAL_NORM="+20070910T1336E--LM-">
+BRASÍLIA - O Conselho de Ética do Senado vai decidir 
+<ET ID="01" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="POSTERIOR" VAL_DELTA="A0M0S1D0H0M0S0">
+na próxima semana
+</ET>
+sobre o pedido do líder do P-SOL, José Nery (PA), para juntar em uma só as representações apresentadas contra o presidente da Casa, Renan Calheiros (PMDB-AL).
+
+O presidente do conselho, Leomar Quintanilha (PMDB-TO), disse que é contra a união das representações, mas que vai colocar a proposta em votação. 
+
+- Ainda que o objeto seja o mesmo - a perda de mandato - cada representação tem uma natureza. Sou contra porque a junção pode confundir os assuntos - afirmou.
+
+Para o senador José Nery, a união das representações "demonstra mais robustez e elementos de convencimento para mostrar, na nossa avaliação, que houve quebra de decoro parlanmentar ". Ele disse que a exemplo do que ocorreu com a primeira representação, o ideal é que seja criada uma comissão de três relatores para analisar os outros processos em conjunto.
+
+<ET ID="02" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="POSTERIOR" VAL_DELTA="A0M0S0D3H0M0S0">
+Na quinta-feira
+</ET>
+, a Mesa Diretora do Senado se reúne 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="HORA" VAL_NORM="+-------T1400E--LM-">
+às 14 horas
+</ET>
+para decidir se aceita a quarta representação contra o presidente da Casa. A representação pede a investigação de denúncia de que Renan coordenaria um esquema para arrecadar recursos junto a ministérios comandados pelo PMDB. 

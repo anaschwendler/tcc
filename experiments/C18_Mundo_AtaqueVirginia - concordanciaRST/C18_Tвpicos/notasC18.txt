@@ -1,0 +1,44 @@
+*formação dos subtópicos do cluster 18
+SUBTOPICO 1: D1T1_11_189, D2T1_11_208, D3T1_7_127 = 29 sentenças ; 524 palavras
+SUBTOPICO 2: D1T2_7_119, D2T2_9_138, D3T2_3_41 = 19 sentenças ; 298 palavras
+SUBTOPICO 3: D1T3_5_126, D2T3_8_190 = 13 sentenças ; 316 palavras
+SUBTOPICO 4: D2T4_6_133 = 6 sentenças ; 133 palavras
+SUBTOPICO 5: D2T5_2_27 = 2 sentenças ; 27 palavras
+
+Cluster tem 1298 palavras
+SUBTOPICO 1: 40.3% //atentado, ataque, como foi, vitimas 
+SUBTOPICO 2: 23%   //consequencias, providencias, medidas
+SUBTOPICO 3: 24.3% //historico de ataque
+SUBTOPICO 4: 10.2 //autoridades
+SUBTOPICO 5: 2.0 //atirador
+
+Sumário humano: 9 sentenças ;  177 palavras
+S1: 35 palavras
+S2: 6
+S3: 18
+S4: 18
+S5: 30
+S6: 14
+S7: 19
+S8: 12
+S9: 25
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico  //A barra | indica diferente subtopico
+S1: D1T1, D2T1, D3T1 - SUBTOPICO 1
+S2: D1T1, D2T1 - SUBTOPICO 1
+S3: D1T1, D2T1, D3T1 - SUBTOPICO 1
+S4: D1T1, D3T1 | D2T5 - SUBTOPICO 1 [9 palavras] e SUBTOPICO 5 [9 palavras]												
+S5: D1T1, D2T1, D3T1 - SUBTOPICO 1
+S6: D1T1, D2T1, D3T1 - SUBTOPICO 1
+S7: D1T2, D2T2, D3T2 - SUBTOPICO 2
+S8: D1T2, D3T2 - SUBTOPICO 2
+S9: D2T1, D3T1 | D2T4 - SUBTOPICO 1 [13 palavras] e SUBTOPICO 2 [12 palavras]
+
+*% dos subtopicos no sumário
+Sentenças 1,2,3,4,5,6 e 9 - Subtopico 1 - 125 palavras - 70.6%
+Sentenças 7,8 e 9 - Subtopico 2 - 43 palavras - 5.1%
+sentença 4 - Subtopico 5 - 9 palavras - 24.3%
+
+* nao apareceu subtopicos 3 e 4
+

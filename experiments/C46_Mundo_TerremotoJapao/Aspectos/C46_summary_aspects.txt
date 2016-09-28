@@ -1,0 +1,4 @@
+[Um terremoto de 6,8 graus na escala Ritcher atingiu o Japão nesta segunda-feira matando pelo menos sete pessoas e deixando mais de 600 feridos, além de destruir diversos edifícios.]WHAT/WHERE/WHEN/WHO_AFFECTED/CONSEQUENCE
+[Duas mulheres de 80 anos morreram no desmoronamento de suas casas.]WHO_AFFECTED_EXTRA/WHAT_EXTRA/WHY_EXTRA
+[A maior usina nuclear do mundo teve incêndio em um de seus transformadores, mas o fogo foi controlado e não houve vazamento de radiação.]CONSEQUENCE/COUNTERMEASURES
+[O terremoto foi seguido de outro tremor de 4,2 graus.]WHAT_EXTRA [A agência meteorológica do Japão chegou e emitir alerta de Tsunami, mas o cancelou uma hora após.]WHO_AGENT_EXTRA/COUNTERMEASURES

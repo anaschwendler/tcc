@@ -1,0 +1,2764 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xml>
+<corpus>
+
+	<body>
+<s id="s1" ref="1" source="Running text" forest="1" text="A Receita Federal intensificou a fiscalização e o resultado foi um aumento do número de contribuintes que caíram na malha fina.">
+	<graph root="s1_500">
+		<terminals>
+			<t id="s1_1" word="A" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s1_2" word="Receita_Federal" lemma="Receita_Federal" pos="prop" morph="M S" sem="--" extra="org"/>
+			<t id="s1_3" word="intensificou" lemma="intensificar" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="cjt-head cjt-head-STA fmc mv"/>
+			<t id="s1_4" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s1_5" word="fiscalização" lemma="fiscalização" pos="n" morph="F S" sem="act" extra="--"/>
+			<t id="s1_6" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-fin co-fmc co-fin"/>
+			<t id="s1_7" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s1_8" word="resultado" lemma="resultado" pos="n" morph="M S" sem="ac" extra="--"/>
+			<t id="s1_9" word="foi" lemma="ser" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="cjt-STA fmc mv"/>
+			<t id="s1_10" word="um" lemma="um" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s1_11" word="aumento" lemma="aumento" pos="n" morph="M S" sem="act" extra="--"/>
+			<t id="s1_12" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s1_13" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s1_14" word="número" lemma="número" pos="n" morph="M S" sem="sem ac-sign ac ac-cat" extra="--"/>
+			<t id="s1_15" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_16" word="contribuintes" lemma="contribuinte" pos="n" morph="M/F P" sem="H" extra="--"/>
+			<t id="s1_17" word="que" lemma="que" pos="spec" morph="M S" sem="--" extra="clb rel"/>
+			<t id="s1_18" word="caíram" lemma="cair" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="mv np-close"/>
+			<t id="s1_19" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s1_20" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s1_21" word="malha" lemma="malha" pos="n" morph="F S" sem="tool cloH mat-cloth ac activity" extra="--"/>
+			<t id="s1_22" word="fina" lemma="fino" pos="adj" morph="F S" sem="--" extra="np-close"/>
+			<t id="s1_23" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s1_500" cat="s">
+				<edge label="STA" idref="s1_501"/>
+			</nt>
+			<nt id="s1_501" cat="par">
+				<edge label="CJT" idref="s1_502"/>
+				<edge label="CO" idref="s1_6"/>
+				<edge label="CJT" idref="s1_505"/>
+				<edge label="PU" idref="s1_23"/>
+			</nt>
+			<nt id="s1_502" cat="fcl">
+				<edge label="S" idref="s1_503"/>
+				<edge label="P" idref="s1_3"/>
+				<edge label="Od" idref="s1_504"/>
+			</nt>
+			<nt id="s1_503" cat="np">
+				<edge label="DN" idref="s1_1"/>
+				<edge label="H" idref="s1_2"/>
+			</nt>
+			<nt id="s1_504" cat="np">
+				<edge label="DN" idref="s1_4"/>
+				<edge label="H" idref="s1_5"/>
+			</nt>
+			<nt id="s1_505" cat="fcl">
+				<edge label="S" idref="s1_506"/>
+				<edge label="P" idref="s1_9"/>
+				<edge label="Cs" idref="s1_507"/>
+			</nt>
+			<nt id="s1_506" cat="np">
+				<edge label="DN" idref="s1_7"/>
+				<edge label="H" idref="s1_8"/>
+			</nt>
+			<nt id="s1_507" cat="np">
+				<edge label="DN" idref="s1_10"/>
+				<edge label="H" idref="s1_11"/>
+				<edge label="DN" idref="s1_508"/>
+			</nt>
+			<nt id="s1_508" cat="pp">
+				<edge label="H" idref="s1_12"/>
+				<edge label="DP" idref="s1_509"/>
+			</nt>
+			<nt id="s1_509" cat="np">
+				<edge label="DN" idref="s1_13"/>
+				<edge label="H" idref="s1_14"/>
+				<edge label="DN" idref="s1_510"/>
+			</nt>
+			<nt id="s1_510" cat="pp">
+				<edge label="H" idref="s1_15"/>
+				<edge label="DP" idref="s1_511"/>
+			</nt>
+			<nt id="s1_511" cat="np">
+				<edge label="H" idref="s1_16"/>
+				<edge label="DN" idref="s1_512"/>
+			</nt>
+			<nt id="s1_512" cat="fcl">
+				<edge label="S" idref="s1_17"/>
+				<edge label="P" idref="s1_18"/>
+				<edge label="Op" idref="s1_513"/>
+			</nt>
+			<nt id="s1_513" cat="pp">
+				<edge label="H" idref="s1_19"/>
+				<edge label="DP" idref="s1_514"/>
+			</nt>
+			<nt id="s1_514" cat="np">
+				<edge label="DN" idref="s1_20"/>
+				<edge label="H" idref="s1_21"/>
+				<edge label="DN" idref="s1_22"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s2" ref="2" source="Running text" forest="1" text="Balanço da fiscalização, divulgado nesta segunda-feira por a Receita mostra que as autuações cresceram 316,5% nos sete primeiros meses deste ano e chegaram a R 1,339 bilhão.">
+	<graph root="s2_500">
+		<terminals>
+			<t id="s2_1" word="Balanço" lemma="balanço" pos="n" morph="M S" sem="sem-c state" extra="--"/>
+			<t id="s2_2" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s2_3" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s2_4" word="fiscalização" lemma="fiscalização" pos="n" morph="F S" sem="act" extra="--"/>
+			<t id="s2_5" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s2_6" word="divulgado" lemma="divulgar" pos="v-pcp" morph="M S" sem="--" extra="mv"/>
+			<t id="s2_7" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s2_8" word="esta" lemma="este" pos="pron-dem" morph="DET F S" sem="--" extra="dem -sam"/>
+			<t id="s2_9" word="segunda-feira" lemma="segunda-feira" pos="n" morph="F S" sem="temp" extra="--"/>
+			<t id="s2_10" word="por" lemma="por" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s2_11" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s2_12" word="Receita" lemma="receita" pos="n" morph="F S" sem="mon sem-r" extra="prop"/>
+			<t id="s2_13" word="mostra" lemma="mostrar" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="predco predco fmc mv"/>
+			<t id="s2_14" word="que" lemma="que" pos="conj-s" morph="--" sem="--" extra="clb"/>
+			<t id="s2_15" word="as" lemma="o" pos="art" morph="F P" sem="--" extra="--"/>
+			<t id="s2_16" word="autuações" lemma="autuação" pos="n" morph="F P" sem="act" extra="--"/>
+			<t id="s2_17" word="cresceram" lemma="crescer" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="mv"/>
+			<t id="s2_18" word="316,5" lemma="316,5" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s2_19" word="%" lemma="%" pos="n" morph="M P" sem="--" extra="--"/>
+			<t id="s2_20" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s2_21" word="os" lemma="o" pos="art" morph="M P" sem="--" extra=" -sam"/>
+			<t id="s2_22" word="sete" lemma="sete" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s2_23" word="primeiros" lemma="primeiro" pos="adj" morph="M P" sem="--" extra="NUM-ord"/>
+			<t id="s2_24" word="meses" lemma="mês" pos="n" morph="M P" sem="per dur unit" extra="--"/>
+			<t id="s2_25" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s2_26" word="este" lemma="este" pos="pron-dem" morph="DET M S" sem="--" extra="dem -sam"/>
+			<t id="s2_27" word="ano" lemma="ano" pos="n" morph="M S" sem="per temp dur unit" extra="--"/>
+			<t id="s2_28" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-fin co-fmc co-fin"/>
+			<t id="s2_29" word="chegaram" lemma="chegar" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="nosubj cjt-STA nosubj cjt-STA fmc mv"/>
+			<t id="s2_30" word="a" lemma="a" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s2_31" word="R$" lemma="r$" pos="n" morph="M S" sem="cur unit" extra="prop"/>
+			<t id="s2_32" word="1,339" lemma="1,339" pos="num" morph="M/F P" sem="--" extra="card np-close"/>
+			<t id="s2_33" word="bilhão" lemma="bilhão" pos="n" morph="M S" sem="amount" extra="--"/>
+			<t id="s2_34" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s2_500" cat="s">
+				<edge label="STA" idref="s2_501"/>
+			</nt>
+			<nt id="s2_501" cat="fcl">
+				<edge label="S" idref="s2_502"/>
+				<edge label="PU" idref="s2_5"/>
+				<edge label="fCs" idref="s2_505"/>
+				<edge label="X" idref="s2_510"/>
+				<edge label="PU" idref="s2_34"/>
+			</nt>
+			<nt id="s2_502" cat="np">
+				<edge label="H" idref="s2_1"/>
+				<edge label="DN" idref="s2_503"/>
+			</nt>
+			<nt id="s2_503" cat="pp">
+				<edge label="H" idref="s2_2"/>
+				<edge label="DP" idref="s2_504"/>
+			</nt>
+			<nt id="s2_504" cat="np">
+				<edge label="DN" idref="s2_3"/>
+				<edge label="H" idref="s2_4"/>
+			</nt>
+			<nt id="s2_505" cat="icl">
+				<edge label="P" idref="s2_6"/>
+				<edge label="fA" idref="s2_506"/>
+				<edge label="fApass" idref="s2_508"/>
+			</nt>
+			<nt id="s2_506" cat="pp">
+				<edge label="H" idref="s2_7"/>
+				<edge label="DP" idref="s2_507"/>
+			</nt>
+			<nt id="s2_507" cat="np">
+				<edge label="DN" idref="s2_8"/>
+				<edge label="H" idref="s2_9"/>
+			</nt>
+			<nt id="s2_508" cat="pp">
+				<edge label="H" idref="s2_10"/>
+				<edge label="DP" idref="s2_509"/>
+			</nt>
+			<nt id="s2_509" cat="np">
+				<edge label="DN" idref="s2_11"/>
+				<edge label="H" idref="s2_12"/>
+			</nt>
+			<nt id="s2_510" cat="par">
+				<edge label="CJT" idref="s2_511"/>
+				<edge label="CO" idref="s2_28"/>
+				<edge label="CJT" idref="s2_519"/>
+			</nt>
+			<nt id="s2_511" cat="x">
+				<edge label="P" idref="s2_13"/>
+				<edge label="Od" idref="s2_512"/>
+			</nt>
+			<nt id="s2_512" cat="fcl">
+				<edge label="SUB" idref="s2_14"/>
+				<edge label="S" idref="s2_513"/>
+				<edge label="P" idref="s2_17"/>
+				<edge label="As" idref="s2_514"/>
+				<edge label="fA" idref="s2_515"/>
+			</nt>
+			<nt id="s2_513" cat="np">
+				<edge label="DN" idref="s2_15"/>
+				<edge label="H" idref="s2_16"/>
+			</nt>
+			<nt id="s2_514" cat="np">
+				<edge label="DN" idref="s2_18"/>
+				<edge label="H" idref="s2_19"/>
+			</nt>
+			<nt id="s2_515" cat="pp">
+				<edge label="H" idref="s2_20"/>
+				<edge label="DP" idref="s2_516"/>
+			</nt>
+			<nt id="s2_516" cat="np">
+				<edge label="DN" idref="s2_21"/>
+				<edge label="DN" idref="s2_22"/>
+				<edge label="DN" idref="s2_23"/>
+				<edge label="H" idref="s2_24"/>
+				<edge label="DN" idref="s2_517"/>
+			</nt>
+			<nt id="s2_517" cat="pp">
+				<edge label="H" idref="s2_25"/>
+				<edge label="DP" idref="s2_518"/>
+			</nt>
+			<nt id="s2_518" cat="np">
+				<edge label="DN" idref="s2_26"/>
+				<edge label="H" idref="s2_27"/>
+			</nt>
+			<nt id="s2_519" cat="x">
+				<edge label="P" idref="s2_29"/>
+				<edge label="fA" idref="s2_520"/>
+				<edge label="Od" idref="s2_33"/>
+			</nt>
+			<nt id="s2_520" cat="pp">
+				<edge label="H" idref="s2_30"/>
+				<edge label="DP" idref="s2_521"/>
+			</nt>
+			<nt id="s2_521" cat="np">
+				<edge label="H" idref="s2_31"/>
+				<edge label="DN" idref="s2_32"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s3" ref="3" source="Running text" forest="1" text="Foram autuados 208.471 contribuintes, um crescimento de 104,47% em relação a o mesmo período do ano passado.">
+	<graph root="s3_500">
+		<terminals>
+			<t id="s3_1" word="Foram" lemma="ser" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="fmc aux"/>
+			<t id="s3_2" word="autuados" lemma="autuar" pos="v-pcp" morph="M P" sem="--" extra="mv"/>
+			<t id="s3_3" word="208.471" lemma="208.471" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s3_4" word="contribuintes" lemma="contribuinte" pos="n" morph="M P" sem="H" extra="--"/>
+			<t id="s3_5" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s3_6" word="um" lemma="um" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s3_7" word="crescimento" lemma="crescimento" pos="n" morph="M S" sem="process" extra="np-close"/>
+			<t id="s3_8" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s3_9" word="104,47" lemma="104,47" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s3_10" word="%" lemma="%" pos="n" morph="M P" sem="--" extra="--"/>
+			<t id="s3_11" word="em_relação_a" lemma="em_relação_a" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s3_12" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="-sam "/>
+			<t id="s3_13" word="mesmo" lemma="mesmo" pos="pron-indef" morph="DET M S" sem="--" extra="diff KOMP"/>
+			<t id="s3_14" word="período" lemma="período" pos="n" morph="M S" sem="per" extra="--"/>
+			<t id="s3_15" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-long"/>
+			<t id="s3_16" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s3_17" word="ano" lemma="ano" pos="n" morph="M S" sem="per temp dur unit" extra="--"/>
+			<t id="s3_18" word="passado" lemma="passado" pos="adj" morph="M S" sem="--" extra="np-close"/>
+			<t id="s3_19" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s3_500" cat="s">
+				<edge label="STA" idref="s3_501"/>
+			</nt>
+			<nt id="s3_501" cat="fcl">
+				<edge label="P" idref="s3_502"/>
+				<edge label="S" idref="s3_503"/>
+				<edge label="PU" idref="s3_19"/>
+			</nt>
+			<nt id="s3_502" cat="vp">
+				<edge label="Vaux" idref="s3_1"/>
+				<edge label="Vm" idref="s3_2"/>
+			</nt>
+			<nt id="s3_503" cat="np">
+				<edge label="DN" idref="s3_3"/>
+				<edge label="H" idref="s3_4"/>
+				<edge label="PU" idref="s3_5"/>
+				<edge label="DNc" idref="s3_504"/>
+			</nt>
+			<nt id="s3_504" cat="np">
+				<edge label="DN" idref="s3_6"/>
+				<edge label="H" idref="s3_7"/>
+				<edge label="DN" idref="s3_505"/>
+			</nt>
+			<nt id="s3_505" cat="pp">
+				<edge label="H" idref="s3_8"/>
+				<edge label="DP" idref="s3_506"/>
+			</nt>
+			<nt id="s3_506" cat="np">
+				<edge label="DN" idref="s3_9"/>
+				<edge label="H" idref="s3_10"/>
+				<edge label="DN" idref="s3_507"/>
+				<edge label="DN" idref="s3_509"/>
+			</nt>
+			<nt id="s3_507" cat="pp">
+				<edge label="H" idref="s3_11"/>
+				<edge label="DP" idref="s3_508"/>
+			</nt>
+			<nt id="s3_508" cat="np">
+				<edge label="DN" idref="s3_12"/>
+				<edge label="DN" idref="s3_13"/>
+				<edge label="H" idref="s3_14"/>
+			</nt>
+			<nt id="s3_509" cat="pp">
+				<edge label="H" idref="s3_15"/>
+				<edge label="DP" idref="s3_510"/>
+			</nt>
+			<nt id="s3_510" cat="np">
+				<edge label="DN" idref="s3_16"/>
+				<edge label="H" idref="s3_17"/>
+				<edge label="DN" idref="s3_18"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s4" ref="4" source="Running text" forest="1" text="A expectativa da Receita é que até o final do ano mais de 300 mil contribuintes sejam autuados por a malha fina.">
+	<graph root="s4_500">
+		<terminals>
+			<t id="s4_1" word="A" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s4_2" word="expectativa" lemma="expectativa" pos="n" morph="F S" sem="sem-c" extra="--"/>
+			<t id="s4_3" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s4_4" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s4_5" word="Receita" lemma="receita" pos="n" morph="F S" sem="mon sem-r" extra="prop"/>
+			<t id="s4_6" word="é" lemma="ser" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s4_7" word="que" lemma="que" pos="conj-s" morph="--" sem="--" extra="clb"/>
+			<t id="s4_8" word="até" lemma="até" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s4_9" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s4_10" word="final" lemma="final" pos="n" morph="M S" sem="event" extra="cjt-head cjt-head-S cjt-head cjt-head-S"/>
+			<t id="s4_11" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s4_12" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s4_13" word="ano" lemma="ano" pos="n" morph="M S" sem="per temp dur unit" extra="--"/>
+			<t id="s4_14" word="mais_de" lemma="mais_de" pos="adv" morph="--" sem="--" extra="quant"/>
+			<t id="s4_15" word="300" lemma="300" pos="num" morph="M/F P" sem="--" extra="card"/>
+			<t id="s4_16" word="mil" lemma="mil" pos="num" morph="M/F P" sem="--" extra="card"/>
+			<t id="s4_17" word="contribuintes" lemma="contribuinte" pos="n" morph="M/F P" sem="H" extra="cjt-S"/>
+			<t id="s4_18" word="sejam" lemma="ser" pos="v-fin" morph="PR 3P SUBJ VFIN" sem="--" extra="aux"/>
+			<t id="s4_19" word="autuados" lemma="autuar" pos="v-pcp" morph="M P" sem="--" extra="mv"/>
+			<t id="s4_20" word="por" lemma="por" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s4_21" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s4_22" word="malha" lemma="malha" pos="n" morph="F S" sem="tool cloH mat-cloth ac activity" extra="--"/>
+			<t id="s4_23" word="fina" lemma="fino" pos="adj" morph="F S" sem="--" extra="np-close"/>
+			<t id="s4_24" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s4_500" cat="s">
+				<edge label="STA" idref="s4_501"/>
+			</nt>
+			<nt id="s4_501" cat="fcl">
+				<edge label="S" idref="s4_502"/>
+				<edge label="P" idref="s4_6"/>
+				<edge label="Cs" idref="s4_505"/>
+				<edge label="PU" idref="s4_24"/>
+			</nt>
+			<nt id="s4_502" cat="np">
+				<edge label="DN" idref="s4_1"/>
+				<edge label="H" idref="s4_2"/>
+				<edge label="DN" idref="s4_503"/>
+			</nt>
+			<nt id="s4_503" cat="pp">
+				<edge label="H" idref="s4_3"/>
+				<edge label="DP" idref="s4_504"/>
+			</nt>
+			<nt id="s4_504" cat="np">
+				<edge label="DN" idref="s4_4"/>
+				<edge label="H" idref="s4_5"/>
+			</nt>
+			<nt id="s4_505" cat="fcl">
+				<edge label="SUB" idref="s4_7"/>
+				<edge label="S" idref="s4_506"/>
+				<edge label="P" idref="s4_512"/>
+				<edge label="Op" idref="s4_513"/>
+			</nt>
+			<nt id="s4_506" cat="par">
+				<edge label="CJT" idref="s4_507"/>
+				<edge label="CJT" idref="s4_510"/>
+			</nt>
+			<nt id="s4_507" cat="np">
+				<edge label="DN" idref="s4_8"/>
+				<edge label="DN" idref="s4_9"/>
+				<edge label="H" idref="s4_10"/>
+				<edge label="DN" idref="s4_508"/>
+			</nt>
+			<nt id="s4_508" cat="pp">
+				<edge label="H" idref="s4_11"/>
+				<edge label="DP" idref="s4_509"/>
+			</nt>
+			<nt id="s4_509" cat="np">
+				<edge label="DN" idref="s4_12"/>
+				<edge label="H" idref="s4_13"/>
+			</nt>
+			<nt id="s4_510" cat="np">
+				<edge label="DN" idref="s4_511"/>
+				<edge label="DN" idref="s4_16"/>
+				<edge label="H" idref="s4_17"/>
+			</nt>
+			<nt id="s4_511" cat="adjp">
+				<edge label="DA" idref="s4_14"/>
+				<edge label="H" idref="s4_15"/>
+			</nt>
+			<nt id="s4_512" cat="vp">
+				<edge label="Vaux" idref="s4_18"/>
+				<edge label="Vm" idref="s4_19"/>
+			</nt>
+			<nt id="s4_513" cat="pp">
+				<edge label="H" idref="s4_20"/>
+				<edge label="DP" idref="s4_514"/>
+			</nt>
+			<nt id="s4_514" cat="np">
+				<edge label="DN" idref="s4_21"/>
+				<edge label="H" idref="s4_22"/>
+				<edge label="DN" idref="s4_23"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s5" ref="5" source="Running text" forest="1" text="Valor que pode chegar a 400 mil, segundo o coordenador de Fiscalização da Receita Federal, Marcelo Fisch.">
+	<graph root="s5_500">
+		<terminals>
+			<t id="s5_1" word="Valor" lemma="valor" pos="n" morph="M S" sem="ac am unit" extra="--"/>
+			<t id="s5_2" word="que" lemma="que" pos="spec" morph="M S" sem="--" extra="clb rel"/>
+			<t id="s5_3" word="pode" lemma="poder" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="aux np-close"/>
+			<t id="s5_4" word="chegar" lemma="chegar" pos="v-inf" morph="--" sem="--" extra="mv"/>
+			<t id="s5_5" word="a" lemma="a" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s5_6" word="400" lemma="400" pos="num" morph="M/F P" sem="--" extra="card"/>
+			<t id="s5_7" word="mil" lemma="mil" pos="num" morph="M/F P" sem="--" extra="card"/>
+			<t id="s5_8" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s5_9" word="segundo" lemma="segundo" pos="prp" morph="--" sem="--" extra="com adv-rel"/>
+			<t id="s5_10" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s5_11" word="coordenador" lemma="coordenador" pos="n" morph="M S" sem="Hprof" extra="asarg"/>
+			<t id="s5_12" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s5_13" word="Fiscalização_da_Receita_Federal" lemma="Fiscalização_da_Receita_Federal" pos="prop" morph="F S" sem="--" extra="cjt-head cjt-head-DP top"/>
+			<t id="s5_14" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s5_15" word="Marcelo_Fisch" lemma="Marcelo_Fisch" pos="prop" morph="M S" sem="--" extra="cjt-DP hum asarg np-long"/>
+			<t id="s5_16" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s5_500" cat="s">
+				<edge label="X" idref="s5_501"/>
+			</nt>
+			<nt id="s5_501" cat="np">
+				<edge label="H" idref="s5_1"/>
+				<edge label="DN" idref="s5_502"/>
+				<edge label="PU" idref="s5_16"/>
+			</nt>
+			<nt id="s5_502" cat="fcl">
+				<edge label="S" idref="s5_2"/>
+				<edge label="P" idref="s5_503"/>
+				<edge label="fA" idref="s5_504"/>
+				<edge label="PU" idref="s5_8"/>
+				<edge label="fA" idref="s5_506"/>
+			</nt>
+			<nt id="s5_503" cat="vp">
+				<edge label="Vaux" idref="s5_3"/>
+				<edge label="Vm" idref="s5_4"/>
+			</nt>
+			<nt id="s5_504" cat="pp">
+				<edge label="H" idref="s5_5"/>
+				<edge label="DP" idref="s5_505"/>
+			</nt>
+			<nt id="s5_505" cat="np">
+				<edge label="DN" idref="s5_6"/>
+				<edge label="H" idref="s5_7"/>
+			</nt>
+			<nt id="s5_506" cat="pp">
+				<edge label="H" idref="s5_9"/>
+				<edge label="DP" idref="s5_507"/>
+			</nt>
+			<nt id="s5_507" cat="np">
+				<edge label="DN" idref="s5_10"/>
+				<edge label="H" idref="s5_11"/>
+				<edge label="DN" idref="s5_508"/>
+				<edge label="PU" idref="s5_14"/>
+				<edge label="CJT" idref="s5_15"/>
+			</nt>
+			<nt id="s5_508" cat="pp">
+				<edge label="H" idref="s5_12"/>
+				<edge label="DP" idref="s5_509"/>
+			</nt>
+			<nt id="s5_509" cat="par">
+				<edge label="CJT" idref="s5_13"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s6" ref="6" source="Running text" forest="1" text="Tomando por base as autuações totais (empresas e pessoas físicas), o valor sonegado chega a R 39,99 bilhões de janeiro a julho, com uma expansão de 66,22%.">
+	<graph root="s6_500">
+		<terminals>
+			<t id="s6_1" word="Tomando" lemma="tomar" pos="v-ger" morph="--" sem="--" extra="clb mv"/>
+			<t id="s6_2" word="por" lemma="por" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s6_3" word="base" lemma="base" pos="n" morph="F S" sem="Labs" extra="--"/>
+			<t id="s6_4" word="as" lemma="o" pos="art" morph="F P" sem="--" extra="--"/>
+			<t id="s6_5" word="autuações" lemma="autuação" pos="n" morph="F P" sem="act" extra="--"/>
+			<t id="s6_6" word="totais" lemma="total" pos="adj" morph="F P" sem="--" extra="np-close"/>
+			<t id="s6_7" word="(" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s6_8" word="empresas" lemma="empresa" pos="n" morph="F P" sem="HH" extra="cjt-head cjt-head-DNc np-close"/>
+			<t id="s6_9" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-pred co-postnom"/>
+			<t id="s6_10" word="pessoas_físicas" lemma="pessoa_física" pos="n" morph="F P" sem="H" extra="cjt-DNc np-close"/>
+			<t id="s6_11" word=")" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s6_12" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s6_13" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s6_14" word="valor" lemma="valor" pos="n" morph="M S" sem="ac am unit" extra="--"/>
+			<t id="s6_15" word="sonegado" lemma="sonegar" pos="v-pcp" morph="M S" sem="--" extra="np-close"/>
+			<t id="s6_16" word="chega" lemma="chegar" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s6_17" word="a" lemma="a" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s6_18" word="R$" lemma="r$" pos="n" morph="M S" sem="cur unit" extra="prop"/>
+			<t id="s6_19" word="39,99" lemma="39,99" pos="num" morph="M/F P" sem="--" extra="card np-close"/>
+			<t id="s6_20" word="bilhões" lemma="bilhão" pos="n" morph="M P" sem="amount" extra="--"/>
+			<t id="s6_21" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s6_22" word="janeiro" lemma="janeiro" pos="n" morph="M S" sem="--" extra="--"/>
+			<t id="s6_23" word="a" lemma="a" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s6_24" word="julho" lemma="julho" pos="n" morph="M S" sem="--" extra="--"/>
+			<t id="s6_25" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s6_26" word="com" lemma="com" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s6_27" word="uma" lemma="um" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s6_28" word="expansão" lemma="expansão" pos="n" morph="F S" sem="process" extra="--"/>
+			<t id="s6_29" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s6_30" word="66,22" lemma="66,22" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s6_31" word="%" lemma="%" pos="n" morph="M P" sem="--" extra="--"/>
+			<t id="s6_32" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s6_500" cat="s">
+				<edge label="STA" idref="s6_501"/>
+			</nt>
+			<nt id="s6_501" cat="fcl">
+				<edge label="fA" idref="s6_502"/>
+				<edge label="PU" idref="s6_12"/>
+				<edge label="S" idref="s6_506"/>
+				<edge label="P" idref="s6_16"/>
+				<edge label="fA" idref="s6_507"/>
+				<edge label="Od" idref="s6_509"/>
+				<edge label="fA" idref="s6_511"/>
+				<edge label="PU" idref="s6_25"/>
+				<edge label="fA" idref="s6_512"/>
+				<edge label="PU" idref="s6_32"/>
+			</nt>
+			<nt id="s6_502" cat="advp">
+				<edge label="P" idref="s6_1"/>
+				<edge label="Op" idref="s6_503"/>
+				<edge label="Od" idref="s6_504"/>
+			</nt>
+			<nt id="s6_503" cat="pp">
+				<edge label="H" idref="s6_2"/>
+				<edge label="DP" idref="s6_3"/>
+			</nt>
+			<nt id="s6_504" cat="np">
+				<edge label="DN" idref="s6_4"/>
+				<edge label="H" idref="s6_5"/>
+				<edge label="DN" idref="s6_6"/>
+				<edge label="PU" idref="s6_7"/>
+				<edge label="DNc" idref="s6_505"/>
+				<edge label="PU" idref="s6_11"/>
+			</nt>
+			<nt id="s6_505" cat="par">
+				<edge label="CJT" idref="s6_8"/>
+				<edge label="CO" idref="s6_9"/>
+				<edge label="CJT" idref="s6_10"/>
+			</nt>
+			<nt id="s6_506" cat="np">
+				<edge label="DN" idref="s6_13"/>
+				<edge label="H" idref="s6_14"/>
+				<edge label="DN" idref="s6_15"/>
+			</nt>
+			<nt id="s6_507" cat="pp">
+				<edge label="H" idref="s6_17"/>
+				<edge label="DP" idref="s6_508"/>
+			</nt>
+			<nt id="s6_508" cat="np">
+				<edge label="H" idref="s6_18"/>
+				<edge label="DN" idref="s6_19"/>
+			</nt>
+			<nt id="s6_509" cat="np">
+				<edge label="H" idref="s6_20"/>
+				<edge label="DN" idref="s6_510"/>
+			</nt>
+			<nt id="s6_510" cat="pp">
+				<edge label="H" idref="s6_21"/>
+				<edge label="DP" idref="s6_22"/>
+			</nt>
+			<nt id="s6_511" cat="pp">
+				<edge label="H" idref="s6_23"/>
+				<edge label="DP" idref="s6_24"/>
+			</nt>
+			<nt id="s6_512" cat="pp">
+				<edge label="H" idref="s6_26"/>
+				<edge label="DP" idref="s6_513"/>
+			</nt>
+			<nt id="s6_513" cat="np">
+				<edge label="DN" idref="s6_27"/>
+				<edge label="H" idref="s6_28"/>
+				<edge label="DN" idref="s6_514"/>
+			</nt>
+			<nt id="s6_514" cat="pp">
+				<edge label="H" idref="s6_29"/>
+				<edge label="DP" idref="s6_515"/>
+			</nt>
+			<nt id="s6_515" cat="np">
+				<edge label="DN" idref="s6_30"/>
+				<edge label="H" idref="s6_31"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s7" ref="7" source="Running text" forest="1" text="Em esse período, 233.182 contribuintes (pessoa física e empresas), um aumento de 90,28%.">
+	<graph root="s7_500">
+		<terminals>
+			<t id="s7_1" word="Em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s7_2" word="esse" lemma="esse" pos="pron-dem" morph="DET M S" sem="--" extra="dem -sam"/>
+			<t id="s7_3" word="período" lemma="período" pos="n" morph="M S" sem="per" extra="--"/>
+			<t id="s7_4" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s7_5" word="233.182" lemma="233.182" pos="num" morph="M/F P" sem="--" extra="card"/>
+			<t id="s7_6" word="contribuintes" lemma="contribuinte" pos="n" morph="M/F P" sem="H" extra="cjt-head cjt-head-X"/>
+			<t id="s7_7" word="(" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s7_8" word="pessoa_física" lemma="pessoa_física" pos="n" morph="F S" sem="H" extra="cjt-X"/>
+			<t id="s7_9" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="--"/>
+			<t id="s7_10" word="empresas" lemma="empresa" pos="n" morph="F P" sem="HH" extra="cjt-X"/>
+			<t id="s7_11" word=")" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s7_12" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s7_13" word="um" lemma="um" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s7_14" word="aumento" lemma="aumento" pos="n" morph="M S" sem="act" extra="cjt-X"/>
+			<t id="s7_15" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s7_16" word="90,28" lemma="90,28" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s7_17" word="%" lemma="%" pos="n" morph="M P" sem="--" extra="--"/>
+			<t id="s7_18" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s7_500" cat="s">
+				<edge label="fA" idref="s7_501"/>
+			</nt>
+			<nt id="s7_501" cat="pp">
+				<edge label="H" idref="s7_1"/>
+				<edge label="DP" idref="s7_502"/>
+				<edge label="PU" idref="s7_4"/>
+				<edge label="X" idref="s7_503"/>
+				<edge label="PU" idref="s7_18"/>
+			</nt>
+			<nt id="s7_502" cat="np">
+				<edge label="DN" idref="s7_2"/>
+				<edge label="H" idref="s7_3"/>
+			</nt>
+			<nt id="s7_503" cat="par">
+				<edge label="CJT" idref="s7_504"/>
+				<edge label="PU" idref="s7_7"/>
+				<edge label="CJT" idref="s7_8"/>
+				<edge label="CO" idref="s7_9"/>
+				<edge label="CJT" idref="s7_10"/>
+				<edge label="PU" idref="s7_11"/>
+				<edge label="PU" idref="s7_12"/>
+				<edge label="CJT" idref="s7_505"/>
+			</nt>
+			<nt id="s7_504" cat="np">
+				<edge label="DN" idref="s7_5"/>
+				<edge label="H" idref="s7_6"/>
+			</nt>
+			<nt id="s7_505" cat="np">
+				<edge label="DN" idref="s7_13"/>
+				<edge label="H" idref="s7_14"/>
+				<edge label="DN" idref="s7_506"/>
+			</nt>
+			<nt id="s7_506" cat="pp">
+				<edge label="H" idref="s7_15"/>
+				<edge label="DP" idref="s7_507"/>
+			</nt>
+			<nt id="s7_507" cat="np">
+				<edge label="DN" idref="s7_16"/>
+				<edge label="H" idref="s7_17"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s8" ref="8" source="Running text" forest="1" text="De janeiro a julho de 2006, as autuações somaram R 24,062 bilhões em 122.543 contribuintes.">
+	<graph root="s8_500">
+		<terminals>
+			<t id="s8_1" word="De" lemma="de" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s8_2" word="janeiro" lemma="janeiro" pos="n" morph="M S" sem="--" extra="--"/>
+			<t id="s8_3" word="a" lemma="a" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s8_4" word="julho" lemma="julho" pos="n" morph="M S" sem="--" extra="--"/>
+			<t id="s8_5" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s8_6" word="2006" lemma="2006" pos="num" morph="M/F P" sem="--" extra="card"/>
+			<t id="s8_7" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s8_8" word="as" lemma="o" pos="art" morph="F P" sem="--" extra="--"/>
+			<t id="s8_9" word="autuações" lemma="autuação" pos="n" morph="F P" sem="act" extra="--"/>
+			<t id="s8_10" word="somaram" lemma="somar" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s8_11" word="R$" lemma="r$" pos="n" morph="M S" sem="cur unit" extra="prop"/>
+			<t id="s8_12" word="24,062" lemma="24,062" pos="num" morph="M/F P" sem="--" extra="card np-close"/>
+			<t id="s8_13" word="bilhões" lemma="bilhão" pos="n" morph="M P" sem="amount" extra="--"/>
+			<t id="s8_14" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s8_15" word="122.543" lemma="122.543" pos="num" morph="M/F P" sem="--" extra="card"/>
+			<t id="s8_16" word="contribuintes" lemma="contribuinte" pos="n" morph="M/F P" sem="H" extra="--"/>
+			<t id="s8_17" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s8_500" cat="s">
+				<edge label="STA" idref="s8_501"/>
+			</nt>
+			<nt id="s8_501" cat="fcl">
+				<edge label="fA" idref="s8_502"/>
+				<edge label="fA" idref="s8_503"/>
+				<edge label="PU" idref="s8_7"/>
+				<edge label="S" idref="s8_506"/>
+				<edge label="P" idref="s8_10"/>
+				<edge label="Od" idref="s8_507"/>
+				<edge label="fCs" idref="s8_508"/>
+				<edge label="PU" idref="s8_17"/>
+			</nt>
+			<nt id="s8_502" cat="pp">
+				<edge label="H" idref="s8_1"/>
+				<edge label="DP" idref="s8_2"/>
+			</nt>
+			<nt id="s8_503" cat="pp">
+				<edge label="H" idref="s8_3"/>
+				<edge label="DP" idref="s8_504"/>
+			</nt>
+			<nt id="s8_504" cat="np">
+				<edge label="H" idref="s8_4"/>
+				<edge label="DN" idref="s8_505"/>
+			</nt>
+			<nt id="s8_505" cat="pp">
+				<edge label="H" idref="s8_5"/>
+				<edge label="DP" idref="s8_6"/>
+			</nt>
+			<nt id="s8_506" cat="np">
+				<edge label="DN" idref="s8_8"/>
+				<edge label="H" idref="s8_9"/>
+			</nt>
+			<nt id="s8_507" cat="np">
+				<edge label="H" idref="s8_11"/>
+				<edge label="DN" idref="s8_12"/>
+			</nt>
+			<nt id="s8_508" cat="np">
+				<edge label="H" idref="s8_13"/>
+				<edge label="DN" idref="s8_509"/>
+			</nt>
+			<nt id="s8_509" cat="pp">
+				<edge label="H" idref="s8_14"/>
+				<edge label="DP" idref="s8_510"/>
+			</nt>
+			<nt id="s8_510" cat="np">
+				<edge label="DN" idref="s8_15"/>
+				<edge label="H" idref="s8_16"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s9" ref="9" source="Running text" forest="1" text="Além de intensificar a fiscalização, a Receita mudou alguns procedimentos, o que também contribuiu para o aumento das autuações.">
+	<graph root="s9_500">
+		<terminals>
+			<t id="s9_1" word="Além_de" lemma="além_de" pos="prp" morph="--" sem="--" extra="clb"/>
+			<t id="s9_2" word="intensificar" lemma="intensificar" pos="v-inf" morph="--" sem="--" extra="mv"/>
+			<t id="s9_3" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s9_4" word="fiscalização" lemma="fiscalização" pos="n" morph="F S" sem="act" extra="--"/>
+			<t id="s9_5" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s9_6" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s9_7" word="Receita" lemma="receita" pos="n" morph="F S" sem="mon sem-r" extra="prop"/>
+			<t id="s9_8" word="mudou" lemma="mudar" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s9_9" word="alguns" lemma="algum" pos="pron-indef" morph="DET M P" sem="--" extra="quant"/>
+			<t id="s9_10" word="procedimentos" lemma="procedimento" pos="n" morph="M P" sem="activity" extra="--"/>
+			<t id="s9_11" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s9_12" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s9_13" word="que" lemma="que" pos="spec" morph="M S" sem="--" extra="clb rel"/>
+			<t id="s9_14" word="também" lemma="também" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s9_15" word="contribuiu" lemma="contribuir" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="mv"/>
+			<t id="s9_16" word="para" lemma="para" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s9_17" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s9_18" word="aumento" lemma="aumento" pos="n" morph="M S" sem="act" extra="--"/>
+			<t id="s9_19" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s9_20" word="as" lemma="o" pos="art" morph="F P" sem="--" extra=" -sam"/>
+			<t id="s9_21" word="autuações" lemma="autuação" pos="n" morph="F P" sem="act" extra="--"/>
+			<t id="s9_22" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s9_500" cat="s">
+				<edge label="STA" idref="s9_501"/>
+			</nt>
+			<nt id="s9_501" cat="fcl">
+				<edge label="fA" idref="s9_502"/>
+				<edge label="PU" idref="s9_5"/>
+				<edge label="S" idref="s9_505"/>
+				<edge label="P" idref="s9_8"/>
+				<edge label="Od" idref="s9_506"/>
+				<edge label="PU" idref="s9_11"/>
+				<edge label="fCsta" idref="s9_507"/>
+				<edge label="PU" idref="s9_22"/>
+			</nt>
+			<nt id="s9_502" cat="pp">
+				<edge label="H" idref="s9_1"/>
+				<edge label="DP" idref="s9_503"/>
+			</nt>
+			<nt id="s9_503" cat="icl">
+				<edge label="P" idref="s9_2"/>
+				<edge label="Od" idref="s9_504"/>
+			</nt>
+			<nt id="s9_504" cat="np">
+				<edge label="DN" idref="s9_3"/>
+				<edge label="H" idref="s9_4"/>
+			</nt>
+			<nt id="s9_505" cat="np">
+				<edge label="DN" idref="s9_6"/>
+				<edge label="H" idref="s9_7"/>
+			</nt>
+			<nt id="s9_506" cat="np">
+				<edge label="DN" idref="s9_9"/>
+				<edge label="H" idref="s9_10"/>
+			</nt>
+			<nt id="s9_507" cat="fcl">
+				<edge label="S" idref="s9_508"/>
+				<edge label="fA" idref="s9_14"/>
+				<edge label="P" idref="s9_15"/>
+				<edge label="Op" idref="s9_509"/>
+			</nt>
+			<nt id="s9_508" cat="np">
+				<edge label="DN" idref="s9_12"/>
+				<edge label="H" idref="s9_13"/>
+			</nt>
+			<nt id="s9_509" cat="pp">
+				<edge label="H" idref="s9_16"/>
+				<edge label="DP" idref="s9_510"/>
+			</nt>
+			<nt id="s9_510" cat="np">
+				<edge label="DN" idref="s9_17"/>
+				<edge label="H" idref="s9_18"/>
+				<edge label="DN" idref="s9_511"/>
+			</nt>
+			<nt id="s9_511" cat="pp">
+				<edge label="H" idref="s9_19"/>
+				<edge label="DP" idref="s9_512"/>
+			</nt>
+			<nt id="s9_512" cat="np">
+				<edge label="DN" idref="s9_20"/>
+				<edge label="H" idref="s9_21"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s10" ref="10" source="Running text" forest="1" text="Um dos procedimentos alterados foi a forma de análise dos contribuintes.">
+	<graph root="s10_500">
+		<terminals>
+			<t id="s10_1" word="Um" lemma="um" pos="num" morph="M S" sem="--" extra="card"/>
+			<t id="s10_2" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s10_3" word="os" lemma="o" pos="art" morph="M P" sem="--" extra=" -sam"/>
+			<t id="s10_4" word="procedimentos" lemma="procedimento" pos="n" morph="M P" sem="activity" extra="--"/>
+			<t id="s10_5" word="alterados" lemma="alterar" pos="v-pcp" morph="M P" sem="--" extra="np-close"/>
+			<t id="s10_6" word="foi" lemma="ser" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s10_7" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s10_8" word="forma" lemma="forma" pos="n" morph="F S" sem="percep-f con" extra="--"/>
+			<t id="s10_9" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s10_10" word="análise" lemma="análise" pos="n" morph="F S" sem="act-c" extra="--"/>
+			<t id="s10_11" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s10_12" word="os" lemma="o" pos="art" morph="M P" sem="--" extra=" -sam"/>
+			<t id="s10_13" word="contribuintes" lemma="contribuinte" pos="n" morph="M P" sem="H" extra="--"/>
+			<t id="s10_14" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s10_500" cat="s">
+				<edge label="STA" idref="s10_501"/>
+			</nt>
+			<nt id="s10_501" cat="fcl">
+				<edge label="S" idref="s10_502"/>
+				<edge label="P" idref="s10_6"/>
+				<edge label="Cs" idref="s10_505"/>
+				<edge label="PU" idref="s10_14"/>
+			</nt>
+			<nt id="s10_502" cat="np">
+				<edge label="H" idref="s10_1"/>
+				<edge label="DN" idref="s10_503"/>
+			</nt>
+			<nt id="s10_503" cat="pp">
+				<edge label="H" idref="s10_2"/>
+				<edge label="DP" idref="s10_504"/>
+			</nt>
+			<nt id="s10_504" cat="np">
+				<edge label="DN" idref="s10_3"/>
+				<edge label="H" idref="s10_4"/>
+				<edge label="DN" idref="s10_5"/>
+			</nt>
+			<nt id="s10_505" cat="np">
+				<edge label="DN" idref="s10_7"/>
+				<edge label="H" idref="s10_8"/>
+				<edge label="DN" idref="s10_506"/>
+			</nt>
+			<nt id="s10_506" cat="pp">
+				<edge label="H" idref="s10_9"/>
+				<edge label="DP" idref="s10_507"/>
+			</nt>
+			<nt id="s10_507" cat="np">
+				<edge label="H" idref="s10_10"/>
+				<edge label="DN" idref="s10_508"/>
+			</nt>
+			<nt id="s10_508" cat="pp">
+				<edge label="H" idref="s10_11"/>
+				<edge label="DP" idref="s10_509"/>
+			</nt>
+			<nt id="s10_509" cat="np">
+				<edge label="DN" idref="s10_12"/>
+				<edge label="H" idref="s10_13"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s11" ref="11" source="Running text" forest="1" text="Antes, a Receita autuava o contribuinte na malha isoladamente para cada ano-calendário.">
+	<graph root="s11_500">
+		<terminals>
+			<t id="s11_1" word="Antes" lemma="antes" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s11_2" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s11_3" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s11_4" word="Receita" lemma="receita" pos="n" morph="F S" sem="sem-r mon" extra="prop"/>
+			<t id="s11_5" word="autuava" lemma="autuar" pos="v-fin" morph="IMPF 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s11_6" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s11_7" word="contribuinte" lemma="contribuinte" pos="n" morph="M S" sem="H" extra="--"/>
+			<t id="s11_8" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s11_9" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s11_10" word="malha" lemma="malha" pos="n" morph="F S" sem="tool cloH mat-cloth ac activity" extra="--"/>
+			<t id="s11_11" word="isoladamente" lemma="isoladamente" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s11_12" word="para" lemma="para" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s11_13" word="cada" lemma="cada" pos="pron-indef" morph="DET M S" sem="--" extra="quant"/>
+			<t id="s11_14" word="ano-calendário" lemma="ano-calendário" pos="n" morph="M S" sem="per temp dur unit" extra="--"/>
+			<t id="s11_15" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s11_500" cat="s">
+				<edge label="STA" idref="s11_501"/>
+			</nt>
+			<nt id="s11_501" cat="fcl">
+				<edge label="fA" idref="s11_1"/>
+				<edge label="PU" idref="s11_2"/>
+				<edge label="S" idref="s11_502"/>
+				<edge label="P" idref="s11_5"/>
+				<edge label="Od" idref="s11_503"/>
+				<edge label="fA" idref="s11_504"/>
+				<edge label="fA" idref="s11_11"/>
+				<edge label="fA" idref="s11_506"/>
+				<edge label="PU" idref="s11_15"/>
+			</nt>
+			<nt id="s11_502" cat="np">
+				<edge label="DN" idref="s11_3"/>
+				<edge label="H" idref="s11_4"/>
+			</nt>
+			<nt id="s11_503" cat="np">
+				<edge label="DN" idref="s11_6"/>
+				<edge label="H" idref="s11_7"/>
+			</nt>
+			<nt id="s11_504" cat="pp">
+				<edge label="H" idref="s11_8"/>
+				<edge label="DP" idref="s11_505"/>
+			</nt>
+			<nt id="s11_505" cat="np">
+				<edge label="DN" idref="s11_9"/>
+				<edge label="H" idref="s11_10"/>
+			</nt>
+			<nt id="s11_506" cat="pp">
+				<edge label="H" idref="s11_12"/>
+				<edge label="DP" idref="s11_507"/>
+			</nt>
+			<nt id="s11_507" cat="np">
+				<edge label="DN" idref="s11_13"/>
+				<edge label="H" idref="s11_14"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s12" ref="12" source="Running text" forest="1" text="Hoje, se a pessoa cai na malha fina, a Receita fiscaliza também as declarações de anos anteriores.">
+	<graph root="s12_500">
+		<terminals>
+			<t id="s12_1" word="Hoje" lemma="hoje" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s12_2" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s12_3" word="se" lemma="se" pos="conj-s" morph="--" sem="--" extra="clb"/>
+			<t id="s12_4" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s12_5" word="pessoa" lemma="pessoa" pos="n" morph="F S" sem="H" extra="--"/>
+			<t id="s12_6" word="cai" lemma="cair" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="mv"/>
+			<t id="s12_7" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s12_8" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s12_9" word="malha" lemma="malha" pos="n" morph="F S" sem="tool cloH mat-cloth ac activity" extra="--"/>
+			<t id="s12_10" word="fina" lemma="fino" pos="adj" morph="F S" sem="--" extra="np-close"/>
+			<t id="s12_11" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s12_12" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s12_13" word="Receita" lemma="receita" pos="n" morph="F S" sem="mon sem-r" extra="prop"/>
+			<t id="s12_14" word="fiscaliza" lemma="fiscalizar" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s12_15" word="também" lemma="também" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s12_16" word="as" lemma="o" pos="art" morph="F P" sem="--" extra="--"/>
+			<t id="s12_17" word="declarações" lemma="declaração" pos="n" morph="F P" sem="act-s act" extra="--"/>
+			<t id="s12_18" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s12_19" word="anos" lemma="ano" pos="n" morph="M P" sem="per temp dur unit" extra="--"/>
+			<t id="s12_20" word="anteriores" lemma="anterior" pos="adj" morph="M P" sem="--" extra="np-close"/>
+			<t id="s12_21" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s12_500" cat="s">
+				<edge label="STA" idref="s12_501"/>
+			</nt>
+			<nt id="s12_501" cat="fcl">
+				<edge label="fA" idref="s12_1"/>
+				<edge label="PU" idref="s12_2"/>
+				<edge label="fA" idref="s12_502"/>
+				<edge label="PU" idref="s12_11"/>
+				<edge label="S" idref="s12_506"/>
+				<edge label="P" idref="s12_14"/>
+				<edge label="Od" idref="s12_507"/>
+				<edge label="PU" idref="s12_21"/>
+			</nt>
+			<nt id="s12_502" cat="fcl">
+				<edge label="SUB" idref="s12_3"/>
+				<edge label="S" idref="s12_503"/>
+				<edge label="P" idref="s12_6"/>
+				<edge label="Op" idref="s12_504"/>
+			</nt>
+			<nt id="s12_503" cat="np">
+				<edge label="DN" idref="s12_4"/>
+				<edge label="H" idref="s12_5"/>
+			</nt>
+			<nt id="s12_504" cat="pp">
+				<edge label="H" idref="s12_7"/>
+				<edge label="DP" idref="s12_505"/>
+			</nt>
+			<nt id="s12_505" cat="np">
+				<edge label="DN" idref="s12_8"/>
+				<edge label="H" idref="s12_9"/>
+				<edge label="DN" idref="s12_10"/>
+			</nt>
+			<nt id="s12_506" cat="np">
+				<edge label="DN" idref="s12_12"/>
+				<edge label="H" idref="s12_13"/>
+			</nt>
+			<nt id="s12_507" cat="np">
+				<edge label="DN" idref="s12_15"/>
+				<edge label="DN" idref="s12_16"/>
+				<edge label="H" idref="s12_17"/>
+				<edge label="DN" idref="s12_508"/>
+			</nt>
+			<nt id="s12_508" cat="pp">
+				<edge label="H" idref="s12_18"/>
+				<edge label="DP" idref="s12_509"/>
+			</nt>
+			<nt id="s12_509" cat="np">
+				<edge label="H" idref="s12_19"/>
+				<edge label="DN" idref="s12_20"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s13" ref="13" source="Running text" forest="1" text="&quot;A produtividade da malha ficou maior», disse o coordenador.">
+	<graph root="s13_500">
+		<terminals>
+			<t id="s13_1" word="&quot;" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s13_2" word="A" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s13_3" word="produtividade" lemma="produtividade" pos="n" morph="F S" sem="am" extra="--"/>
+			<t id="s13_4" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s13_5" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s13_6" word="malha" lemma="malha" pos="n" morph="F S" sem="tool cloH mat-cloth ac activity" extra="--"/>
+			<t id="s13_7" word="ficou" lemma="ficar" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="mv"/>
+			<t id="s13_8" word="maior" lemma="grande" pos="adj" morph="F S" sem="--" extra="KOMP"/>
+			<t id="s13_9" word="&quot;" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s13_10" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s13_11" word="disse" lemma="dizer" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s13_12" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s13_13" word="coordenador" lemma="coordenador" pos="n" morph="M S" sem="Hprof" extra="--"/>
+			<t id="s13_14" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s13_500" cat="s">
+				<edge label="Od" idref="s13_501"/>
+			</nt>
+			<nt id="s13_501" cat="fcl">
+				<edge label="PU" idref="s13_1"/>
+				<edge label="S" idref="s13_502"/>
+				<edge label="P" idref="s13_7"/>
+				<edge label="Cs" idref="s13_8"/>
+				<edge label="PU" idref="s13_9"/>
+				<edge label="PU" idref="s13_14"/>
+			</nt>
+			<nt id="s13_502" cat="np">
+				<edge label="DN" idref="s13_2"/>
+				<edge label="H" idref="s13_3"/>
+				<edge label="DN" idref="s13_503"/>
+				<edge label="PU" idref="s13_10"/>
+				<edge label="STA" idref="s13_505"/>
+			</nt>
+			<nt id="s13_503" cat="pp">
+				<edge label="H" idref="s13_4"/>
+				<edge label="DP" idref="s13_504"/>
+			</nt>
+			<nt id="s13_504" cat="np">
+				<edge label="DN" idref="s13_5"/>
+				<edge label="H" idref="s13_6"/>
+			</nt>
+			<nt id="s13_505" cat="fcl">
+				<edge label="P" idref="s13_11"/>
+				<edge label="S" idref="s13_506"/>
+			</nt>
+			<nt id="s13_506" cat="np">
+				<edge label="DN" idref="s13_12"/>
+				<edge label="H" idref="s13_13"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s14" ref="14" source="Running text" forest="1" text="Segundo o secretário-adjunto da Receita Federal, Paulo Ricardo, dois terços das autuações de contribuintes por a malha fina são por omissão de renda.">
+	<graph root="s14_500">
+		<terminals>
+			<t id="s14_1" word="Segundo" lemma="segundo" pos="prp" morph="--" sem="--" extra="com adv-rel"/>
+			<t id="s14_2" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s14_3" word="secretário-adjunto" lemma="secretário-adjunto" pos="n" morph="M S" sem="Hprof" extra="asarg"/>
+			<t id="s14_4" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s14_5" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s14_6" word="Receita_Federal" lemma="Receita_Federal" pos="prop" morph="F S" sem="--" extra="org"/>
+			<t id="s14_7" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s14_8" word="Paulo_Ricardo" lemma="Paulo_Ricardo" pos="prop" morph="M S" sem="--" extra="hum np-long"/>
+			<t id="s14_9" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s14_10" word="dois" lemma="dois" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s14_11" word="terços" lemma="terço" pos="n" morph="M P" sem="amount cc" extra="--"/>
+			<t id="s14_12" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s14_13" word="as" lemma="o" pos="art" morph="F P" sem="--" extra=" -sam"/>
+			<t id="s14_14" word="autuações" lemma="autuação" pos="n" morph="F P" sem="act" extra="--"/>
+			<t id="s14_15" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s14_16" word="contribuintes" lemma="contribuinte" pos="n" morph="M/F P" sem="H" extra="--"/>
+			<t id="s14_17" word="por" lemma="por" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s14_18" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s14_19" word="malha" lemma="malha" pos="n" morph="F S" sem="tool cloH mat-cloth ac activity" extra="--"/>
+			<t id="s14_20" word="fina" lemma="fino" pos="adj" morph="F S" sem="--" extra="np-close"/>
+			<t id="s14_21" word="são" lemma="ser" pos="v-fin" morph="PR 3P IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s14_22" word="por" lemma="por" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s14_23" word="omissão" lemma="omissão" pos="n" morph="F S" sem="act-d Lopening" extra="--"/>
+			<t id="s14_24" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s14_25" word="renda" lemma="renda" pos="n" morph="F S" sem="mon mat-cloth" extra="--"/>
+			<t id="s14_26" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s14_500" cat="s">
+				<edge label="STA" idref="s14_501"/>
+			</nt>
+			<nt id="s14_501" cat="fcl">
+				<edge label="fA" idref="s14_502"/>
+				<edge label="PU" idref="s14_9"/>
+				<edge label="S" idref="s14_506"/>
+				<edge label="fA" idref="s14_510"/>
+				<edge label="P" idref="s14_21"/>
+				<edge label="Cs" idref="s14_512"/>
+				<edge label="PU" idref="s14_26"/>
+			</nt>
+			<nt id="s14_502" cat="pp">
+				<edge label="H" idref="s14_1"/>
+				<edge label="DP" idref="s14_503"/>
+			</nt>
+			<nt id="s14_503" cat="np">
+				<edge label="DN" idref="s14_2"/>
+				<edge label="H" idref="s14_3"/>
+				<edge label="DN" idref="s14_504"/>
+				<edge label="PU" idref="s14_7"/>
+				<edge label="DNapp" idref="s14_8"/>
+			</nt>
+			<nt id="s14_504" cat="pp">
+				<edge label="H" idref="s14_4"/>
+				<edge label="DP" idref="s14_505"/>
+			</nt>
+			<nt id="s14_505" cat="np">
+				<edge label="DN" idref="s14_5"/>
+				<edge label="H" idref="s14_6"/>
+			</nt>
+			<nt id="s14_506" cat="np">
+				<edge label="DN" idref="s14_10"/>
+				<edge label="H" idref="s14_11"/>
+				<edge label="DN" idref="s14_507"/>
+			</nt>
+			<nt id="s14_507" cat="pp">
+				<edge label="H" idref="s14_12"/>
+				<edge label="DP" idref="s14_508"/>
+			</nt>
+			<nt id="s14_508" cat="np">
+				<edge label="DN" idref="s14_13"/>
+				<edge label="H" idref="s14_14"/>
+				<edge label="DN" idref="s14_509"/>
+			</nt>
+			<nt id="s14_509" cat="pp">
+				<edge label="H" idref="s14_15"/>
+				<edge label="DP" idref="s14_16"/>
+			</nt>
+			<nt id="s14_510" cat="pp">
+				<edge label="H" idref="s14_17"/>
+				<edge label="DP" idref="s14_511"/>
+			</nt>
+			<nt id="s14_511" cat="np">
+				<edge label="DN" idref="s14_18"/>
+				<edge label="H" idref="s14_19"/>
+				<edge label="DN" idref="s14_20"/>
+			</nt>
+			<nt id="s14_512" cat="pp">
+				<edge label="H" idref="s14_22"/>
+				<edge label="DP" idref="s14_513"/>
+			</nt>
+			<nt id="s14_513" cat="np">
+				<edge label="H" idref="s14_23"/>
+				<edge label="DN" idref="s14_514"/>
+			</nt>
+			<nt id="s14_514" cat="pp">
+				<edge label="H" idref="s14_24"/>
+				<edge label="DP" idref="s14_25"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s15" ref="15" source="Running text" forest="1" text="Também é freqüente sonegação de despesas médicas e de omissão de renda de aluguel.">
+	<graph root="s15_500">
+		<terminals>
+			<t id="s15_1" word="Também" lemma="também" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s15_2" word="é" lemma="ser" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s15_3" word="freqüente" lemma="freqüente" pos="adj" morph="F S" sem="--" extra="--"/>
+			<t id="s15_4" word="sonegação" lemma="sonegação" pos="n" morph="F S" sem="act" extra="--"/>
+			<t id="s15_5" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s15_6" word="despesas" lemma="despesa" pos="n" morph="F P" sem="mon" extra="cjt-head cjt-head-DP"/>
+			<t id="s15_7" word="médicas" lemma="médico" pos="adj" morph="F P" sem="--" extra="np-close"/>
+			<t id="s15_8" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-postnom"/>
+			<t id="s15_9" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="cjt-DN np-close"/>
+			<t id="s15_10" word="omissão" lemma="omissão" pos="n" morph="F S" sem="act-d Lopening" extra="--"/>
+			<t id="s15_11" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s15_12" word="renda" lemma="renda" pos="n" morph="F S" sem="mon mat-cloth" extra="--"/>
+			<t id="s15_13" word="de_aluguel" lemma="de_aluguel" pos="adj" morph="--" sem="pp" extra="--"/>
+			<t id="s15_14" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s15_500" cat="s">
+				<edge label="STA" idref="s15_501"/>
+			</nt>
+			<nt id="s15_501" cat="fcl">
+				<edge label="fA" idref="s15_1"/>
+				<edge label="P" idref="s15_2"/>
+				<edge label="Cs" idref="s15_502"/>
+				<edge label="PU" idref="s15_14"/>
+			</nt>
+			<nt id="s15_502" cat="np">
+				<edge label="DN" idref="s15_3"/>
+				<edge label="H" idref="s15_4"/>
+				<edge label="DN" idref="s15_503"/>
+			</nt>
+			<nt id="s15_503" cat="pp">
+				<edge label="H" idref="s15_5"/>
+				<edge label="DP" idref="s15_504"/>
+			</nt>
+			<nt id="s15_504" cat="par">
+				<edge label="CJT" idref="s15_505"/>
+				<edge label="CO" idref="s15_8"/>
+				<edge label="CJT" idref="s15_506"/>
+			</nt>
+			<nt id="s15_505" cat="np">
+				<edge label="H" idref="s15_6"/>
+				<edge label="DN" idref="s15_7"/>
+			</nt>
+			<nt id="s15_506" cat="pp">
+				<edge label="H" idref="s15_9"/>
+				<edge label="DP" idref="s15_507"/>
+			</nt>
+			<nt id="s15_507" cat="np">
+				<edge label="H" idref="s15_10"/>
+				<edge label="DN" idref="s15_508"/>
+			</nt>
+			<nt id="s15_508" cat="pp">
+				<edge label="H" idref="s15_11"/>
+				<edge label="DP" idref="s15_509"/>
+			</nt>
+			<nt id="s15_509" cat="np">
+				<edge label="H" idref="s15_12"/>
+				<edge label="DN" idref="s15_13"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s16" ref="16" source="Running text" forest="1" text="Os dados de renda de aluguel são verificados por meio de a Dimob (declaração relativa ao mercado imobiliário).">
+	<graph root="s16_500">
+		<terminals>
+			<t id="s16_1" word="Os" lemma="o" pos="art" morph="M P" sem="--" extra="--"/>
+			<t id="s16_2" word="dados" lemma="dado" pos="n" morph="M P" sem="ac cc" extra="--"/>
+			<t id="s16_3" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s16_4" word="renda" lemma="renda" pos="n" morph="F S" sem="mon mat-cloth" extra="--"/>
+			<t id="s16_5" word="de_aluguel" lemma="de_aluguel" pos="adj" morph="--" sem="pp" extra="--"/>
+			<t id="s16_6" word="são" lemma="ser" pos="v-fin" morph="PR 3P IND VFIN" sem="--" extra="fmc aux"/>
+			<t id="s16_7" word="verificados" lemma="verificar" pos="v-pcp" morph="M P" sem="--" extra="mv"/>
+			<t id="s16_8" word="por_meio_de" lemma="por_meio_de" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s16_9" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="-sam "/>
+			<t id="s16_10" word="Dimob" lemma="Dimob" pos="prop" morph="F S" sem="--" extra="org"/>
+			<t id="s16_11" word="(" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s16_12" word="declaração" lemma="declaração" pos="n" morph="F S" sem="act-s act" extra="np-close"/>
+			<t id="s16_13" word="relativa" lemma="relativo" pos="adj" morph="F S" sem="--" extra="np-close"/>
+			<t id="s16_14" word="a" lemma="a" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s16_15" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="-sam "/>
+			<t id="s16_16" word="mercado" lemma="mercado" pos="n" morph="M S" sem="inst" extra="--"/>
+			<t id="s16_17" word="imobiliário" lemma="imobiliário" pos="adj" morph="M S" sem="--" extra="np-close"/>
+			<t id="s16_18" word=")" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s16_19" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s16_500" cat="s">
+				<edge label="STA" idref="s16_501"/>
+			</nt>
+			<nt id="s16_501" cat="fcl">
+				<edge label="S" idref="s16_502"/>
+				<edge label="P" idref="s16_505"/>
+				<edge label="fA" idref="s16_506"/>
+				<edge label="PU" idref="s16_19"/>
+			</nt>
+			<nt id="s16_502" cat="np">
+				<edge label="DN" idref="s16_1"/>
+				<edge label="H" idref="s16_2"/>
+				<edge label="DN" idref="s16_503"/>
+			</nt>
+			<nt id="s16_503" cat="pp">
+				<edge label="H" idref="s16_3"/>
+				<edge label="DP" idref="s16_504"/>
+			</nt>
+			<nt id="s16_504" cat="np">
+				<edge label="H" idref="s16_4"/>
+				<edge label="DN" idref="s16_5"/>
+			</nt>
+			<nt id="s16_505" cat="vp">
+				<edge label="Vaux" idref="s16_6"/>
+				<edge label="Vm" idref="s16_7"/>
+			</nt>
+			<nt id="s16_506" cat="pp">
+				<edge label="H" idref="s16_8"/>
+				<edge label="DP" idref="s16_507"/>
+			</nt>
+			<nt id="s16_507" cat="np">
+				<edge label="DN" idref="s16_9"/>
+				<edge label="H" idref="s16_10"/>
+				<edge label="PU" idref="s16_11"/>
+				<edge label="DNc" idref="s16_508"/>
+				<edge label="PU" idref="s16_18"/>
+			</nt>
+			<nt id="s16_508" cat="np">
+				<edge label="H" idref="s16_12"/>
+				<edge label="DN" idref="s16_509"/>
+			</nt>
+			<nt id="s16_509" cat="adjp">
+				<edge label="H" idref="s16_13"/>
+				<edge label="DA" idref="s16_510"/>
+			</nt>
+			<nt id="s16_510" cat="pp">
+				<edge label="H" idref="s16_14"/>
+				<edge label="DP" idref="s16_511"/>
+			</nt>
+			<nt id="s16_511" cat="np">
+				<edge label="DN" idref="s16_15"/>
+				<edge label="H" idref="s16_16"/>
+				<edge label="DN" idref="s16_17"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s17" ref="17" source="Running text" forest="1" text="O secretário rechaçou a avaliação de que o leão - apelido dado ao Fisco - esteja mais guloso em 2007.">
+	<graph root="s17_500">
+		<terminals>
+			<t id="s17_1" word="O" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s17_2" word="secretário" lemma="secretário" pos="n" morph="M S" sem="Hprof" extra="--"/>
+			<t id="s17_3" word="rechaçou" lemma="rechaçar" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s17_4" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s17_5" word="avaliação" lemma="avaliação" pos="n" morph="F S" sem="act" extra="--"/>
+			<t id="s17_6" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s17_7" word="que" lemma="que" pos="conj-s" morph="--" sem="--" extra="clb"/>
+			<t id="s17_8" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s17_9" word="leão" lemma="leão" pos="n" morph="M S" sem="Azo" extra="--"/>
+			<t id="s17_10" word="¬" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s17_11" word="apelido" lemma="apelido" pos="n" morph="M S" sem="ac-cat" extra="--"/>
+			<t id="s17_12" word="dado" lemma="dar" pos="v-pcp" morph="M S" sem="--" extra="mv np-close"/>
+			<t id="s17_13" word="a" lemma="a" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s17_14" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="-sam "/>
+			<t id="s17_15" word="Fisco" lemma="fisco" pos="n" morph="M S" sem="HH" extra="prop"/>
+			<t id="s17_16" word="¬" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s17_17" word="esteja" lemma="estar" pos="v-fin" morph="PR 3S SUBJ VFIN" sem="--" extra="mv"/>
+			<t id="s17_18" word="mais" lemma="mais" pos="adv" morph="--" sem="--" extra="quant KOMP"/>
+			<t id="s17_19" word="guloso" lemma="guloso" pos="adj" morph="M S" sem="--" extra="n"/>
+			<t id="s17_20" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s17_21" word="2007" lemma="2007" pos="num" morph="M/F P" sem="--" extra="card"/>
+			<t id="s17_22" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s17_500" cat="s">
+				<edge label="STA" idref="s17_501"/>
+			</nt>
+			<nt id="s17_501" cat="fcl">
+				<edge label="S" idref="s17_502"/>
+				<edge label="P" idref="s17_3"/>
+				<edge label="Od" idref="s17_503"/>
+				<edge label="PU" idref="s17_10"/>
+				<edge label="fCs" idref="s17_507"/>
+				<edge label="PU" idref="s17_22"/>
+			</nt>
+			<nt id="s17_502" cat="np">
+				<edge label="DN" idref="s17_1"/>
+				<edge label="H" idref="s17_2"/>
+			</nt>
+			<nt id="s17_503" cat="np">
+				<edge label="DN" idref="s17_4"/>
+				<edge label="H" idref="s17_5"/>
+				<edge label="DN" idref="s17_504"/>
+			</nt>
+			<nt id="s17_504" cat="pp">
+				<edge label="H" idref="s17_6"/>
+				<edge label="DP" idref="s17_505"/>
+			</nt>
+			<nt id="s17_505" cat="fcl">
+				<edge label="SUB" idref="s17_7"/>
+				<edge label="S" idref="s17_506"/>
+			</nt>
+			<nt id="s17_506" cat="np">
+				<edge label="DN" idref="s17_8"/>
+				<edge label="H" idref="s17_9"/>
+			</nt>
+			<nt id="s17_507" cat="np">
+				<edge label="H" idref="s17_11"/>
+				<edge label="DN" idref="s17_508"/>
+			</nt>
+			<nt id="s17_508" cat="icl">
+				<edge label="P" idref="s17_12"/>
+				<edge label="Op" idref="s17_509"/>
+			</nt>
+			<nt id="s17_509" cat="pp">
+				<edge label="H" idref="s17_13"/>
+				<edge label="DP" idref="s17_510"/>
+				<edge label="PU" idref="s17_16"/>
+				<edge label="P" idref="s17_17"/>
+				<edge label="Cs" idref="s17_511"/>
+			</nt>
+			<nt id="s17_510" cat="np">
+				<edge label="DN" idref="s17_14"/>
+				<edge label="H" idref="s17_15"/>
+			</nt>
+			<nt id="s17_511" cat="np">
+				<edge label="DA" idref="s17_18"/>
+				<edge label="H" idref="s17_19"/>
+				<edge label="DN" idref="s17_512"/>
+			</nt>
+			<nt id="s17_512" cat="pp">
+				<edge label="H" idref="s17_20"/>
+				<edge label="DP" idref="s17_21"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s18" ref="18" source="Running text" forest="1" text="&quot;O leão está mais atento e não guloso», disse.">
+	<graph root="s18_500">
+		<terminals>
+			<t id="s18_1" word="&quot;" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s18_2" word="O" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s18_3" word="leão" lemma="leão" pos="n" morph="M S" sem="Azo" extra="--"/>
+			<t id="s18_4" word="está" lemma="estar" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="predco predco fmc mv"/>
+			<t id="s18_5" word="mais" lemma="mais" pos="adv" morph="--" sem="--" extra="quant KOMP"/>
+			<t id="s18_6" word="atento" lemma="atento" pos="adj" morph="M S" sem="--" extra="cjt-head cjt-head-Cs"/>
+			<t id="s18_7" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-sc co-sc"/>
+			<t id="s18_8" word="não" lemma="não" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s18_9" word="guloso" lemma="guloso" pos="adj" morph="M S" sem="--" extra="cjt-Cs"/>
+			<t id="s18_10" word="&quot;" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s18_11" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s18_12" word="disse" lemma="dizer" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="nosubj nosubj cjt-STA fmc mv"/>
+			<t id="s18_13" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s18_500" cat="s">
+				<edge label="STA" idref="s18_501"/>
+			</nt>
+			<nt id="s18_501" cat="fcl">
+				<edge label="PU" idref="s18_1"/>
+				<edge label="S" idref="s18_502"/>
+				<edge label="X" idref="s18_503"/>
+				<edge label="PU" idref="s18_13"/>
+			</nt>
+			<nt id="s18_502" cat="np">
+				<edge label="DN" idref="s18_2"/>
+				<edge label="H" idref="s18_3"/>
+			</nt>
+			<nt id="s18_503" cat="par">
+				<edge label="CJT" idref="s18_504"/>
+				<edge label="PU" idref="s18_11"/>
+				<edge label="CJT" idref="s18_12"/>
+			</nt>
+			<nt id="s18_504" cat="x">
+				<edge label="P" idref="s18_4"/>
+				<edge label="Cs" idref="s18_505"/>
+			</nt>
+			<nt id="s18_505" cat="par">
+				<edge label="CJT" idref="s18_506"/>
+				<edge label="CO" idref="s18_7"/>
+				<edge label="CJT" idref="s18_507"/>
+			</nt>
+			<nt id="s18_506" cat="adjp">
+				<edge label="DA" idref="s18_5"/>
+				<edge label="H" idref="s18_6"/>
+			</nt>
+			<nt id="s18_507" cat="adjp">
+				<edge label="DA" idref="s18_8"/>
+				<edge label="H" idref="s18_9"/>
+				<edge label="PU" idref="s18_10"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s19" ref="19" source="Running text" forest="1" text="Além de a malha fina, a Receita também centrou o foco na fiscalização de pessoas físicas que são proprietários e dirigentes de empresas.">
+	<graph root="s19_500">
+		<terminals>
+			<t id="s19_1" word="Além_de" lemma="além_de" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s19_2" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="-sam "/>
+			<t id="s19_3" word="malha" lemma="malha" pos="n" morph="F S" sem="tool cloH mat-cloth ac activity" extra="--"/>
+			<t id="s19_4" word="fina" lemma="fino" pos="adj" morph="F S" sem="--" extra="np-close"/>
+			<t id="s19_5" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s19_6" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s19_7" word="Receita" lemma="receita" pos="n" morph="F S" sem="mon sem-r" extra="prop"/>
+			<t id="s19_8" word="também" lemma="também" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s19_9" word="centrou" lemma="centrar" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s19_10" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s19_11" word="foco" lemma="foco" pos="n" morph="M S" sem="Labs" extra="--"/>
+			<t id="s19_12" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s19_13" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s19_14" word="fiscalização" lemma="fiscalização" pos="n" morph="F S" sem="act" extra="--"/>
+			<t id="s19_15" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s19_16" word="pessoas_físicas" lemma="pessoa_física" pos="n" morph="F P" sem="H" extra="--"/>
+			<t id="s19_17" word="que" lemma="que" pos="spec" morph="M S" sem="--" extra="clb rel"/>
+			<t id="s19_18" word="são" lemma="ser" pos="v-fin" morph="PR 3P IND VFIN" sem="--" extra="mv np-close"/>
+			<t id="s19_19" word="proprietários" lemma="proprietário" pos="n" morph="M P" sem="Hprof" extra="cjt-head cjt-head-Cs"/>
+			<t id="s19_20" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-sc co-sc"/>
+			<t id="s19_21" word="dirigentes" lemma="dirigente" pos="n" morph="M P" sem="H" extra="cjt-Cs"/>
+			<t id="s19_22" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s19_23" word="empresas" lemma="empresa" pos="n" morph="F P" sem="HH" extra="--"/>
+			<t id="s19_24" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s19_500" cat="s">
+				<edge label="STA" idref="s19_501"/>
+			</nt>
+			<nt id="s19_501" cat="fcl">
+				<edge label="fA" idref="s19_502"/>
+				<edge label="PU" idref="s19_5"/>
+				<edge label="S" idref="s19_504"/>
+				<edge label="fA" idref="s19_8"/>
+				<edge label="P" idref="s19_9"/>
+				<edge label="Od" idref="s19_505"/>
+				<edge label="PU" idref="s19_24"/>
+			</nt>
+			<nt id="s19_502" cat="pp">
+				<edge label="H" idref="s19_1"/>
+				<edge label="DP" idref="s19_503"/>
+			</nt>
+			<nt id="s19_503" cat="np">
+				<edge label="DN" idref="s19_2"/>
+				<edge label="H" idref="s19_3"/>
+				<edge label="DN" idref="s19_4"/>
+			</nt>
+			<nt id="s19_504" cat="np">
+				<edge label="DN" idref="s19_6"/>
+				<edge label="H" idref="s19_7"/>
+			</nt>
+			<nt id="s19_505" cat="np">
+				<edge label="DN" idref="s19_10"/>
+				<edge label="H" idref="s19_11"/>
+				<edge label="DN" idref="s19_506"/>
+			</nt>
+			<nt id="s19_506" cat="pp">
+				<edge label="H" idref="s19_12"/>
+				<edge label="DP" idref="s19_507"/>
+			</nt>
+			<nt id="s19_507" cat="np">
+				<edge label="DN" idref="s19_13"/>
+				<edge label="H" idref="s19_14"/>
+				<edge label="DN" idref="s19_508"/>
+			</nt>
+			<nt id="s19_508" cat="pp">
+				<edge label="H" idref="s19_15"/>
+				<edge label="DP" idref="s19_509"/>
+			</nt>
+			<nt id="s19_509" cat="np">
+				<edge label="H" idref="s19_16"/>
+				<edge label="DN" idref="s19_510"/>
+			</nt>
+			<nt id="s19_510" cat="fcl">
+				<edge label="S" idref="s19_17"/>
+				<edge label="P" idref="s19_18"/>
+				<edge label="Cs" idref="s19_511"/>
+			</nt>
+			<nt id="s19_511" cat="par">
+				<edge label="CJT" idref="s19_19"/>
+				<edge label="CO" idref="s19_20"/>
+				<edge label="CJT" idref="s19_512"/>
+			</nt>
+			<nt id="s19_512" cat="np">
+				<edge label="H" idref="s19_21"/>
+				<edge label="DN" idref="s19_513"/>
+			</nt>
+			<nt id="s19_513" cat="pp">
+				<edge label="H" idref="s19_22"/>
+				<edge label="DP" idref="s19_23"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s20" ref="20" source="Running text" forest="1" text="Esses fiscalizações renderam, de janeiro a julho, R 2,136 bilhões de autuações.">
+	<graph root="s20_500">
+		<terminals>
+			<t id="s20_1" word="Esses" lemma="esse" pos="pron-dem" morph="DET M P" sem="--" extra="dem"/>
+			<t id="s20_2" word="fiscalizações" lemma="fiscalização" pos="n" morph="F P" sem="act" extra="--"/>
+			<t id="s20_3" word="renderam" lemma="render" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s20_4" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s20_5" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s20_6" word="janeiro" lemma="janeiro" pos="n" morph="M S" sem="--" extra="--"/>
+			<t id="s20_7" word="a" lemma="a" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s20_8" word="julho" lemma="julho" pos="n" morph="M S" sem="--" extra="cjt-head cjt-head-DP"/>
+			<t id="s20_9" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s20_10" word="R$" lemma="r$" pos="n" morph="M S" sem="cur unit" extra="cjt-DP"/>
+			<t id="s20_11" word="2,136" lemma="2,136" pos="num" morph="M/F P" sem="--" extra="card np-close"/>
+			<t id="s20_12" word="bilhões" lemma="bilhão" pos="n" morph="M P" sem="amount" extra="--"/>
+			<t id="s20_13" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s20_14" word="autuações" lemma="autuação" pos="n" morph="F P" sem="act" extra="--"/>
+			<t id="s20_15" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s20_500" cat="s">
+				<edge label="STA" idref="s20_501"/>
+			</nt>
+			<nt id="s20_501" cat="fcl">
+				<edge label="S" idref="s20_502"/>
+				<edge label="P" idref="s20_3"/>
+				<edge label="PU" idref="s20_4"/>
+				<edge label="fCs" idref="s20_503"/>
+				<edge label="fA" idref="s20_504"/>
+				<edge label="Od" idref="s20_507"/>
+				<edge label="PU" idref="s20_15"/>
+			</nt>
+			<nt id="s20_502" cat="np">
+				<edge label="DN" idref="s20_1"/>
+				<edge label="H" idref="s20_2"/>
+			</nt>
+			<nt id="s20_503" cat="pp">
+				<edge label="H" idref="s20_5"/>
+				<edge label="DP" idref="s20_6"/>
+			</nt>
+			<nt id="s20_504" cat="pp">
+				<edge label="H" idref="s20_7"/>
+				<edge label="DP" idref="s20_505"/>
+			</nt>
+			<nt id="s20_505" cat="par">
+				<edge label="CJT" idref="s20_8"/>
+				<edge label="PU" idref="s20_9"/>
+				<edge label="CJT" idref="s20_506"/>
+			</nt>
+			<nt id="s20_506" cat="np">
+				<edge label="H" idref="s20_10"/>
+				<edge label="DN" idref="s20_11"/>
+			</nt>
+			<nt id="s20_507" cat="np">
+				<edge label="H" idref="s20_12"/>
+				<edge label="DN" idref="s20_508"/>
+			</nt>
+			<nt id="s20_508" cat="pp">
+				<edge label="H" idref="s20_13"/>
+				<edge label="DP" idref="s20_14"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s21" ref="21" source="Running text" forest="1" text="Um crescimento de 558,7% em relação a o mesmo período do ano passado.">
+	<graph root="s21_500">
+		<terminals>
+			<t id="s21_1" word="Um" lemma="um" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s21_2" word="crescimento" lemma="crescimento" pos="n" morph="M S" sem="process" extra="--"/>
+			<t id="s21_3" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s21_4" word="558,7" lemma="558,7" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s21_5" word="%" lemma="%" pos="n" morph="M P" sem="--" extra="--"/>
+			<t id="s21_6" word="em_relação_a" lemma="em_relação_a" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s21_7" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="-sam "/>
+			<t id="s21_8" word="mesmo" lemma="mesmo" pos="pron-indef" morph="DET M S" sem="--" extra="diff KOMP"/>
+			<t id="s21_9" word="período" lemma="período" pos="n" morph="M S" sem="per" extra="--"/>
+			<t id="s21_10" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-long"/>
+			<t id="s21_11" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s21_12" word="ano" lemma="ano" pos="n" morph="M S" sem="per temp dur unit" extra="--"/>
+			<t id="s21_13" word="passado" lemma="passado" pos="adj" morph="M S" sem="--" extra="np-close"/>
+			<t id="s21_14" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s21_500" cat="s">
+				<edge label="X" idref="s21_501"/>
+			</nt>
+			<nt id="s21_501" cat="np">
+				<edge label="DN" idref="s21_1"/>
+				<edge label="H" idref="s21_2"/>
+				<edge label="DN" idref="s21_502"/>
+				<edge label="PU" idref="s21_14"/>
+			</nt>
+			<nt id="s21_502" cat="pp">
+				<edge label="H" idref="s21_3"/>
+				<edge label="DP" idref="s21_503"/>
+			</nt>
+			<nt id="s21_503" cat="np">
+				<edge label="DN" idref="s21_4"/>
+				<edge label="H" idref="s21_5"/>
+				<edge label="DN" idref="s21_504"/>
+				<edge label="DN" idref="s21_506"/>
+			</nt>
+			<nt id="s21_504" cat="pp">
+				<edge label="H" idref="s21_6"/>
+				<edge label="DP" idref="s21_505"/>
+			</nt>
+			<nt id="s21_505" cat="np">
+				<edge label="DN" idref="s21_7"/>
+				<edge label="DN" idref="s21_8"/>
+				<edge label="H" idref="s21_9"/>
+			</nt>
+			<nt id="s21_506" cat="pp">
+				<edge label="H" idref="s21_10"/>
+				<edge label="DP" idref="s21_507"/>
+			</nt>
+			<nt id="s21_507" cat="np">
+				<edge label="DN" idref="s21_11"/>
+				<edge label="H" idref="s21_12"/>
+				<edge label="DN" idref="s21_13"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s22" ref="22" source="Running text" forest="1" text="Foram autuadas 1.230 pessoas.">
+	<graph root="s22_500">
+		<terminals>
+			<t id="s22_1" word="Foram" lemma="ser" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="fmc aux"/>
+			<t id="s22_2" word="autuadas" lemma="autuar" pos="v-pcp" morph="F P" sem="--" extra="mv"/>
+			<t id="s22_3" word="1.230" lemma="1.230" pos="num" morph="F P" sem="--" extra="card"/>
+			<t id="s22_4" word="pessoas" lemma="pessoa" pos="n" morph="F P" sem="H" extra="--"/>
+			<t id="s22_5" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s22_500" cat="s">
+				<edge label="STA" idref="s22_501"/>
+			</nt>
+			<nt id="s22_501" cat="fcl">
+				<edge label="P" idref="s22_502"/>
+				<edge label="S" idref="s22_503"/>
+				<edge label="PU" idref="s22_5"/>
+			</nt>
+			<nt id="s22_502" cat="vp">
+				<edge label="Vaux" idref="s22_1"/>
+				<edge label="Vm" idref="s22_2"/>
+			</nt>
+			<nt id="s22_503" cat="np">
+				<edge label="DN" idref="s22_3"/>
+				<edge label="H" idref="s22_4"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s23" ref="23" source="Running text" forest="1" text="Em o mesmo período do ano passado, as atuações de proprietários e dirigentes de empresas somaram R 324,43 milhões.">
+	<graph root="s23_500">
+		<terminals>
+			<t id="s23_1" word="Em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s23_2" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s23_3" word="mesmo" lemma="mesmo" pos="pron-indef" morph="DET M S" sem="--" extra="diff KOMP"/>
+			<t id="s23_4" word="período" lemma="período" pos="n" morph="M S" sem="per" extra="--"/>
+			<t id="s23_5" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s23_6" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s23_7" word="ano" lemma="ano" pos="n" morph="M S" sem="per temp dur unit" extra="--"/>
+			<t id="s23_8" word="passado" lemma="passado" pos="adj" morph="M S" sem="--" extra="np-close"/>
+			<t id="s23_9" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s23_10" word="as" lemma="o" pos="art" morph="F P" sem="--" extra="--"/>
+			<t id="s23_11" word="atuações" lemma="atuação" pos="n" morph="F P" sem="ac activity" extra="--"/>
+			<t id="s23_12" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s23_13" word="proprietários" lemma="proprietário" pos="n" morph="M P" sem="Hprof" extra="cjt-head cjt-head-DP"/>
+			<t id="s23_14" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-prparg co-prparg"/>
+			<t id="s23_15" word="dirigentes" lemma="dirigente" pos="n" morph="M P" sem="H" extra="cjt-DP"/>
+			<t id="s23_16" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s23_17" word="empresas" lemma="empresa" pos="n" morph="F P" sem="HH" extra="--"/>
+			<t id="s23_18" word="somaram" lemma="somar" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s23_19" word="R$" lemma="r$" pos="n" morph="M S" sem="cur unit" extra="prop"/>
+			<t id="s23_20" word="324,43" lemma="324,43" pos="num" morph="M/F P" sem="--" extra="card np-close"/>
+			<t id="s23_21" word="milhões" lemma="milhão" pos="n" morph="M P" sem="amount" extra="--"/>
+			<t id="s23_22" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s23_500" cat="s">
+				<edge label="STA" idref="s23_501"/>
+			</nt>
+			<nt id="s23_501" cat="fcl">
+				<edge label="fA" idref="s23_502"/>
+				<edge label="PU" idref="s23_9"/>
+				<edge label="S" idref="s23_506"/>
+				<edge label="P" idref="s23_18"/>
+				<edge label="Od" idref="s23_511"/>
+				<edge label="fCs" idref="s23_21"/>
+				<edge label="PU" idref="s23_22"/>
+			</nt>
+			<nt id="s23_502" cat="pp">
+				<edge label="H" idref="s23_1"/>
+				<edge label="DP" idref="s23_503"/>
+			</nt>
+			<nt id="s23_503" cat="np">
+				<edge label="DN" idref="s23_2"/>
+				<edge label="DN" idref="s23_3"/>
+				<edge label="H" idref="s23_4"/>
+				<edge label="DN" idref="s23_504"/>
+			</nt>
+			<nt id="s23_504" cat="pp">
+				<edge label="H" idref="s23_5"/>
+				<edge label="DP" idref="s23_505"/>
+			</nt>
+			<nt id="s23_505" cat="np">
+				<edge label="DN" idref="s23_6"/>
+				<edge label="H" idref="s23_7"/>
+				<edge label="DN" idref="s23_8"/>
+			</nt>
+			<nt id="s23_506" cat="np">
+				<edge label="DN" idref="s23_10"/>
+				<edge label="H" idref="s23_11"/>
+				<edge label="DN" idref="s23_507"/>
+			</nt>
+			<nt id="s23_507" cat="pp">
+				<edge label="H" idref="s23_12"/>
+				<edge label="DP" idref="s23_508"/>
+			</nt>
+			<nt id="s23_508" cat="par">
+				<edge label="CJT" idref="s23_13"/>
+				<edge label="CO" idref="s23_14"/>
+				<edge label="CJT" idref="s23_509"/>
+			</nt>
+			<nt id="s23_509" cat="np">
+				<edge label="H" idref="s23_15"/>
+				<edge label="DN" idref="s23_510"/>
+			</nt>
+			<nt id="s23_510" cat="pp">
+				<edge label="H" idref="s23_16"/>
+				<edge label="DP" idref="s23_17"/>
+			</nt>
+			<nt id="s23_511" cat="np">
+				<edge label="H" idref="s23_19"/>
+				<edge label="DN" idref="s23_20"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s24" ref="24" source="Running text" forest="1" text="De acordo com o balanço da Receita, as autuações totais de pessoas físicas nos sete primeiros meses deste ano somaram R 5,356 bilhões, com crescimento de 352% em relação a o mesmo período do ano passado.">
+	<graph root="s24_500">
+		<terminals>
+			<t id="s24_1" word="De_acordo" lemma="de_acordo" pos="adv" morph="--" sem="pp" extra="--"/>
+			<t id="s24_2" word="com" lemma="com" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s24_3" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s24_4" word="balanço" lemma="balanço" pos="n" morph="M S" sem="sem-c state" extra="--"/>
+			<t id="s24_5" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s24_6" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s24_7" word="Receita" lemma="receita" pos="n" morph="F S" sem="mon sem-r" extra="prop"/>
+			<t id="s24_8" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s24_9" word="as" lemma="o" pos="art" morph="F P" sem="--" extra="--"/>
+			<t id="s24_10" word="autuações" lemma="autuação" pos="n" morph="F P" sem="act" extra="--"/>
+			<t id="s24_11" word="totais" lemma="total" pos="adj" morph="F P" sem="--" extra="np-close"/>
+			<t id="s24_12" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s24_13" word="pessoas_físicas" lemma="pessoa_física" pos="n" morph="F P" sem="H" extra="--"/>
+			<t id="s24_14" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s24_15" word="os" lemma="o" pos="art" morph="M P" sem="--" extra=" -sam"/>
+			<t id="s24_16" word="sete" lemma="sete" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s24_17" word="primeiros" lemma="primeiro" pos="adj" morph="M P" sem="--" extra="NUM-ord"/>
+			<t id="s24_18" word="meses" lemma="mês" pos="n" morph="M P" sem="per dur unit" extra="--"/>
+			<t id="s24_19" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s24_20" word="este" lemma="este" pos="pron-dem" morph="DET M S" sem="--" extra="dem -sam"/>
+			<t id="s24_21" word="ano" lemma="ano" pos="n" morph="M S" sem="per temp dur unit" extra="--"/>
+			<t id="s24_22" word="somaram" lemma="somar" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s24_23" word="R$" lemma="r$" pos="n" morph="M S" sem="cur unit" extra="prop"/>
+			<t id="s24_24" word="5,356" lemma="5,356" pos="num" morph="M/F P" sem="--" extra="card np-close"/>
+			<t id="s24_25" word="bilhões" lemma="bilhão" pos="n" morph="M P" sem="amount" extra="--"/>
+			<t id="s24_26" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s24_27" word="com" lemma="com" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s24_28" word="crescimento" lemma="crescimento" pos="n" morph="M S" sem="process" extra="--"/>
+			<t id="s24_29" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s24_30" word="352" lemma="352" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s24_31" word="%" lemma="%" pos="n" morph="M P" sem="--" extra="--"/>
+			<t id="s24_32" word="em_relação_a" lemma="em_relação_a" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s24_33" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="-sam "/>
+			<t id="s24_34" word="mesmo" lemma="mesmo" pos="pron-indef" morph="DET M S" sem="--" extra="diff KOMP"/>
+			<t id="s24_35" word="período" lemma="período" pos="n" morph="M S" sem="per" extra="--"/>
+			<t id="s24_36" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-long"/>
+			<t id="s24_37" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s24_38" word="ano" lemma="ano" pos="n" morph="M S" sem="per temp dur unit" extra="--"/>
+			<t id="s24_39" word="passado" lemma="passado" pos="adj" morph="M S" sem="--" extra="np-close"/>
+			<t id="s24_40" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s24_500" cat="s">
+				<edge label="STA" idref="s24_501"/>
+			</nt>
+			<nt id="s24_501" cat="fcl">
+				<edge label="fA" idref="s24_502"/>
+				<edge label="PU" idref="s24_8"/>
+				<edge label="S" idref="s24_507"/>
+				<edge label="P" idref="s24_22"/>
+				<edge label="Od" idref="s24_514"/>
+				<edge label="fCs" idref="s24_515"/>
+				<edge label="PU" idref="s24_40"/>
+			</nt>
+			<nt id="s24_502" cat="advp">
+				<edge label="H" idref="s24_1"/>
+				<edge label="DA" idref="s24_503"/>
+			</nt>
+			<nt id="s24_503" cat="pp">
+				<edge label="H" idref="s24_2"/>
+				<edge label="DP" idref="s24_504"/>
+			</nt>
+			<nt id="s24_504" cat="np">
+				<edge label="DN" idref="s24_3"/>
+				<edge label="H" idref="s24_4"/>
+				<edge label="DN" idref="s24_505"/>
+			</nt>
+			<nt id="s24_505" cat="pp">
+				<edge label="H" idref="s24_5"/>
+				<edge label="DP" idref="s24_506"/>
+			</nt>
+			<nt id="s24_506" cat="np">
+				<edge label="DN" idref="s24_6"/>
+				<edge label="H" idref="s24_7"/>
+			</nt>
+			<nt id="s24_507" cat="np">
+				<edge label="DN" idref="s24_9"/>
+				<edge label="H" idref="s24_10"/>
+				<edge label="DN" idref="s24_11"/>
+				<edge label="DN" idref="s24_508"/>
+			</nt>
+			<nt id="s24_508" cat="pp">
+				<edge label="H" idref="s24_12"/>
+				<edge label="DP" idref="s24_509"/>
+			</nt>
+			<nt id="s24_509" cat="np">
+				<edge label="H" idref="s24_13"/>
+				<edge label="DN" idref="s24_510"/>
+			</nt>
+			<nt id="s24_510" cat="pp">
+				<edge label="H" idref="s24_14"/>
+				<edge label="DP" idref="s24_511"/>
+			</nt>
+			<nt id="s24_511" cat="np">
+				<edge label="DN" idref="s24_15"/>
+				<edge label="DN" idref="s24_16"/>
+				<edge label="DN" idref="s24_17"/>
+				<edge label="H" idref="s24_18"/>
+				<edge label="DN" idref="s24_512"/>
+			</nt>
+			<nt id="s24_512" cat="pp">
+				<edge label="H" idref="s24_19"/>
+				<edge label="DP" idref="s24_513"/>
+			</nt>
+			<nt id="s24_513" cat="np">
+				<edge label="DN" idref="s24_20"/>
+				<edge label="H" idref="s24_21"/>
+			</nt>
+			<nt id="s24_514" cat="np">
+				<edge label="H" idref="s24_23"/>
+				<edge label="DN" idref="s24_24"/>
+			</nt>
+			<nt id="s24_515" cat="np">
+				<edge label="H" idref="s24_25"/>
+				<edge label="PU" idref="s24_26"/>
+				<edge label="DNc" idref="s24_516"/>
+			</nt>
+			<nt id="s24_516" cat="pp">
+				<edge label="H" idref="s24_27"/>
+				<edge label="DP" idref="s24_517"/>
+			</nt>
+			<nt id="s24_517" cat="np">
+				<edge label="H" idref="s24_28"/>
+				<edge label="DN" idref="s24_518"/>
+			</nt>
+			<nt id="s24_518" cat="pp">
+				<edge label="H" idref="s24_29"/>
+				<edge label="DP" idref="s24_519"/>
+			</nt>
+			<nt id="s24_519" cat="np">
+				<edge label="DN" idref="s24_30"/>
+				<edge label="H" idref="s24_31"/>
+				<edge label="DN" idref="s24_520"/>
+				<edge label="DN" idref="s24_522"/>
+			</nt>
+			<nt id="s24_520" cat="pp">
+				<edge label="H" idref="s24_32"/>
+				<edge label="DP" idref="s24_521"/>
+			</nt>
+			<nt id="s24_521" cat="np">
+				<edge label="DN" idref="s24_33"/>
+				<edge label="DN" idref="s24_34"/>
+				<edge label="H" idref="s24_35"/>
+			</nt>
+			<nt id="s24_522" cat="pp">
+				<edge label="H" idref="s24_36"/>
+				<edge label="DP" idref="s24_523"/>
+			</nt>
+			<nt id="s24_523" cat="np">
+				<edge label="DN" idref="s24_37"/>
+				<edge label="H" idref="s24_38"/>
+				<edge label="DN" idref="s24_39"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s25" ref="25" source="Running text" forest="1" text="A Receita também intensificou a fiscalização nas instituições financeiras.">
+	<graph root="s25_500">
+		<terminals>
+			<t id="s25_1" word="A" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s25_2" word="Receita" lemma="receita" pos="n" morph="F S" sem="mon sem-r" extra="prop"/>
+			<t id="s25_3" word="também" lemma="também" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s25_4" word="intensificou" lemma="intensificar" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s25_5" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s25_6" word="fiscalização" lemma="fiscalização" pos="n" morph="F S" sem="act" extra="--"/>
+			<t id="s25_7" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s25_8" word="as" lemma="o" pos="art" morph="F P" sem="--" extra=" -sam"/>
+			<t id="s25_9" word="instituições" lemma="instituição" pos="n" morph="F P" sem="inst act" extra="--"/>
+			<t id="s25_10" word="financeiras" lemma="financeiro" pos="adj" morph="F P" sem="--" extra="np-close"/>
+			<t id="s25_11" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s25_500" cat="s">
+				<edge label="STA" idref="s25_501"/>
+			</nt>
+			<nt id="s25_501" cat="fcl">
+				<edge label="S" idref="s25_502"/>
+				<edge label="fA" idref="s25_3"/>
+				<edge label="P" idref="s25_4"/>
+				<edge label="Od" idref="s25_503"/>
+				<edge label="PU" idref="s25_11"/>
+			</nt>
+			<nt id="s25_502" cat="np">
+				<edge label="DN" idref="s25_1"/>
+				<edge label="H" idref="s25_2"/>
+			</nt>
+			<nt id="s25_503" cat="np">
+				<edge label="DN" idref="s25_5"/>
+				<edge label="H" idref="s25_6"/>
+				<edge label="DN" idref="s25_504"/>
+			</nt>
+			<nt id="s25_504" cat="pp">
+				<edge label="H" idref="s25_7"/>
+				<edge label="DP" idref="s25_505"/>
+			</nt>
+			<nt id="s25_505" cat="np">
+				<edge label="DN" idref="s25_8"/>
+				<edge label="H" idref="s25_9"/>
+				<edge label="DN" idref="s25_10"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s26" ref="26" source="Running text" forest="1" text="O resultado, neste caso, foi que as autuações triplicaram nos sete primeiros meses desse ano.">
+	<graph root="s26_500">
+		<terminals>
+			<t id="s26_1" word="O" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s26_2" word="resultado" lemma="resultado" pos="n" morph="M S" sem="ac" extra="--"/>
+			<t id="s26_3" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s26_4" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s26_5" word="este" lemma="este" pos="pron-dem" morph="DET M S" sem="--" extra="dem -sam"/>
+			<t id="s26_6" word="caso" lemma="caso" pos="n" morph="M S" sem="ac-cat event sem" extra="--"/>
+			<t id="s26_7" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s26_8" word="foi" lemma="ser" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s26_9" word="que" lemma="que" pos="conj-s" morph="--" sem="--" extra="clb"/>
+			<t id="s26_10" word="as" lemma="o" pos="art" morph="F P" sem="--" extra="--"/>
+			<t id="s26_11" word="autuações" lemma="autuação" pos="n" morph="F P" sem="act" extra="--"/>
+			<t id="s26_12" word="triplicaram" lemma="triplicar" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="mv"/>
+			<t id="s26_13" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s26_14" word="os" lemma="o" pos="art" morph="M P" sem="--" extra=" -sam"/>
+			<t id="s26_15" word="sete" lemma="sete" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s26_16" word="primeiros" lemma="primeiro" pos="adj" morph="M P" sem="--" extra="NUM-ord"/>
+			<t id="s26_17" word="meses" lemma="mês" pos="n" morph="M P" sem="per dur unit" extra="--"/>
+			<t id="s26_18" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s26_19" word="esse" lemma="esse" pos="pron-dem" morph="DET M S" sem="--" extra="dem -sam"/>
+			<t id="s26_20" word="ano" lemma="ano" pos="n" morph="M S" sem="per temp dur unit" extra="--"/>
+			<t id="s26_21" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s26_500" cat="s">
+				<edge label="STA" idref="s26_501"/>
+			</nt>
+			<nt id="s26_501" cat="fcl">
+				<edge label="S" idref="s26_502"/>
+				<edge label="PU" idref="s26_3"/>
+				<edge label="fA" idref="s26_503"/>
+				<edge label="PU" idref="s26_7"/>
+				<edge label="P" idref="s26_8"/>
+				<edge label="Cs" idref="s26_505"/>
+				<edge label="PU" idref="s26_21"/>
+			</nt>
+			<nt id="s26_502" cat="np">
+				<edge label="DN" idref="s26_1"/>
+				<edge label="H" idref="s26_2"/>
+			</nt>
+			<nt id="s26_503" cat="pp">
+				<edge label="H" idref="s26_4"/>
+				<edge label="DP" idref="s26_504"/>
+			</nt>
+			<nt id="s26_504" cat="np">
+				<edge label="DN" idref="s26_5"/>
+				<edge label="H" idref="s26_6"/>
+			</nt>
+			<nt id="s26_505" cat="fcl">
+				<edge label="SUB" idref="s26_9"/>
+				<edge label="S" idref="s26_506"/>
+				<edge label="P" idref="s26_12"/>
+				<edge label="fA" idref="s26_507"/>
+			</nt>
+			<nt id="s26_506" cat="np">
+				<edge label="DN" idref="s26_10"/>
+				<edge label="H" idref="s26_11"/>
+			</nt>
+			<nt id="s26_507" cat="pp">
+				<edge label="H" idref="s26_13"/>
+				<edge label="DP" idref="s26_508"/>
+			</nt>
+			<nt id="s26_508" cat="np">
+				<edge label="DN" idref="s26_14"/>
+				<edge label="DN" idref="s26_15"/>
+				<edge label="DN" idref="s26_16"/>
+				<edge label="H" idref="s26_17"/>
+				<edge label="DN" idref="s26_509"/>
+			</nt>
+			<nt id="s26_509" cat="pp">
+				<edge label="H" idref="s26_18"/>
+				<edge label="DP" idref="s26_510"/>
+			</nt>
+			<nt id="s26_510" cat="np">
+				<edge label="DN" idref="s26_19"/>
+				<edge label="H" idref="s26_20"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s27" ref="27" source="Running text" forest="1" text="Responsáveis por lucros recordes, as instituições financeiras foram autuadas, de janeiro a julho, em R 9,44 bilhões.">
+	<graph root="s27_500">
+		<terminals>
+			<t id="s27_1" word="Responsáveis" lemma="responsável" pos="adj" morph="M/F P" sem="--" extra="--"/>
+			<t id="s27_2" word="por" lemma="por" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s27_3" word="lucros" lemma="lucro" pos="n" morph="M P" sem="mon ac" extra="--"/>
+			<t id="s27_4" word="recordes" lemma="recorde" pos="adj" morph="M P" sem="--" extra="np-close"/>
+			<t id="s27_5" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s27_6" word="as" lemma="o" pos="art" morph="F P" sem="--" extra="--"/>
+			<t id="s27_7" word="instituições" lemma="instituição" pos="n" morph="F P" sem="inst act" extra="--"/>
+			<t id="s27_8" word="financeiras" lemma="financeiro" pos="adj" morph="F P" sem="--" extra="np-close"/>
+			<t id="s27_9" word="foram" lemma="ser" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="fmc aux"/>
+			<t id="s27_10" word="autuadas" lemma="autuar" pos="v-pcp" morph="F P" sem="--" extra="mv"/>
+			<t id="s27_11" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s27_12" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s27_13" word="janeiro" lemma="janeiro" pos="n" morph="M S" sem="--" extra="--"/>
+			<t id="s27_14" word="a" lemma="a" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s27_15" word="julho" lemma="julho" pos="n" morph="M S" sem="--" extra="--"/>
+			<t id="s27_16" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s27_17" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s27_18" word="R$" lemma="r$" pos="n" morph="M S" sem="cur unit" extra="prop"/>
+			<t id="s27_19" word="9,44" lemma="9,44" pos="num" morph="M/F P" sem="--" extra="card np-close"/>
+			<t id="s27_20" word="bilhões" lemma="bilhão" pos="n" morph="M P" sem="amount" extra="--"/>
+			<t id="s27_21" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s27_500" cat="s">
+				<edge label="STA" idref="s27_501"/>
+			</nt>
+			<nt id="s27_501" cat="fcl">
+				<edge label="fCs" idref="s27_502"/>
+				<edge label="PU" idref="s27_5"/>
+				<edge label="S" idref="s27_505"/>
+				<edge label="P" idref="s27_506"/>
+				<edge label="PU" idref="s27_11"/>
+				<edge label="fCs" idref="s27_507"/>
+				<edge label="fA" idref="s27_508"/>
+				<edge label="PU" idref="s27_16"/>
+				<edge label="fA" idref="s27_509"/>
+				<edge label="PU" idref="s27_21"/>
+			</nt>
+			<nt id="s27_502" cat="adjp">
+				<edge label="H" idref="s27_1"/>
+				<edge label="DA" idref="s27_503"/>
+			</nt>
+			<nt id="s27_503" cat="pp">
+				<edge label="H" idref="s27_2"/>
+				<edge label="DP" idref="s27_504"/>
+			</nt>
+			<nt id="s27_504" cat="np">
+				<edge label="H" idref="s27_3"/>
+				<edge label="DN" idref="s27_4"/>
+			</nt>
+			<nt id="s27_505" cat="np">
+				<edge label="DN" idref="s27_6"/>
+				<edge label="H" idref="s27_7"/>
+				<edge label="DN" idref="s27_8"/>
+			</nt>
+			<nt id="s27_506" cat="vp">
+				<edge label="Vaux" idref="s27_9"/>
+				<edge label="Vm" idref="s27_10"/>
+			</nt>
+			<nt id="s27_507" cat="pp">
+				<edge label="H" idref="s27_12"/>
+				<edge label="DP" idref="s27_13"/>
+			</nt>
+			<nt id="s27_508" cat="pp">
+				<edge label="H" idref="s27_14"/>
+				<edge label="DP" idref="s27_15"/>
+			</nt>
+			<nt id="s27_509" cat="pp">
+				<edge label="H" idref="s27_17"/>
+				<edge label="DP" idref="s27_510"/>
+			</nt>
+			<nt id="s27_510" cat="np">
+				<edge label="H" idref="s27_18"/>
+				<edge label="DN" idref="s27_19"/>
+				<edge label="DNapp" idref="s27_20"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s28" ref="28" source="Running text" forest="1" text="Esse valor representa um aumento de 229% em relação a o mesmo período do ano passado, quando as instituições foram autuadas em R 2,871 bilhões.">
+	<graph root="s28_500">
+		<terminals>
+			<t id="s28_1" word="Esse" lemma="esse" pos="pron-dem" morph="DET M S" sem="--" extra="dem"/>
+			<t id="s28_2" word="valor" lemma="valor" pos="n" morph="M S" sem="ac am unit" extra="--"/>
+			<t id="s28_3" word="representa" lemma="representar" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s28_4" word="um" lemma="um" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s28_5" word="aumento" lemma="aumento" pos="n" morph="M S" sem="act" extra="--"/>
+			<t id="s28_6" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s28_7" word="229" lemma="229" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s28_8" word="%" lemma="%" pos="n" morph="M P" sem="--" extra="--"/>
+			<t id="s28_9" word="em_relação_a" lemma="em_relação_a" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s28_10" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="-sam "/>
+			<t id="s28_11" word="mesmo" lemma="mesmo" pos="pron-indef" morph="DET M S" sem="--" extra="diff KOMP"/>
+			<t id="s28_12" word="período" lemma="período" pos="n" morph="M S" sem="per" extra="--"/>
+			<t id="s28_13" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-long"/>
+			<t id="s28_14" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s28_15" word="ano" lemma="ano" pos="n" morph="M S" sem="per temp dur unit" extra="--"/>
+			<t id="s28_16" word="passado" lemma="passado" pos="adj" morph="M S" sem="--" extra="np-close"/>
+			<t id="s28_17" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s28_18" word="quando" lemma="quando" pos="adv" morph="--" sem="--" extra="clb rel ks"/>
+			<t id="s28_19" word="as" lemma="o" pos="art" morph="F P" sem="--" extra="--"/>
+			<t id="s28_20" word="instituições" lemma="instituição" pos="n" morph="F P" sem="inst act" extra="--"/>
+			<t id="s28_21" word="foram" lemma="ser" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="aux np-close"/>
+			<t id="s28_22" word="autuadas" lemma="autuar" pos="v-pcp" morph="F P" sem="--" extra="mv"/>
+			<t id="s28_23" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s28_24" word="R$" lemma="r$" pos="n" morph="M S" sem="cur unit" extra="prop"/>
+			<t id="s28_25" word="2,871" lemma="2,871" pos="num" morph="M/F P" sem="--" extra="card np-close"/>
+			<t id="s28_26" word="bilhões" lemma="bilhão" pos="n" morph="M P" sem="amount" extra="--"/>
+			<t id="s28_27" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s28_500" cat="s">
+				<edge label="STA" idref="s28_501"/>
+			</nt>
+			<nt id="s28_501" cat="fcl">
+				<edge label="S" idref="s28_502"/>
+				<edge label="P" idref="s28_3"/>
+				<edge label="Od" idref="s28_503"/>
+				<edge label="PU" idref="s28_27"/>
+			</nt>
+			<nt id="s28_502" cat="np">
+				<edge label="DN" idref="s28_1"/>
+				<edge label="H" idref="s28_2"/>
+			</nt>
+			<nt id="s28_503" cat="np">
+				<edge label="DN" idref="s28_4"/>
+				<edge label="H" idref="s28_5"/>
+				<edge label="DN" idref="s28_504"/>
+			</nt>
+			<nt id="s28_504" cat="pp">
+				<edge label="H" idref="s28_6"/>
+				<edge label="DP" idref="s28_505"/>
+			</nt>
+			<nt id="s28_505" cat="np">
+				<edge label="DN" idref="s28_7"/>
+				<edge label="H" idref="s28_8"/>
+				<edge label="DN" idref="s28_506"/>
+				<edge label="DN" idref="s28_508"/>
+			</nt>
+			<nt id="s28_506" cat="pp">
+				<edge label="H" idref="s28_9"/>
+				<edge label="DP" idref="s28_507"/>
+			</nt>
+			<nt id="s28_507" cat="np">
+				<edge label="DN" idref="s28_10"/>
+				<edge label="DN" idref="s28_11"/>
+				<edge label="H" idref="s28_12"/>
+			</nt>
+			<nt id="s28_508" cat="pp">
+				<edge label="H" idref="s28_13"/>
+				<edge label="DP" idref="s28_509"/>
+			</nt>
+			<nt id="s28_509" cat="np">
+				<edge label="DN" idref="s28_14"/>
+				<edge label="H" idref="s28_15"/>
+				<edge label="DN" idref="s28_16"/>
+				<edge label="PU" idref="s28_17"/>
+				<edge label="DN" idref="s28_510"/>
+			</nt>
+			<nt id="s28_510" cat="fcl">
+				<edge label="fA" idref="s28_18"/>
+				<edge label="S" idref="s28_511"/>
+				<edge label="P" idref="s28_512"/>
+				<edge label="fA" idref="s28_513"/>
+				<edge label="Od" idref="s28_26"/>
+			</nt>
+			<nt id="s28_511" cat="np">
+				<edge label="DN" idref="s28_19"/>
+				<edge label="H" idref="s28_20"/>
+			</nt>
+			<nt id="s28_512" cat="vp">
+				<edge label="Vaux" idref="s28_21"/>
+				<edge label="Vm" idref="s28_22"/>
+			</nt>
+			<nt id="s28_513" cat="pp">
+				<edge label="H" idref="s28_23"/>
+				<edge label="DP" idref="s28_514"/>
+			</nt>
+			<nt id="s28_514" cat="np">
+				<edge label="H" idref="s28_24"/>
+				<edge label="DN" idref="s28_25"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s29" ref="29" source="Running text" forest="1" text="Foi o maior aumento de autuações entre os setores econômicos fiscalizados em 2007.">
+	<graph root="s29_500">
+		<terminals>
+			<t id="s29_1" word="Foi" lemma="ser" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s29_2" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s29_3" word="maior" lemma="grande" pos="adj" morph="M S" sem="--" extra="KOMP"/>
+			<t id="s29_4" word="aumento" lemma="aumento" pos="n" morph="M S" sem="act" extra="--"/>
+			<t id="s29_5" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s29_6" word="autuações" lemma="autuação" pos="n" morph="F P" sem="act" extra="--"/>
+			<t id="s29_7" word="entre" lemma="entre" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s29_8" word="os" lemma="o" pos="art" morph="M P" sem="--" extra="--"/>
+			<t id="s29_9" word="setores" lemma="setor" pos="n" morph="M P" sem="L Labs HH" extra="--"/>
+			<t id="s29_10" word="econômicos" lemma="econômico" pos="adj" morph="M P" sem="--" extra="np-close"/>
+			<t id="s29_11" word="fiscalizados" lemma="fiscalizar" pos="v-pcp" morph="M P" sem="--" extra="np-long"/>
+			<t id="s29_12" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s29_13" word="2007" lemma="2007" pos="num" morph="M/F S" sem="--" extra="card"/>
+			<t id="s29_14" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s29_500" cat="s">
+				<edge label="STA" idref="s29_501"/>
+			</nt>
+			<nt id="s29_501" cat="fcl">
+				<edge label="P" idref="s29_1"/>
+				<edge label="Cs" idref="s29_502"/>
+				<edge label="fA" idref="s29_507"/>
+				<edge label="PU" idref="s29_14"/>
+			</nt>
+			<nt id="s29_502" cat="np">
+				<edge label="DN" idref="s29_2"/>
+				<edge label="DN" idref="s29_3"/>
+				<edge label="H" idref="s29_4"/>
+				<edge label="DN" idref="s29_503"/>
+			</nt>
+			<nt id="s29_503" cat="pp">
+				<edge label="H" idref="s29_5"/>
+				<edge label="DP" idref="s29_504"/>
+			</nt>
+			<nt id="s29_504" cat="np">
+				<edge label="H" idref="s29_6"/>
+				<edge label="DN" idref="s29_505"/>
+			</nt>
+			<nt id="s29_505" cat="pp">
+				<edge label="H" idref="s29_7"/>
+				<edge label="DP" idref="s29_506"/>
+			</nt>
+			<nt id="s29_506" cat="np">
+				<edge label="DN" idref="s29_8"/>
+				<edge label="H" idref="s29_9"/>
+				<edge label="DN" idref="s29_10"/>
+				<edge label="DN" idref="s29_11"/>
+			</nt>
+			<nt id="s29_507" cat="pp">
+				<edge label="H" idref="s29_12"/>
+				<edge label="DP" idref="s29_13"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s30" ref="30" source="Running text" forest="1" text="Em valores nominais, as empresas do setor industrial foram as mais autuadas:">
+	<graph root="s30_500">
+		<terminals>
+			<t id="s30_1" word="Em" lemma="em" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s30_2" word="valores_nominais" lemma="valor_nominal" pos="n" morph="M P" sem="f-q" extra="--"/>
+			<t id="s30_3" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s30_4" word="as" lemma="o" pos="art" morph="F P" sem="--" extra="--"/>
+			<t id="s30_5" word="empresas" lemma="empresa" pos="n" morph="F P" sem="HH" extra="--"/>
+			<t id="s30_6" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s30_7" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s30_8" word="setor" lemma="setor" pos="n" morph="M S" sem="L Labs HH" extra="--"/>
+			<t id="s30_9" word="industrial" lemma="industrial" pos="adj" morph="M S" sem="--" extra="np-close"/>
+			<t id="s30_10" word="foram" lemma="ser" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="fmc aux"/>
+			<t id="s30_11" word="as" lemma="o" pos="art" morph="F P" sem="--" extra="--"/>
+			<t id="s30_12" word="mais" lemma="mais" pos="adv" morph="--" sem="--" extra="quant KOMP"/>
+			<t id="s30_13" word="autuadas" lemma="autuar" pos="v-pcp" morph="F P" sem="--" extra="mv"/>
+			<t id="s30_14" word=":" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s30_500" cat="s">
+				<edge label="STA" idref="s30_501"/>
+			</nt>
+			<nt id="s30_501" cat="fcl">
+				<edge label="fA" idref="s30_502"/>
+				<edge label="PU" idref="s30_3"/>
+				<edge label="S" idref="s30_503"/>
+				<edge label="P" idref="s30_506"/>
+				<edge label="DN" idref="s30_11"/>
+				<edge label="DA" idref="s30_12"/>
+				<edge label="PU" idref="s30_14"/>
+			</nt>
+			<nt id="s30_502" cat="pp">
+				<edge label="H" idref="s30_1"/>
+				<edge label="DP" idref="s30_2"/>
+			</nt>
+			<nt id="s30_503" cat="np">
+				<edge label="DN" idref="s30_4"/>
+				<edge label="H" idref="s30_5"/>
+				<edge label="DN" idref="s30_504"/>
+			</nt>
+			<nt id="s30_504" cat="pp">
+				<edge label="H" idref="s30_6"/>
+				<edge label="DP" idref="s30_505"/>
+			</nt>
+			<nt id="s30_505" cat="np">
+				<edge label="DN" idref="s30_7"/>
+				<edge label="H" idref="s30_8"/>
+				<edge label="DN" idref="s30_9"/>
+			</nt>
+			<nt id="s30_506" cat="vp">
+				<edge label="Vaux" idref="s30_10"/>
+				<edge label="Vm" idref="s30_13"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s31" ref="31" source="Running text" forest="1" text="R 11,13 bilhões, com crescimento de 118,27%.">
+	<graph root="s31_500">
+		<terminals>
+			<t id="s31_1" word="R$" lemma="r$" pos="n" morph="M S" sem="cur unit" extra="cjt-head cjt-head-X"/>
+			<t id="s31_2" word="11,13" lemma="11,13" pos="num" morph="M/F P" sem="--" extra="card np-close"/>
+			<t id="s31_3" word="bilhões" lemma="bilhão" pos="n" morph="M P" sem="amount" extra="cjt-X"/>
+			<t id="s31_4" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s31_5" word="com" lemma="com" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s31_6" word="crescimento" lemma="crescimento" pos="n" morph="M S" sem="process" extra="--"/>
+			<t id="s31_7" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s31_8" word="118,27" lemma="118,27" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s31_9" word="%" lemma="%" pos="n" morph="M P" sem="--" extra="--"/>
+			<t id="s31_10" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s31_500" cat="s">
+				<edge label="X" idref="s31_501"/>
+			</nt>
+			<nt id="s31_501" cat="par">
+				<edge label="CJT" idref="s31_502"/>
+				<edge label="CJT" idref="s31_503"/>
+				<edge label="PU" idref="s31_10"/>
+			</nt>
+			<nt id="s31_502" cat="np">
+				<edge label="H" idref="s31_1"/>
+				<edge label="DN" idref="s31_2"/>
+			</nt>
+			<nt id="s31_503" cat="np">
+				<edge label="H" idref="s31_3"/>
+				<edge label="PU" idref="s31_4"/>
+				<edge label="fA" idref="s31_504"/>
+			</nt>
+			<nt id="s31_504" cat="pp">
+				<edge label="H" idref="s31_5"/>
+				<edge label="DP" idref="s31_505"/>
+			</nt>
+			<nt id="s31_505" cat="np">
+				<edge label="H" idref="s31_6"/>
+				<edge label="DN" idref="s31_506"/>
+			</nt>
+			<nt id="s31_506" cat="pp">
+				<edge label="H" idref="s31_7"/>
+				<edge label="DP" idref="s31_507"/>
+			</nt>
+			<nt id="s31_507" cat="np">
+				<edge label="DN" idref="s31_8"/>
+				<edge label="H" idref="s31_9"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s32" ref="32" source="Running text" forest="1" text="As autuações no setor de comércio tiveram queda de 17,3%, atingindo R 4,08 bilhões nos sete primeiros meses do ano.">
+	<graph root="s32_500">
+		<terminals>
+			<t id="s32_1" word="As" lemma="o" pos="art" morph="F P" sem="--" extra="--"/>
+			<t id="s32_2" word="autuações" lemma="autuação" pos="n" morph="F P" sem="act" extra="--"/>
+			<t id="s32_3" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s32_4" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s32_5" word="setor" lemma="setor" pos="n" morph="M S" sem="L Labs HH" extra="--"/>
+			<t id="s32_6" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s32_7" word="comércio" lemma="comércio" pos="n" morph="M S" sem="activity" extra="--"/>
+			<t id="s32_8" word="tiveram" lemma="ter" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s32_9" word="queda" lemma="queda" pos="n" morph="F S" sem="event" extra="--"/>
+			<t id="s32_10" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s32_11" word="17,3" lemma="17,3" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s32_12" word="%" lemma="%" pos="n" morph="M P" sem="--" extra="--"/>
+			<t id="s32_13" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s32_14" word="atingindo" lemma="atingir" pos="v-ger" morph="--" sem="--" extra="clb mv"/>
+			<t id="s32_15" word="R$" lemma="r$" pos="n" morph="M S" sem="cur unit" extra="prop"/>
+			<t id="s32_16" word="4,08" lemma="4,08" pos="num" morph="M/F P" sem="--" extra="card np-close"/>
+			<t id="s32_17" word="bilhões" lemma="bilhão" pos="n" morph="M P" sem="amount" extra="--"/>
+			<t id="s32_18" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s32_19" word="os" lemma="o" pos="art" morph="M P" sem="--" extra=" -sam"/>
+			<t id="s32_20" word="sete" lemma="sete" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s32_21" word="primeiros" lemma="primeiro" pos="adj" morph="M P" sem="--" extra="NUM-ord"/>
+			<t id="s32_22" word="meses" lemma="mês" pos="n" morph="M P" sem="per dur unit" extra="--"/>
+			<t id="s32_23" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s32_24" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s32_25" word="ano" lemma="ano" pos="n" morph="M S" sem="per temp dur unit" extra="--"/>
+			<t id="s32_26" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s32_500" cat="s">
+				<edge label="STA" idref="s32_501"/>
+			</nt>
+			<nt id="s32_501" cat="fcl">
+				<edge label="S" idref="s32_502"/>
+				<edge label="P" idref="s32_8"/>
+				<edge label="Od" idref="s32_506"/>
+				<edge label="PU" idref="s32_13"/>
+				<edge label="fA" idref="s32_509"/>
+				<edge label="PU" idref="s32_26"/>
+			</nt>
+			<nt id="s32_502" cat="np">
+				<edge label="DN" idref="s32_1"/>
+				<edge label="H" idref="s32_2"/>
+				<edge label="DN" idref="s32_503"/>
+			</nt>
+			<nt id="s32_503" cat="pp">
+				<edge label="H" idref="s32_3"/>
+				<edge label="DP" idref="s32_504"/>
+			</nt>
+			<nt id="s32_504" cat="np">
+				<edge label="DN" idref="s32_4"/>
+				<edge label="H" idref="s32_5"/>
+				<edge label="DN" idref="s32_505"/>
+			</nt>
+			<nt id="s32_505" cat="pp">
+				<edge label="H" idref="s32_6"/>
+				<edge label="DP" idref="s32_7"/>
+			</nt>
+			<nt id="s32_506" cat="np">
+				<edge label="H" idref="s32_9"/>
+				<edge label="DN" idref="s32_507"/>
+			</nt>
+			<nt id="s32_507" cat="pp">
+				<edge label="H" idref="s32_10"/>
+				<edge label="DP" idref="s32_508"/>
+			</nt>
+			<nt id="s32_508" cat="np">
+				<edge label="DN" idref="s32_11"/>
+				<edge label="H" idref="s32_12"/>
+			</nt>
+			<nt id="s32_509" cat="advp">
+				<edge label="P" idref="s32_14"/>
+				<edge label="Od" idref="s32_510"/>
+				<edge label="fCs" idref="s32_511"/>
+			</nt>
+			<nt id="s32_510" cat="np">
+				<edge label="H" idref="s32_15"/>
+				<edge label="DN" idref="s32_16"/>
+			</nt>
+			<nt id="s32_511" cat="np">
+				<edge label="H" idref="s32_17"/>
+				<edge label="DN" idref="s32_512"/>
+			</nt>
+			<nt id="s32_512" cat="pp">
+				<edge label="H" idref="s32_18"/>
+				<edge label="DP" idref="s32_513"/>
+			</nt>
+			<nt id="s32_513" cat="np">
+				<edge label="DN" idref="s32_19"/>
+				<edge label="DN" idref="s32_20"/>
+				<edge label="DN" idref="s32_21"/>
+				<edge label="H" idref="s32_22"/>
+				<edge label="DN" idref="s32_514"/>
+			</nt>
+			<nt id="s32_514" cat="pp">
+				<edge label="H" idref="s32_23"/>
+				<edge label="DP" idref="s32_515"/>
+			</nt>
+			<nt id="s32_515" cat="np">
+				<edge label="DN" idref="s32_24"/>
+				<edge label="H" idref="s32_25"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s33" ref="33" source="Running text" forest="1" text="As empresas prestadoras de serviço foram autuadas em R 2,46 bilhões, resultado que representou uma queda de 30,5% em comparação ao mesmo período de 2006.">
+	<graph root="s33_500">
+		<terminals>
+			<t id="s33_1" word="As" lemma="o" pos="art" morph="F P" sem="--" extra="--"/>
+			<t id="s33_2" word="empresas" lemma="empresa" pos="n" morph="F P" sem="HH" extra="--"/>
+			<t id="s33_3" word="prestadoras" lemma="prestador" pos="adj" morph="F P" sem="--" extra="np-close"/>
+			<t id="s33_4" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s33_5" word="serviço" lemma="serviço" pos="n" morph="M S" sem="act-d" extra="--"/>
+			<t id="s33_6" word="foram" lemma="ser" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="fmc aux"/>
+			<t id="s33_7" word="autuadas" lemma="autuar" pos="v-pcp" morph="F P" sem="--" extra="mv"/>
+			<t id="s33_8" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s33_9" word="R$" lemma="r$" pos="n" morph="M S" sem="cur unit" extra="prop"/>
+			<t id="s33_10" word="2,46" lemma="2,46" pos="num" morph="M/F P" sem="--" extra="card np-close"/>
+			<t id="s33_11" word="bilhões" lemma="bilhão" pos="n" morph="M P" sem="amount" extra="--"/>
+			<t id="s33_12" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s33_13" word="resultado" lemma="resultado" pos="n" morph="M S" sem="ac" extra="np-close"/>
+			<t id="s33_14" word="que" lemma="que" pos="spec" morph="M S" sem="--" extra="clb rel"/>
+			<t id="s33_15" word="representou" lemma="representar" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="mv np-close"/>
+			<t id="s33_16" word="uma" lemma="um" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s33_17" word="queda" lemma="queda" pos="n" morph="F S" sem="event" extra="--"/>
+			<t id="s33_18" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s33_19" word="30,5" lemma="30,5" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s33_20" word="%" lemma="%" pos="n" morph="M P" sem="--" extra="--"/>
+			<t id="s33_21" word="em_comparação" lemma="em_comparação" pos="adv" morph="--" sem="pp" extra="--"/>
+			<t id="s33_22" word="a" lemma="a" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s33_23" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="-sam "/>
+			<t id="s33_24" word="mesmo" lemma="mesmo" pos="pron-indef" morph="DET M S" sem="--" extra="diff KOMP"/>
+			<t id="s33_25" word="período" lemma="período" pos="n" morph="M S" sem="per" extra="--"/>
+			<t id="s33_26" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s33_27" word="2006" lemma="2006" pos="num" morph="M/F P" sem="--" extra="card"/>
+			<t id="s33_28" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s33_500" cat="s">
+				<edge label="STA" idref="s33_501"/>
+			</nt>
+			<nt id="s33_501" cat="fcl">
+				<edge label="S" idref="s33_502"/>
+				<edge label="P" idref="s33_504"/>
+				<edge label="fA" idref="s33_505"/>
+				<edge label="PU" idref="s33_28"/>
+			</nt>
+			<nt id="s33_502" cat="np">
+				<edge label="DN" idref="s33_1"/>
+				<edge label="H" idref="s33_2"/>
+				<edge label="DN" idref="s33_3"/>
+				<edge label="DN" idref="s33_503"/>
+			</nt>
+			<nt id="s33_503" cat="pp">
+				<edge label="H" idref="s33_4"/>
+				<edge label="DP" idref="s33_5"/>
+			</nt>
+			<nt id="s33_504" cat="vp">
+				<edge label="Vaux" idref="s33_6"/>
+				<edge label="Vm" idref="s33_7"/>
+			</nt>
+			<nt id="s33_505" cat="pp">
+				<edge label="H" idref="s33_8"/>
+				<edge label="DP" idref="s33_506"/>
+				<edge label="fCs" idref="s33_507"/>
+			</nt>
+			<nt id="s33_506" cat="np">
+				<edge label="H" idref="s33_9"/>
+				<edge label="DN" idref="s33_10"/>
+			</nt>
+			<nt id="s33_507" cat="np">
+				<edge label="H" idref="s33_11"/>
+				<edge label="PU" idref="s33_12"/>
+				<edge label="DNc" idref="s33_508"/>
+			</nt>
+			<nt id="s33_508" cat="np">
+				<edge label="H" idref="s33_13"/>
+				<edge label="DN" idref="s33_509"/>
+			</nt>
+			<nt id="s33_509" cat="fcl">
+				<edge label="S" idref="s33_14"/>
+				<edge label="P" idref="s33_15"/>
+				<edge label="Od" idref="s33_510"/>
+				<edge label="fA" idref="s33_21"/>
+				<edge label="fA" idref="s33_513"/>
+			</nt>
+			<nt id="s33_510" cat="np">
+				<edge label="DN" idref="s33_16"/>
+				<edge label="H" idref="s33_17"/>
+				<edge label="DN" idref="s33_511"/>
+			</nt>
+			<nt id="s33_511" cat="pp">
+				<edge label="H" idref="s33_18"/>
+				<edge label="DP" idref="s33_512"/>
+			</nt>
+			<nt id="s33_512" cat="np">
+				<edge label="DN" idref="s33_19"/>
+				<edge label="H" idref="s33_20"/>
+			</nt>
+			<nt id="s33_513" cat="pp">
+				<edge label="H" idref="s33_22"/>
+				<edge label="DP" idref="s33_514"/>
+			</nt>
+			<nt id="s33_514" cat="np">
+				<edge label="DN" idref="s33_23"/>
+				<edge label="DN" idref="s33_24"/>
+				<edge label="H" idref="s33_25"/>
+				<edge label="DN" idref="s33_515"/>
+			</nt>
+			<nt id="s33_515" cat="pp">
+				<edge label="H" idref="s33_26"/>
+				<edge label="DP" idref="s33_27"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+	</body>
+</corpus>
+</xml>

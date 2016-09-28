@@ -1,0 +1,51 @@
+----------- KAPPA -------------
+K=0.673, P(A)=0.750, P(E)=0.236, N=12, k=2,  n=5 ( follow-up elaboration no-relation follow-up_overlap overlap )
+
+---- COLLAPSING CATEGORIES ----
+
+Collapsing elaboration and follow-up:
+K=0.765, P(A)=0.833, P(E)=0.292, N=12, k=2,  n=4 ( elaborationfollow-up elaborationfollow-up_overlap no-relation overlap )
+
+Collapsing elaboration and no-relation:
+K=0.774, P(A)=0.833, P(E)=0.264, N=12, k=2,  n=4 ( follow-up follow-up_overlap elaborationno-relation overlap )
+
+Collapsing elaboration and follow-up_overlap:
+K=0.660, P(A)=0.750, P(E)=0.264, N=12, k=2,  n=4 ( follow-up elaborationfollow-up_overlap no-relation overlap )
+
+Collapsing elaboration and overlap:
+K=0.654, P(A)=0.750, P(E)=0.278, N=12, k=2,  n=4 ( follow-up no-relation elaborationoverlap follow-up_elaborationoverlap )
+
+Collapsing follow-up and no-relation:
+K=0.745, P(A)=0.833, P(E)=0.347, N=12, k=2,  n=4 ( elaboration follow-upno-relation follow-upno-relation_overlap overlap )
+
+Collapsing follow-up and follow-up_overlap:
+K=0.673, P(A)=0.750, P(E)=0.236, N=12, k=2,  n=5 ( follow-upfollow-up_overlap_overlap elaboration no-relation follow-upfollow-up_overlap overlap )
+
+Collapsing follow-up and overlap:
+K=0.581, P(A)=0.750, P(E)=0.403, N=12, k=2,  n=4 ( elaboration no-relation follow-upoverlap_follow-upoverlap follow-upoverlap )
+
+Collapsing follow-up_overlap and no-relation:
+K=0.647, P(A)=0.750, P(E)=0.292, N=12, k=2,  n=4 ( follow-up elaboration follow-up_overlapno-relation overlap )
+
+Collapsing follow-up_overlap and overlap:
+K=0.633, P(A)=0.750, P(E)=0.319, N=12, k=2,  n=4 ( follow-up elaboration no-relation follow-up_overlapoverlap )
+
+Collapsing no-relation and overlap:
+K=0.633, P(A)=0.750, P(E)=0.319, N=12, k=2,  n=4 ( follow-up follow-up_no-relationoverlap elaboration no-relationoverlap )
+
+----- ISOLATING CATEGORIES ----
+
+Isolating elaboration:
+K=0.586, P(A)=0.833, P(E)=0.597, N=12, k=2,  n=3 ( X_X elaboration X )
+
+Isolating follow-up:
+K=0.625, P(A)=0.833, P(E)=0.556, N=12, k=2,  n=2 ( follow-up X )
+
+Isolating follow-up_overlap:
+K=1.000, P(A)=1.000, P(E)=0.722, N=12, k=2,  n=2 ( X_X X )
+
+Isolating no-relation:
+K=0.667, P(A)=0.833, P(E)=0.500, N=12, k=2,  n=3 ( X_X no-relation X )
+
+Isolating overlap:
+K=1.000, P(A)=1.000, P(E)=0.431, N=12, k=2,  n=3 ( X_overlap X overlap )

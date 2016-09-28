@@ -1,0 +1,38 @@
+*formação dos subtópicos do cluster 20
+SUBTOPICO 1: D1T1_8_149, D4T1_3_49, D5T1_10_216 = 21 sentenças ; 414 palavras
+SUBTOPICO 2: D1T2_8_141, D5T2_4_60 = 12 sentenças ; 201 palavras
+SUBTOPICO 3: D1T3_4_168, D5T3_3_95 = 7 sentenças ; 263 palavras
+SUBTOPICO 4: D5T4_2_74 = 2 sentenças ; 74 palavras
+
+Cluster tem 952 palavras
+SUBTOPICO 1 = 43.5% do cluster  //discussao, votacao da pec, debate sobre a prorrogação da CPMF
+SUBTOPICO 2 = 21.1%  // componentes da Câmara para a votação
+SUBTOPICO 3 = 27.6%  //medidas do governo para garantir a aprovação da PEC, liberação da pauta do dia
+SUBTOPICO 4 = 7.7% //oposicao
+
+Sumário humano: 8 sentenças ; 137 palavras
+S1: 29 palavras
+S2: 27
+S3: 7
+S4: 13
+S5: 25
+S6: 13
+S7: 10
+S8: 13
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico  //A barra | indica diferente subtopico
+S1: D1T1, D4T1, D5T1 - SUBTOPICO 1
+S2: D1T3 - SUBTOPICO 3
+S3: D1T3, D5T3 - SUBTOPICO 3
+S4: D1T1 | D5T3 - SUBTOPICO 1 [7 palavras] e SUBTOPICO 3 [6 palavras]
+S5: D1T1, D4T1, D5T1 - SUBTOPICO 1
+S6: D1T1, D5T1 - SUBTOPICO 1
+S7: D1T1, D5T1 - SUBTOPICO 1
+S8: D1T1 - SUBTOPICO 1
+
+*% dos subtopicos no sumário
+Sentenças 1, 4, 5, 6, 7 e 8 = 97 palavras - 70.8% Subtopico 1
+Sentença 2, 3, 4 = 40 palavras - 29.2% Subtopico 3
+
+* nao apareceram os subtopicos 2 e 4

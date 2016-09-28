@@ -1,0 +1,37 @@
+*formação dos subtópicos do cluster 25
+SUBTOPICO 1: D1T1_7_113, D4T1_3_56, D5T1_6_154 = 16 sentenças ; 323 palavras
+SUBTOPICO 2: D1T2_10_184 = 10 sentenças ; 184 palavras
+SUBTOPICO 3: D1T3_17_222, D4T3_7_166, D4T3_15_286 = 39 sentenças ; 674 palavras
+SUBTOPICO 4: D1T4_4_41, D4T4_9_145 = 13 sentenças ; 186 palavras
+SUBTOPICO 5: D4T5_6_117 = 6 sentenças ; 117 palavras
+SUBTOPICO 6: D5T6_3_76 = 3 sentenças ; 76 palavras
+
+Cluster tem 1560 palavras
+SUBTOPICO 1: [20.70] 20.7 //final da Copa América - conquista da Liga Mundial de vôlei e Copa América de futebol - consequência da conquista
+SUBTOPICO 2: [11.79] 11.8 //Vitórias da seleção sob direção de Dunga
+SUBTOPICO 3: [43.20] 43.2 //detalhes do jogo - A seleção de futebol - jogadas e gols da partida
+SUBTOPICO 4: [11.92] 11.9 //classificação geral - histórico de vitórias do Brasil contra a Argentina
+SUBTOPICO 5: [7.5] 7.5 //a vitória na Liga Mundial de vôlei
+SUBTOPICO 6: [4.87] 4.9 // posição de Riquelme frente à vitória do Brasil
+
+Sumário 8 sentenças ; 159 palavras
+S1: 9 palavras
+S2: 15 palavras
+S3: 18 palavras
+S4: 21 palavras
+S5: 24 palavras
+S6: 16
+S7: 34
+S8: 22
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico  //A barra | indica diferente subtopico
+S1: ?
+S2: D1T1, D4T1, D5T1 | D5T6 =
+S3: D4T5
+S4: D1T1, D5T1 | D4T3
+S5: D1T1 | D1T2 | D1T3 | D4T4 | D5T6
+S6: D4T3
+S7: D1T3, D4T3
+S8: D1T3, D4T3, D5T3
+

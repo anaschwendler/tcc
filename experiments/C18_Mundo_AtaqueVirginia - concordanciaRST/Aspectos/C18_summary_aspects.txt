@@ -1,0 +1,6 @@
+[Um atirador matou ao menos 30 pessoas em dois diferentes locais da Universidade Técnica da Virgínia, em Blacksburg (Virgínia), nesta segunda-feira, no pior ataque a tiros contra um campus universitário da história dos Estados Unidos.]WHO_AGENT/WHAT/WHO_AFFECTED/WHERE/WHEN/HISTORY [A maioria das vítimas era estudante.]WHO_AFFECTED
+[O agressor morreu, mas ainda não foi confirmado se ele foi baleado pela polícia ou se cometeu suicídio.]WHAT_EXTRA/WHO_AFFECTED_EXTRA/WHY_EXTRA [Não se sabe se ele era aluno ou não da universidade e seu nome ainda não foi divulgado.]WHO_AFFECTED_EXTRA/WHAT_EXTRA
+[Os dois ataques que ocorreram em lados opostos do campus tiveram início às 7h15 (8h15 de Brasília) em West Ambler Johnston Hall, residência estudantil que abriga ao menos 895 pessoas.]WHAT/WHERE/WHEN [Pouco depois, Norris Hall, edifício da engenharia, foi alvo de outro ataque a tiros.]WHEN/WHERE/WHAT
+[Após o tiroteio, as aulas foram suspensas e todas as entradas do campus foram fechadas até a terça-feira, 17.]COUNTERMEASURES/WHEN_EXTRA
+[A universidade estabeleceu um local de encontro entre famílias e representantes estudantis.]COUNTERMEASURES
+[A Casa Branca em nota divulgada pela imprensa local considerou o atentado o pior ataque a tiros um campus universitário da história dos Estados Unidos.]WHO_AGENT/DECLARATION/HISTORY

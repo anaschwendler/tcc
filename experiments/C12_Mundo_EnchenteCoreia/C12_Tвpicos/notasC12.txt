@@ -1,0 +1,38 @@
+*formação dos subtópicos do cluster 12
+SUBTOPICO 1: D1T1, D2T1, D3T1
+SUBTOPICO 2: D1T2, D2T2, D3T2
+SUBTOPICO 3: D2T3, D3T3
+SUBTOPICO 4: D3T4
+
+documento_numeroDeSentencas_quantidade de palavras
+SUBTOPICO 1: D1T1_5_143, D2T1_1_32, D3T1_5_121 = 11 sentenças ; 296 palavras
+SUBTOPICO 2: D1T2_6_178, D2T2_6_183, D3T2_2_74 = 14 sentenças ; 435 palavras
+SUBTOPICO 3: D2T3_4_105, D3T3_4_104 = 8 sentenças ; 209 palavras
+SUBTOPICO 4: D3T4_1_32 = 1 sentença ; 32 palavras
+
+Cluster tem 972 palavras
+SUBTOPICO 1 = 30.45% do cluster  //consequências das chuvas na Coreia do Norte, Inundações na Coréia do Norte
+SUBTOPICO 2 = 44.75%  //ajuda estrangeira
+SUBTOPICO 3 = 21.5%  //estragos, desabrigados
+SUBTOPICO 4 = 3.3%  //esforço de recuperação coreano
+
+Sumário humano: 4 sentenças ; 108 palavras
+S1: 31 palavras
+S2: 24
+S3: 39
+S4: 14
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico  //A barra | indica diferente subtopico
+S1: D1T1, D2T1, D3T1 | D2T3 - SUBTOPICO 1 [ 16 palavras] e SUBTOPICO 3 [15 palavras]
+S2: D1T1, D3T1 | D1T2, D2T2 | D2T3 - SUBTOPICO 1 [8 palavras] e SUBTOPICO 2 [8 palavras] e SUBTOPICO 3 [8 palavras]
+S3: D1T2, D2T2, D3T2 - SUBTOPICO 2 [39 palavras]
+S4: D1T2, D2T2 - SUBTOPICO 2 [14 palavras]
+
+*% dos subtopicos no sumário
+Sentenças 1 e 2 = 24 palavras - 22.2% Subtopico 1
+Sentenças 2, 3 e 4 = 61 palavras - 56.5% Subtopico 2
+sentenças 1 e 2 = 23 palavras - 21.3% Subtopico 3
+
+* nao apareceu subtopico 4
+

@@ -1,0 +1,115 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="14" relname="span">A brasileira Fabiana Murer conquistou o primeiro ouro do atletismo para o Brasil, nesta segunda-feira, na prova de salto com vara.</segment>
+    <segment id="5" parent="12" relname="list"> Com a marca de 4m60, Fabiana não só venceu a prova, </segment>
+    <segment id="8" parent="12" relname="list">como também estabeleceu o novo recorde pan-americano,</segment>
+    <segment id="9" parent="12" relname="comparison"> 20cm mais alto do que a antiga marca de 4m40. </segment>
+    <segment id="2" parent="15" relname="circumstance">
+
+Após confirmar a medalha de ouro,</segment>
+    <segment id="10" parent="11" relname="concession"> Fabiana tentou, ainda, bater o próprio recorde sul-americano de 4m66 em três tentativas de saltar 4m68,</segment>
+    <segment id="11" parent="15" relname="span"> mas não conseguiu.</segment>
+    <segment id="3" parent="19" relname="list">
+
+A medalha de prata ficou com a americana April Steiner, com a marca de 4m40</segment>
+    <segment id="18" parent="19" relname="list"> e o bronze foi para a cubana Yarisley Silva, com 4m30.</segment>
+    <segment id="4" parent="20" relname="justify">
+
+A brasileira Joana Costa ficou com a quinta posição, com 4m20</segment>
+    <segment id="20" parent="33" relname="span"> e mostrou, mais uma vez, neste Pan do Rio, que a pressão de competir em casa pode prejudicar os atletas.</segment>
+    <segment id="6" parent="34" relname="span"> Após começar muito bem,</segment>
+    <segment id="21" parent="6" relname="justify"> saltando com segurança até os 4m,</segment>
+    <segment id="22" parent="36" relname="span"> Joana começou a ter problemas na corrida de aproximação já nos 4m10,</segment>
+    <segment id="23" parent="35" relname="list"> mostrando nervosismo</segment>
+    <segment id="24" parent="35" relname="list"> e até desistindo de saltos no meio do caminho.</segment>
+    <segment id="7" parent="32" relname="span"> Outros atletas brasileiros já sentiram essa pressão da torcida,</segment>
+    <segment id="25" parent="29" relname="span"> como foi o caso das meninas do vôlei,</segment>
+    <segment id="26" parent="25" relname="elaboration"> que entregaram o ouro a Cuba, no tie break</segment>
+    <segment id="27" parent="30" relname="span"> e dos atletas da ginástica artística,</segment>
+    <segment id="28" parent="27" relname="elaboration"> que cometeram seguidos erros, claramente, por nervosismo.</segment>
+<group id="12" type="multinuc" parent="13" relname="span" />
+<group id="13" type="span" parent="1" relname="elaboration" />
+<group id="14" type="span" parent="17" relname="sequence" />
+<group id="15" type="span" parent="16" relname="span" />
+<group id="16" type="span" parent="17" relname="sequence" />
+<group id="17" type="multinuc" parent="40" relname="span" />
+<group id="19" type="multinuc" parent="17" relname="elaboration" />
+<group id="29" type="span" parent="31" relname="same-unit" />
+<group id="30" type="span" parent="31" relname="same-unit" />
+<group id="31" type="multinuc" parent="7" relname="evidence" />
+<group id="32" type="span" parent="38" relname="justify" />
+<group id="33" type="span" parent="38" relname="span" />
+<group id="34" type="span" parent="37" relname="sequence" />
+<group id="35" type="multinuc" parent="22" relname="justify" />
+<group id="36" type="span" parent="37" relname="sequence" />
+<group id="37" type="multinuc" parent="33" relname="elaboration" />
+<group id="38" type="span" parent="39" relname="span" />
+<group id="39" type="span" parent="19" relname="list" />
+<group id="40" type="span" />
+  </body>
+</rst>

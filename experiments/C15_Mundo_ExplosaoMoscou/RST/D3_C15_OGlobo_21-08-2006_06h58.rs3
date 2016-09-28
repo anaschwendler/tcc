@@ -1,0 +1,161 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="32" relname="list">Uma explosão causou nesta segunda-feira a morte de dez pessoas</segment>
+    <segment id="14" parent="32" relname="list"> e deixou cerca de 30 feridas no mercado Cherkizov de Moscou.</segment>
+    <segment id="2" parent="15" relname="attribution"> De acordo com a polícia da capital russa,</segment>
+    <segment id="15" parent="33" relname="span"> uma bomba causou o incidente.</segment>
+    <segment id="3" parent="35" relname="attribution"> As autoridades policiais de Moscou assinalaram que</segment>
+    <segment id="16" parent="34" relname="span"> no recinto do mercado,</segment>
+    <segment id="17" parent="16" relname="elaboration"> situado no Nordeste da cidade,</segment>
+    <segment id="18" parent="35" relname="same-unit"> foi detonada uma carga explosiva.</segment>
+    <segment id="4" parent="37" relname="volitional-cause">
+
+- Por causa da explosão,</segment>
+    <segment id="19" parent="37" relname="list"> morreram dez pessoas</segment>
+    <segment id="20" parent="37" relname="list"> e 31 foram hospitalizadas</segment>
+    <segment id="21" parent="38" relname="attribution"> - declarou à agência &quot;Interfax&quot; o alto funcionário de Moscou, Vladimir Resin.</segment>
+    <segment id="5" parent="43" relname="span">
+
+Anteriormente, a Polícia havia informado sobre nove mortos,</segment>
+    <segment id="22" parent="5" relname="elaboration"> sendo três deles crianças,</segment>
+    <segment id="23" parent="44" relname="same-unit"> e 25 feridos.</segment>
+    <segment id="6" parent="46" relname="span"> Pouco depois da detonação,</segment>
+    <segment id="24" parent="45" relname="span"> ocorrida às 10h40</segment>
+    <segment id="25" parent="24" relname="parenthetical"> (3h40 em Brasília),</segment>
+    <segment id="26" parent="47" relname="attribution"> fontes da polícia moscovita adiantaram que</segment>
+    <segment id="27" parent="47" relname="span"> ela teria acontecido</segment>
+    <segment id="28" parent="27" relname="explanation"> provavelmente por causa da explosão acidental de um bujão de gás.</segment>
+    <segment id="7" parent="50" relname="span">
+
+- Isto não foi um acidente,</segment>
+    <segment id="29" parent="7" relname="restatement"> foi proposital</segment>
+    <segment id="30" parent="52" relname="span"> - disse Resin,</segment>
+    <segment id="31" parent="30" relname="elaboration"> citado pela agência oficial russa &quot;Itar-Tass&quot;.</segment>
+    <segment id="8" parent="58" relname="span">
+
+A Promotoria de Moscou começou um processo penal por assassinato,</segment>
+    <segment id="54" parent="8" relname="interpretation"> não por terrorismo,</segment>
+    <segment id="55" parent="58" relname="interpretation"> o que indica que as autoridades têm uma tendência a acreditar que a explosão possa ter sido um acerto de contas entre delinqüentes.</segment>
+    <segment id="9" parent="60" relname="span">
+
+- No curso da investigação, serão examinadas todas as versões,</segment>
+    <segment id="56" parent="9" relname="elaboration"> incluindo a de um ataque terrorista</segment>
+    <segment id="57" parent="60" relname="attribution"> - informou o centro de imprensa da Promotoria de Moscou.</segment>
+    <segment id="10" parent="74" relname="span">
+
+A bomba detonou no interior de uma cafeteria localizada no setor denominado &quot;Evrazia&quot; do mercado Cherkizov.</segment>
+    <segment id="11" parent="73" relname="sequence"> 
+
+- Testemunhas viram quando dois desconhecidos deixaram uma bolsa e saíram correndo da cafeteria.</segment>
+    <segment id="12" parent="69" relname="span"> Pouco depois aconteceu a explosão </segment>
+    <segment id="65" parent="12" relname="attribution">- disse um porta-voz policial citado pela &quot;Itar-Tass&quot;.</segment>
+    <segment id="13" parent="70" relname="span">
+
+O delegado de Moscou, Yuri Siomin,</segment>
+    <segment id="66" parent="13" relname="elaboration"> que se dirigiu ao local,</segment>
+    <segment id="67" parent="71" relname="same-unit"> declarou que</segment>
+    <segment id="68" parent="72" relname="span"> a potência da bomba era equivalente a de até 1,2kg de TNT.</segment>
+<group id="32" type="multinuc" parent="42" relname="span" />
+<group id="33" type="span" parent="41" relname="span" />
+<group id="34" type="span" parent="35" relname="same-unit" />
+<group id="35" type="multinuc" parent="36" relname="span" />
+<group id="36" type="span" parent="40" relname="span" />
+<group id="37" type="multinuc" parent="38" relname="span" />
+<group id="38" type="span" parent="39" relname="span" />
+<group id="39" type="span" parent="36" relname="volitional-result" />
+<group id="40" type="span" parent="33" relname="elaboration" />
+<group id="41" type="span" parent="32" relname="elaboration" />
+<group id="42" type="span" parent="64" relname="span" />
+<group id="43" type="span" parent="44" relname="same-unit" />
+<group id="44" type="multinuc" parent="63" relname="list" />
+<group id="45" type="span" parent="6" relname="elaboration" />
+<group id="46" type="span" parent="48" relname="circumstance" />
+<group id="47" type="span" parent="48" relname="span" />
+<group id="48" type="span" parent="49" relname="span" />
+<group id="49" type="span" parent="51" relname="antithesis" />
+<group id="50" type="span" parent="51" relname="span" />
+<group id="51" type="span" parent="53" relname="span" />
+<group id="52" type="span" parent="50" relname="attribution" />
+<group id="53" type="span" parent="63" relname="list" />
+<group id="58" type="span" parent="59" relname="span" />
+<group id="59" type="span" parent="62" relname="contrast" />
+<group id="60" type="span" parent="61" relname="span" />
+<group id="61" type="span" parent="62" relname="contrast" />
+<group id="62" type="multinuc" parent="64" relname="non-volitional-result" />
+<group id="63" type="multinuc" parent="42" relname="elaboration" />
+<group id="64" type="span" parent="76" relname="span" />
+<group id="69" type="span" parent="73" relname="sequence" />
+<group id="70" type="span" parent="71" relname="same-unit" />
+<group id="71" type="multinuc" parent="68" relname="attribution" />
+<group id="72" type="span" parent="74" relname="elaboration" />
+<group id="73" type="multinuc" parent="10" relname="elaboration" />
+<group id="74" type="span" parent="75" relname="span" />
+<group id="75" type="span" parent="64" relname="elaboration" />
+<group id="76" type="span" />
+  </body>
+</rst>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xml>
+<corpus>
+
+	<body>
+<s id="s1" ref="1" source="Running text" forest="1" text="Fabiana Murer é ouro no salto com vara Campeã bate o recorde pan-americano com a marca de 4m60;">
+	<graph root="s1_500">
+		<terminals>
+			<t id="s1_1" word="Fabiana_Murer" lemma="Fabiana_Murer" pos="prop" morph="M S" sem="--" extra="hum"/>
+			<t id="s1_2" word="é" lemma="ser" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="predco predco fmc mv"/>
+			<t id="s1_3" word="ouro" lemma="ouro" pos="n" morph="M S" sem="mat ac-cat" extra="--"/>
+			<t id="s1_4" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s1_5" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s1_6" word="salto_com_vara" lemma="salto_com_vara" pos="n" morph="M S" sem="sport" extra="--"/>
+			<t id="s1_7" word="Campeã" lemma="campeã" pos="n" morph="F S" sem="Htit" extra="prop"/>
+			<t id="s1_8" word="bate" lemma="bater" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="nosubj nosubj cjt-STA fmc mv"/>
+			<t id="s1_9" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s1_10" word="recorde" lemma="recorde" pos="n" morph="M S" sem="ac" extra="--"/>
+			<t id="s1_11" word="pan-americano" lemma="pan-americano" pos="adj" morph="M S" sem="--" extra="np-close"/>
+			<t id="s1_12" word="com" lemma="com" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s1_13" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s1_14" word="marca" lemma="marca" pos="n" morph="F S" sem="Labs ac-sign bar" extra="--"/>
+			<t id="s1_15" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_16" word="4m60" lemma="4m60" pos="n" morph="M P" sem="temp" extra="--"/>
+			<t id="s1_17" word=";" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s1_500" cat="s">
+				<edge label="STA" idref="s1_501"/>
+			</nt>
+			<nt id="s1_501" cat="fcl">
+				<edge label="S" idref="s1_1"/>
+				<edge label="X" idref="s1_502"/>
+				<edge label="PU" idref="s1_17"/>
+			</nt>
+			<nt id="s1_502" cat="par">
+				<edge label="CJT" idref="s1_503"/>
+				<edge label="CJT" idref="s1_507"/>
+			</nt>
+			<nt id="s1_503" cat="x">
+				<edge label="P" idref="s1_2"/>
+				<edge label="Cs" idref="s1_504"/>
+			</nt>
+			<nt id="s1_504" cat="np">
+				<edge label="H" idref="s1_3"/>
+				<edge label="DN" idref="s1_505"/>
+			</nt>
+			<nt id="s1_505" cat="pp">
+				<edge label="H" idref="s1_4"/>
+				<edge label="DP" idref="s1_506"/>
+			</nt>
+			<nt id="s1_506" cat="np">
+				<edge label="DN" idref="s1_5"/>
+				<edge label="H" idref="s1_6"/>
+			</nt>
+			<nt id="s1_507" cat="x">
+				<edge label="fCs" idref="s1_7"/>
+				<edge label="P" idref="s1_8"/>
+				<edge label="Od" idref="s1_508"/>
+				<edge label="fA" idref="s1_509"/>
+			</nt>
+			<nt id="s1_508" cat="np">
+				<edge label="DN" idref="s1_9"/>
+				<edge label="H" idref="s1_10"/>
+				<edge label="DN" idref="s1_11"/>
+			</nt>
+			<nt id="s1_509" cat="pp">
+				<edge label="H" idref="s1_12"/>
+				<edge label="DP" idref="s1_510"/>
+			</nt>
+			<nt id="s1_510" cat="np">
+				<edge label="DN" idref="s1_13"/>
+				<edge label="H" idref="s1_14"/>
+				<edge label="DN" idref="s1_511"/>
+			</nt>
+			<nt id="s1_511" cat="pp">
+				<edge label="H" idref="s1_15"/>
+				<edge label="DP" idref="s1_16"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s2" ref="2" source="Running text" forest="1" text="Joana Costa é quinta.">
+	<graph root="s2_500">
+		<terminals>
+			<t id="s2_1" word="Joana_Costa" lemma="Joana_Costa" pos="prop" morph="F S" sem="--" extra="hum"/>
+			<t id="s2_2" word="é" lemma="ser" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s2_3" word="quinta" lemma="quinto" pos="adj" morph="F S" sem="--" extra="NUM-ord"/>
+			<t id="s2_4" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s2_500" cat="s">
+				<edge label="STA" idref="s2_501"/>
+			</nt>
+			<nt id="s2_501" cat="fcl">
+				<edge label="S" idref="s2_1"/>
+				<edge label="P" idref="s2_2"/>
+				<edge label="Cs" idref="s2_3"/>
+				<edge label="PU" idref="s2_4"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+	</body>
+</corpus>
+</xml>

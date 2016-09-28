@@ -1,0 +1,24 @@
+<R SDID="D2_C27_Estadao.txt.seg" SSENT="1" TDID="D1_C27_Folha.txt.seg" TSENT="1">
+<RELATION TYPE="Overlap" JUDGE="Lucia"/>
+</R>
+<R SDID="D2_C27_Estadao.txt.seg" SSENT="4" TDID="D1_C27_Folha.txt.seg" TSENT="8">
+<RELATION TYPE="Subsumption" JUDGE="Lucia"/>
+</R>
+<R SDID="D2_C27_Estadao.txt.seg" SSENT="8" TDID="D1_C27_Folha.txt.seg" TSENT="7">
+<RELATION TYPE="Follow-up" JUDGE="Lucia"/>
+</R>
+<R SDID="D2_C27_Estadao.txt.seg" SSENT="9" TDID="D1_C27_Folha.txt.seg" TSENT="7">
+<RELATION TYPE="Follow-up" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C27_Folha.txt.seg" SSENT="6" TDID="D2_C27_Estadao.txt.seg" TSENT="10">
+<RELATION TYPE="Elaboration" JUDGE="Lucia"/>
+</R>
+<R SDID="D2_C27_Estadao.txt.seg" SSENT="12" TDID="D1_C27_Folha.txt.seg" TSENT="26">
+<RELATION TYPE="Subsumption" JUDGE="Lucia"/>
+</R>
+<R SDID="D2_C27_Estadao.txt.seg" SSENT="15" TDID="D1_C27_Folha.txt.seg" TSENT="25">
+<RELATION TYPE="Follow-up" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C27_Folha.txt.seg" SSENT="33" TDID="D2_C27_Estadao.txt.seg" TSENT="15">
+<RELATION TYPE="Follow-up" JUDGE="Lucia"/>
+</R>

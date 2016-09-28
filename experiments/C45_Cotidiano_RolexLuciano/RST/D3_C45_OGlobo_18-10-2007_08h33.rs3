@@ -1,0 +1,222 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="10" relname="span">Um garçom de 22 anos foi preso na noite desta quarta-feira, </segment>
+    <segment id="2" parent="1" relname="non-volitional-cause">acusado de ter roubado o Rolex do apresentador Luciano Huck. </segment>
+    <segment id="3" parent="11" relname="list">Wagner do Nascimento Marinho foi preso em Taboão da Serra, na Grande São Paulo,</segment>
+    <segment id="4" parent="11" relname="list"> e estaria sendo investigado há alguns dias por policiais da Delegacia de Repressão a Fraude contra Seguros. </segment>
+    <segment id="5" parent="14" relname="attribution">Segundo a polícia, </segment>
+    <segment id="6" parent="14" relname="span">o garçom é fugitivo da penitenciária de Valparaíso, no interior paulista,</segment>
+    <segment id="7" parent="13" relname="span"> onde cumpria pena</segment>
+    <segment id="8" parent="7" relname="non-volitional-cause"> justamente por roubo de Rolex e tentativa de roubo, seguida por tentativa de homicídio. </segment>
+    <segment id="9" parent="17" relname="circumstance">
+
+Abordado por policiais,</segment>
+    <segment id="17" parent="24" relname="span"> Marinho teria apresentado identidade falsa, em nome Antônio Edgar Torres Câmara.</segment>
+    <segment id="18" parent="19" relname="means"> Como a polícia já tinha fotos dele, </segment>
+    <segment id="19" parent="25" relname="span">a identificação ficou mais fácil.</segment>
+    <segment id="20" parent="27" relname="span"> Junto com Marinho foi detido um grafiteiro de 27 anos, </segment>
+    <segment id="21" parent="20" relname="elaboration">também com passagem pela polícia por roubo.</segment>
+    <segment id="22" parent="28" relname="elaboration"> Os dois estavam com uma moto Honda Twister prata. </segment>
+    <segment id="23" parent="30" relname="attribution">
+
+A polícia afirma que </segment>
+    <segment id="30" parent="35" relname="span">chamou Luciano Huck para fazer o reconhecimento do criminoso,</segment>
+    <segment id="31" parent="36" relname="attribution"> mas a assessoria do apresentador informou que </segment>
+    <segment id="32" parent="33" relname="non-volitional-cause">ele está gravando no Rio de Janeiro</segment>
+    <segment id="33" parent="36" relname="span"> e não poderá ir até a delegacia.</segment>
+    <segment id="34" parent="56" relname="span"> 
+
+O apresentador foi roubado num semáforo da Rua Doutor Renato Paes de Barros, no Itaim Bibi, por motoqueiros.</segment>
+    <segment id="40" parent="54" relname="volitional-result"> O crime só foi divulgado </segment>
+    <segment id="41" parent="54" relname="span">porque Luciano Huck escreveu um artigo para o jornal &quot;Folha de S.Paulo&quot;,</segment>
+    <segment id="42" parent="41" relname="elaboration"> no qual citou o filme &quot;Tropa de Elite&quot;. </segment>
+    <segment id="43" parent="60" relname="span">
+
+Ele estava em um automóvel,</segment>
+    <segment id="44" parent="43" relname="elaboration"> acompanhado do empresário Fernando Di Gênio Barbosa, presidente da TV e Rádio Mix FM, </segment>
+    <segment id="45" parent="58" relname="span">quando,</segment>
+    <segment id="46" parent="57" relname="span"> ao parar em um semáforo da Rua Doutor Renato Paes de Barros</segment>
+    <segment id="47" parent="46" relname="parenthetical"> - onde também funciona o 15 Distrito Policial -</segment>
+    <segment id="48" parent="59" relname="same-unit"> uma moto emparelhou. </segment>
+    <segment id="49" parent="62" relname="sequence">O garupa apontou um revólver calibre 38 para a cabeça de Huck </segment>
+    <segment id="50" parent="61" relname="span">e exigiu a jóia, </segment>
+    <segment id="51" parent="50" relname="elaboration">que pode custar até R$ 48 mil. </segment>
+    <segment id="52" parent="66" relname="attribution">
+
+A polícia informou que</segment>
+    <segment id="66" parent="77" relname="span"> ele não havia feito, até aquela data, boletim de ocorrência do roubo. </segment>
+    <segment id="67" parent="78" relname="attribution">No artigo, Luciano Huck afirmou que </segment>
+    <segment id="68" parent="69" relname="purpose">para resolver o problema da violência,</segment>
+    <segment id="69" parent="78" relname="span"> só chamando o capitão Nascimento, personagem central do filme. </segment>
+    <segment id="70" parent="80" relname="list">
+
+&quot;Onde está a polícia? </segment>
+    <segment id="71" parent="80" relname="list">Onde está a &apos;Elite da tropa&apos;?</segment>
+    <segment id="72" parent="80" relname="list"> Quem sabe até a &apos;Tropa de elite&apos;! </segment>
+    <segment id="73" parent="80" relname="list">Chamem o comandante Nascimento!</segment>
+    <segment id="74" parent="81" relname="span"> Está na hora de discutirmos segurança pública de verdade&quot;, </segment>
+    <segment id="75" parent="74" relname="attribution">desabafou Huck no artigo. </segment>
+    <segment id="76" parent="90" relname="span">
+
+Um levantamento divulgado em fevereiro pelo Departamento de Polícia Judiciária da Capital</segment>
+    <segment id="85" parent="76" relname="parenthetical"> (Decap)</segment>
+    <segment id="86" parent="91" relname="same-unit"> revelou que 61,5% dos crimes contra o patrimônio cometidos nas regiões Oeste, Centro e parte da Sul tiveram a participação de motoqueiros.</segment>
+    <segment id="87" parent="91" relname="explanation"> As motos permitem fuga rápida nos congestionamentos constantes da cidade.</segment>
+    <segment id="88" parent="92" relname="elaboration"> Os bairros preferidos dos ladrões motoqueiros são Brooklin, Itaim Bibi e Moema. </segment>
+    <segment id="89" parent="133" relname="span">
+
+&quot;Não quero repercutir o assalto. </segment>
+    <segment id="95" parent="89" relname="justify">Vi &quot;Tropa de elite&quot; no Festival do Rio. </segment>
+    <segment id="96" parent="116" relname="span">O artigo é um desabafo de um cidadão insone na noite do assalto </segment>
+    <segment id="97" parent="96" relname="parenthetical">(quinta-feira), </segment>
+    <segment id="98" parent="116" relname="elaboration">refletindo sobre sua função na sociedade.</segment>
+    <segment id="99" parent="118" relname="attribution"> Proponho que </segment>
+    <segment id="100" parent="118" relname="span">se comece a discutir o assunto </segment>
+    <segment id="101" parent="121" relname="span">para encontrarmos alguma solução: </segment>
+    <segment id="102" parent="120" relname="list">seja o capitão Nascimento, </segment>
+    <segment id="103" parent="120" relname="list">seja investimento em escolas. </segment>
+    <segment id="104" parent="105" relname="volitional-cause">O que quero é que o artigo traga o assunto à tona</segment>
+    <segment id="105" parent="122" relname="span"> e que ele seja discutido de maneira séria.</segment>
+    <segment id="106" parent="122" relname="elaboration"> Quero deixar claro que não me importo com o relógio. </segment>
+    <segment id="107" parent="128" relname="concession">Não estou reclamando como o apresentador Luciano Huck, </segment>
+    <segment id="108" parent="128" relname="span">mas como um cidadão</segment>
+    <segment id="109" parent="124" relname="span"> que vê o Brasil indo tão bem em tantas áreas </segment>
+    <segment id="110" parent="123" relname="list">- índices nunca antes alcançados, </segment>
+    <segment id="111" parent="123" relname="list">capital estrangeiro entrando, </segment>
+    <segment id="112" parent="123" relname="list">notoriedade no mundo todo -</segment>
+    <segment id="113" parent="126" relname="span"> e muito mal em questões básicas </segment>
+    <segment id="114" parent="125" relname="span">que a gente não consegue resolver,</segment>
+    <segment id="115" parent="114" relname="elaboration"> como a questão da violência.&quot;</segment>
+<group id="10" type="span" parent="12" relname="span" />
+<group id="11" type="multinuc" parent="10" relname="elaboration" />
+<group id="12" type="span" parent="16" relname="span" />
+<group id="13" type="span" parent="6" relname="elaboration" />
+<group id="14" type="span" parent="15" relname="span" />
+<group id="15" type="span" parent="12" relname="elaboration" />
+<group id="16" type="span" parent="53" relname="span" />
+<group id="24" type="span" parent="25" relname="concession" />
+<group id="25" type="span" parent="26" relname="span" />
+<group id="26" type="span" parent="28" relname="list" />
+<group id="27" type="span" parent="28" relname="list" />
+<group id="28" type="multinuc" parent="29" relname="span" />
+<group id="29" type="span" parent="39" relname="sequence" />
+<group id="35" type="span" parent="38" relname="contrast" />
+<group id="36" type="span" parent="37" relname="span" />
+<group id="37" type="span" parent="38" relname="contrast" />
+<group id="38" type="multinuc" parent="39" relname="sequence" />
+<group id="39" type="multinuc" parent="16" relname="elaboration" />
+<group id="53" type="span" parent="65" relname="span" />
+<group id="54" type="span" parent="55" relname="span" />
+<group id="55" type="span" parent="34" relname="elaboration" />
+<group id="56" type="span" parent="64" relname="span" />
+<group id="57" type="span" parent="45" relname="circumstance" />
+<group id="58" type="span" parent="63" relname="span" />
+<group id="59" type="multinuc" parent="62" relname="sequence" />
+<group id="60" type="span" parent="58" relname="circumstance" />
+<group id="61" type="span" parent="62" relname="sequence" />
+<group id="62" type="multinuc" parent="56" relname="elaboration" />
+<group id="63" type="span" parent="59" relname="same-unit" />
+<group id="64" type="span" parent="53" relname="elaboration" />
+<group id="65" type="span" parent="83" relname="span" />
+<group id="77" type="span" parent="65" relname="elaboration" />
+<group id="78" type="span" parent="79" relname="span" />
+<group id="79" type="span" parent="82" relname="span" />
+<group id="80" type="multinuc" parent="79" relname="elaboration" />
+<group id="81" type="span" parent="80" relname="list" />
+<group id="82" type="span" parent="94" relname="span" />
+<group id="83" type="span" parent="84" relname="span" />
+<group id="84" type="span" parent="136" relname="span" />
+<group id="90" type="span" parent="91" relname="same-unit" />
+<group id="91" type="multinuc" parent="92" relname="span" />
+<group id="92" type="span" parent="93" relname="span" />
+<group id="93" type="span" parent="82" relname="elaboration" />
+<group id="94" type="span" parent="83" relname="elaboration" />
+<group id="116" type="span" parent="117" relname="span" />
+<group id="117" type="span" parent="133" relname="elaboration" />
+<group id="118" type="span" parent="119" relname="span" />
+<group id="119" type="span" parent="132" relname="span" />
+<group id="120" type="multinuc" parent="101" relname="parenthetical" />
+<group id="121" type="span" parent="100" relname="purpose" />
+<group id="122" type="span" parent="130" relname="span" />
+<group id="123" type="multinuc" parent="109" relname="parenthetical" />
+<group id="124" type="span" parent="127" relname="contrast" />
+<group id="125" type="span" parent="113" relname="elaboration" />
+<group id="126" type="span" parent="127" relname="contrast" />
+<group id="127" type="multinuc" parent="108" relname="elaboration" />
+<group id="128" type="span" parent="129" relname="span" />
+<group id="129" type="span" parent="130" relname="explanation" />
+<group id="130" type="span" parent="131" relname="span" />
+<group id="131" type="span" parent="119" relname="explanation" />
+<group id="132" type="span" parent="134" relname="elaboration" />
+<group id="133" type="span" parent="134" relname="span" />
+<group id="134" type="span" parent="135" relname="span" />
+<group id="135" type="span" parent="84" relname="elaboration" />
+<group id="136" type="span" />
+  </body>
+</rst>

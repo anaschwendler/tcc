@@ -1,0 +1,51 @@
+<R SDID="D1_C29_Folha.txt.seg" SSENT="1" TDID="D3_C29_GPovo.txt.seg" TSENT="1">
+<RELATION TYPE="Subsumption" JUDGE="thiago"/>
+</R>
+<R SDID="D3_C29_GPovo.txt.seg" SSENT="11" TDID="D1_C29_Folha.txt.seg" TSENT="1">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C29_Folha.txt.seg" SSENT="2" TDID="D3_C29_GPovo.txt.seg" TSENT="2">
+<RELATION TYPE="Overlap" JUDGE="thiago"/>
+</R>
+<R SDID="D3_C29_GPovo.txt.seg" SSENT="9" TDID="D1_C29_Folha.txt.seg" TSENT="2">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D3_C29_GPovo.txt.seg" SSENT="10" TDID="D1_C29_Folha.txt.seg" TSENT="2">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C29_Folha.txt.seg" SSENT="4" TDID="D3_C29_GPovo.txt.seg" TSENT="3">
+<RELATION TYPE="Overlap" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C29_Folha.txt.seg" SSENT="5" TDID="D3_C29_GPovo.txt.seg" TSENT="1">
+<RELATION TYPE="Follow-up" JUDGE="thiago"/>
+</R>
+<R SDID="D3_C29_GPovo.txt.seg" SSENT="14" TDID="D1_C29_Folha.txt.seg" TSENT="9">
+<RELATION TYPE="Historical-background" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C29_Folha.txt.seg" SSENT="11" TDID="D3_C29_GPovo.txt.seg" TSENT="1">
+<RELATION TYPE="Historical-background" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C29_Folha.txt.seg" SSENT="11" TDID="D3_C29_GPovo.txt.seg" TSENT="3">
+<RELATION TYPE="Historical-background" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C29_Folha.txt.seg" SSENT="13" TDID="D3_C29_GPovo.txt.seg" TSENT="1">
+<RELATION TYPE="Historical-background" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C29_Folha.txt.seg" SSENT="13" TDID="D3_C29_GPovo.txt.seg" TSENT="3">
+<RELATION TYPE="Historical-background" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C29_Folha.txt.seg" SSENT="13" TDID="D3_C29_GPovo.txt.seg" TSENT="13">
+<RELATION TYPE="Subsumption" JUDGE="thiago"/>
+</R>
+<R SDID="D3_C29_GPovo.txt.seg" SSENT="14" TDID="D1_C29_Folha.txt.seg" TSENT="13">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C29_Folha.txt.seg" SSENT="14" TDID="D3_C29_GPovo.txt.seg" TSENT="4">
+<RELATION TYPE="Overlap" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C29_Folha.txt.seg" SSENT="17" TDID="D3_C29_GPovo.txt.seg" TSENT="11">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D3_C29_GPovo.txt.seg" SSENT="11" TDID="D1_C29_Folha.txt.seg" TSENT="19">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>

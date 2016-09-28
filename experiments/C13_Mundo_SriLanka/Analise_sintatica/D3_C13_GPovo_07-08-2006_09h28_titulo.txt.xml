@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xml>
+<corpus>
+
+	<body>
+<s id="s1" ref="1" source="Running text" forest="1" text="Membros de ONG no Sri Lanka são encontrados mortos.">
+	<graph root="s1_500">
+		<terminals>
+			<t id="s1_1" word="Membros" lemma="membro" pos="n" morph="M P" sem="an H" extra="--"/>
+			<t id="s1_2" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_3" word="ONG" lemma="NGO" pos="prop" morph="F S" sem="--" extra="org"/>
+			<t id="s1_4" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s1_5" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s1_6" word="Sri_Lanka" lemma="Sri_Lanka" pos="prop" morph="M S" sem="--" extra="civ"/>
+			<t id="s1_7" word="são" lemma="ser" pos="v-fin" morph="PR 3P IND VFIN" sem="--" extra="fmc aux"/>
+			<t id="s1_8" word="encontrados" lemma="encontrar" pos="v-pcp" morph="M P" sem="--" extra="mv"/>
+			<t id="s1_9" word="mortos" lemma="morto" pos="adj" morph="M P" sem="--" extra="--"/>
+			<t id="s1_10" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s1_500" cat="s">
+				<edge label="STA" idref="s1_501"/>
+			</nt>
+			<nt id="s1_501" cat="fcl">
+				<edge label="S" idref="s1_502"/>
+				<edge label="P" idref="s1_507"/>
+				<edge label="Cs" idref="s1_9"/>
+				<edge label="PU" idref="s1_10"/>
+			</nt>
+			<nt id="s1_502" cat="np">
+				<edge label="H" idref="s1_1"/>
+				<edge label="DN" idref="s1_503"/>
+			</nt>
+			<nt id="s1_503" cat="pp">
+				<edge label="H" idref="s1_2"/>
+				<edge label="DP" idref="s1_504"/>
+			</nt>
+			<nt id="s1_504" cat="np">
+				<edge label="H" idref="s1_3"/>
+				<edge label="DN" idref="s1_505"/>
+			</nt>
+			<nt id="s1_505" cat="pp">
+				<edge label="H" idref="s1_4"/>
+				<edge label="DP" idref="s1_506"/>
+			</nt>
+			<nt id="s1_506" cat="np">
+				<edge label="DN" idref="s1_5"/>
+				<edge label="H" idref="s1_6"/>
+			</nt>
+			<nt id="s1_507" cat="vp">
+				<edge label="Vaux" idref="s1_7"/>
+				<edge label="Vm" idref="s1_8"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+	</body>
+</corpus>
+</xml>

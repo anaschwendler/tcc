@@ -1,0 +1,181 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="46" relname="list">A aviação israelense atacou 150 alvos na madrugada de hoje no Líbano,</segment>
+    <segment id="15" parent="46" relname="list"> enquanto soldados do Estado judeu mataram 10 milicianos do Hisbolá nas aldeias libanesas de Bint Djebeil e Kafr Hula,</segment>
+    <segment id="16" parent="46" relname="attribution"> segundo informações de fontes militares.</segment>
+    <segment id="2" parent="48" relname="span"> 
+
+Os combates se intensificaram hoje após a sangrenta batalha deste domingo,</segment>
+    <segment id="17" parent="2" relname="volitional-cause"> quando a guerrilha xiita do Hezbolá matou 15 pessoas</segment>
+    <segment id="18" parent="48" relname="non-volitional-result"> e deixou mais de 200 feridas, entre militares e civis.</segment>
+    <segment id="3" parent="50" relname="attribution"> Por sua parte, as forças militares de Israel no sul do Líbano informaram que</segment>
+    <segment id="19" parent="50" relname="list"> também no domingo foram mortos 30 milicianos do Hezbolá,</segment>
+    <segment id="20" parent="50" relname="list"> enquanto um oficial e dois soldados israelenses ficaram feridos hoje em Oleado.</segment>
+    <segment id="4" parent="53" relname="list">
+
+Comandos israelenses mataram outros três guerrilheiros libaneses na cidade de Tiro,</segment>
+    <segment id="21" parent="53" relname="list"> onde destruíram sete plataformas de lançamento de foguetes,</segment>
+    <segment id="22" parent="53" relname="attribution"> informaram as fontes israelenses.</segment>
+    <segment id="5" parent="55" relname="span"> 
+
+O primeiro-ministro de Israel, Ehud Olmert, realizará hoje consultas com seu vice-primeiro-ministro, Shimon Peres, e com os titulares da Defesa, Amir Peretz, e de Exteriores, Tzipi Livni, entre outros,</segment>
+    <segment id="23" parent="56" relname="span"> a fim de analisar o agravamento da situação dos conflitos,</segment>
+    <segment id="24" parent="23" relname="elaboration"> que não possibilitaram o fim dos ataques do Hezbolá a Israel.</segment>
+    <segment id="6" parent="57" relname="attribution">
+
+Segundo fontes militares e policiais,</segment>
+    <segment id="25" parent="57" relname="span"> os milicianos do Hisbolá já dispararam aproximadamente 2,7 mil foguetes Katyusha e mísseis de diferentes alcances contra território israelense desde de o início dos conflitos,</segment>
+    <segment id="26" parent="25" relname="elaboration"> que chega hoje ao seu 27º dia.</segment>
+    <segment id="7" parent="27" relname="attribution">
+
+De acordo com um porta-voz militar,</segment>
+    <segment id="27" parent="59" relname="span"> o Hezbolá contava com pelo menos 11 mil mísseis e foguetes &quot;apontados contra Israel&quot; no começo as hostilidades.</segment>
+    <segment id="8" parent="62" relname="attribution">
+
+Além disso, a rádio pública israelense informou que </segment>
+    <segment id="28" parent="60" relname="span">uma fonte do Governo,</segment>
+    <segment id="29" parent="28" relname="elaboration"> que não quis revelar sua identidade,</segment>
+    <segment id="30" parent="31" relname="attribution"> assinalou que</segment>
+    <segment id="31" parent="61" relname="span"> essas operações podem estender-se até o rio Litani, a 30 quilômetros da fronteira entre os dois países.</segment>
+    <segment id="9" parent="65" relname="span">
+
+As operações por terra,</segment>
+    <segment id="32" parent="9" relname="elaboration"> que contam com a participação de aproximadamente dez mil efetivos,</segment>
+    <segment id="33" parent="66" relname="same-unit"> têm como missão criar uma &quot;zona militar especial&quot; ao longo da fronteira entre os dois países, de 110 quilômetros,</segment>
+    <segment id="34" parent="66" relname="purpose"> para afastar os milicianos islâmicos do Hisbolá de Israel.</segment>
+    <segment id="10" parent="69" relname="span">
+
+A intenção declarada do Governo israelense é ceder essa zona de segurança a uma força multinacional,</segment>
+    <segment id="35" parent="68" relname="list"> que garanta seu controle</segment>
+    <segment id="36" parent="68" relname="list"> e apóie às forças do Exército libanês nesse propósito.</segment>
+    <segment id="11" parent="71" relname="span">
+
+A esse respeito, o Conselho de Segurança da ONU debaterá hoje ou amanhã uma proposta de resolução apresentada pelos Estados Unidos e pela França,</segment>
+    <segment id="37" parent="70" relname="list"> que contempla um cessar-fogo</segment>
+    <segment id="38" parent="70" relname="list"> e inclui também o posicionamento de uma força multinacional no Líbano.</segment>
+    <segment id="12" parent="74" relname="contrast">
+
+Aparentemente, Israel estaria disposto a aceitar a resolução,</segment>
+    <segment id="39" parent="40" relname="attribution"> mas o presidente do Parlamento libanês, Nabih Berri, declarou neste domingo que</segment>
+    <segment id="40" parent="73" relname="span"> seu país rejeita a proposta.</segment>
+    <segment id="13" parent="75" relname="list">
+
+&quot;Todo o Líbano rejeita a minuta de resolução</segment>
+    <segment id="41" parent="75" relname="list"> e exige que ela seja reconsiderada,</segment>
+    <segment id="42" parent="75" relname="purpose"> para que haja uma harmonia com o plano de sete pontos aprovado pelo governo libanês e suas comunidades&quot;,</segment>
+    <segment id="43" parent="76" relname="attribution"> afirmou Berri, em entrevista coletiva em Beirute.</segment>
+    <segment id="14" parent="78" relname="span">
+
+&quot;Aceitar esta minuta de resolução significaria que as tropas israelenses poderiam seguir ocupando as zonas</segment>
+    <segment id="44" parent="14" relname="elaboration"> que já ocupam agora&quot;,</segment>
+    <segment id="45" parent="78" relname="attribution"> concluiu.</segment>
+<group id="46" type="multinuc" parent="47" relname="span" />
+<group id="47" type="span" parent="80" relname="span" />
+<group id="48" type="span" parent="49" relname="span" />
+<group id="49" type="span" parent="52" relname="list" />
+<group id="50" type="multinuc" parent="51" relname="span" />
+<group id="51" type="span" parent="52" relname="list" />
+<group id="52" type="multinuc" parent="47" relname="elaboration" />
+<group id="53" type="multinuc" parent="54" relname="span" />
+<group id="54" type="span" parent="81" relname="list" />
+<group id="55" type="span" parent="81" relname="non-volitional-result" />
+<group id="56" type="span" parent="5" relname="purpose" />
+<group id="57" type="span" parent="58" relname="span" />
+<group id="58" type="span" parent="64" relname="list" />
+<group id="59" type="span" parent="64" relname="list" />
+<group id="60" type="span" parent="62" relname="same-unit" />
+<group id="61" type="span" parent="62" relname="same-unit" />
+<group id="62" type="multinuc" parent="63" relname="span" />
+<group id="63" type="span" parent="64" relname="list" />
+<group id="64" type="multinuc" parent="82" relname="elaboration" />
+<group id="65" type="span" parent="66" relname="same-unit" />
+<group id="66" type="multinuc" parent="67" relname="span" />
+<group id="67" type="span" parent="83" relname="elaboration" />
+<group id="68" type="multinuc" parent="10" relname="elaboration" />
+<group id="69" type="span" parent="72" relname="span" />
+<group id="70" type="multinuc" parent="11" relname="elaboration" />
+<group id="71" type="span" parent="85" relname="span" />
+<group id="72" type="span" parent="87" relname="list" />
+<group id="73" type="span" parent="74" relname="contrast" />
+<group id="74" type="multinuc" parent="71" relname="elaboration" />
+<group id="75" type="multinuc" parent="76" relname="span" />
+<group id="76" type="span" parent="77" relname="span" />
+<group id="77" type="span" parent="86" relname="span" />
+<group id="78" type="span" parent="79" relname="span" />
+<group id="79" type="span" parent="77" relname="justify" />
+<group id="80" type="span" parent="81" relname="list" />
+<group id="81" type="multinuc" parent="82" relname="span" />
+<group id="82" type="span" parent="83" relname="span" />
+<group id="83" type="span" parent="84" relname="span" />
+<group id="84" type="span" parent="88" relname="span" />
+<group id="85" type="span" parent="69" relname="elaboration" />
+<group id="86" type="span" parent="87" relname="list" />
+<group id="87" type="multinuc" parent="84" relname="elaboration" />
+<group id="88" type="span" />
+  </body>
+</rst>

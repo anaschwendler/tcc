@@ -1,0 +1,80 @@
+<ET ID="00" TIPO="TEMPO_CALEND" SUBTIPO="DATA" VAL_NORM="+20060804T1138--LM-">
+Se a eleição fosse 
+<ET ID="01" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+hoje
+</ET>
+, o presidente Luiz Inácio Lula da Silva, candidato à reeleição, teria 44% das intenções de voto, contra 25% do tucano Geraldo Alckmin, de acordo com a pesquisa CNI/Ibope divulgada
+<ET ID="02" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+nesta sexta-feira
+</ET>
+.
+
+Heloísa Helena, candidata à Presidência pelo PSOL, aparece em terceiro, com 11% das intenções de voto, seguida por Cristovam Buarque (PDT) e Luciano Bivar (PSL), ambos com 1%. José Maria Eymael, do PSDC, e Rui Pimenta, do PCO, não chegaram a obter 1% das intenções de voto.
+
+Considerando apenas os votos válidos, Lula venceria as eleições 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="POSTERIOR" VAL_DELTA="A0M2S0D0H0M0S0">
+de outubro
+</ET>
+ainda no primeiro turno. Não é possível fazer uma comparação entre a pesquisa divulgada 
+<ET ID="04" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+hoje
+</ET>
+e a anterior, porque esta é a primeira CNI/Ibope com a lista oficial dos candidatos do TSE (Tribunal Superior Eleitoral) à sucessão presidencial.
+
+A pesquisa
+<ET ID="05" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+de hoje
+</ET>
+apresentou uma variação na lista espontânea (quando os entrevistados dizem em quem pretendem votar sem um cartão com nomes). Neste cenário, Lula sobe de 27% para 31% e Alckmin passa de 4% para 14%; Heloísa também cresce, de 1% para 6%.
+
+De acordo com a CNI/Ibope, num possível segundo turno, Lula perderia 10 pontos de vantagem para Alckmin. 
+<ET ID="06" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M2S0D0H0M0S0">
+Em junho
+</ET>
+, o presidente tinha 53% das intenções de voto contra 29% do tucano. Agora, Lula teria 50%, contra 36% de Alckmin.
+
+Num eventual segundo turno com Heloísa Helena, a vantagem de Lula também cairia, de acordo com a pesquisa 
+<ET ID="07" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+de hoje
+</ET>
+. O presidente teria 53% das intenções de voto contra 30% de Heloísa.
+<ET ID="08" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M2S0D9H0M0S0">
+Em junho
+</ET>
+, Lula tinha 57% e Heloísa 21%.
+
+A pesquisa ouviu 2.002 pessoas 
+<ET ID="09" TIPO1="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ENUNCIACAO" SENTIDO1="ANTERIOR" VAL_DELTA1="A0M0S0D6H0M0S0" TEMPO_REF2="ENUNCIACAO" SENTIDO2="ANTERIOR" VAL_DELTA2="A0M0S0D4H0M0S0">
+entre os dias 29 e 31 de julho
+</ET>
+, em 142 municípios do país. A margem de erro é de dois pontos percentuais, para mais ou para menos.
+
+Na comparação com a pesquisa Ibope divulgada 
+<ET ID="10" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D9H0M0S0">
+há nove dias
+</ET>
+, Lula permaneceu estável em 44% e Alckmin oscilou dois pontos percentuais, de 27% para 25%. Já Heloísa subiu três pontos, de 8% para 11%.
+
+Num eventual segundo turno e na comparação com a pesquisa Ibope 
+<ET ID="11" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D10H0M0S0">
+do dia 25
+</ET>
+, Lula oscila de 48% para 50%, enquanto Alckmin cai de 39% para 36%. 
+
+Uma possível disputa entre Lula e Heloísa num segundo turno não foi cogitada pelo Ibope nesse levantamento 
+<ET ID="12" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D10H0M0S0">
+do dia 25
+</ET>
+.
+
+Os números da última pesquisa Datafolha são semelhantes aos divulgados 
+<ET ID="13" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="" VAL_DELTA="A0M0S0D0H0M0S0">
+nesta sexta-feira
+</ET>
+.
+
+Na pesquisa, divulgada 
+<ET ID="14" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D17H0M0S0">
+no último dia 19 
+</ET>
+pela Folha, Lula aparece com 44% das intenções de voto e Alckmin, com 28%. A candidata do PSOL à Presidência vem em terceiro, com 10%.

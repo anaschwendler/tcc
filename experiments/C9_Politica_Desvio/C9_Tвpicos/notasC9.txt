@@ -1,0 +1,46 @@
+*formação dos subtópicos do cluster 9
+SUBTOPICO 1: D1T1, D2T1, D3T1
+SUBTOPICO 2: D1T2, D2T2
+SUBTOPICO 3: D1T3, D2T3
+SUBTOPICO 4: D3T4
+
+documento_numeroDeSentencas_quantidade de palavras
+SUBTOPICO 1: D1T1_7_154, D2T1_3_110, D3T1_8_230 = 18 sentenças ; 494 palavras
+SUBTOPICO 2: D1T2_2_32, D2T2_8_219 = 5 sentenças; 251 palavras
+SUBTOPICO 3: D1T3_3_64, D2T3_4_105 = 2 sentenças ; 169 palavras
+SUBTOPICO 4: D3T4_1_51 = 1 sentença ; 51 palavras
+
+Cluster tem 965 palavras
+SUBTOPICO 1 = [51.19] 51.2 % do cluster //A operação da PF e os presos - a operação Dominó - A operação Dominó e seus presos
+SUBTOPICO 2 = [26.01] 26%  //motivo das prisões - motivações da Operação Dominó - O crime praticado
+SUBTOPICO 3 = [17.51] 17.5%  //novas investigações - outros suspeitos
+SUBTOPICO 4 = [5.28] 5.3% //Investigação
+
+Sumário humano: 6 sentenças ; 144 palavras
+S1: 49 palavras
+S2: 9
+S3: 27
+S4: 29
+S5: 14
+S6: 16
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico
+S1: D1T1, D2T1, D3T1 - SUBTOPICO 1
+S2: D1T1, D2T1, D3T1 - SUBTOPICO 1
+S3: D1T1, D2T1, D3T1 | D1T2 - SUBTOPICO 1 [14 palavras] e SUBTOPICO 2 [13 palavras]
+S4: D1T2, D2T2 - SUBTOPICO 2
+S5: D1T1, D3T1 | D2T2 - SUBTOPICO 1 [7 palavras] e SUBTOPICO 2 [7 palavras]
+S6:  D3T1 | D1T3, D2T3 - SUBTOPICO 1 [8 palavras] e SUBTOPICO 3 [8 palavras]
+
+*% dos subtopicos no sumário
+Sentenças 1, 2, 3, 5 e 6 = 87 palavras = [60.41] 60.5%. Subtopico 1
+Sentenças 3, 4 e 5 = 49 palavras = [34.02] 34% Só Subtopico 2
+Sentença 3 = 8 palavras = [5.5] 5.5% Subtopico 3
+
+*Não apareceu subtópico 4
+
+
+
+
+

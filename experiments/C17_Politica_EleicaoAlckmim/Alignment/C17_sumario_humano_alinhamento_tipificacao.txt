@@ -1,0 +1,32 @@
+<align SENT="1">
+	<DOC="D2_C17_Estadao.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+	<DOC="D2_C17_Estadao.txt.seg" SENT="4" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+</align>
+
+<align SENT="2">
+	<DOC="D1_C17_Folha.txt.seg" SENT="4" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+	<DOC="D2_C17_Estadao.txt.seg" SENT="6" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+</align>
+
+<align SENT="3">
+	<DOC="D1_C17_Folha.txt.seg" SENT="2" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+	<DOC="D1_C17_Folha.txt.seg" SENT="4" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+	<DOC="D2_C17_Estadao.txt.seg" SENT="7" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+</align>
+
+<align SENT="4">
+	<DOC="D1_C17_Folha.txt.seg" SENT="6" TYPE="diferente/neutro" JUDGE="renata/renata"/>
+	<DOC="D2_C17_Estadao.txt.seg" SENT="8" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+	<DOC="D2_C17_Estadao.txt.seg" SENT="9" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+</align>
+
+<align SENT="5">
+	<DOC="D2_C17_Estadao.txt.seg" SENT="11" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+</align>
+
+<align SENT="6">
+	<DOC="D1_C17_Folha.txt.seg" SENT="2" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+	<DOC="D1_C17_Folha.txt.seg" SENT="9" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+	<DOC="D2_C17_Estadao.txt.seg" SENT="10" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+	<DOC="D2_C17_Estadao.txt.seg" SENT="12" TYPE="parcial/neutro" JUDGE="renata/renata"/>
+</align>

@@ -1,0 +1,112 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="20" relname="attribution">O médico pessoal do argentino Diego Maradona, Alfredo Cahe, revelou nesta segunda-feira que </segment>
+    <segment id="8" parent="19" relname="span">uma recaída da hepatite aguda </segment>
+    <segment id="9" parent="8" relname="elaboration">de que sofre</segment>
+    <segment id="10" parent="20" relname="same-unit"> foi o motivo da nova internação do ex-craque.</segment>
+    <segment id="2" parent="23" relname="span">
+
+Maradona havia recebido alta no último dia 11,</segment>
+    <segment id="11" parent="2" relname="concession"> mas voltou a ser internado na sexta-feira</segment>
+    <segment id="12" parent="22" relname="span"> e os boletins médicos não especificaram o que se passava com o ex-jogador</segment>
+    <segment id="13" parent="12" relname="parenthetical"> --Cahe descartou pancreatite ou úlcera.</segment>
+    <segment id="3" parent="26" relname="sequence">
+
+&quot;Maradona teve uma recaída na hepatite aguda.</segment>
+    <segment id="4" parent="26" relname="sequence"> Agora está estável.</segment>
+    <segment id="5" parent="14" relname="concession"> Apesar de ter melhorado no domingo,</segment>
+    <segment id="14" parent="25" relname="span"> deverá continuar internado&quot;,</segment>
+    <segment id="15" parent="27" relname="attribution"> disse Cahe, em declarações ao jornal &quot;La Nación&quot;.</segment>
+    <segment id="6" parent="29" relname="span">
+
+Maradona, 46, desenvolveu um hepatite tóxica por excesso de consumo de álcool, </segment>
+    <segment id="16" parent="6" relname="non-volitional-result">o que já o manteve internado durante 13 dias antes da primeira alta.</segment>
+    <segment id="7" parent="30" relname="attribution">
+
+Cahe disse ainda que</segment>
+    <segment id="17" parent="18" relname="non-volitional-cause"> Maradona não voltou a consumir bebidas alcoólicas</segment>
+    <segment id="18" parent="30" relname="span"> e que as causas da recaída estão sendo investigadas.</segment>
+<group id="19" type="span" parent="20" relname="same-unit" />
+<group id="20" type="multinuc" parent="21" relname="span" />
+<group id="21" type="span" parent="34" relname="span" />
+<group id="22" type="span" parent="24" relname="list" />
+<group id="23" type="span" parent="24" relname="list" />
+<group id="24" type="multinuc" parent="33" relname="sequence" />
+<group id="25" type="span" parent="27" relname="list" />
+<group id="26" type="multinuc" parent="27" relname="list" />
+<group id="27" type="multinuc" parent="28" relname="span" />
+<group id="28" type="span" parent="33" relname="sequence" />
+<group id="29" type="span" parent="31" relname="antithesis" />
+<group id="30" type="span" parent="31" relname="span" />
+<group id="31" type="span" parent="32" relname="span" />
+<group id="32" type="span" parent="34" relname="circumstance" />
+<group id="33" type="multinuc" parent="21" relname="elaboration" />
+<group id="34" type="span" parent="35" relname="span" />
+<group id="35" type="span" />
+  </body>
+</rst>

@@ -1,0 +1,4 @@
+[Ao menos 549 pessoas morreram, 3.043 ficaram feridas e outras 295 ainda estão desaparecidas em conseqüência das enchentes que atingiram a Coréia do Norte em julho, segundo um jornal japonês pró-Pyongyang.]WHO_AFFECTED/WHAT/WHY/WHERE/WHEN/DECLARATION/WHO_AGENT
+[Segundo o jornal "Choson Sinbo", mais de 7 mil casas foram destruídas ou danificadas, e quase 16 mil hectares de terra cultivada foram inundados.]WHO_AGENT/DECLARATION/CONSEQUENCE
+[A Coréia do Norte recusou ofertas de agências internacionais para o lançamento de campanhas de ajuda ao país, mas uma autoridade local disse na semana passada que Pyongyang aceitaria ajuda da Coréia do Sul se fosse dada sem condições.]WHO_AGENT_EXTRA/WHAT_EXTRA/DECLARATION
+[O governo de Seul manifestou sua predisposição em oferecer ajuda à Coréia do Norte.]WHO_AGENT_EXTRA/WHAT_EXTRA

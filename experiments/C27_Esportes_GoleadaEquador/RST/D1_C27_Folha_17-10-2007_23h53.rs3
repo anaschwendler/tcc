@@ -1,0 +1,210 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="67" relname="circumstance">Depois de sete anos sem jogar no Maracanã,</segment>
+    <segment id="37" parent="38" relname="concession"> o Brasil chegou a ser vaiado pelo torcedor,</segment>
+    <segment id="38" parent="66" relname="span"> mas deslanchou no fim</segment>
+    <segment id="39" parent="67" relname="sequence"> e goleou o Equador por 5 a 0, nesta quarta-feira, pela segunda rodada das eliminatórias sul-americanas para a Copa do Mundo-2010. </segment>
+    <segment id="36" parent="69" relname="span">
+
+Atuar no estádio mais famoso do país com a camisa brasileira era novidade para a maioria dos atletas.</segment>
+    <segment id="2" parent="36" relname="evidence"> Dos 22 convocados por Dunga, só Ronaldinho já tinha jogado no Maracanã com a seleção.</segment>
+    <segment id="3" parent="70" relname="span"> 
+
+Também fazia bastante tempo que a seleção não disputava uma partida no Brasil.</segment>
+    <segment id="4" parent="3" relname="evidence"> O último jogo havia sido em outubro de 2005, na vitória por 3 a 0 sobre a Venezuela, em Belém, ainda pelo torneio classificatório para o Mundial da Alemanha.</segment>
+    <segment id="5" parent="73" relname="span"> 
+
+Na partida contra o Equador, o time comandado pelo técnico Dunga também precisava apagar a imagem deixada</segment>
+    <segment id="40" parent="5" relname="non-volitional-cause"> após o empate sem gols com a Colômbia, em Bogotá, na estréia nas eliminatórias.</segment>
+    <segment id="6" parent="84" relname="span"> 
+
+No primeiro tempo o Brasil foi superior.</segment>
+    <segment id="7" parent="75" relname="span"> A equipe tocava a bola no meio-campo,</segment>
+    <segment id="41" parent="7" relname="concession"> mas não atacava com muito perigo.</segment>
+    <segment id="8" parent="42" relname="circumstance"> No momento em que algumas vaias foram ouvidas no Maracanã,</segment>
+    <segment id="42" parent="76" relname="span"> a equipe passou a jogar melhor.</segment>
+    <segment id="9" parent="79" relname="sequence"> 
+
+Após um zagueiro equatoriano se atrapalhar,</segment>
+    <segment id="43" parent="79" relname="sequence"> o ligeiro centroavante Vágner Love roubou a bola</segment>
+    <segment id="44" parent="79" relname="sequence"> e chutou na trave, aos 15min.</segment>
+    <segment id="10" parent="79" relname="sequence"> Não demorou muito para Love acertar a meta.</segment>
+    <segment id="11" parent="81" relname="sequence"> Aos 19min, Maicon arrancou pelo lado direito do ataque</segment>
+    <segment id="45" parent="81" relname="sequence"> e cruzou.</segment>
+    <segment id="12" parent="78" relname="span"> Livre de marcação, o atacante</segment>
+    <segment id="46" parent="12" relname="parenthetical"> --após seis partidas sem marcar gols pela equipe--</segment>
+    <segment id="47" parent="80" relname="same-unit"> tocou a bola para o fundo das redes</segment>
+    <segment id="48" parent="81" relname="sequence"> e quebrou o jejum.</segment>
+    <segment id="13" parent="86" relname="span"> 
+
+Mesmo com o gol, o Brasil não conseguiu brilhar.</segment>
+    <segment id="14" parent="49" relname="concession"> Robinho, Ronaldinho e Kaká se esforçaram,</segment>
+    <segment id="49" parent="85" relname="span"> mas não criaram muitas jogadas.</segment>
+    <segment id="15" parent="16" relname="volitional-cause"> 
+
+Na etapa final, o treinador equatoriano colocou o centroavante Tenorio no lugar do meio-campista Quiróz.</segment>
+    <segment id="16" parent="88" relname="span"> A substituição tornou o time mais ofensivo,</segment>
+    <segment id="50" parent="89" relname="span"> porém os meias brasileiros tiveram mais espaços para criar.</segment>
+    <segment id="17" parent="93" relname="span"> 
+
+Aos 12min, em cobrança de falta, o Equador quase empatou a partida.</segment>
+    <segment id="18" parent="51" relname="concession"> Castillo bateu forte,</segment>
+    <segment id="51" parent="90" relname="span"> mas a bola passou por cima do gol.</segment>
+    <segment id="19" parent="92" relname="span"> Sete minutos depois, Brasil respondeu.</segment>
+    <segment id="20" parent="91" relname="sequence"> Love recebeu outro cruzamento de Maicon,</segment>
+    <segment id="52" parent="91" relname="sequence"> mas cabeceou para fora.</segment>
+    <segment id="21" parent="91" relname="sequence"> No minuto seguinte, o centroavante em um bonito chute quase fez o segundo gol.</segment>
+    <segment id="22" parent="53" relname="non-volitional-cause"> 
+
+Depois dos dois lances, a seleção brasileira passou a tocar a bola no meio-campo</segment>
+    <segment id="53" parent="95" relname="span"> e as vaias voltaram mais fortes.</segment>
+    <segment id="23" parent="96" relname="sequence"> Novamente, os jogadores escutaram,</segment>
+    <segment id="54" parent="96" relname="sequence"> foram ao ataque</segment>
+    <segment id="55" parent="96" relname="sequence"> e ampliaram a vantagem.</segment>
+    <segment id="24" parent="99" relname="sequence"> Aos 27min, Kaká arrancou</segment>
+    <segment id="56" parent="99" relname="sequence"> e chutou de fora da área.</segment>
+    <segment id="25" parent="98" relname="sequence"> A bola desviou em Ronaldinho</segment>
+    <segment id="57" parent="98" relname="sequence"> e enganou o goleiro.</segment>
+    <segment id="26" parent="102" relname="span"> 
+
+Aos 32min, Kaká tentou de novo.</segment>
+    <segment id="27" parent="101" relname="sequence"> De fora da área, ele chutou.</segment>
+    <segment id="28" parent="101" relname="sequence"> Desta vez, a bola não desviou em ninguém</segment>
+    <segment id="58" parent="101" relname="sequence"> e entrou no ângulo.</segment>
+    <segment id="29" parent="59" relname="concession"> 
+
+Mesmo com a decisão de Dunga de trocar Love pelo meio-campista Elano,</segment>
+    <segment id="59" parent="104" relname="span"> a equipe não perdeu o poder ofensivo.</segment>
+    <segment id="30" parent="105" relname="sequence"> Robinho pedalou,</segment>
+    <segment id="60" parent="105" relname="sequence"> driblou o zagueiro</segment>
+    <segment id="61" parent="105" relname="sequence"> e chutou para o meio da área.</segment>
+    <segment id="31" parent="105" relname="sequence"> No rebote, Elano fez o quarto gol, aos 38min.</segment>
+    <segment id="32" parent="109" relname="sequence"> 
+
+Novamente, Kaká chutou de fora da área.</segment>
+    <segment id="33" parent="62" relname="concession"> A bola foi fraca,</segment>
+    <segment id="62" parent="107" relname="span"> mas o goleiro Daniel Viteri falhou.</segment>
+    <segment id="34" parent="108" relname="list"> Após o &quot;frango&quot;, Kaká sorriu</segment>
+    <segment id="63" parent="108" relname="list"> e mal comemorou, aos 40min.</segment>
+    <segment id="35" parent="113" relname="span"> 
+
+A seleção volta a ser reunir em novembro</segment>
+    <segment id="64" parent="112" relname="span"> para disputar mais duas partidas das eliminatórias:</segment>
+    <segment id="65" parent="64" relname="elaboration"> contra o Peru, fora de casa, e contra o Uruguai, em São Paulo.</segment>
+<group id="66" type="span" parent="67" relname="sequence" />
+<group id="67" type="multinuc" parent="68" relname="span" />
+<group id="68" type="span" parent="72" relname="span" />
+<group id="69" type="span" parent="71" relname="list" />
+<group id="70" type="span" parent="71" relname="list" />
+<group id="71" type="multinuc" parent="72" relname="circumstance" />
+<group id="72" type="span" parent="74" relname="span" />
+<group id="73" type="span" parent="71" relname="list" />
+<group id="74" type="span" parent="115" relname="span" />
+<group id="75" type="span" parent="77" relname="sequence" />
+<group id="76" type="span" parent="77" relname="sequence" />
+<group id="77" type="multinuc" parent="83" relname="span" />
+<group id="78" type="span" parent="80" relname="same-unit" />
+<group id="79" type="multinuc" parent="82" relname="list" />
+<group id="80" type="multinuc" parent="81" relname="sequence" />
+<group id="81" type="multinuc" parent="82" relname="list" />
+<group id="82" type="multinuc" parent="77" relname="elaboration" />
+<group id="83" type="span" parent="6" relname="evidence" />
+<group id="84" type="span" parent="86" relname="concession" />
+<group id="85" type="span" parent="13" relname="concession" />
+<group id="86" type="span" parent="87" relname="span" />
+<group id="87" type="span" parent="114" relname="sequence" />
+<group id="88" type="span" parent="50" relname="concession" />
+<group id="89" type="span" parent="111" relname="span" />
+<group id="90" type="span" parent="17" relname="elaboration" />
+<group id="91" type="multinuc" parent="19" relname="elaboration" />
+<group id="92" type="span" parent="94" relname="sequence" />
+<group id="93" type="span" parent="94" relname="sequence" />
+<group id="94" type="multinuc" parent="110" relname="sequence" />
+<group id="95" type="span" parent="96" relname="volitional-cause" />
+<group id="96" type="multinuc" parent="97" relname="span" />
+<group id="97" type="span" parent="110" relname="sequence" />
+<group id="98" type="multinuc" parent="100" relname="span" />
+<group id="99" type="multinuc" parent="98" relname="non-volitional-cause" />
+<group id="100" type="span" parent="103" relname="sequence" />
+<group id="101" type="multinuc" parent="26" relname="elaboration" />
+<group id="102" type="span" parent="103" relname="sequence" />
+<group id="103" type="multinuc" parent="110" relname="sequence" />
+<group id="104" type="span" parent="106" relname="span" />
+<group id="105" type="multinuc" parent="104" relname="evidence" />
+<group id="106" type="span" parent="110" relname="sequence" />
+<group id="107" type="span" parent="109" relname="sequence" />
+<group id="108" type="multinuc" parent="109" relname="sequence" />
+<group id="109" type="multinuc" parent="110" relname="sequence" />
+<group id="110" type="multinuc" parent="89" relname="elaboration" />
+<group id="111" type="span" parent="114" relname="sequence" />
+<group id="112" type="span" parent="35" relname="purpose" />
+<group id="113" type="span" parent="74" relname="elaboration" />
+<group id="114" type="multinuc" parent="74" relname="elaboration" />
+<group id="115" type="span" />
+  </body>
+</rst>

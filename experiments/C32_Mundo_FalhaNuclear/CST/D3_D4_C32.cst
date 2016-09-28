@@ -1,0 +1,60 @@
+<R SDID="D3_C32_JB.txt.seg" SSENT="1" TDID="D4_C32_GPovo.txt.seg" TSENT="2">
+<RELATION TYPE="Subsumption" JUDGE="Erick"/>
+</R>
+<R SDID="D3_C32_JB.txt.seg" SSENT="5" TDID="D4_C32_GPovo.txt.seg" TSENT="19">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D3_C32_JB.txt.seg" SSENT="6" TDID="D4_C32_GPovo.txt.seg" TSENT="2">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D3_C32_JB.txt.seg" SSENT="6" TDID="D4_C32_GPovo.txt.seg" TSENT="19">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C32_GPovo.txt.seg" SSENT="19" TDID="D3_C32_JB.txt.seg" TSENT="6">
+<RELATION TYPE="Attribution" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C32_GPovo.txt.seg" SSENT="20" TDID="D3_C32_JB.txt.seg" TSENT="6">
+<RELATION TYPE="Attribution" JUDGE="Erick"/>
+</R>
+<R SDID="D3_C32_JB.txt.seg" SSENT="6" TDID="D4_C32_GPovo.txt.seg" TSENT="20">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D3_C32_JB.txt.seg" SSENT="7" TDID="D4_C32_GPovo.txt.seg" TSENT="2">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D3_C32_JB.txt.seg" SSENT="9" TDID="D4_C32_GPovo.txt.seg" TSENT="4">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C32_GPovo.txt.seg" SSENT="9" TDID="D3_C32_JB.txt.seg" TSENT="9">
+<RELATION TYPE="Elaboration" JUDGE="Erick"/>
+</R>
+<R SDID="D3_C32_JB.txt.seg" SSENT="9" TDID="D4_C32_GPovo.txt.seg" TSENT="29">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D3_C32_JB.txt.seg" SSENT="10" TDID="D4_C32_GPovo.txt.seg" TSENT="6">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D3_C32_JB.txt.seg" SSENT="13" TDID="D4_C32_GPovo.txt.seg" TSENT="3">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D3_C32_JB.txt.seg" SSENT="17" TDID="D4_C32_GPovo.txt.seg" TSENT="1">
+<RELATION TYPE="Elaboration" JUDGE="Erick"/>
+</R>
+<R SDID="D3_C32_JB.txt.seg" SSENT="17" TDID="D4_C32_GPovo.txt.seg" TSENT="9">
+<RELATION TYPE="Elaboration" JUDGE="Erick"/>
+</R>
+<R SDID="D3_C32_JB.txt.seg" SSENT="17" TDID="D4_C32_GPovo.txt.seg" TSENT="30">
+<RELATION TYPE="Elaboration" JUDGE="Erick"/>
+</R>
+<R SDID="D3_C32_JB.txt.seg" SSENT="18" TDID="D4_C32_GPovo.txt.seg" TSENT="9">
+<RELATION TYPE="Historical-background" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C32_GPovo.txt.seg" SSENT="29" TDID="D3_C32_JB.txt.seg" TSENT="18">
+<RELATION TYPE="Subsumption" JUDGE="Erick"/>
+</R>
+<R SDID="D3_C32_JB.txt.seg" SSENT="19" TDID="D4_C32_GPovo.txt.seg" TSENT="9">
+<RELATION TYPE="Historical-background" JUDGE="Erick"/>
+</R>
+<R SDID="D3_C32_JB.txt.seg" SSENT="19" TDID="D4_C32_GPovo.txt.seg" TSENT="14">
+<RELATION TYPE="Historical-background" JUDGE="Erick"/>
+</R>

@@ -1,0 +1,18 @@
+	Thiago			LuciaVinicius		Erick
+1-1	follow-up		follow-up		follow-up
+1-3	elaboration		follow-up		follow-up
+1-8	no-relation		no-relation		no-relation
+3-1	no-relation		follow-up		follow-up
+3-2	historical-background	elaboration		historical-background
+3-3	follow-up		follow-up		follow-up
+3-10	historical-background	historical-background	historical-background
+4-1	elaboration		elaboration		follow-up
+4-6	elaboration		no-relation		no-relation
+4-9	subsumption		subsumption		subsumption
+6-4	follow-up		elaboration		no-relation
+6-8	follow-up		follow-up		no-relation
+6-9	no-relation		no-relation		no-relation
+
+Concordância total: 6/13 = 46%
+Concordância parcial: 6/13 = 46%
+Discordância total: 1/13 = 8%

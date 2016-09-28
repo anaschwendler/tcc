@@ -1,0 +1,24 @@
+----------- KAPPA -------------
+K=0.178, P(A)=0.462, P(E)=0.345, N=13, k=3,  n=3 ( none esq dir )
+
+---- COLLAPSING CATEGORIES ----
+
+Collapsing dir and none:
+K=0.192, P(A)=0.641, P(E)=0.556, N=13, k=3,  n=2 ( dirnone esq )
+
+Collapsing dir and esq:
+K=0.258, P(A)=0.641, P(E)=0.516, N=13, k=3,  n=2 ( none diresq )
+
+Collapsing esq and none:
+K=0.059, P(A)=0.641, P(E)=0.619, N=13, k=3,  n=2 ( esqnone dir )
+
+----- ISOLATING CATEGORIES ----
+
+Isolating dir:
+K=0.059, P(A)=0.641, P(E)=0.619, N=13, k=3,  n=2 ( X dir )
+
+Isolating esq:
+K=0.192, P(A)=0.641, P(E)=0.556, N=13, k=3,  n=2 ( X esq )
+
+Isolating none:
+K=0.258, P(A)=0.641, P(E)=0.516, N=13, k=3,  n=2 ( none X )

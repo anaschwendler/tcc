@@ -1,0 +1,220 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="66" relname="span">O presidente do Conselho de Ética do Senado, Leomar Quintanilha</segment>
+    <segment id="28" parent="1" relname="parenthetical"> (PMDB-TO),</segment>
+    <segment id="29" parent="68" relname="span"> disse hoje ser contrário à unificação dos processos contra o senador Renan Calheiros</segment>
+    <segment id="30" parent="29" relname="parenthetical"> (PMDB-AL)</segment>
+    <segment id="31" parent="68" relname="elaboration"> que tramitam na Casa Legislativa.</segment>
+    <segment id="2" parent="67" relname="elaboration"> A unificação foi proposta nesta terça-feira pela bancada do PT no Senado.</segment>
+    <segment id="3" parent="70" relname="span"> 
+ 
+Na opinião de Quintanilha, uma única investigação sobre diversas denúncias não permite conclusões distintas sobre o suposto envolvimento de Renan em ações</segment>
+    <segment id="32" parent="3" relname="elaboration"> que possam configurar a quebra do decoro parlamentar.</segment>
+    <segment id="4" parent="114" relname="list"> 
+
+&quot;Eu defendo a tese de que cada representação deve ter tratamento distinto.</segment>
+    <segment id="5" parent="71" relname="span"> Vamos unificar </segment>
+    <segment id="33" parent="5" relname="condition">se eu for voto vencido&quot;, </segment>
+    <segment id="34" parent="71" relname="attribution">disse.</segment>
+    <segment id="6" parent="75" relname="attribution"> 
+
+Quintanilha afirmou que</segment>
+    <segment id="35" parent="75" relname="span"> vai manter a &quot;coerência&quot; em sua decisão,</segment>
+    <segment id="36" parent="74" relname="span"> uma vez que negou pedido do PSOL</segment>
+    <segment id="37" parent="73" relname="span"> para incluir as novas denúncias contra Renan no primeiro processo contra o peemedebista </segment>
+    <segment id="38" parent="37" relname="elaboration">que entrou na pauta do plenário do Senado na semana passada.</segment>
+    <segment id="7" parent="78" relname="span"> 
+
+&quot;Eu vou manter a coerência da minha decisão.</segment>
+    <segment id="8" parent="77" relname="span"> Eu acho que vão confundir as acusações </segment>
+    <segment id="39" parent="8" relname="condition">se tudo for analisado conjuntamente.</segment>
+    <segment id="9" parent="79" relname="list"> Eu advogo a causa do tratamento distinto a cada representação.&quot; </segment>
+    <segment id="27" parent="80" relname="span">
+
+A unificação dos processos tem o apoio da bancada do PT no Senado e do PSOL, partido</segment>
+    <segment id="10" parent="27" relname="elaboration"> que ingressou com três das quatro representações contra Renan.</segment>
+    <segment id="11" parent="81" relname="span"> O senador José Nery</segment>
+    <segment id="40" parent="11" relname="parenthetical"> (PSOL-PA)</segment>
+    <segment id="41" parent="82" relname="same-unit"> questionou apenas o fato da unificação estar sendo discutida neste momento,</segment>
+    <segment id="42" parent="83" relname="span"> já que há alguns meses o Conselho de Ética negou o pedido da legenda </segment>
+    <segment id="43" parent="42" relname="purpose">para reunir as denúncias contra Renan em uma única peça.</segment>
+    <segment id="12" parent="85" relname="sequence"> 
+
+&quot;Tentamos fazer um aditamento,</segment>
+    <segment id="44" parent="85" relname="sequence"> o conselho nos respondeu que não seria possível.</segment>
+    <segment id="13" parent="14" relname="justify"> O nosso entendimento é que todas as representações tratam de possível quebra de decoro.</segment>
+    <segment id="14" parent="87" relname="span"> Esse conjunto de denúncias poderia ser agregado em um único processo.</segment>
+    <segment id="15" parent="86" relname="span"> Ficou fatiado nesse monte de processos</segment>
+    <segment id="45" parent="15" relname="explanation"> porque o conselho assim o quis&quot;,</segment>
+    <segment id="46" parent="85" relname="attribution"> criticou Nery.</segment>
+    <segment id="16" parent="91" relname="attribution"> 
+
+Quintanilha disse que,</segment>
+    <segment id="47" parent="48" relname="concession"> mesmo se a unificação dos processos for aprovada pelo conselho,</segment>
+    <segment id="48" parent="91" relname="span"> vai defender relatores distintos para cada uma das denúncias contra Renan.</segment>
+    <segment id="17" parent="48" relname="concession"> Mas reconheceu que, dificilmente, os relatores terão posições semelhantes nas representações.</segment>
+    <segment id="18" parent="95" relname="list"> 
+
+&quot;Quem garante que vão trabalhar ao mesmo tempo, com cronograma similar?</segment>
+    <segment id="25" parent="93" relname="contrast"> E se um tiver um entendimento sobre as denúncias</segment>
+    <segment id="49" parent="93" relname="contrast"> e os outros não concordarem?</segment>
+    <segment id="26" parent="93" relname="evaluation"> Isso dificulta os trabalhos&quot;, </segment>
+    <segment id="50" parent="95" relname="attribution">afirmou.</segment>
+    <segment id="19" parent="98" relname="span"> 
+
+Na opinião do senador Aloizio Mercadante</segment>
+    <segment id="51" parent="19" relname="parenthetical"> (PT-SP),</segment>
+    <segment id="52" parent="100" relname="span"> o plenário da Casa não deve analisar separadamente as três representações contra Renan </segment>
+    <segment id="53" parent="52" relname="elaboration">que tramitam no Senado.</segment>
+    <segment id="20" parent="101" relname="span"> &quot;Nós devemos analisar as três representações</segment>
+    <segment id="54" parent="20" relname="elaboration"> que faltam, </segment>
+    <segment id="55" parent="102" relname="sequence">oferecer um relatório completo das três</segment>
+    <segment id="56" parent="102" relname="purpose"> para que cada um forme definitivamente o seu julgamento de mérito&quot;, </segment>
+    <segment id="57" parent="103" relname="attribution">defendeu.</segment>
+    <segment id="21" parent="124" relname="list"> 
+
+O Conselho de Ética vai decidir sobre a unificação dos processos contra Renan em reunião marcada para a próxima quarta-feira.</segment>
+    <segment id="22" parent="105" relname="span"> No mesmo dia, o conselho vai discutir o relatório do senador João Pedro</segment>
+    <segment id="58" parent="22" relname="parenthetical"> (PT-AM)</segment>
+    <segment id="59" parent="107" relname="span"> sobre o segundo processo contra o peemedebista</segment>
+    <segment id="60" parent="106" relname="span"> --no qual é acusado de usar sua influência política</segment>
+    <segment id="61" parent="60" relname="purpose"> para beneficiar a empresa Schincariol.</segment>
+    <segment id="23" parent="109" relname="span"> 
+
+O conselho decidiu deixar a reunião para a semana que vem</segment>
+    <segment id="62" parent="23" relname="explanation"> uma vez que, amanhã, a Mesa Diretora do Senado vai decidir se encaminhará a quarta representação contra Renan ao Conselho de Ética da Casa.</segment>
+    <segment id="24" parent="111" relname="sequence"> 
+
+Quintanilha achou melhor esperar a decisão da Mesa</segment>
+    <segment id="64" parent="111" relname="sequence"> antes de discutir a unificação dos processos,</segment>
+    <segment id="63" parent="110" relname="span"> já que a quarta representação poderá se reunir às outras duas contra o peemedebista </segment>
+    <segment id="65" parent="63" relname="condition">caso todos os processos passem a tramitar juntos no Conselho de Ética.</segment>
+<group id="66" type="span" parent="67" relname="same-unit" />
+<group id="67" type="multinuc" parent="113" relname="span" />
+<group id="68" type="span" parent="69" relname="span" />
+<group id="69" type="span" parent="67" relname="same-unit" />
+<group id="70" type="span" parent="115" relname="span" />
+<group id="71" type="span" parent="72" relname="span" />
+<group id="72" type="span" parent="114" relname="list" />
+<group id="73" type="span" parent="36" relname="purpose" />
+<group id="74" type="span" parent="35" relname="explanation" />
+<group id="75" type="span" parent="76" relname="span" />
+<group id="76" type="span" parent="117" relname="span" />
+<group id="77" type="span" parent="7" relname="explanation" />
+<group id="78" type="span" parent="79" relname="list" />
+<group id="79" type="multinuc" parent="76" relname="restatement" />
+<group id="80" type="span" parent="120" relname="list" />
+<group id="81" type="span" parent="82" relname="same-unit" />
+<group id="82" type="multinuc" parent="84" relname="span" />
+<group id="83" type="span" parent="82" relname="volitional-cause" />
+<group id="84" type="span" parent="90" relname="span" />
+<group id="85" type="multinuc" parent="89" relname="span" />
+<group id="86" type="span" parent="88" relname="list" />
+<group id="87" type="span" parent="88" relname="list" />
+<group id="88" type="multinuc" parent="85" relname="sequence" />
+<group id="89" type="span" parent="84" relname="concession" />
+<group id="90" type="span" parent="121" relname="list" />
+<group id="91" type="span" parent="92" relname="span" />
+<group id="92" type="span" parent="97" relname="span" />
+<group id="93" type="multinuc" parent="94" relname="span" />
+<group id="94" type="span" parent="95" relname="list" />
+<group id="95" type="multinuc" parent="96" relname="span" />
+<group id="96" type="span" parent="92" relname="justify" />
+<group id="97" type="span" parent="122" relname="contrast" />
+<group id="98" type="span" parent="99" relname="same-unit" />
+<group id="99" type="multinuc" parent="119" relname="span" />
+<group id="100" type="span" parent="99" relname="same-unit" />
+<group id="101" type="span" parent="102" relname="sequence" />
+<group id="102" type="multinuc" parent="103" relname="span" />
+<group id="103" type="span" parent="104" relname="span" />
+<group id="104" type="span" parent="99" relname="justify" />
+<group id="105" type="span" parent="108" relname="same-unit" />
+<group id="106" type="span" parent="59" relname="elaboration" />
+<group id="107" type="span" parent="108" relname="same-unit" />
+<group id="108" type="multinuc" parent="124" relname="list" />
+<group id="109" type="span" parent="126" relname="span" />
+<group id="110" type="span" parent="111" relname="justify" />
+<group id="111" type="multinuc" parent="112" relname="span" />
+<group id="112" type="span" parent="109" relname="elaboration" />
+<group id="113" type="span" parent="116" relname="span" />
+<group id="114" type="multinuc" parent="70" relname="restatement" />
+<group id="115" type="span" parent="113" relname="justify" />
+<group id="116" type="span" parent="118" relname="span" />
+<group id="117" type="span" parent="116" relname="elaboration" />
+<group id="118" type="span" parent="123" relname="span" />
+<group id="119" type="span" parent="122" relname="contrast" />
+<group id="120" type="multinuc" parent="122" relname="contrast" />
+<group id="121" type="multinuc" parent="120" relname="list" />
+<group id="122" type="multinuc" parent="118" relname="elaboration" />
+<group id="123" type="span" parent="127" relname="span" />
+<group id="124" type="multinuc" parent="125" relname="span" />
+<group id="125" type="span" parent="123" relname="elaboration" />
+<group id="126" type="span" parent="124" relname="elaboration" />
+<group id="127" type="span" />
+  </body>
+</rst>

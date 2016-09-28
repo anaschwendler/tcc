@@ -1,0 +1,40 @@
+*formação dos subtópicos do cluster 21
+SUBTOPICO 1: D1T1_4_80, D3T1_2_59 = 6 sentenças ; 139 palavras
+SUBTOPICO 2: D1T2_4_74, D2T2_14_305, D3T2_6_117 = 24 sentenças ; 496 palavras
+SUBTOPICO 3: D2T3_5_138 = 5 sentenças ; 138 palavras
+SUBTOPICO 4: D2T4_2_42, D3T4_2_50 = 4 sentenças ; 92 palavras
+
+Cluster tem 865 palavras
+SUBTOPICO 1 = 16% do cluster  //anúncio, reforma
+SUBTOPICO 2 = 57.3%  //etapas
+SUBTOPICO 3 = 16%   //proposta anterior para reforma
+SUBTOPICO 4 = 10.7% //possivel ampliação de viracopos
+
+Sumário humano: 8 sentenças ; 153 palavras
+S1: 27 palavras
+S2: 11
+S3: 13
+S4: 21
+S5: 18
+S6: 27
+S7: 14
+S8: 22
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico  //A barra | indica diferente subtopico
+S1: D1T1, D3T1 | D2T2 - SUBTOPICO 1 [14 palavras] e SUBTOPICO 2 [13 palavras] 
+S2: D1T1, D3T1 | D2T2 - SUBTOPICO 1 [6 palavras] e SUBTOPICO 2 [5 palavras]
+S3: D2T2, D3T2 - SUBTOPICO 2
+S4: D1T2, D2T2, D3T2 - SUBTOPICO 2
+S5: D1T2, D2T2, D3T2 - SUBTOPICO 2
+S6: D1T2, D2T2, D3T2 - SUBTOPICO 2
+S7: D2T2, D3T2 - SUBTOPICO 2
+S8: D2T4, D3T4 - SUBTOPICO 4
+
+*% dos subtopicos no sumário
+Sentenças 1 e 2 = 20 palavras - Subtopico 1 13%
+Sentenças 1, 2, 3, 4, 5, 6 e 7 = 111 palavras - Subtopico 2 72.6%
+Sentença 8 = 22 palavras - Subtopico 4 14.6%
+
+* nao apareceu o subtopico 3
+

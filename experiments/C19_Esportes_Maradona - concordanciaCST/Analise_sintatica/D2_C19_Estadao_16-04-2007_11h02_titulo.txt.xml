@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xml>
+<corpus>
+
+	<body>
+<s id="s1" ref="1" source="Running text" forest="1" text="ï¿ Maradona tem recaÃ­da e mÃ© dico descarta pancreatite Ele teve problemas com sua hepatite aguda, mas nÃ£o Ã© grave, segundo mÃ© dico.">
+	<graph root="s1_500">
+		<terminals>
+			<t id="s1_1" word="ï" lemma="ï" pos="n" morph="M/F S" sem="--" extra="--"/>
+			<t id="s1_2" word="¿" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_3" word="Maradona" lemma="Maradona" pos="prop" morph="M/F S" sem="--" extra="hum"/>
+			<t id="s1_4" word="tem" lemma="ter" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="cjt-head cjt-head-STA fmc mv"/>
+			<t id="s1_5" word="recaÃ­da" lemma="recaÃ­da" pos="n" morph="F S" sem="--" extra="cjt-head cjt-head-Od"/>
+			<t id="s1_6" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-acc co-acc"/>
+			<t id="s1_7" word="mÃ" lemma="mÃ" pos="n" morph="M/F S" sem="--" extra="cjt-Od"/>
+			<t id="s1_8" word="©" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_9" word="dico" lemma="dico" pos="n" morph="M S" sem="--" extra="--"/>
+			<t id="s1_10" word="descarta" lemma="descartar" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="cjt-STA fmc mv"/>
+			<t id="s1_11" word="pancreatite" lemma="pancreatite" pos="n" morph="F S" sem="sick" extra="--"/>
+			<t id="s1_12" word="Ele" lemma="ele" pos="pron-pers" morph="M 3S NOM" sem="--" extra="--"/>
+			<t id="s1_13" word="teve" lemma="ter" pos="v-fin" morph="PS 3S IND VFIN" sem="--" extra="cjt-STA fmc mv"/>
+			<t id="s1_14" word="problemas" lemma="problema" pos="n" morph="M P" sem="ac" extra="--"/>
+			<t id="s1_15" word="com" lemma="com" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_16" word="sua" lemma="seu" pos="pron-poss" morph="DET F S" sem="--" extra="poss 3S"/>
+			<t id="s1_17" word="hepatite" lemma="hepatite" pos="n" morph="F S" sem="sick" extra="--"/>
+			<t id="s1_18" word="aguda" lemma="agudo" pos="adj" morph="F S" sem="--" extra="np-close"/>
+			<t id="s1_19" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_20" word="mas" lemma="mas" pos="conj-c" morph="--" sem="--" extra="co-fin co-fmc co-postnom"/>
+			<t id="s1_21" word="nÃ£o" lemma="nÃ£o" pos="adj" morph="M S" sem="--" extra="np-close"/>
+			<t id="s1_22" word="Ã" lemma="Ã" pos="prop" morph="M/F S" sem="--" extra="hum"/>
+			<t id="s1_23" word="©" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_24" word="grave" lemma="grave" pos="adj" morph="M/F S" sem="--" extra="np-close"/>
+			<t id="s1_25" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_26" word="segundo" lemma="segundo" pos="adj" morph="M S" sem="--" extra="NUM-ord"/>
+			<t id="s1_27" word="mÃ" lemma="mÃ" pos="n" morph="M S" sem="--" extra="--"/>
+			<t id="s1_28" word="©" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_29" word="dico" lemma="dicar" pos="v-fin" morph="PR 1S IND VFIN" sem="--" extra="cjt-STA fmc mv"/>
+			<t id="s1_30" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s1_500" cat="s">
+				<edge label="X" idref="s1_501"/>
+			</nt>
+			<nt id="s1_501" cat="np">
+				<edge label="H" idref="s1_1"/>
+				<edge label="PU" idref="s1_2"/>
+				<edge label="STA" idref="s1_502"/>
+				<edge label="PU" idref="s1_30"/>
+			</nt>
+			<nt id="s1_502" cat="par">
+				<edge label="CJT" idref="s1_503"/>
+				<edge label="PU" idref="s1_8"/>
+				<edge label="CJT" idref="s1_505"/>
+				<edge label="CJT" idref="s1_506"/>
+				<edge label="PU" idref="s1_25"/>
+				<edge label="CJT" idref="s1_511"/>
+			</nt>
+			<nt id="s1_503" cat="fcl">
+				<edge label="S" idref="s1_3"/>
+				<edge label="P" idref="s1_4"/>
+				<edge label="Od" idref="s1_504"/>
+			</nt>
+			<nt id="s1_504" cat="par">
+				<edge label="CJT" idref="s1_5"/>
+				<edge label="CO" idref="s1_6"/>
+				<edge label="CJT" idref="s1_7"/>
+			</nt>
+			<nt id="s1_505" cat="fcl">
+				<edge label="S" idref="s1_9"/>
+				<edge label="P" idref="s1_10"/>
+				<edge label="Od" idref="s1_11"/>
+			</nt>
+			<nt id="s1_506" cat="fcl">
+				<edge label="S" idref="s1_12"/>
+				<edge label="P" idref="s1_13"/>
+				<edge label="Od" idref="s1_507"/>
+				<edge label="PU" idref="s1_19"/>
+				<edge label="CO" idref="s1_20"/>
+			</nt>
+			<nt id="s1_507" cat="np">
+				<edge label="H" idref="s1_14"/>
+				<edge label="DN" idref="s1_508"/>
+			</nt>
+			<nt id="s1_508" cat="pp">
+				<edge label="H" idref="s1_15"/>
+				<edge label="DP" idref="s1_509"/>
+			</nt>
+			<nt id="s1_509" cat="np">
+				<edge label="DN" idref="s1_16"/>
+				<edge label="H" idref="s1_17"/>
+				<edge label="DN" idref="s1_18"/>
+				<edge label="DNc" idref="s1_21"/>
+				<edge label="DNapp" idref="s1_510"/>
+			</nt>
+			<nt id="s1_510" cat="np">
+				<edge label="H" idref="s1_22"/>
+				<edge label="PU" idref="s1_23"/>
+				<edge label="DN" idref="s1_24"/>
+			</nt>
+			<nt id="s1_511" cat="fcl">
+				<edge label="S" idref="s1_512"/>
+				<edge label="PU" idref="s1_28"/>
+				<edge label="P" idref="s1_29"/>
+			</nt>
+			<nt id="s1_512" cat="np">
+				<edge label="DN" idref="s1_26"/>
+				<edge label="H" idref="s1_27"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+	</body>
+</corpus>
+</xml>

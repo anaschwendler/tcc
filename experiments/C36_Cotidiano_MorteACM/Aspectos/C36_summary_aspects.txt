@@ -1,0 +1,14 @@
+[O senador ACM - Antonio Carlos Magalhães (DEM-BA) - morreu às 11h40 de hoje, aos 79 anos, em São Paulo, em decorrência de falência múltiplas de órgãos secundária à insuficiência cardíaca, segundo um comunicado dado pelo Instituto do coração (Incor).]WHO_AFFECTED/WHAT/WHERE/WHEN/WHY/DECLARATION/WHO_AGENT_EXTRA
+[ACM estava internado no InCor-SP (Instituto do Coração), do Hospital das Clínicas, desde o dia 13 de junho, quando deu entrada para tratar de complicações renais e cardíacas.]WHERE/HISTORY
+[Segundo o cerimonial do Senado, não haverá homenagens em Brasília.]WHO_AGENT_EXTRA/DECLARATION
+[A família pediu que o corpo seja levado diretamente para a Bahia.]WHAT_EXTRA/WHO_AGENT_EXTRA/WHERE_EXTRA
+[O velório será no Palácio da Aclamação.]WHAT_EXTRA
+[O corpo só chegará à noite em Salvador.]WHAT_EXTRA/WHERE_EXTRA
+[E o enterro deverá ser no fim da tarde de sábado.]WHAT_EXTRA/WHEN_EXTRA
+[Segundo informações do jornalista Ricardo Noblat, o presidente Luiz Inácio Lula da Silva mandou a FAB colocar dois aviões à disposição da família do senador.]DECLARATION/WHO_AGENT_EXTRA/COUNTERMEASURES
+[O senador teve seu estado de saúde piorado na semana passada, por causa de complicações gastrointestinais.]WHO_AFFECTED/HISTORY/WHEN_EXTRA/WHY_EXTRA
+[Ele era diabético e tinha também problemas renais.]HISTORY
+[ACM já tinha sofrido infarto em 1989 e já tinha recebido três pontes de safena.]HISTORY/WHEN_EXTRA
+[Somente neste ano, o senador se internou por três vezes no Incor.]HISTORY/WHEN_EXTRA
+[Em maio, ACM passou mal no Senado e chegou a desmaiar em frente ao seu gabinete.]HISTORY/WHEN_EXTRA
+[Na época, realizou uma bateria de exames também no Incor.]HISTORY/WHEN_EXTRA

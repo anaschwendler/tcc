@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xml>
+<corpus>
+
+	<body>
+<s id="s1" ref="1" source="Running text" forest="1" text="ï¿ Ataque a tiros mata ao menos 30 em universidade dos EUA.">
+	<graph root="s1_500">
+		<terminals>
+			<t id="s1_1" word="ï" lemma="ï" pos="n" morph="M/F S" sem="--" extra="--"/>
+			<t id="s1_2" word="¿" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_3" word="Ataque" lemma="ataque" pos="n" morph="M S" sem="act event" extra="--"/>
+			<t id="s1_4" word="a" lemma="a" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_5" word="tiros" lemma="tiro" pos="n" morph="M P" sem="act percep-l act-d AA" extra="--"/>
+			<t id="s1_6" word="mata" lemma="matar" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s1_7" word="ao_menos" lemma="ao_menos" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s1_8" word="30" lemma="30" pos="num" morph="M/F P" sem="--" extra="card"/>
+			<t id="s1_9" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s1_10" word="universidade" lemma="universidade" pos="n" morph="F S" sem="inst" extra="--"/>
+			<t id="s1_11" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s1_12" word="os" lemma="o" pos="art" morph="M P" sem="--" extra=" -sam"/>
+			<t id="s1_13" word="EUA" lemma="EUA" pos="prop" morph="M P" sem="--" extra="civ"/>
+			<t id="s1_14" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s1_500" cat="s">
+				<edge label="X" idref="s1_501"/>
+			</nt>
+			<nt id="s1_501" cat="np">
+				<edge label="H" idref="s1_1"/>
+				<edge label="PU" idref="s1_2"/>
+				<edge label="STA" idref="s1_502"/>
+				<edge label="PU" idref="s1_14"/>
+			</nt>
+			<nt id="s1_502" cat="fcl">
+				<edge label="S" idref="s1_503"/>
+				<edge label="P" idref="s1_6"/>
+				<edge label="Od" idref="s1_505"/>
+				<edge label="fA" idref="s1_506"/>
+			</nt>
+			<nt id="s1_503" cat="np">
+				<edge label="H" idref="s1_3"/>
+				<edge label="DN" idref="s1_504"/>
+			</nt>
+			<nt id="s1_504" cat="pp">
+				<edge label="H" idref="s1_4"/>
+				<edge label="DP" idref="s1_5"/>
+			</nt>
+			<nt id="s1_505" cat="adjp">
+				<edge label="DA" idref="s1_7"/>
+				<edge label="H" idref="s1_8"/>
+			</nt>
+			<nt id="s1_506" cat="pp">
+				<edge label="H" idref="s1_9"/>
+				<edge label="DP" idref="s1_507"/>
+			</nt>
+			<nt id="s1_507" cat="np">
+				<edge label="H" idref="s1_10"/>
+				<edge label="DN" idref="s1_508"/>
+			</nt>
+			<nt id="s1_508" cat="pp">
+				<edge label="H" idref="s1_11"/>
+				<edge label="DP" idref="s1_509"/>
+			</nt>
+			<nt id="s1_509" cat="np">
+				<edge label="DN" idref="s1_12"/>
+				<edge label="H" idref="s1_13"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+	</body>
+</corpus>
+</xml>

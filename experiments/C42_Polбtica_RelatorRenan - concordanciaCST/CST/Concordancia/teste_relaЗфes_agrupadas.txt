@@ -1,0 +1,17 @@
+	thiago			erick
+1-1	redundancia		redundancia
+1-5	complemento		complemento
+1-8	no-relation		complemento
+1-13	no-relation		complemento
+1-22	no-relation		complemento
+2-2	redundancia		complemento
+6-8	no-relation		no-relation
+7-3	redundancia		no-relation
+7-4	redundancia		redundancia
+7-20	redundancia		redundancia
+9-7	redundancia		redundancia_fonte
+9-9	redundancia		redundancia_fonte
+12-1	no-relation		no-relation
+12-8	no-relation		no-relation
+12-12	redundancia		redundancia
+13-9	redundancia		redundancia_fonte

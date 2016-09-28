@@ -1,0 +1,48 @@
+*formação dos subtópicos do cluster 32
+SUBTOPICO 1: D2T1_5_125, D3T1_4_126, D4T1_1_15 - 10 sentenças, 266 palavras
+SUBTOPICO 2: D2T2_2_51 - 2 sentenças , 51 palavras
+SUBTOPICO 3: D2T3_8_177, D3T3_8_137, D4T3_13_220 - 29 sentenças, 534 palavras
+SUBTOPICO 4: D2T4_2_53, D3T4_3_64, D4T4_2_47 - 7 sentenças, 164
+SUBTOPICO 5: D3T5_4_87 - 4 sentenças, 87 palavras
+SUBTOPICO 6: D4T6_11_153 - 11 sentenças, 153 palavras
+SUBTOPICO 7: D4T7_3_69 - 3 sentenças, 69 palavras
+
+Cluster tem 1324 palavras
+SUBTOPICO 1: [20.09] 20.1% //danos ao meio ambiente - notícia de mais vazamentos radioativos - terremotos no Japão
+SUBTOPICO 2: [3.85] 3.8% //resultados do vazamento
+SUBTOPICO 3: [40.33] 40.3% //providências adotadas após o acidente -  danos causados pelo terremoto e pelo vazamento - consequências dos terremotos
+SUBTOPICO 4: [12.38] 12.4% //outros terremotos - histórico de terremotos no Japão - histórico de terremotos no Japão
+SUBTOPICO 5: [6.57] 6.6% //contradição entre notícias
+SUBTOPICO 6: [11.55] 11.6% //a sequência de tremores - hipocentro do terremoto
+SUBTOPICO 7: [5.21] 5.2% //Ações do governo
+
+Sumário humano: 9 sentenças ; 152 palavras
+S1: 31 palavras
+S2: 9
+S3: 12
+S4: 19
+S5: 13
+S6: 11
+S7: 12
+S8: 25
+S9: 20
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico  //A barra | indica diferente subtopico
+S1: D2T1, D3T1, D4T1 | D2T3, D3T3, D4T3 | D3T5 - SUBTOPICO 1 [11], SUBTOPICO 3 [10], SUBTOPICO 5 [10]
+S2: D2T3 | D3T1 - SUBTOPICO 1 [5 palavras], SUBTOPICO 3 [4]
+S3: D2T3 | D3T1 - SUBTOPICO 1 [6], SUBTOPICO 3 [6]
+S4: D2T3, D3T3, D4T3 | D3T1 - SUBTOPICO 1 [10], SUBTOPICO 3 [9]
+S5: D4T3 - SUBTOPICO 3
+S6: D2T3, D3T3, D4T3 - SUBTOPICO 3
+S7: D2T3 - SUBTOPICO 3
+S8: D4T6 - SUBTOPICO 6
+S9: D2T4, D3T4, D4T4 - SUBTOPICO 4
+
+Sentenças 1, 2, 3 - 32 palavras - SUBTOPICO 1 [21.05] 21.1%
+Sentenças 1, 2, 3, 4, 5, 6, 7 - 65 palavras - SUBTOPICO 3 [42.76] 42.8%
+Sentenças 9 - 20 palavras - SUBTOPICO 4 [13.15] 13.1%
+Sentenças 1 - 10 palavras - SUBTOPICO 5 [6.57] 6.6%
+Sentenças 8 - 25 palavras - SUBTOPICO 6 [16.44] 16.4%
+
+*nao apareceu os subtópicos 2 e 7

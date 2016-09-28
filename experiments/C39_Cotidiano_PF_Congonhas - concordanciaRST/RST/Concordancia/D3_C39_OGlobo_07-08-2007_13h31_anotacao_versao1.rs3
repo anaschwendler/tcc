@@ -1,0 +1,137 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="30" relname="span">A Polícia Federal e o Ministério Público realizam nesta terça-feira operações simultâneas de busca e apreensão nos departamentos de controle de tráfego aéreo de Cumbica, em Guarulhos, de Congonhas, na capital paulista, e no Centro Integrado de Defesa Aérea e Controle de Tráfego Aéreo</segment>
+    <segment id="14" parent="1" relname="parenthetical"> (Cindacta I),</segment>
+    <segment id="15" parent="31" relname="same-unit"> em Brasília, </segment>
+    <segment id="16" parent="31" relname="purpose">para recolher registros de ocorrência dos últimos cinco anos envolvendo falhas e acidentes aéreos.</segment>
+    <segment id="2" parent="36" relname="span"> Um oficial da Aeronáutica minimizou o desconforto de uma operação policial dentro de bases militares.</segment>
+    <segment id="3" parent="34" relname="span"> 
+
+- Não estão revirando o Cindacta 1.</segment>
+    <segment id="17" parent="33" relname="sequence"> Eles pediram documentos</segment>
+    <segment id="19" parent="33" relname="sequence"> e as cópias estão sendo providenciadas com acompanhamento da nossa área jurídica</segment>
+    <segment id="18" parent="34" relname="attribution"> - disse o oficial.</segment>
+    <segment id="4" parent="38" relname="span"> 
+
+As buscas foram pedidas pelo procurador da República Matheus Baraldi </segment>
+    <segment id="20" parent="4" relname="volitional-cause">a partir de uma ação civil pública</segment>
+    <segment id="21" parent="39" relname="sequence"> e autorizadas pela juíza federal Maria Isabel do Prado, da 2ª Vara Federal de Guarulhos.</segment>
+    <segment id="5" parent="40" relname="list"> O procurador espera obter dados sobre o sistema de controle de tráfego aéreo no país.</segment>
+    <segment id="6" parent="40" relname="elaboration"> As investigações estão sob segredo de Justiça.</segment>
+    <segment id="7" parent="42" relname="list"> 
+
+Os aeroportos de Brasília de Guarulhos são dois dos aeroportos mais movimentados do país.</segment>
+    <segment id="8" parent="42" relname="list"> O material apreendido será analisado por peritos.</segment>
+    <segment id="9" parent="42" relname="list"> Os mandados de busca e apreensão foram expedidos pela juíza federal Maria Isabel do Prado, da 2ª Vara Federal de Guarulhos.</segment>
+    <segment id="10" parent="43" relname="span"> 
+
+O MPF, </segment>
+    <segment id="22" parent="10" relname="circumstance">após ouvir vários especialistas, </segment>
+    <segment id="23" parent="44" relname="same-unit">constatou que o sistema de controle de tráfego aéreo passa hoje por um sucateamento decorrente da falta de investimentos a longo prazo.</segment>
+    <segment id="11" parent="46" relname="list"> 
+
+- Hoje não é possível saber qual a gravidade, a freqüência das falhas.</segment>
+    <segment id="12" parent="45" relname="sequence"> Somente com essas informações será possível avaliar </segment>
+    <segment id="28" parent="45" relname="sequence">e melhorar o sistema de tráfego aéreo </segment>
+    <segment id="24" parent="46" relname="attribution">- afirmou Magnani.</segment>
+    <segment id="13" parent="50" relname="attribution"> 
+
+O MPF e a Justiça federal disseram que </segment>
+    <segment id="25" parent="50" relname="list">o sigilo não pode se sobrepor aos direitos à vida e à segurança </segment>
+    <segment id="29" parent="49" relname="same-unit">e que</segment>
+    <segment id="26" parent="27" relname="circumstance"> quando os órgãos de defesa retêm essas informações</segment>
+    <segment id="27" parent="48" relname="span"> se opõem ao Estado democrático de Direito.</segment>
+<group id="30" type="span" parent="31" relname="same-unit" />
+<group id="31" type="multinuc" parent="32" relname="span" />
+<group id="32" type="span" parent="37" relname="span" />
+<group id="33" type="multinuc" parent="3" relname="explanation" />
+<group id="34" type="span" parent="35" relname="span" />
+<group id="35" type="span" parent="2" relname="evidence" />
+<group id="36" type="span" parent="32" relname="elaboration" />
+<group id="37" type="span" parent="53" relname="span" />
+<group id="38" type="span" parent="39" relname="sequence" />
+<group id="39" type="multinuc" parent="40" relname="list" />
+<group id="40" type="multinuc" parent="41" relname="span" />
+<group id="41" type="span" parent="52" relname="list" />
+<group id="42" type="multinuc" parent="52" relname="list" />
+<group id="43" type="span" parent="44" relname="same-unit" />
+<group id="44" type="multinuc" parent="54" relname="span" />
+<group id="45" type="multinuc" parent="46" relname="list" />
+<group id="46" type="multinuc" parent="47" relname="span" />
+<group id="47" type="span" parent="44" relname="evidence" />
+<group id="48" type="span" parent="49" relname="same-unit" />
+<group id="49" type="multinuc" parent="50" relname="list" />
+<group id="50" type="multinuc" parent="51" relname="span" />
+<group id="51" type="span" parent="54" relname="elaboration" />
+<group id="52" type="multinuc" parent="37" relname="elaboration" />
+<group id="53" type="span" parent="55" relname="span" />
+<group id="54" type="span" parent="56" relname="span" />
+<group id="56" type="span" parent="53" relname="volitional-cause" />
+<group id="55" type="span" />
+  </body>
+</rst>

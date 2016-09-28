@@ -1,0 +1,69 @@
+----------- KAPPA -------------
+K=0.609, P(A)=0.778, P(E)=0.431, N=18, k=3,  n=6 ( follow-up no-relation elaboration attribution_overlap historical-background overlap )
+
+---- COLLAPSING CATEGORIES ----
+
+Collapsing attribution_overlap and follow-up:
+K=0.608, P(A)=0.778, P(E)=0.433, N=18, k=3,  n=5 ( no-relation elaboration attribution_overlapfollow-up historical-background overlap )
+
+Collapsing attribution_overlap and no-relation:
+K=0.592, P(A)=0.778, P(E)=0.455, N=18, k=3,  n=5 ( follow-up elaboration attribution_overlapno-relation historical-background overlap )
+
+Collapsing attribution_overlap and elaboration:
+K=0.606, P(A)=0.778, P(E)=0.436, N=18, k=3,  n=5 ( follow-up attribution_overlapelaboration no-relation historical-background overlap )
+
+Collapsing attribution_overlap and historical-background:
+K=0.606, P(A)=0.778, P(E)=0.436, N=18, k=3,  n=5 ( follow-up no-relation elaboration attribution_overlaphistorical-background overlap )
+
+Collapsing attribution_overlap and overlap:
+K=0.672, P(A)=0.815, P(E)=0.435, N=18, k=3,  n=5 ( follow-up no-relation elaboration attribution_overlapoverlap historical-background )
+
+Collapsing elaboration and follow-up:
+K=0.670, P(A)=0.815, P(E)=0.440, N=18, k=3,  n=5 ( elaborationfollow-up no-relation attribution_overlap historical-background overlap )
+
+Collapsing elaboration and no-relation:
+K=0.654, P(A)=0.852, P(E)=0.571, N=18, k=3,  n=5 ( follow-up attribution_overlap historical-background elaborationno-relation overlap )
+
+Collapsing elaboration and historical-background:
+K=0.591, P(A)=0.778, P(E)=0.456, N=18, k=3,  n=5 ( follow-up no-relation elaborationhistorical-background attribution_overlap overlap )
+
+Collapsing elaboration and overlap:
+K=0.594, P(A)=0.778, P(E)=0.452, N=18, k=3,  n=5 ( follow-up no-relation elaborationoverlap attribution_elaborationoverlap historical-background )
+
+Collapsing follow-up and no-relation:
+K=0.574, P(A)=0.778, P(E)=0.478, N=18, k=3,  n=5 ( follow-upno-relation elaboration attribution_overlap historical-background overlap )
+
+Collapsing follow-up and historical-background:
+K=0.603, P(A)=0.778, P(E)=0.440, N=18, k=3,  n=5 ( follow-uphistorical-background no-relation elaboration attribution_overlap overlap )
+
+Collapsing follow-up and overlap:
+K=0.604, P(A)=0.778, P(E)=0.438, N=18, k=3,  n=5 ( no-relation elaboration historical-background attribution_follow-upoverlap follow-upoverlap )
+
+Collapsing historical-background and no-relation:
+K=0.654, P(A)=0.852, P(E)=0.571, N=18, k=3,  n=5 ( follow-up elaboration attribution_overlap historical-backgroundno-relation overlap )
+
+Collapsing historical-background and overlap:
+K=0.594, P(A)=0.778, P(E)=0.452, N=18, k=3,  n=5 ( follow-up historical-backgroundoverlap no-relation elaboration attribution_historical-backgroundoverlap )
+
+Collapsing no-relation and overlap:
+K=0.508, P(A)=0.778, P(E)=0.548, N=18, k=3,  n=5 ( follow-up elaboration no-relationoverlap historical-background attribution_no-relationoverlap )
+
+----- ISOLATING CATEGORIES ----
+
+Isolating attribution_overlap:
+K=-0.019, P(A)=0.963, P(E)=0.964, N=18, k=3,  n=2 ( X attribution_X )
+
+Isolating elaboration:
+K=0.437, P(A)=0.889, P(E)=0.802, N=18, k=3,  n=2 ( elaboration X )
+
+Isolating follow-up:
+K=0.481, P(A)=0.963, P(E)=0.929, N=18, k=3,  n=2 ( follow-up X )
+
+Isolating historical-background:
+K=0.625, P(A)=0.926, P(E)=0.802, N=18, k=3,  n=2 ( X historical-background )
+
+Isolating no-relation:
+K=0.682, P(A)=0.852, P(E)=0.534, N=18, k=3,  n=2 ( no-relation X )
+
+Isolating overlap:
+K=0.780, P(A)=0.963, P(E)=0.832, N=18, k=3,  n=2 ( X overlap )

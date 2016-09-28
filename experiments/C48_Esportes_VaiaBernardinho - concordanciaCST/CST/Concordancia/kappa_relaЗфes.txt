@@ -1,0 +1,69 @@
+----------- KAPPA -------------
+K=0.396, P(A)=0.538, P(E)=0.236, N=13, k=3,  n=6 ( follow-up elaboration no-relation subsumption equivalence overlap )
+
+---- COLLAPSING CATEGORIES ----
+
+Collapsing elaboration and follow-up:
+K=0.401, P(A)=0.590, P(E)=0.315, N=13, k=3,  n=5 ( elaborationfollow-up no-relation subsumption equivalence overlap )
+
+Collapsing elaboration and no-relation:
+K=0.365, P(A)=0.538, P(E)=0.273, N=13, k=3,  n=5 ( follow-up subsumption equivalence elaborationno-relation overlap )
+
+Collapsing elaboration and subsumption:
+K=0.379, P(A)=0.538, P(E)=0.257, N=13, k=3,  n=5 ( follow-up no-relation elaborationsubsumption equivalence overlap )
+
+Collapsing elaboration and equivalence:
+K=0.387, P(A)=0.538, P(E)=0.247, N=13, k=3,  n=5 ( follow-up elaborationequivalence no-relation subsumption overlap )
+
+Collapsing elaboration and overlap:
+K=0.436, P(A)=0.590, P(E)=0.273, N=13, k=3,  n=5 ( follow-up no-relation elaborationoverlap subsumption equivalence )
+
+Collapsing equivalence and follow-up:
+K=0.363, P(A)=0.538, P(E)=0.275, N=13, k=3,  n=5 ( elaboration no-relation subsumption overlap equivalencefollow-up )
+
+Collapsing equivalence and no-relation:
+K=0.381, P(A)=0.538, P(E)=0.254, N=13, k=3,  n=5 ( follow-up elaboration subsumption equivalenceno-relation overlap )
+
+Collapsing equivalence and subsumption:
+K=0.455, P(A)=0.590, P(E)=0.247, N=13, k=3,  n=5 ( follow-up equivalencesubsumption elaboration no-relation overlap )
+
+Collapsing equivalence and overlap:
+K=0.381, P(A)=0.538, P(E)=0.254, N=13, k=3,  n=5 ( follow-up equivalenceoverlap elaboration no-relation subsumption )
+
+Collapsing follow-up and no-relation:
+K=0.426, P(A)=0.641, P(E)=0.374, N=13, k=3,  n=5 ( elaboration follow-upno-relation subsumption equivalence overlap )
+
+Collapsing follow-up and subsumption:
+K=0.326, P(A)=0.538, P(E)=0.315, N=13, k=3,  n=5 ( follow-upsubsumption elaboration no-relation equivalence overlap )
+
+Collapsing follow-up and overlap:
+K=0.345, P(A)=0.590, P(E)=0.374, N=13, k=3,  n=5 ( elaboration no-relation subsumption equivalence follow-upoverlap )
+
+Collapsing no-relation and subsumption:
+K=0.365, P(A)=0.538, P(E)=0.273, N=13, k=3,  n=5 ( follow-up elaboration no-relationsubsumption equivalence overlap )
+
+Collapsing no-relation and overlap:
+K=0.414, P(A)=0.590, P(E)=0.300, N=13, k=3,  n=5 ( follow-up elaboration subsumption no-relationoverlap equivalence )
+
+Collapsing overlap and subsumption:
+K=0.506, P(A)=0.641, P(E)=0.273, N=13, k=3,  n=5 ( follow-up overlapsubsumption elaboration no-relation equivalence )
+
+----- ISOLATING CATEGORIES ----
+
+Isolating elaboration:
+K=0.443, P(A)=0.897, P(E)=0.816, N=13, k=3,  n=2 ( elaboration X )
+
+Isolating equivalence:
+K=0.473, P(A)=0.949, P(E)=0.903, N=13, k=3,  n=2 ( X equivalence )
+
+Isolating follow-up:
+K=0.567, P(A)=0.795, P(E)=0.527, N=13, k=3,  n=2 ( follow-up X )
+
+Isolating no-relation:
+K=0.478, P(A)=0.846, P(E)=0.705, N=13, k=3,  n=2 ( no-relation X )
+
+Isolating overlap:
+K=0.129, P(A)=0.744, P(E)=0.705, N=13, k=3,  n=2 ( X overlap )
+
+Isolating subsumption:
+K=0.164, P(A)=0.846, P(E)=0.816, N=13, k=3,  n=2 ( X subsumption )

@@ -1,0 +1,32 @@
+*formação dos subtópicos do cluster 6
+documento_numeroDeSentencas_quantidade de palavras
+SUBTOPICO 1: D1T1_4_133, D2T1_5_120, D3T1_10_188 = 19 sentenças ; 441 palavras
+SUBTOPICO 2: D1T2_3_98, D2T2_5_144 = 8 sentenças ; 242 palavras
+SUBTOPICO 3: D1T3_3_104, D2T3_4_90, D3T3_2_48 = 9 sentençaS ; 242 palavras
+
+Cluster tem 925 palavras
+SUBTOPICO 1 = [47.67] 47.7% do cluster //anúncio de Lula-Investimento em obras-Investimento
+SUBTOPICO 2 = [26.16] 26.1% //prioridade nas obras-Pronunciamentos de Lula sobre obras no país-Boas consequencias das obras
+SUBTOPICO 3 = [26.16] 26.2% //critério técnico-O investimento e seus critérios-Investimentos e critérios para aplicação
+
+Sumário humano: 5 sentenças ; 115 palavras
+S1: 37 palavras
+S2: 22
+S3: 22
+S4: 17
+S5: 17
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico
+S1: D1T1, D2T1, D3T1 - SUBTOPICO 1
+S2: D2T1 - SUBTOPICO 1 
+S3: D1T1, D2T1, D3T1 - SUBTOPICO 1
+S4: D1T2 | D2T3 - SUBTOPICO 2 [9] palavras, SUBTOPICO 3 [8] 	// dividir a sentença e distribuir igualmente
+S5: D1T3, D2T3, D3T3 - SUBTOPICO 3
+
+*% dos subtopicos no sumário
+Sentenças 1, 2, 3 = 81 palavras = [70.4] 70.4% Subtopico 1
+Sentença 4 =  9 palavras = [7.8] 7.8% Subtopico 2
+Sentenças 4 e 5 = 25 palavras = [21.8] 21.8% Subtopico 3
+
+

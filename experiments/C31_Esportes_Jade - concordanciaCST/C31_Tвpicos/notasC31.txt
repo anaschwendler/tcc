@@ -1,0 +1,24 @@
+*formação dos subtópicos do cluster 31
+SUBTOPICO 1: D1T1_1_31, D2T1_3_81 - 4 sentenças ; 112 palavras
+SUBTOPICO 2: D1T2_3_50, D2T2_3_53 - 6 sentenças ; 103 sentenças
+
+Cluster tem 215 palavras
+SUBTOPICO 1: [52.09] 52.1% //eleição de atleta para carregar a tocha olímpica - escolha do atleta para carregar tocha olímpica
+SUBTOPICO 2: [47.90] 47.9% //percurso da tocha olímpica - trajeto da tocha olímpica
+
+Sumário humano: 3 sentenças ; 50 palavras
+S1: 25 palavras
+S2: 14
+S3: 11
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico  //A barra | indica diferente subtopico
+S1: D1T1, D2T1 - SUBTOPICO 1
+S2: D1T2, D2T2 - SUBTOPICO 2
+S3: D1T2, D2T2 - SUBTOPICO 2
+
+
+Sentenças 1 - 25 palavras - SUBTOPICO 1: [50] 50%
+Sentenças 2 e 3 - 25 palavras - SUBTOPICO 2: [50] 50%
+
+

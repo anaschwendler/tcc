@@ -1,0 +1,11 @@
+[Uma nova série de ataques criminosos foi registrada na madrugada desta segunda-feira, dia 7, em São Paulo e municípios do interior paulista.]WHAT/WHEN/WHERE
+[Os bandidos atacaram agências bancárias, bases policiais e prédios públicos com bombas e tiros.]CONSEQUENCE/HOW/WHO_AGENT
+[As ações são atribuídas à facção criminosa Primeiro Comando da Capital (PCC), que já comandou outros ataques em duas ocasiões.]WHO_AGENT/HISTORY
+[Eles tinham prometido retomar os ataques no Estado de São Paulo no Dia dos Pais, no próximo domingo.]WHAT_EXTRA/WHERE_EXTRA/WHEN_EXTRA
+[A promessa aparentemente começou a ser cumprida na madrugada de hoje.]WHAT_EXTRA/WHEN_EXTRA
+[Cidades do interior, como Jundiaí, foram alvo de ataques.]CONSEQUENCE
+[Na região do ABC Paulista, pelo menos dez ônibus foram incendiados - sete em Mauá e três em Santo André.]CONSEQUENCE/WHERE_EXTRA
+[Na capital, houve ataques a outros quatro ônibus.]CONSEQUENCE/WHERE_EXTRA
+[Uma bomba caseira foi jogada contra o prédio do Ministério Público, na capital do estado.]CONSEQUENCE/WHERE_EXTRA
+[A Secretaria da Fazenda também foi atingida por uma bomba.]CONSEQUENCE
+[Duas bases da Guarda Civil Metropolitana (GCM), sendo uma no Capão Redondo, Zona Sul de São Paulo, foram alvo dos criminosos.]CONSEQUENCE/WHERE_EXTRA

@@ -1,0 +1,62 @@
+*formação dos subtópicos do cluster 3
+SUBTOPICO 1: D1_TOP1, D2_TOP1, D3_TOP1
+SUBTOPICO 2: D1_TOP2, D2_TOP2
+SUBTOPICO 3: D3_TOP3
+SUBTOPICO 4: D1_TOP4
+SUBTOPICO 5: D1_TOP5
+SUBTOPICO 6: D1_TOP6, D2_TOP6
+SUBTOPICO 7: D1_TOP7
+
+
+
+	documento_numeroDeSentencas_quantidade de palavras
+SUBTOPICO 1: D1_TOP1_8_182, D1_TOP_7_6_189, D2_TOP1_2_53, D3_TOP1_6s_182 = 22 sentenças ; 656 palavras
+SUBTOPICO 2: D1_TOP2_3_62,D2_TOP2_5_103	= 5 sentenças ; 165 palavras
+SUBTOPICO 3: D3_TOP3_11_244 = 11 sentenças ; 254 palavras
+SUBTOPICO 4: D1_TOP4_4_85 = 4 sentenças ; 85 palavras
+SUBTOPICO 5: D1_TOP_5_2_29 = 2 sentenças ; 29 palavras
+SUBTOPICO 6: D1_TOP_6_3_60, D2_TOP_6_2_50 = 9 sentenças ; 110 palavras
+
+
+Cluster tem 1299 palavras
+SUBTOPICO 1 = 50.5% do cluster //A falha no reversor - o reverso como causa - Problemas no reverso de aeronave da TAM//Falha mecânica
+SUBTOPICO 2 = 12.7%  //a pista de Congonhas como causa - A pista do aeroporto
+SUBTOPICO 3 = 19.6%  //Atitude de assessores da presidência
+SUBTOPICO 4 = 6.5%  //O acidente e as vítimas
+SUBTOPICO 5 = 2.2% //Histórico de acidente devido a reversor
+SUBTOPICO 6 = 8.5% //Problemas no avião acidentado - outras possíveis causas
+
+
+Sumário humano: 10 sentenças ; 198 palavras
+S1: 16 palavras
+S2: 24
+S3: 29
+S4: 13
+S5: 19
+S6: 16
+S7: 18
+S8: 11
+S9: 27
+S10: 25
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico
+S1: D1_TOP1 - SUBTOPICO 1
+S2: D1_TOP4 - SUBTOPICO 4
+S3: D1_TOP1, D3_TOP1 - SUBTOPICO 1
+S4: D1_TOP1, D2_TOP1, D3_TOP1 - SUBTOPICO 1
+S5: D1_TOP2 - SUBTOPICO 2
+S6: D1_TOP2 - SUBTOPICO 2
+S7: D3_TOP3 - SUBTOPICO 3
+S8: D3_TOP3 - SUBTOPICO 3
+S9: D2_TOP2 - SUBTOPICO 2
+S10: D2_TOP2 - SUBTOPICO 2
+
+*% dos subtopicos no sumário
+Sentenças de 1, 3 e 4 = 58 palavras = 29,3% Subtopico 1
+Sentenças 5, 6, 9 e 10 - 87 palavras = 43,9% Subtopico 2
+Sentenças 7 e 8 = 29 palavras = 14,7 % Subtopico 3
+Sentença 2 = 24 palavras = 12.1% Subtopico 4
+
+*não apareceram subtopicos 5,6
+

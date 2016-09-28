@@ -1,0 +1,30 @@
+<ET ID="00" TIPO="TEMPO_CALEND" SUBTIPO="DATA" VAL_NORM="+20060804T1356E--LM-">
+O Brasil arrasou a Finlândia no primeiro confronto entre as seleções, 
+<ET ID="01" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D0H0M0S0">
+nesta sexta-feira
+</ET>
+, na cidade de Tampere, pela Liga Mundial de vôlei 
+<ET><!--?Se marcar esse marcar, entao tem que marcar o do texto anterior? ( Liga Mundial-06 ou algo do tipo )-->
+2006
+</ET>
+, por 3 sets a 0, com parciais de 25/17, 25/22 e 25/21 .
+
+<ET ID="02" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="POSTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">
+Amanhã
+</ET>
+, as equipes voltam a se enfrentar, 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="HORA" VAL_NORM="+--------T1230E--LM-" >
+às 12h30 (horário de Brasília)
+</ET>
+, no mesmo local, com acompanhamento ao vivo do Terra Esportes . 
+
+Com o resultado, o Brasil continua sendo a única equipe invicta da competição, mantendo a liderança do Grupo B da Liga, com sete vitórias em sete partidas. O time está perto da classificação para a próxima fase. 
+
+O time da Finlândia nunca fora antes enfrentado pelo técnico do Brasil, Bernardinho, que se utilizou de vídeos para saber um pouco mais sobre o adversário e exibir para os atletas. 
+
+O primeiro set permaneceu equilibrado até a metade, quando o meio-de-rede André Heller foi para o saque. O jogador conseguiu uma boa seqüência de pontos, desestabilizou a defesa finlandesa e o Brasil abriu uma vantagem que deu tranqüilidade para fechar a parcial por 25 a 17. 
+
+Embalado pela vitória, o Brasil começou o segundo set na frente, mas permitiu a reação dos donos da casa, que chegaram a empatar a parcial em 17. Entretanto, os campeões olímpicos tiveram tranqüilidade para se recuperar e fechar o set por 25 a 22 em um bloqueio. 
+
+Na última parcial, a Finlândia novamente emparelhou o jogo com o Brasil até a metade do set, mas depois de uma seqüência de pontos brasileiros não conseguiu reagir e perdeu por 25 a 21. 
+

@@ -1,0 +1,15 @@
+<R SDID="D4_C20_JB.txt.seg" SSENT="1" TDID="D5_C20_GPovo.txt.seg" TSENT="10">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D4_C20_JB.txt.seg" SSENT="2" TDID="D5_C20_GPovo.txt.seg" TSENT="10">
+<RELATION TYPE="Overlap" JUDGE="thiago"/>
+</R>
+<R SDID="D4_C20_JB.txt.seg" SSENT="1" TDID="D5_C20_GPovo.txt.seg" TSENT="14">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D4_C20_JB.txt.seg" SSENT="2" TDID="D5_C20_GPovo.txt.seg" TSENT="14">
+<RELATION TYPE="Overlap" JUDGE="thiago"/>
+</R>
+<R SDID="D4_C20_JB.txt.seg" SSENT="3" TDID="D5_C20_GPovo.txt.seg" TSENT="14">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>

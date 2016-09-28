@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xml>
+<corpus>
+
+	<body>
+<s id="s1" ref="1" source="Running text" forest="1" text="Enchentes na Coréia do Norte 'mataram 549'.">
+	<graph root="s1_500">
+		<terminals>
+			<t id="s1_1" word="Enchentes" lemma="enchente" pos="n" morph="F P" sem="sit" extra="--"/>
+			<t id="s1_2" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s1_3" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s1_4" word="Coréia_do_Norte" lemma="Coréia_do_Norte" pos="prop" morph="F S" sem="--" extra="top"/>
+			<t id="s1_5" word="'" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_6" word="mataram" lemma="matar" pos="v-fin" morph="PS/MQP 3P IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s1_7" word="549'" lemma="549'" pos="num" morph="--" sem="--" extra="minutes"/>
+			<t id="s1_8" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s1_500" cat="s">
+				<edge label="STA" idref="s1_501"/>
+			</nt>
+			<nt id="s1_501" cat="fcl">
+				<edge label="S" idref="s1_502"/>
+				<edge label="PU" idref="s1_5"/>
+				<edge label="P" idref="s1_6"/>
+				<edge label="Od" idref="s1_7"/>
+				<edge label="PU" idref="s1_8"/>
+			</nt>
+			<nt id="s1_502" cat="np">
+				<edge label="H" idref="s1_1"/>
+				<edge label="DN" idref="s1_503"/>
+			</nt>
+			<nt id="s1_503" cat="pp">
+				<edge label="H" idref="s1_2"/>
+				<edge label="DP" idref="s1_504"/>
+			</nt>
+			<nt id="s1_504" cat="np">
+				<edge label="DN" idref="s1_3"/>
+				<edge label="H" idref="s1_4"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+	</body>
+</corpus>
+</xml>

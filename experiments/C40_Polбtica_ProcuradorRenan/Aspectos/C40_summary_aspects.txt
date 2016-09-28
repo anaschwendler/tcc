@@ -1,0 +1,4 @@
+[O presidente do  Senado, Renan Calheiros, disse que a decisão do procurador geral da República, Antonio Fernando de Souza, de investigar as denúncias contra ele, atende a um pedido que fez há cerca de um mês.]WHO_AGENT/WHAT/DECLARATION
+[Renan referia-se à última reportagem da revista Veja que afirma que Renan é dono oculto de duas emissoras de rádio de Alagoas.]WHAT_EXTRA/WHO_AGENT_EXTRA/DECLARATION
+[Também há acusações de que teria despesas pessoais pagas uma lobista.]WHAT_EXTRA/WHO_AFFECTED_EXTRA
+[O procurador solicitou o encaminhamento de todo o material que está no Conselho de Ética e também a perícia da Polícia Federal (PF) em documentos de Renan.]WHO_AGENT_EXTRA/WHAT_EXTRA

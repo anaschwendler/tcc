@@ -1,0 +1,32 @@
+*formação dos subtópicos do cluster 16
+SUBTOPICO 1: D1T1_15_330, D2T1_23_502, D3T1_3_68 = 41 sentenças ; 900 palavras
+SUBTOPICO 2: D1T2_4_39 = 4 sentenças ; 39 palavras
+SUBTOPICO 3: D3T3_2_68 = 2 sentenças ; 68 palavras
+
+Cluster tem 1007 palavras
+SUBTOPICO 1 = 89.35% do cluster  //reeleicao, sanguessuga, prazo de renúncia
+SUBTOPICO 2 = 3.9%  //deputados abandonados pelo partido
+SUBTOPICO 3 = 6.75%  //possibilidades de renúncias
+
+Sumário humano: 6 sentenças ; 153 palavras
+S1: 37 palavras
+S2: 26
+S3: 27
+S4: 31
+S5: 17
+S6: 15
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico  //A barra | indica diferente subtopico
+S1: D1T1, D2T1 - SUBTOPICO 1
+S2: D2T1 - SUBTOPICO 1
+S3: D1T1, D2T1, D3T1 - SUBTOPICO 1
+S4: D1T1, D2T1 | D3T3 - SUBTOPICO 1 [16 palavras] e SUBTOPICO 3 [15 palavras]
+S5: D1T2 - SUBTOPICO 2
+S6: D1T2 - SUBTOPICO 2
+
+*% dos subtopicos no sumário
+Sentenças 1, 2, 3 e 4 = 106 palavras - 69.3% Subtopico 1
+Sentença 6 e 7 = 32 palavras - 20.9% Subtopico 2
+sentença 4 = 15 palavras - 9.8% Subtopico 3
+

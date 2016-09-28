@@ -1,0 +1,39 @@
+<align SENT="1">
+	<DOC="D1_C35_Folha.txt.seg" SENT="2" TYPE="parcial/neutro-especificacao-contradicao" JUDGE="veronica/veronica"/>
+	<DOC="D4_C35_JB.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D5_C35_GPovo.txt.seg" SENT="2" TYPE="parcial/neutro-generalizacao_antroponimia" JUDGE="veronica/veronica"/>
+</align>
+
+<align SENT="2">
+	<DOC="D1_C35_Folha.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D4_C35_JB.txt.seg" SENT="2" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D5_C35_GPovo.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+</align>
+
+<align SENT="3">
+	<DOC="D1_C35_Folha.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D1_C35_Folha.txt.seg" SENT="4" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D4_C35_JB.txt.seg" SENT="3" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D5_C35_GPovo.txt.seg" SENT="4" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+</align>
+
+<align SENT="4">
+	<DOC="D1_C35_Folha.txt.seg" SENT="10" TYPE="parcial/neutro-generalizacao" JUDGE="veronica/veronica"/>
+	<DOC="D1_C35_Folha.txt.seg" SENT="17" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+</align>
+
+<align SENT="5">
+	<DOC="D1_C35_Folha.txt.seg" SENT="13" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+</align>
+
+<align SENT="6">
+	<DOC="D1_C35_Folha.txt.seg" SENT="15" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D1_C35_Folha.txt.seg" SENT="16" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D5_C35_GPovo.txt.seg" SENT="3" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+</align>
+
+<align SENT="7">
+	<DOC="D1_C35_Folha.txt.seg" SENT="12" TYPE="parcial/neutro-especificacao_antroponimia-contradicao" JUDGE="veronica/veronica"/>
+	<DOC="D5_C35_GPovo.txt.seg" SENT="5" TYPE="parcial/neutro-generalizacao" JUDGE="veronica/veronica"/>
+	<DOC="D5_C35_GPovo.txt.seg" SENT="6" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+</align>

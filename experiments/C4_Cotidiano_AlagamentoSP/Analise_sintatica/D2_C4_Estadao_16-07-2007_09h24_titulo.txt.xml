@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xml>
+<corpus>
+
+	<body>
+<s id="s1" ref="1" source="Running text" forest="1" text="Pontos de alagamento e trânsito acima de a média A as 9 horas, cidade registra 113 km de lentidão e oito pontos de alagamento.">
+	<graph root="s1_500">
+		<terminals>
+			<t id="s1_1" word="Pontos" lemma="ponto" pos="n" morph="M P" sem="sem-c Lh temp Labs unit" extra="--"/>
+			<t id="s1_2" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_3" word="alagamento" lemma="alagamento" pos="n" morph="M S" sem="event" extra="cjt-head cjt-head-DP"/>
+			<t id="s1_4" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-prparg co-prparg"/>
+			<t id="s1_5" word="trânsito" lemma="trânsito" pos="n" morph="M S" sem="activity act" extra="cjt-DP"/>
+			<t id="s1_6" word="acima_de" lemma="acima_de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s1_7" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="-sam "/>
+			<t id="s1_8" word="média" lemma="média" pos="n" morph="F S" sem="Labs amount" extra="--"/>
+			<t id="s1_9" word="A" lemma="a" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s1_10" word="as" lemma="o" pos="art" morph="F P" sem="--" extra="-sam "/>
+			<t id="s1_11" word="9" lemma="9" pos="num" morph="F P" sem="--" extra="card"/>
+			<t id="s1_12" word="horas" lemma="hora" pos="n" morph="F P" sem="temp dur unit" extra="--"/>
+			<t id="s1_13" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_14" word="cidade" lemma="cidade" pos="n" morph="F S" sem="Lciv" extra="--"/>
+			<t id="s1_15" word="registra" lemma="registrar" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s1_16" word="113" lemma="113" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s1_17" word="km" lemma="km" pos="n" morph="M P" sem="unit" extra="cjt-head cjt-head-Od"/>
+			<t id="s1_18" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_19" word="lentidão" lemma="lentidão" pos="n" morph="F S" sem="am" extra="--"/>
+			<t id="s1_20" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-acc"/>
+			<t id="s1_21" word="oito" lemma="oito" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s1_22" word="pontos" lemma="ponto" pos="n" morph="M P" sem="unit sem-c Lh temp Labs" extra="cjt-Od"/>
+			<t id="s1_23" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_24" word="alagamento" lemma="alagamento" pos="n" morph="M S" sem="event" extra="--"/>
+			<t id="s1_25" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s1_500" cat="s">
+				<edge label="STA" idref="s1_501"/>
+			</nt>
+			<nt id="s1_501" cat="fcl">
+				<edge label="fA" idref="s1_502"/>
+				<edge label="fA" idref="s1_508"/>
+				<edge label="PU" idref="s1_13"/>
+				<edge label="S" idref="s1_14"/>
+				<edge label="P" idref="s1_15"/>
+				<edge label="Od" idref="s1_510"/>
+				<edge label="PU" idref="s1_25"/>
+			</nt>
+			<nt id="s1_502" cat="np">
+				<edge label="H" idref="s1_1"/>
+				<edge label="DN" idref="s1_503"/>
+			</nt>
+			<nt id="s1_503" cat="pp">
+				<edge label="H" idref="s1_2"/>
+				<edge label="DP" idref="s1_504"/>
+			</nt>
+			<nt id="s1_504" cat="par">
+				<edge label="CJT" idref="s1_3"/>
+				<edge label="CO" idref="s1_4"/>
+				<edge label="CJT" idref="s1_505"/>
+			</nt>
+			<nt id="s1_505" cat="np">
+				<edge label="H" idref="s1_5"/>
+				<edge label="DN" idref="s1_506"/>
+			</nt>
+			<nt id="s1_506" cat="pp">
+				<edge label="H" idref="s1_6"/>
+				<edge label="DP" idref="s1_507"/>
+			</nt>
+			<nt id="s1_507" cat="np">
+				<edge label="DN" idref="s1_7"/>
+				<edge label="H" idref="s1_8"/>
+			</nt>
+			<nt id="s1_508" cat="pp">
+				<edge label="H" idref="s1_9"/>
+				<edge label="DP" idref="s1_509"/>
+			</nt>
+			<nt id="s1_509" cat="np">
+				<edge label="DN" idref="s1_10"/>
+				<edge label="DN" idref="s1_11"/>
+				<edge label="H" idref="s1_12"/>
+			</nt>
+			<nt id="s1_510" cat="par">
+				<edge label="CJT" idref="s1_511"/>
+				<edge label="CO" idref="s1_20"/>
+				<edge label="CJT" idref="s1_513"/>
+			</nt>
+			<nt id="s1_511" cat="np">
+				<edge label="DN" idref="s1_16"/>
+				<edge label="H" idref="s1_17"/>
+				<edge label="DN" idref="s1_512"/>
+			</nt>
+			<nt id="s1_512" cat="pp">
+				<edge label="H" idref="s1_18"/>
+				<edge label="DP" idref="s1_19"/>
+			</nt>
+			<nt id="s1_513" cat="np">
+				<edge label="DN" idref="s1_21"/>
+				<edge label="H" idref="s1_22"/>
+				<edge label="DN" idref="s1_514"/>
+			</nt>
+			<nt id="s1_514" cat="pp">
+				<edge label="H" idref="s1_23"/>
+				<edge label="DP" idref="s1_24"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+	</body>
+</corpus>
+</xml>

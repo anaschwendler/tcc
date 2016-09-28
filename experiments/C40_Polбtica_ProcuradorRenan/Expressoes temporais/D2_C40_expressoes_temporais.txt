@@ -1,0 +1,24 @@
+<ET ID="00" TIPO="TEMPO_CALEND" SUBTIPO="DATA" VAL_NORM="+20070806T1617E--LM-">
+BRASÍLIA - Ao chegar 
+<ET ID="01" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+nesta segunda-feira, 6
+</ET>
+, ao Senado Federal, o presidente da Casa, Renan Calheiros, disse que a decisão do procurador geral da República, Antonio Fernando de Souza, de investigar as denúncias contra ele, atende a um pedido que fez 
+<ET ID="02" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M1S0D0H0M0S0">
+há cerca de um mês
+</ET>
+. 
+
+"Eu pedi para o procurador me investigar. Eu me dispus a abrir meu sigilo", afirmou. Renan disse que não entende porque a Revista Veja insiste em fazer denúncias "infundadas" contras ele.
+
+O presidente do Senado referia-se à última reportagem da revista que afirma que Renan é dono oculto de duas emissoras de rádio de Alagoas que valem cerca de R$ 2,5 milhões. 
+
+O procurador, segundo sua assessoria, disse que pode pedir a inclusão de mais uma denúncia contra o senador, feita pela revista.  
+
+O líder do DEM, senador José Agripino (RN), afirmou que vai reunir a bancada 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="POSTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">
+na terça-feira
+</ET>
+para formalizar o pedido de investigação contra Renan. "Pedi ao setor jurídico do partido a elaboração de uma representação. Acertei isso com o presidente do partido, deputado Rodrigo Maia (RJ), e agora quero ouvir a bancada para que a atitude seja do partido", explicou. 
+
+Renan já é alvo de representação no Conselho de Ética por quebra de decoro parlamentar. Entre as denúncias contra ele, estaria a de ter despesas pessoais pagas por lobista da construtora Mendes Junior.O pagamento seria destinado a uma filha do senador com a jornalista Monica Veloso.

@@ -1,0 +1,48 @@
+<R SDID="D1_C26_Folha.txt.seg" SSENT="1" TDID="D4_C26_JB.txt.seg" TSENT="1">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D1_C26_Folha.txt.seg" SSENT="2" TDID="D4_C26_JB.txt.seg" TSENT="4">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D1_C26_Folha.txt.seg" SSENT="5" TDID="D4_C26_JB.txt.seg" TSENT="4">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D1_C26_Folha.txt.seg" SSENT="5" TDID="D4_C26_JB.txt.seg" TSENT="5">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C26_JB.txt.seg" SSENT="1" TDID="D1_C26_Folha.txt.seg" TSENT="6">
+<RELATION TYPE="Subsumption" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C26_JB.txt.seg" SSENT="14" TDID="D1_C26_Folha.txt.seg" TSENT="6">
+<RELATION TYPE="Elaboration" JUDGE="Erick"/>
+</R>
+<R SDID="D1_C26_Folha.txt.seg" SSENT="8" TDID="D4_C26_JB.txt.seg" TSENT="2">
+<RELATION TYPE="Follow-up" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C26_JB.txt.seg" SSENT="3" TDID="D1_C26_Folha.txt.seg" TSENT="8">
+<RELATION TYPE="Attribution" JUDGE="Erick"/>
+</R>
+<R SDID="D1_C26_Folha.txt.seg" SSENT="8" TDID="D4_C26_JB.txt.seg" TSENT="3">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D1_C26_Folha.txt.seg" SSENT="16" TDID="D4_C26_JB.txt.seg" TSENT="13">
+<RELATION TYPE="Follow-up" JUDGE="Erick"/>
+</R>
+<R SDID="D1_C26_Folha.txt.seg" SSENT="16" TDID="D4_C26_JB.txt.seg" TSENT="14">
+<RELATION TYPE="Follow-up" JUDGE="Erick"/>
+</R>
+<R SDID="D1_C26_Folha.txt.seg" SSENT="22" TDID="D4_C26_JB.txt.seg" TSENT="1">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D1_C26_Folha.txt.seg" SSENT="22" TDID="D4_C26_JB.txt.seg" TSENT="13">
+<RELATION TYPE="Follow-up" JUDGE="Erick"/>
+</R>
+<R SDID="D1_C26_Folha.txt.seg" SSENT="22" TDID="D4_C26_JB.txt.seg" TSENT="14">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D1_C26_Folha.txt.seg" SSENT="24" TDID="D4_C26_JB.txt.seg" TSENT="13">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D4_C26_JB.txt.seg" SSENT="8" TDID="D1_C26_Folha.txt.seg" TSENT="27">
+<RELATION TYPE="Elaboration" JUDGE="Erick"/>
+</R>

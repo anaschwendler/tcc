@@ -1,0 +1,13 @@
+	thiago			erick
+1-2	overlap			overlap
+1-4	no-relation		follow-up
+2-2	overlap			overlap
+2-3	follow-up_overlap	follow-up_overlap
+3-2	follow-up_overlap	follow-up_overlap
+3-3	overlap			overlap
+3-4	elaboration		follow-up
+3-5	follow-up		follow-up
+5-1	follow-up		follow-up
+5-2	follow-up		follow-up
+5-4	no-relation		no-relation
+5-5	no-relation		elaboration

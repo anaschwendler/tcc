@@ -1,0 +1,58 @@
+<align SENT="1">
+	<DOC="D1_C50_Folha.txt.seg" SENT="1" TYPE="igual/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D3_C50_OGlobo.txt.seg" SENT="19" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D4_C50_JB.txt.seg" SENT="1" TYPE="parcial/neutro-generalizacao" JUDGE="veronica/veronica"/>
+</align>
+
+<align SENT="2">
+	<DOC="D1_C50_Folha.txt.seg" SENT="2" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D1_C50_Folha.txt.seg" SENT="6" TYPE="parcial/neutro-contradicao" JUDGE="veronica/veronica"/>
+	<DOC="D1_C50_Folha.txt.seg" SENT="18" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D3_C50_OGlobo.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D4_C50_JB.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+</align>
+
+<align SENT="3">
+	<DOC="D1_C50_Folha.txt.seg" SENT="19" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D1_C50_Folha.txt.seg" SENT="22" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D1_C50_Folha.txt.seg" SENT="23" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D3_C50_OGlobo.txt.seg" SENT="2" TYPE="igual/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D3_C50_OGlobo.txt.seg" SENT="13" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D4_C50_JB.txt.seg" SENT="6" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+</align>
+
+<align SENT="4">
+	<DOC="D3_C50_OGlobo.txt.seg" SENT="16" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+</align>
+
+<align SENT="5">
+	<DOC="D1_C50_Folha.txt.seg" SENT="3" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D1_C50_Folha.txt.seg" SENT="4" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D1_C50_Folha.txt.seg" SENT="5" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D1_C50_Folha.txt.seg" SENT="12" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D1_C50_Folha.txt.seg" SENT="14" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D3_C50_OGlobo.txt.seg" SENT="1" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D3_C50_OGlobo.txt.seg" SENT="10" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D3_C50_OGlobo.txt.seg" SENT="11" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D4_C50_JB.txt.seg" SENT="2" TYPE="parcial/neutro-generalizacao" JUDGE="veronica/veronica"/>
+	<DOC="D4_C50_JB.txt.seg" SENT="3" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D4_C50_JB.txt.seg" SENT="4" TYPE="diferente/generalizacao" JUDGE="veronica/veronica"/>
+</align>
+
+<align SENT="6">
+	<DOC="D3_C50_OGlobo.txt.seg" SENT="12" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D3_C50_OGlobo.txt.seg" SENT="15" TYPE="diferente/generalizacao" JUDGE="veronica/veronica"/>
+</align>
+
+<align SENT="7">
+	<DOC="D1_C50_Folha.txt.seg" SENT="3" TYPE="parcial/inferencia" JUDGE="veronica/veronica"/>
+	<DOC="D3_C50_OGlobo.txt.seg" SENT="3" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D3_C50_OGlobo.txt.seg" SENT="4" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D3_C50_OGlobo.txt.seg" SENT="15" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+	<DOC="D4_C50_JB.txt.seg" SENT="11" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+</align>
+
+<align SENT="8">
+	<DOC="D1_C50_Folha.txt.seg" SENT="15" TYPE="diferente/neutro-inferencia" JUDGE="veronica/veronica"/>
+	<DOC="D3_C50_OGlobo.txt.seg" SENT="7" TYPE="parcial/neutro" JUDGE="veronica/veronica"/>
+</align>

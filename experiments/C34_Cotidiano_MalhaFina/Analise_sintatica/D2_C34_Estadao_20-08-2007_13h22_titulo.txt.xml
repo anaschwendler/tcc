@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xml>
+<corpus>
+
+	<body>
+<s id="s1" ref="1" source="Running text" forest="1" text="Com maior fiscalização, Receita recupera R 1,339 bilhão sonegados Tomando por base as autuações totais (empresas e pessoas físicas), o valor sonegado chega a R 39,99 bilhões de janeiro a julho, com uma expansão de 66,22%">
+	<graph root="s1_500">
+		<terminals>
+			<t id="s1_1" word="Com" lemma="com" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s1_2" word="maior" lemma="grande" pos="adj" morph="F S" sem="--" extra="KOMP"/>
+			<t id="s1_3" word="fiscalização" lemma="fiscalização" pos="n" morph="F S" sem="act" extra="--"/>
+			<t id="s1_4" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_5" word="Receita" lemma="receita" pos="n" morph="F S" sem="mon sem-r" extra="--"/>
+			<t id="s1_6" word="recupera" lemma="recuperar" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="cjt-head cjt-head-STA fmc mv"/>
+			<t id="s1_7" word="R$" lemma="r$" pos="n" morph="M S" sem="cur unit" extra="prop"/>
+			<t id="s1_8" word="1,339" lemma="1,339" pos="num" morph="M/F P" sem="--" extra="card np-close"/>
+			<t id="s1_9" word="bilhão" lemma="bilhão" pos="n" morph="M S" sem="amount" extra="--"/>
+			<t id="s1_10" word="sonegados" lemma="sonegar" pos="v-pcp" morph="M P" sem="--" extra="--"/>
+			<t id="s1_11" word="Tomando" lemma="tomar" pos="v-ger" morph="--" sem="--" extra="clb mv"/>
+			<t id="s1_12" word="por" lemma="por" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s1_13" word="base" lemma="base" pos="n" morph="F S" sem="Labs" extra="--"/>
+			<t id="s1_14" word="as" lemma="o" pos="art" morph="F P" sem="--" extra="--"/>
+			<t id="s1_15" word="autuações" lemma="autuação" pos="n" morph="F P" sem="act" extra="--"/>
+			<t id="s1_16" word="totais" lemma="total" pos="adj" morph="F P" sem="--" extra="np-close"/>
+			<t id="s1_17" word="(" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_18" word="empresas" lemma="empresa" pos="n" morph="F P" sem="HH" extra="cjt-head cjt-head-DNc np-close"/>
+			<t id="s1_19" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-pred co-postnom"/>
+			<t id="s1_20" word="pessoas_físicas" lemma="pessoa_física" pos="n" morph="F P" sem="H" extra="cjt-DNc np-close"/>
+			<t id="s1_21" word=")" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_22" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_23" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s1_24" word="valor" lemma="valor" pos="n" morph="M S" sem="ac am unit" extra="--"/>
+			<t id="s1_25" word="sonegado" lemma="sonegar" pos="v-pcp" morph="M S" sem="--" extra="np-close"/>
+			<t id="s1_26" word="chega" lemma="chegar" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="cjt-STA fmc mv"/>
+			<t id="s1_27" word="a" lemma="a" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s1_28" word="R$" lemma="r$" pos="n" morph="M S" sem="cur unit" extra="prop"/>
+			<t id="s1_29" word="39,99" lemma="39,99" pos="num" morph="M/F P" sem="--" extra="card np-close"/>
+			<t id="s1_30" word="bilhões" lemma="bilhão" pos="n" morph="M P" sem="amount" extra="--"/>
+			<t id="s1_31" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_32" word="janeiro" lemma="janeiro" pos="n" morph="M S" sem="--" extra="--"/>
+			<t id="s1_33" word="a" lemma="a" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s1_34" word="julho" lemma="julho" pos="n" morph="M S" sem="--" extra="--"/>
+			<t id="s1_35" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_36" word="com" lemma="com" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s1_37" word="uma" lemma="um" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s1_38" word="expansão" lemma="expansão" pos="n" morph="F S" sem="process" extra="--"/>
+			<t id="s1_39" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_40" word="66,22" lemma="66,22" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s1_41" word="%" lemma="%" pos="n" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s1_500" cat="s">
+				<edge label="STA" idref="s1_501"/>
+			</nt>
+			<nt id="s1_501" cat="par">
+				<edge label="CJT" idref="s1_502"/>
+				<edge label="CJT" idref="s1_506"/>
+			</nt>
+			<nt id="s1_502" cat="fcl">
+				<edge label="fCs" idref="s1_503"/>
+				<edge label="PU" idref="s1_4"/>
+				<edge label="S" idref="s1_5"/>
+				<edge label="P" idref="s1_6"/>
+				<edge label="Od" idref="s1_505"/>
+			</nt>
+			<nt id="s1_503" cat="pp">
+				<edge label="H" idref="s1_1"/>
+				<edge label="DP" idref="s1_504"/>
+			</nt>
+			<nt id="s1_504" cat="np">
+				<edge label="DN" idref="s1_2"/>
+				<edge label="H" idref="s1_3"/>
+			</nt>
+			<nt id="s1_505" cat="np">
+				<edge label="H" idref="s1_7"/>
+				<edge label="DN" idref="s1_8"/>
+			</nt>
+			<nt id="s1_506" cat="fcl">
+				<edge label="fA" idref="s1_507"/>
+				<edge label="PU" idref="s1_22"/>
+				<edge label="S" idref="s1_511"/>
+				<edge label="P" idref="s1_26"/>
+				<edge label="fA" idref="s1_512"/>
+				<edge label="Od" idref="s1_514"/>
+				<edge label="fA" idref="s1_516"/>
+				<edge label="PU" idref="s1_35"/>
+				<edge label="fA" idref="s1_517"/>
+			</nt>
+			<nt id="s1_507" cat="advp">
+				<edge label="fCs" idref="s1_9"/>
+				<edge label="fCs" idref="s1_10"/>
+				<edge label="P" idref="s1_11"/>
+				<edge label="Op" idref="s1_508"/>
+				<edge label="Od" idref="s1_509"/>
+			</nt>
+			<nt id="s1_508" cat="pp">
+				<edge label="H" idref="s1_12"/>
+				<edge label="DP" idref="s1_13"/>
+			</nt>
+			<nt id="s1_509" cat="np">
+				<edge label="DN" idref="s1_14"/>
+				<edge label="H" idref="s1_15"/>
+				<edge label="DN" idref="s1_16"/>
+				<edge label="PU" idref="s1_17"/>
+				<edge label="DNc" idref="s1_510"/>
+				<edge label="PU" idref="s1_21"/>
+			</nt>
+			<nt id="s1_510" cat="par">
+				<edge label="CJT" idref="s1_18"/>
+				<edge label="CO" idref="s1_19"/>
+				<edge label="CJT" idref="s1_20"/>
+			</nt>
+			<nt id="s1_511" cat="np">
+				<edge label="DN" idref="s1_23"/>
+				<edge label="H" idref="s1_24"/>
+				<edge label="DN" idref="s1_25"/>
+			</nt>
+			<nt id="s1_512" cat="pp">
+				<edge label="H" idref="s1_27"/>
+				<edge label="DP" idref="s1_513"/>
+			</nt>
+			<nt id="s1_513" cat="np">
+				<edge label="H" idref="s1_28"/>
+				<edge label="DN" idref="s1_29"/>
+			</nt>
+			<nt id="s1_514" cat="np">
+				<edge label="H" idref="s1_30"/>
+				<edge label="DN" idref="s1_515"/>
+			</nt>
+			<nt id="s1_515" cat="pp">
+				<edge label="H" idref="s1_31"/>
+				<edge label="DP" idref="s1_32"/>
+			</nt>
+			<nt id="s1_516" cat="pp">
+				<edge label="H" idref="s1_33"/>
+				<edge label="DP" idref="s1_34"/>
+			</nt>
+			<nt id="s1_517" cat="pp">
+				<edge label="H" idref="s1_36"/>
+				<edge label="DP" idref="s1_518"/>
+			</nt>
+			<nt id="s1_518" cat="np">
+				<edge label="DN" idref="s1_37"/>
+				<edge label="H" idref="s1_38"/>
+				<edge label="DN" idref="s1_519"/>
+			</nt>
+			<nt id="s1_519" cat="pp">
+				<edge label="H" idref="s1_39"/>
+				<edge label="DP" idref="s1_520"/>
+			</nt>
+			<nt id="s1_520" cat="np">
+				<edge label="DN" idref="s1_40"/>
+				<edge label="H" idref="s1_41"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+	</body>
+</corpus>
+</xml>

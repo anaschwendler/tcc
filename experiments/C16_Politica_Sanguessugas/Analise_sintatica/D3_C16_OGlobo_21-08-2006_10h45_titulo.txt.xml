@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xml>
+<corpus>
+
+	<body>
+<s id="s1" ref="1" source="Running text" forest="1" text="Parlamentares acusados têm até esta segunda para renuncia.">
+	<graph root="s1_500">
+		<terminals>
+			<t id="s1_1" word="Parlamentares" lemma="parlamentar" pos="n" morph="M P" sem="H" extra="--"/>
+			<t id="s1_2" word="acusados" lemma="acusar" pos="v-pcp" morph="M P" sem="--" extra="np-close"/>
+			<t id="s1_3" word="têm" lemma="ter" pos="v-fin" morph="PR 3P IND VFIN" sem="--" extra="predco predco fmc mv"/>
+			<t id="s1_4" word="até" lemma="até" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s1_5" word="esta" lemma="este" pos="pron-dem" morph="DET F S" sem="--" extra="dem"/>
+			<t id="s1_6" word="segunda" lemma="segunda" pos="n" morph="F S" sem="temp ac-cat" extra="--"/>
+			<t id="s1_7" word="para" lemma="para" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s1_8" word="renuncia" lemma="renunciar" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="nosubj nosubj cjt-STA fmc mv"/>
+			<t id="s1_9" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s1_500" cat="s">
+				<edge label="STA" idref="s1_501"/>
+			</nt>
+			<nt id="s1_501" cat="fcl">
+				<edge label="S" idref="s1_502"/>
+				<edge label="X" idref="s1_503"/>
+				<edge label="PU" idref="s1_9"/>
+			</nt>
+			<nt id="s1_502" cat="np">
+				<edge label="H" idref="s1_1"/>
+				<edge label="DN" idref="s1_2"/>
+			</nt>
+			<nt id="s1_503" cat="par">
+				<edge label="CJT" idref="s1_504"/>
+				<edge label="CJT" idref="s1_8"/>
+			</nt>
+			<nt id="s1_504" cat="x">
+				<edge label="P" idref="s1_3"/>
+				<edge label="fA" idref="s1_505"/>
+				<edge label="fA" idref="s1_7"/>
+			</nt>
+			<nt id="s1_505" cat="pp">
+				<edge label="H" idref="s1_4"/>
+				<edge label="DP" idref="s1_506"/>
+			</nt>
+			<nt id="s1_506" cat="np">
+				<edge label="DN" idref="s1_5"/>
+				<edge label="H" idref="s1_6"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+	</body>
+</corpus>
+</xml>

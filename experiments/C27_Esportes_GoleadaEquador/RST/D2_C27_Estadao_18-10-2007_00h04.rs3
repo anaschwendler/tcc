@@ -1,0 +1,188 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="8" relname="span">O Brasil lavou a alma</segment>
+    <segment id="2" parent="1" relname="circumstance"> após o decepcionante empate com a Colômbia no último domingo</segment>
+    <segment id="3" parent="9" relname="span"> e, nesta quarta-feira, aplicou uma sonora goleada por 5 a 0 sobre o Equador no Maracanã.</segment>
+    <segment id="4" parent="10" relname="span"> E isso com direito a uma seqüência de dribles de Robinho</segment>
+    <segment id="5" parent="4" relname="elaboration"> que há muito não se vê no futebol,</segment>
+    <segment id="7" parent="10" relname="evaluation"> simplesmente espetacular. </segment>
+    <segment id="6" parent="39" relname="span">
+
+A partida começou muito amarrada.</segment>
+    <segment id="13" parent="38" relname="span"> Os equatorianos marcavam muito forte</segment>
+    <segment id="14" parent="37" relname="span"> e não davam qualquer espaço para o Brasil,</segment>
+    <segment id="15" parent="14" relname="elaboration"> que tocava a bola sem muita objetividade.</segment>
+    <segment id="16" parent="40" relname="span"> Logo o ânimo da torcida começou a se esgotar,</segment>
+    <segment id="17" parent="16" relname="volitional-result"> e as primeiras vaias ecoavam no Maracanã lotado,</segment>
+    <segment id="18" parent="43" relname="circumstance"> quando aos 18 minutos,</segment>
+    <segment id="19" parent="43" relname="sequence"> Maicon disparou pela direita</segment>
+    <segment id="20" parent="43" relname="sequence"> e cruzou uma bola rasteira,</segment>
+    <segment id="21" parent="42" relname="span"> que Vágner Love empurrou para o gol de carrinho:</segment>
+    <segment id="22" parent="21" relname="parenthetical"> 1 a 0.</segment>
+    <segment id="23" parent="48" relname="span">
+
+Uma ironia, aliás,</segment>
+    <segment id="24" parent="46" relname="span"> pois antes do jogo,</segment>
+    <segment id="25" parent="24" relname="circumstance"> quando no telão apareciam os jogadores da seleção,</segment>
+    <segment id="26" parent="47" relname="span"> Vágner havia levado uma sonora vaia.</segment>
+    <segment id="27" parent="49" relname="list"> &quot;É muito bom poder ter feito um gol diante dessa torcida maravilhosa.</segment>
+    <segment id="28" parent="49" relname="list"> Minha família está toda aqui&quot;,</segment>
+    <segment id="29" parent="49" relname="attribution"> disse um empolgado Vágner Love.</segment>
+    <segment id="30" parent="53" relname="span">
+
+E o primeiro tempo ficou nisso,</segment>
+    <segment id="31" parent="30" relname="elaboration"> na expectativa de que o Brasil poderia, finalmente, mostrar seu melhor futebol na etapa final.</segment>
+    <segment id="32" parent="53" relname="antithesis"> Porém, o que se viu foi outra coisa.</segment>
+    <segment id="33" parent="57" relname="span"> O Equador começou a gostar do jogo</segment>
+    <segment id="34" parent="56" relname="list"> e ganhar confiança para avançar</segment>
+    <segment id="35" parent="56" relname="list"> e dar alguns sustos no time comandado por Dunga.</segment>
+    <segment id="36" parent="86" relname="interpretation">
+
+Mas foi aí que a raiva da torcida mais uma vez mexeu com a equipe brasileira.</segment>
+    <segment id="58" parent="83" relname="list"> Aos 26 minutos, a torcida xingava </segment>
+    <segment id="59" parent="83" relname="list">e pedia Obina na seleção,</segment>
+    <segment id="60" parent="84" relname="sequence"> quando Kaká chutou forte de longe</segment>
+    <segment id="61" parent="62" relname="volitional-cause"> e Ronaldinho Gaúcho deu uma leve desviada na bola,</segment>
+    <segment id="62" parent="85" relname="span"> enganando o goleiro equatoriano.</segment>
+    <segment id="63" parent="89" relname="span">
+
+A partir daí virou festa.</segment>
+    <segment id="64" parent="88" relname="sequence"> O Brasil se soltou </segment>
+    <segment id="65" parent="88" relname="sequence">e começou o show.</segment>
+    <segment id="66" parent="90" relname="span"> Kaká acertou um belíssimo chute de longe no ângulo aos 31</segment>
+    <segment id="67" parent="66" relname="volitional-result"> e fez 3 a 0.</segment>
+    <segment id="68" parent="69" relname="circumstance"> E seis minutos depois,</segment>
+    <segment id="69" parent="91" relname="span"> uma verdadeira pintura de jogada.</segment>
+    <segment id="70" parent="92" relname="span"> Robinho,</segment>
+    <segment id="71" parent="70" relname="elaboration"> que pouco aparecia na partida,</segment>
+    <segment id="72" parent="93" relname="same-unit"> levou a bola para a linha de fundo</segment>
+    <segment id="73" parent="94" relname="sequence"> e fez todos os tipos de dribles sobre os atônitos zagueiros do Equador,</segment>
+    <segment id="74" parent="94" relname="sequence"> cruzou para dentro da pequena área </segment>
+    <segment id="75" parent="95" relname="span">e Elano</segment>
+    <segment id="76" parent="75" relname="parenthetical"> - Qua havia acabado de entrar no lugar de Vágner Love -</segment>
+    <segment id="77" parent="96" relname="same-unit"> só completou para o fundo das redes.</segment>
+    <segment id="78" parent="97" relname="list">
+
+Quando a torcida já cantava </segment>
+    <segment id="79" parent="97" relname="list">e gritava olé,</segment>
+    <segment id="80" parent="98" relname="concession"> Kaká ainda teve vontade para fazer mais um,</segment>
+    <segment id="81" parent="98" relname="span"> só que o quinto gol brasileiro foi muito mais mérito do arqueiro Viteri,</segment>
+    <segment id="82" parent="81" relname="justify"> que não segurou um chute fraco e no meio do gol dado pelo meia brasileiro.</segment>
+<group id="8" type="span" parent="3" relname="volitional-result" />
+<group id="9" type="span" parent="12" relname="span" />
+<group id="10" type="span" parent="11" relname="span" />
+<group id="11" type="span" parent="9" relname="elaboration" />
+<group id="12" type="span" parent="106" relname="span" />
+<group id="37" type="span" parent="13" relname="volitional-result" />
+<group id="38" type="span" parent="6" relname="evidence" />
+<group id="39" type="span" parent="41" relname="span" />
+<group id="40" type="span" parent="39" relname="non-volitional-result" />
+<group id="41" type="span" parent="45" relname="sequence" />
+<group id="42" type="span" parent="51" relname="span" />
+<group id="43" type="multinuc" parent="44" relname="span" />
+<group id="44" type="span" parent="45" relname="sequence" />
+<group id="45" type="multinuc" parent="54" relname="span" />
+<group id="46" type="span" parent="26" relname="circumstance" />
+<group id="47" type="span" parent="23" relname="justify" />
+<group id="48" type="span" parent="42" relname="interpretation" />
+<group id="49" type="multinuc" parent="50" relname="span" />
+<group id="50" type="span" parent="52" relname="sequence" />
+<group id="51" type="span" parent="52" relname="sequence" />
+<group id="52" type="multinuc" parent="43" relname="sequence" />
+<group id="53" type="span" parent="55" relname="span" />
+<group id="54" type="span" parent="105" relname="sequence" />
+<group id="55" type="span" parent="45" relname="interpretation" />
+<group id="55" type="span" parent="45" relname="interpretation" />
+<group id="56" type="multinuc" parent="33" relname="volitional-result" />
+<group id="57" type="span" parent="104" relname="sequence" />
+<group id="83" type="multinuc" parent="84" relname="circumstance" />
+<group id="84" type="multinuc" parent="86" relname="span" />
+<group id="85" type="span" parent="84" relname="sequence" />
+<group id="86" type="span" parent="87" relname="span" />
+<group id="87" type="span" parent="104" relname="sequence" />
+<group id="88" type="multinuc" parent="63" relname="justify" />
+<group id="89" type="span" parent="102" relname="evaluation" />
+<group id="90" type="span" parent="102" relname="sequence" />
+<group id="91" type="span" parent="94" relname="evaluation" />
+<group id="92" type="span" parent="93" relname="same-unit" />
+<group id="93" type="multinuc" parent="94" relname="sequence" />
+<group id="94" type="multinuc" parent="101" relname="span" />
+<group id="95" type="span" parent="96" relname="same-unit" />
+<group id="96" type="multinuc" parent="94" relname="sequence" />
+<group id="97" type="multinuc" parent="99" relname="circumstance" />
+<group id="98" type="span" parent="99" relname="span" />
+<group id="99" type="span" parent="100" relname="span" />
+<group id="100" type="span" parent="102" relname="sequence" />
+<group id="101" type="span" parent="102" relname="sequence" />
+<group id="102" type="multinuc" parent="103" relname="span" />
+<group id="103" type="span" parent="104" relname="sequence" />
+<group id="104" type="multinuc" parent="105" relname="sequence" />
+<group id="105" type="multinuc" parent="12" relname="elaboration" />
+<group id="106" type="span" />
+  </body>
+</rst>

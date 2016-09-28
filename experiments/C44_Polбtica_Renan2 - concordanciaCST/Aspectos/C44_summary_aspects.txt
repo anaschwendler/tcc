@@ -1,0 +1,9 @@
+[Na próxima semana, o Conselho de Ética vai decidir sobre a unificação dos processos contra o presidente da Casa, Renan Calheiros.]WHEN/WHO_AGENT/WHAT/WHO_AFFECTED
+[No entanto, o presidente do Conselho de Ética,Leomar Quintanilha, disse ser contrário à unificação, pois em sua opinião uma única investigação sobre as diversas denúncias não permite conclusões distintas das acusações sobre Renan.]WHY_EXTRA/DECLARATION/WHAT_EXTRA
+[A unificação foi proposta pela bancada do PT e tem apoio do PSOL.]WHAT_EXTRA/WHO_AGENT_EXTRA
+[Para o senador José Nery, a unificação “demonstra robustez e elementos de convencimento para mostrar que houve quebra de decoro parlamentar”.]DECLARATION/WHAT_EXTRA
+[Ele disse que é ideal que se crie uma comissão de três relatores para os processos em conjunto.]DECLARATION/WHAT_EXTRA
+[Aloizio Mercadante também opina que não se trate as representações separadamente.]DECLARATION/WHAT_EXTRA
+[Uma quarta representação foi apresentada contra Renan, [para investigação de que ele coordenaria um esquema de arrecadar recursos junto a ministérios comandados pelo PMDB.]DECLARATION/WHAT_EXTRA
+[Amanhã será decidido, pela Mesa Diretora do Senado, se a quarta representação será encaminhada ao Conselho de Ética.]WHEN_EXTRA/WHO_AGENT_EXTRA/WHAT_EXTRA
+[Quintanilha decidiu esperar essa decisão antes de votar a unificação dos processos.]WHO_AGENT_EXTRA/WHAT_EXTRA

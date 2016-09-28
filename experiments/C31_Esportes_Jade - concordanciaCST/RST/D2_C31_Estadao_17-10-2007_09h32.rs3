@@ -1,0 +1,96 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="7" relname="volitional-cause">Um dos destaques desta temporada do esporte brasileiro, a ginasta Jade Barbosa foi escolhida, na noite desta terça-feira, </segment>
+    <segment id="7" parent="12" relname="span">para ser a representante do Brasil no revezamento da tocha dos Jogos Olímpicos de Pequim.</segment>
+    <segment id="2" parent="14" relname="list"> 
+
+Em votação pela internet, a ginasta recebeu mais de 100 mil votos</segment>
+    <segment id="8" parent="13" relname="span"> e superou o nadador Thiago Pereira,</segment>
+    <segment id="9" parent="8" relname="elaboration"> que ganhou seis ouros nos Jogos Pan-Americanos.</segment>
+    <segment id="3" parent="18" relname="span">
+
+O Brasil não faz parte do trajeto da tocha olímpica.</segment>
+    <segment id="4" parent="17" relname="span"> Na América do Sul, a chama passará por Buenos Aires,</segment>
+    <segment id="11" parent="4" relname="elaboration"> onde Jade participará do revezamento, no dia 11 de abril.</segment>
+    <segment id="5" parent="16" relname="span">
+
+Aos 16 anos, Jade conquistou três medalhas no Pan: </segment>
+    <segment id="10" parent="5" relname="parenthetical">ouro na disputa dos saltos, prata na apresentação por equipes e bronze no solo.</segment>
+    <segment id="6" parent="15" relname="elaboration">
+
+Ao todo, a chama olímpica percorrerá 20 países antes de chegar a Pequim para a abertura da competição, no dia 8 de agosto.</segment>
+<group id="12" type="span" parent="15" relname="span" />
+<group id="13" type="span" parent="14" relname="list" />
+<group id="14" type="multinuc" parent="12" relname="circumstance" />
+<group id="15" type="span" parent="19" relname="span" />
+<group id="16" type="span" parent="15" relname="elaboration" />
+<group id="17" type="span" parent="3" relname="evidence" />
+<group id="18" type="span" parent="15" relname="elaboration" />
+<group id="19" type="span" />
+  </body>
+</rst>

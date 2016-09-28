@@ -1,0 +1,103 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1">Astrônomos do Observatório Europeu Austral,</segment>
+    <segment id="10"> localizado no Chile,</segment>
+    <segment id="9"> anunciaram a descoberta de uma dupla de planetas errantes</segment>
+    <segment id="11"> (sem estrela-mãe)</segment>
+    <segment id="12"> que giram ao redor deles mesmos</segment>
+    <segment id="13"> e que vagam livremente pelo espaço.</segment>
+    <segment id="6"> Esta é a primeira vez que se observam dois corpos celestes unidos pela gravidade de &quot;planetas flutuantes livres&quot;</segment>
+    <segment id="14"> (&quot;free floating planets&quot;, em inglês).</segment>
+    <segment id="2">
+
+O maior corpo celeste,</segment>
+    <segment id="15"> com uma massa sete vezes maior do que a de Júpiter,</segment>
+    <segment id="16"> foi detectado a cerca de 400 anos-luz de nosso sistema solar.</segment>
+    <segment id="7"> O fato extraordinário é que ele não gira em volta de uma estrela,</segment>
+    <segment id="17"> mas em torno de outro corpo frio com o dobro de sua massa.</segment>
+    <segment id="3">
+
+Ray Jayawardhana, da Universidade de Toronto, e Valentin Ivanov, do Observatório Europeu Austral, publicarão a descoberta na &quot;Science Express&quot;, site da revista &quot;Science&quot;.</segment>
+    <segment id="4">
+
+Durante os últimos cinco anos,</segment>
+    <segment id="18"> os astrônomos identificaram algumas dúzias de objetos com massas inferiores,</segment>
+    <segment id="19"> flutuando livres nas proximidades de regiões de formação estelar próximas,</segment>
+    <segment id="20"> aos quais chamam de &quot;planemos&quot;,</segment>
+    <segment id="21"> mas nunca até agora unidos.</segment>
+    <segment id="5">
+
+&quot;Este é um par de gêmeos verdadeiramente de destaque,</segment>
+    <segment id="22"> já que cada um tem uma massa de apenas 1% de nosso Sol&quot;,</segment>
+    <segment id="23"> declarou Jayawardhana.</segment>
+    <segment id="8"> &quot;Sua mera existência é uma surpresa</segment>
+    <segment id="24"> e sua origem e seu futuro são um mistério&quot;,</segment>
+    <segment id="25"> declarou.</segment>
+  </body>
+</rst>

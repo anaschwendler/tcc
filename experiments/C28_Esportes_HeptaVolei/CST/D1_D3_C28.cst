@@ -1,0 +1,42 @@
+<R SDID="D3_C28_OGlobo.txt.seg" SSENT="1" TDID="D1_C28_Folha.txt.seg" TSENT="1">
+<RELATION TYPE="Subsumption" JUDGE="Lucia"/>
+</R>
+<R SDID="D3_C28_OGlobo.txt.seg" SSENT="5" TDID="D1_C28_Folha.txt.seg" TSENT="1">
+<RELATION TYPE="Historical-background" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C28_Folha.txt.seg" SSENT="2" TDID="D3_C28_OGlobo.txt.seg" TSENT="1">
+<RELATION TYPE="Overlap" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C28_Folha.txt.seg" SSENT="2" TDID="D3_C28_OGlobo.txt.seg" TSENT="2">
+<RELATION TYPE="Subsumption" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C28_Folha.txt.seg" SSENT="2" TDID="D3_C28_OGlobo.txt.seg" TSENT="3">
+<RELATION TYPE="Overlap" JUDGE="Lucia"/>
+</R>
+<R SDID="D3_C28_OGlobo.txt.seg" SSENT="7" TDID="D1_C28_Folha.txt.seg" TSENT="2">
+<RELATION TYPE="Elaboration" JUDGE="Lucia"/>
+</R>
+<R SDID="D3_C28_OGlobo.txt.seg" SSENT="6" TDID="D1_C28_Folha.txt.seg" TSENT="3">
+<RELATION TYPE="Subsumption" JUDGE="Lucia"/>
+</R>
+<R SDID="D3_C28_OGlobo.txt.seg" SSENT="3" TDID="D1_C28_Folha.txt.seg" TSENT="4">
+<RELATION TYPE="Subsumption" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C28_Folha.txt.seg" SSENT="5" TDID="D3_C28_OGlobo.txt.seg" TSENT="1">
+<RELATION TYPE="Historical-background" JUDGE="Lucia"/>
+</R>
+<R SDID="D3_C28_OGlobo.txt.seg" SSENT="5" TDID="D1_C28_Folha.txt.seg" TSENT="5">
+<RELATION TYPE="Subsumption" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C28_Folha.txt.seg" SSENT="7" TDID="D3_C28_OGlobo.txt.seg" TSENT="4">
+<RELATION TYPE="Overlap" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C28_Folha.txt.seg" SSENT="12" TDID="D3_C28_OGlobo.txt.seg" TSENT="3">
+<RELATION TYPE="Historical-background" JUDGE="Lucia"/>
+</R>
+<R SDID="D3_C28_OGlobo.txt.seg" SSENT="6" TDID="D1_C28_Folha.txt.seg" TSENT="12">
+<RELATION TYPE="Follow-up" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C28_Folha.txt.seg" SSENT="13" TDID="D3_C28_OGlobo.txt.seg" TSENT="6">
+<RELATION TYPE="Follow-up" JUDGE="Lucia"/>
+</R>

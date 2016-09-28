@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xml>
+<corpus>
+
+	<body>
+<s id="s1" ref="1" source="Running text" forest="1" text="Piloto teria mais chance de pouso em pista mais longa Especialistas em segurança de vôo afirmam também que reverso não pode ser a principal causa do acidente.">
+	<graph root="s1_500">
+		<terminals>
+			<t id="s1_1" word="Piloto" lemma="piloto" pos="n" morph="M S" sem="Hprof Aich" extra="--"/>
+			<t id="s1_2" word="teria" lemma="ter" pos="v-fin" morph="COND 3S VFIN" sem="--" extra="predco predco fmc mv"/>
+			<t id="s1_3" word="mais" lemma="muito" pos="pron-indef" morph="DET F S" sem="--" extra="KOMP quant"/>
+			<t id="s1_4" word="chance" lemma="chance" pos="n" morph="F S" sem="ac" extra="--"/>
+			<t id="s1_5" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_6" word="pouso" lemma="pouso" pos="n" morph="M S" sem="Lh" extra="--"/>
+			<t id="s1_7" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s1_8" word="pista" lemma="pista" pos="n" morph="F S" sem="Lpath Lh" extra="--"/>
+			<t id="s1_9" word="mais" lemma="mais" pos="adv" morph="--" sem="--" extra="quant KOMP"/>
+			<t id="s1_10" word="longa" lemma="longo" pos="adj" morph="F S" sem="--" extra="--"/>
+			<t id="s1_11" word="Especialistas" lemma="especialista" pos="adj" morph="F P" sem="--" extra="prop"/>
+			<t id="s1_12" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_13" word="segurança" lemma="segurança" pos="n" morph="F S" sem="am" extra="--"/>
+			<t id="s1_14" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_15" word="vôo" lemma="vôo" pos="n" morph="M S" sem="activity" extra="--"/>
+			<t id="s1_16" word="afirmam" lemma="afirmar" pos="v-fin" morph="PR 3P IND VFIN" sem="--" extra="nosubj nosubj cjt-STA fmc mv"/>
+			<t id="s1_17" word="também" lemma="também" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s1_18" word="que" lemma="que" pos="conj-s" morph="--" sem="--" extra="clb"/>
+			<t id="s1_19" word="reverso" lemma="reverso" pos="n" morph="M S" sem="Labs" extra="--"/>
+			<t id="s1_20" word="não" lemma="não" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s1_21" word="pode" lemma="poder" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="aux"/>
+			<t id="s1_22" word="ser" lemma="ser" pos="v-inf" morph="--" sem="--" extra="mv"/>
+			<t id="s1_23" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s1_24" word="principal" lemma="principal" pos="adj" morph="F S" sem="--" extra="SUP"/>
+			<t id="s1_25" word="causa" lemma="causa" pos="n" morph="F S" sem="ac" extra="--"/>
+			<t id="s1_26" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s1_27" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s1_28" word="acidente" lemma="acidente" pos="n" morph="M S" sem="event" extra="--"/>
+			<t id="s1_29" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s1_500" cat="s">
+				<edge label="STA" idref="s1_501"/>
+			</nt>
+			<nt id="s1_501" cat="fcl">
+				<edge label="S" idref="s1_1"/>
+				<edge label="X" idref="s1_502"/>
+				<edge label="PU" idref="s1_29"/>
+			</nt>
+			<nt id="s1_502" cat="par">
+				<edge label="CJT" idref="s1_503"/>
+				<edge label="CJT" idref="s1_510"/>
+			</nt>
+			<nt id="s1_503" cat="x">
+				<edge label="P" idref="s1_2"/>
+				<edge label="Od" idref="s1_504"/>
+				<edge label="fA" idref="s1_506"/>
+			</nt>
+			<nt id="s1_504" cat="np">
+				<edge label="DN" idref="s1_3"/>
+				<edge label="H" idref="s1_4"/>
+				<edge label="DN" idref="s1_505"/>
+			</nt>
+			<nt id="s1_505" cat="pp">
+				<edge label="H" idref="s1_5"/>
+				<edge label="DP" idref="s1_6"/>
+			</nt>
+			<nt id="s1_506" cat="pp">
+				<edge label="H" idref="s1_7"/>
+				<edge label="DP" idref="s1_507"/>
+				<edge label="S" idref="s1_508"/>
+			</nt>
+			<nt id="s1_507" cat="np">
+				<edge label="H" idref="s1_8"/>
+			</nt>
+			<nt id="s1_508" cat="np">
+				<edge label="DN" idref="s1_509"/>
+				<edge label="DN" idref="s1_511"/>
+				<edge label="H" idref="s1_19"/>
+			</nt>
+			<nt id="s1_509" cat="adjp">
+				<edge label="DA" idref="s1_9"/>
+				<edge label="H" idref="s1_10"/>
+			</nt>
+			<nt id="s1_510" cat="x">
+				<edge label="fCs" idref="s1_11"/>
+				<edge label="P" idref="s1_16"/>
+				<edge label="fA" idref="s1_17"/>
+				<edge label="Od" idref="s1_514"/>
+			</nt>
+			<nt id="s1_511" cat="pp">
+				<edge label="H" idref="s1_12"/>
+				<edge label="DP" idref="s1_512"/>
+			</nt>
+			<nt id="s1_512" cat="np">
+				<edge label="H" idref="s1_13"/>
+				<edge label="DN" idref="s1_513"/>
+			</nt>
+			<nt id="s1_513" cat="pp">
+				<edge label="H" idref="s1_14"/>
+				<edge label="DP" idref="s1_15"/>
+			</nt>
+			<nt id="s1_514" cat="fcl">
+				<edge label="SUB" idref="s1_18"/>
+				<edge label="fA" idref="s1_20"/>
+				<edge label="P" idref="s1_515"/>
+				<edge label="Cs" idref="s1_516"/>
+			</nt>
+			<nt id="s1_515" cat="vp">
+				<edge label="Vaux" idref="s1_21"/>
+				<edge label="Vm" idref="s1_22"/>
+			</nt>
+			<nt id="s1_516" cat="np">
+				<edge label="DN" idref="s1_23"/>
+				<edge label="DN" idref="s1_24"/>
+				<edge label="H" idref="s1_25"/>
+				<edge label="DN" idref="s1_517"/>
+			</nt>
+			<nt id="s1_517" cat="pp">
+				<edge label="H" idref="s1_26"/>
+				<edge label="DP" idref="s1_518"/>
+			</nt>
+			<nt id="s1_518" cat="np">
+				<edge label="DN" idref="s1_27"/>
+				<edge label="H" idref="s1_28"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+	</body>
+</corpus>
+</xml>

@@ -1,0 +1,8 @@
+[O ministro da Fazenda, Guido Mantega, apresentou nesta terça-feira a proposta do governo em troca do apoio do PSDB na votação da PEC (Proposta de Emenda Constitucional) que prorroga a cobrança da CPMF (Contribuição Provisória sobre Movimentação Financeira) até 2011.]WHO_AGENT/WHAT/WHEN
+[O governo teria se comprometido a elevar o limite de isenção da CPMF para quem tem renda até R$4.340, em vez dos R$1.642 negociados até então.]WHO_AGENT_EXTRA/WHAT_EXTRA
+[Acima desse valor, haveria um desconto de R$214 no Imposto de Renda.]WHAT_EXTRA
+[O governo também confirmou outros pontos da negociação acordados [na semana passada.]WHAT_EXTRA/WHEN_EXTRA/DECLARATION
+[Os tucanos disseram que a proposta ainda é insuficiente para seduzir sua bancada no Congresso e pedem que o governo ceda mais.]WHAT_EXTRA/DECLARATION/GOAL_EXTRA
+[O líder do governo no Senado, Romero Jucá (PMDB), admitiu que é possível.]WHO_AGENT_EXTRA/WHAT_EXTRA/DECLARATION 
+[O PSDB se comprometeu a levar a proposta do governo para ser discutida na reunião de sua Executiva, que ainda será marcada.]WHO_AGENT_EXTRA/WHAT_EXTRA/SITUATION_EXTRA
+[O encontro previsto para a noite desta terça-feira foi cancelado porque os tucanos entenderam que precisavam de mais tempo para fazer uma avaliação técnica do assunto.]WHEN_EXTRA/WHY_EXTRA/WHAT_EXTRA

@@ -1,0 +1,177 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="48" relname="span">O procurador-geral da República, Antonio Fernando de Souza, pediu abertura de inquérito no Supremo Tribunal Federal</segment>
+    <segment id="16" parent="1" relname="parenthetical"> (STF)</segment>
+    <segment id="17" parent="48" relname="purpose"> para investigar o presidente do Senado, Renan Calheiros.</segment>
+    <segment id="2" parent="50" relname="attribution"> 
+
+Segundo ele,</segment>
+    <segment id="18" parent="50" relname="list"> o pedido de investigação diz respeito às denúncias de que Renan teria despesas pessoais pagas por um lobista,</segment>
+    <segment id="19" parent="50" relname="list"> mas pode incluir também o suposto uso de laranjas na compra de meios de comunicação em Alagoas, segundo revelou reportagem da revista Veja.</segment>
+    <segment id="3" parent="53" relname="span"> 
+
+&quot;Eu já pedi ao Supremo abertura de inquérito</segment>
+    <segment id="20" parent="52" relname="span"> para apurar fatos </segment>
+    <segment id="21" parent="20" relname="elaboration">que são objeto da representação em curso no Conselho de Ética do Senado.</segment>
+    <segment id="4" parent="54" relname="span"> Esse pedido foi concluído na sexta-feira</segment>
+    <segment id="22" parent="4" relname="attribution"> [3]</segment>
+    <segment id="23" parent="55" relname="sequence"> e deve ter sido protocolado no Supremo”, </segment>
+    <segment id="24" parent="55" relname="attribution">disse Antonio Fernando de Souza.</segment>
+    <segment id="5" parent="62" relname="span"> 
+
+O procurador solicitou o encaminhamento de todo o material</segment>
+    <segment id="25" parent="60" relname="span"> que está no Conselho de Ética e também a perícia da Polícia Federal </segment>
+    <segment id="26" parent="25" relname="parenthetical">(PF)</segment>
+    <segment id="27" parent="61" relname="same-unit"> em documentos de Renan.</segment>
+    <segment id="6" parent="63" relname="list"> Ele ressaltou que a decisão do MP não invalida a investigação em curso no Senado.</segment>
+    <segment id="7" parent="64" relname="span"> 
+
+“A iniciativa</segment>
+    <segment id="28" parent="7" relname="elaboration"> que tomei</segment>
+    <segment id="29" parent="65" relname="same-unit"> tem o objetivo de esclarecer essa questão sob a perspectiva penal sem nenhuma interferência sobre o que vai ser decidido no Senado”,</segment>
+    <segment id="30" parent="65" relname="attribution"> declarou.</segment>
+    <segment id="8" parent="69" relname="span">
+
+O presidente do Senado, Renan Calheiros </segment>
+    <segment id="31" parent="8" relname="parenthetical">(PMDB-AL),</segment>
+    <segment id="32" parent="70" relname="span"> minimizou o pedido feito pelo procurador-geral da República, Antonio Fernando de Souza, ao Supremo Tribunal Federal</segment>
+    <segment id="33" parent="32" relname="parenthetical"> (STF)</segment>
+    <segment id="34" parent="73" relname="span"> para abrir inquérito</segment>
+    <segment id="35" parent="72" relname="span"> para investigá-lo sobre a suposta ajuda de um lobista</segment>
+    <segment id="36" parent="35" relname="purpose"> para pagar despesas pessoais.</segment>
+    <segment id="9" parent="37" relname="attribution"> 
+
+Renan afirmou que</segment>
+    <segment id="37" parent="75" relname="span"> ele próprio pediu essa investigação ao procurador.</segment>
+    <segment id="10" parent="77" relname="span">&quot;Eu pedi ao procurador-geral que fizesse a investigação há mais de 15 dias.</segment>
+    <segment id="11" parent="76" relname="span"> Eu mandei uma carta a ele</segment>
+    <segment id="38" parent="11" relname="purpose"> para que abrisse a investigação.</segment>
+    <segment id="12" parent="77" relname="purpose"> Para que eu pudesse demonstrar a verdade&quot;,</segment>
+    <segment id="39" parent="78" relname="attribution"> disse Renan.</segment>
+    <segment id="13" parent="83" relname="span">
+ 
+O Democratas decidirá nesta terça-feira </segment>
+    <segment id="40" parent="13" relname="parenthetical">(7)</segment>
+    <segment id="41" parent="84" relname="span"> que tipo de pedido entregará ao Conselho de Ética contra o presidente do Senado, Renan Calheiros</segment>
+    <segment id="42" parent="41" relname="parenthetical"> (PMDB-AL):</segment>
+    <segment id="43" parent="86" relname="span"> uma nova representação sobre as recentes denúncias da revista &quot;Veja&quot; ou apenas um aditamento ao processo</segment>
+    <segment id="44" parent="43" relname="elaboration"> que ele já responde no órgão</segment>
+    <segment id="45" parent="88" relname="span"> pela acusação de receber ajuda de um lobista</segment>
+    <segment id="46" parent="45" relname="purpose"> para pagar despesas pessoais.</segment>
+    <segment id="14" parent="91" relname="list"> 
+
+O Democratas também decidirá qual postura tomará nas votações em plenário a partir de agora.</segment>
+    <segment id="15" parent="47" relname="condition"> Se depender do líder do partido,</segment>
+    <segment id="47" parent="90" relname="span"> os senadores do DEM deveriam abandonar qualquer sessão com Renan no comando.</segment>
+<group id="48" type="span" parent="49" relname="span" />
+<group id="49" type="span" parent="59" relname="span" />
+<group id="50" type="multinuc" parent="51" relname="span" />
+<group id="51" type="span" parent="58" relname="span" />
+<group id="52" type="span" parent="3" relname="purpose" />
+<group id="53" type="span" parent="57" relname="list" />
+<group id="54" type="span" parent="55" relname="sequence" />
+<group id="55" type="multinuc" parent="56" relname="span" />
+<group id="56" type="span" parent="57" relname="list" />
+<group id="57" type="multinuc" parent="51" relname="elaboration" />
+<group id="58" type="span" parent="49" relname="elaboration" />
+<group id="59" type="span" parent="68" relname="span" />
+<group id="60" type="span" parent="61" relname="same-unit" />
+<group id="61" type="multinuc" parent="5" relname="elaboration" />
+<group id="62" type="span" parent="63" relname="list" />
+<group id="63" type="multinuc" parent="67" relname="span" />
+<group id="64" type="span" parent="65" relname="same-unit" />
+<group id="65" type="multinuc" parent="66" relname="span" />
+<group id="66" type="span" parent="63" relname="elaboration" />
+<group id="67" type="span" parent="59" relname="elaboration" />
+<group id="68" type="span" parent="82" relname="span" />
+<group id="69" type="span" parent="71" relname="same-unit" />
+<group id="70" type="span" parent="71" relname="same-unit" />
+<group id="71" type="multinuc" parent="74" relname="span" />
+<group id="72" type="span" parent="34" relname="purpose" />
+<group id="73" type="span" parent="71" relname="purpose" />
+<group id="74" type="span" parent="81" relname="span" />
+<group id="75" type="span" parent="80" relname="span" />
+<group id="76" type="span" parent="10" relname="explanation" />
+<group id="77" type="span" parent="78" relname="span" />
+<group id="78" type="span" parent="79" relname="span" />
+<group id="79" type="span" parent="75" relname="explanation" />
+<group id="80" type="span" parent="74" relname="elaboration" />
+<group id="81" type="span" parent="68" relname="elaboration" />
+<group id="82" type="span" parent="92" relname="span" />
+<group id="83" type="span" parent="85" relname="same-unit" />
+<group id="84" type="span" parent="85" relname="same-unit" />
+<group id="85" type="multinuc" parent="89" relname="span" />
+<group id="86" type="span" parent="87" relname="span" />
+<group id="87" type="span" parent="85" relname="parenthetical" />
+<group id="88" type="span" parent="86" relname="elaboration" />
+<group id="89" type="span" parent="91" relname="list" />
+<group id="90" type="span" parent="91" relname="list" />
+<group id="91" type="multinuc" parent="82" relname="elaboration" />
+<group id="92" type="span" />
+  </body>
+</rst>

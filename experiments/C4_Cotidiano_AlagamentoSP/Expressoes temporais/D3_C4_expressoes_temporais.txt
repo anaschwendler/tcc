@@ -1,0 +1,94 @@
+<ET ID="00" TIPO="TEMPO_CALEND" SUBTIPO="DATA" VAL_NORM="">
+<ET ID="01" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D20H0M0S0">
+Depois de 20 dias
+</ET>
+de tempo seco, voltou a chover na capital paulista. Segundo o Centro de Gerenciamento de Emergências (CGE), a última chuva havia ocorrido 
+<ET ID="02" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="AxMxSxDxHxMxSx">
+no dia 29 de junho
+</ET>
+, em intensidade menor do que a que cai sobre a cidade
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="AxMxSxDxHxMxSx">
+desde a noite de domingo
+</ET>
+. 
+
+A previsão é que ocorram novas pancadas 
+<ET ID="04" TIPO1="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="" VAL_DELTA1="AxMxSxDxHxMxSx" 
+	TEMPO_REF2="" VAL_DELTA2="AxMxSxDxHxMxSx">
+dentre a noite de terça e a manhã de quarta
+</ET>
+. A temperatura deve permanecer baixa, por conta da massa de ar polar que acompanha a frente fria que passa pelo estado. 
+<ET ID="05" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="AxMxSxDxHxMxSx">
+Nesta segunda-feira
+</ET>
+, os termômetros não devem passar de 18 graus. 
+<ET ID="06" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="POSTERIOR" VAL_DELTA="A0M0S0D10H0M0S0">
+Amanhã
+</ET>
+, a temperatura máxima pode chegar a 22 graus, mas
+<ET ID="07" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="" VAL_DELTA="AxMxSxDxHxMxSx">
+na quarta
+</ET>
+volta a cair. 
+
+O Aeroporto de Congonhas funciona normalmente 
+<ET ID="08" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="AxMxSxDxHxMxSx">
+nesta segunda
+</ET>
+. De acordo com a Infraero, 
+<ET ID="09" TIPO="TEMPO_CALEND" SUBTIPO="HORA" VAL_NORM="+------T----E--LM-">
+até 8h20m
+</ET>
+apenas dois dos 42 vôos programados atrasaram e um foi cancelado. 
+
+A chuva começou
+<ET ID="10" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="AxMxSxDxHxMxSx">
+na noite de domingo
+</ET>
+e ficou mais forte 
+<ET ID="11" TIPO1="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="TEXTUAL" VAL_DELTA1="AxMxSxDxHxMxSx" 
+	TEMPO_REF2="TEXTUAL" VAL_DELTA2="AxMxSxDxHxMxSx">
+entre 6h e 7h30m desta segunda
+</ET>
+. Na madrugada, a temperatura foi de 12 graus nos lugares mais frios da cidade. 
+
+Com o asfalto molhado, o trânsito ficou mais lento e o congestionamento ficou o dobro da média. 
+<ET ID="12" TIPO="TEMPO_CALEND" SUBTIPO="HORA" VAL_NORM="+------T----E--LM-">
+Até 9h30m
+</ET>
+foram registrados oito pontos de alagamento, dois deles intransitáveis - na Marginal Pinheiros, na altura da Ponte João Dias, e na Marginal Tietê, no acesso à Rodovia dos Bandeirantes. 
+
+<ET ID="13" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="AxMxSxDxHxMxSx">
+Na noite de domingo
+</ET>
+, a pista molhada causou dois capotamentos. Um deles, no começo da Rodovia dos Imigrantes, deixou sete feridos. O outro, na Avenida 23 de Maio, perto do Viaduto Pedroso, feriu quatro. 
+
+De acordo com a CET, o índice de congestionamento era de 54 quilômetros 
+<ET ID="14" TIPO="TEMPO_CALEND" SUBTIPO="HORA" VAL_NORM="+------T----E--LM-">
+às 8h
+</ET>
+, bem acima da média. 
+<ET ID="15" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="AxMxSxDxHxMxSx">
+Em julho do ano passado
+</ET>
+, a média foi de 36 km no horário. O pico de lentidão foi registrado 
+<ET ID="16" TIPO="TEMPO_CALEND" SUBTIPO="HORA" VAL_NORM="+------T----E--LM-">
+às 9h
+</ET>
+, com 113 km de lentidão, o dobro do registrado 
+<ET ID="17" TIPO="TEMPO_CALEND" SUBTIPO="HORA" VAL_NORM="+------T----E--LM-">
+neste horário
+</ET>
+. 
+
+O rodízio de veículos vigora na cidade e 
+<ET ID="18" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D00H0M0S0">
+hoje
+</ET>
+há restrição de circulação para os carros com placas final 1 e 2. (Acompanhe aqui o trânsito na cidade) 
+
+- O tempo deve ficar firme somente 
+<ET ID="19" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="AxMxSxDxHxMxSx">
+a partir de quinta-feira
+</ET>
+- diz Alexandre Nascimento, da Climatempo. 

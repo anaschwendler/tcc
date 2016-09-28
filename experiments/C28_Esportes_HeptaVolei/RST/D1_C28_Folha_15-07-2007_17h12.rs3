@@ -1,0 +1,117 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="23" relname="span">A seleção brasileira masculina de vôlei mostrou, mais uma vez, sua superioridade na modalidade.</segment>
+    <segment id="2" parent="21" relname="span"> O time de Bernardinho derrotou a Rússia por 3 sets a 1, parciais de 18/25, 25/23, 28/26 e 25/22, em Katowice</segment>
+    <segment id="16" parent="2" relname="parenthetical"> (Polônia),</segment>
+    <segment id="17" parent="22" relname="span"> e alcançou seu sétimo título da Liga Mundial.</segment>
+    <segment id="3" parent="17" relname="interpretation"> 
+
+O título reforça ainda mais a superioridade da equipe nacional.</segment>
+    <segment id="4" parent="27" relname="span"> Foi a quinta conquista seguida nesta competição.</segment>
+    <segment id="5" parent="26" relname="list"> Sua última derrota em finais da Liga Mundial, aliás, ocorreu em 2002, coincidentemente para a Rússia.</segment>
+    <segment id="6" parent="26" relname="list"> Antes, o Brasil tinha vencido em 2001 e 1993. </segment>
+    <segment id="15" parent="28" relname="span">
+
+Com esse triunfo, o Brasil se aproxima da Itália, ainda a maior vencedora de Ligas Mundiais</segment>
+    <segment id="18" parent="15" relname="parenthetical"> --soma oito conquistas.</segment>
+    <segment id="7" parent="29" relname="span"> Em 2007, a seleção nacional teve uma campanha quase irretocável na competição.</segment>
+    <segment id="8" parent="30" relname="span"> Foram 17 vitórias em 18 partidas.</segment>
+    <segment id="9" parent="8" relname="elaboration"> Seu único revés foi diante da Bulgária, na estréia da fase final da competição.</segment>
+    <segment id="10" parent="31" relname="span"> 
+
+A era Bernardinho, aliás, é a mais vitoriosa do time masculino de vôlei.</segment>
+    <segment id="11" parent="10" relname="justify"> Entre outras conquistas, a seleção nacional soma dois títulos do Campeonato Mundial, uma medalha de ouro nos Jogos Olímpicos de Atenas-04 e a Copa do Mundo do Japão, em 2003.</segment>
+    <segment id="19" parent="33" relname="span"> Seu próximo objetivo é os Jogos Pan-Americanos do Rio.</segment>
+    <segment id="12" parent="32" relname="span"> 
+
+A equipe terá pouco tempo para comemorar seu mais novo feito.</segment>
+    <segment id="13" parent="12" relname="justify"> Dia 23 de julho, os comandados de Bernardinho farão sua estréia no Pan do Rio diante do Canadá, no ginásio do Maracanãzinho.</segment>
+    <segment id="14" parent="34" relname="span"> Em Santo Domingo-03, a equipe nacional falhou</segment>
+    <segment id="20" parent="14" relname="justify"> e terminou em terceiro lugar.</segment>
+<group id="21" type="span" parent="22" relname="volitional-cause" />
+<group id="23" type="span" parent="25" relname="span" />
+<group id="22" type="span" parent="24" relname="span" />
+<group id="24" type="span" parent="23" relname="evidence" />
+<group id="25" type="span" parent="37" relname="span" />
+<group id="26" type="multinuc" parent="4" relname="circumstance" />
+<group id="27" type="span" parent="25" relname="evidence" />
+<group id="28" type="span" parent="36" relname="span" />
+<group id="29" type="span" parent="28" relname="elaboration" />
+<group id="30" type="span" parent="7" relname="explanation" />
+<group id="31" type="span" parent="38" relname="elaboration" />
+<group id="32" type="span" parent="19" relname="non-volitional-result" />
+<group id="33" type="span" parent="35" relname="span" />
+<group id="34" type="span" parent="33" relname="elaboration" />
+<group id="35" type="span" parent="39" relname="elaboration" />
+<group id="37" type="span" parent="38" relname="span" />
+<group id="36" type="span" parent="37" relname="non-volitional-result" />
+<group id="38" type="span" parent="39" relname="span" />
+<group id="39" type="span" parent="40" relname="span" />
+<group id="40" type="span" />
+  </body>
+</rst>

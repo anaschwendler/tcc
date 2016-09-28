@@ -1,0 +1,108 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="18" relname="span">O ministro da Defesa, Nelson Jobim, deve encaminhar o nome da economista Solange Vieira </segment>
+    <segment id="15" parent="17" relname="span">para assumir uma das diretorias da Agência Nacional de Aviação Civil </segment>
+    <segment id="7" parent="15" relname="parenthetical">(Anac).</segment>
+    <segment id="2" parent="22" relname="span"> Ainda não está definida a diretoria</segment>
+    <segment id="21" parent="2" relname="elaboration"> que a economista vai assumir.</segment>
+    <segment id="3" parent="19" relname="span"> 
+
+Inicialmente, Solange Vieira,</segment>
+    <segment id="9" parent="3" relname="elaboration"> que é assessora especial de Jobim</segment>
+    <segment id="8" parent="20" relname="same-unit"> havia sido escolhida para comandar a Secretaria Nacional de Aviação Civil,</segment>
+    <segment id="16" parent="20" relname="elaboration"> a ser criada na estrutura do ministério,</segment>
+    <segment id="10" parent="24" relname="attribution"> segundo a assessoria de imprensa do ministério.</segment>
+    <segment id="4" parent="27" relname="span"> Mas, diante da dificuldade para encontrar pessoas</segment>
+    <segment id="26" parent="4" relname="elaboration"> que aceitassem assumir uma das diretorias da agência reguladora,</segment>
+    <segment id="11" parent="27" relname="circumstance"> após a renúncia de três diretores,</segment>
+    <segment id="12" parent="29" relname="span"> Jobim decidiu indicar a economista para o cargo.</segment>
+    <segment id="5" parent="31" relname="span"> 
+
+Uma da três vagas será ocupada pelo major-brigadeiro Allemander Jesus Pereira Filho,</segment>
+    <segment id="13" parent="32" relname="span"> indicado para exercer o cargo em substituição a Jorge Luiz Brito Velozo,</segment>
+    <segment id="14" parent="13" relname="elaboration"> que pediu demissão no final do mês passado.</segment>
+    <segment id="6" parent="34" relname="elaboration"> Também renunciaram ao cargo de diretor da Anac Denise Abreu e Leur Lomanto.</segment>
+<group id="17" type="span" parent="1" relname="purpose" />
+<group id="18" type="span" parent="23" relname="span" />
+<group id="19" type="span" parent="20" relname="same-unit" />
+<group id="20" type="multinuc" parent="24" relname="span" />
+<group id="22" type="span" parent="18" relname="elaboration" />
+<group id="23" type="span" parent="33" relname="span" />
+<group id="24" type="span" parent="25" relname="span" />
+<group id="25" type="span" parent="30" relname="sequence" />
+<group id="27" type="span" parent="28" relname="span" />
+<group id="28" type="span" parent="12" relname="explanation" />
+<group id="29" type="span" parent="30" relname="sequence" />
+<group id="30" type="multinuc" parent="23" relname="explanation" />
+<group id="31" type="span" parent="34" relname="list" />
+<group id="32" type="span" parent="5" relname="elaboration" />
+<group id="33" type="span" parent="34" relname="list" />
+<group id="34" type="multinuc" parent="35" relname="span" />
+<group id="35" type="span" />
+  </body>
+</rst>

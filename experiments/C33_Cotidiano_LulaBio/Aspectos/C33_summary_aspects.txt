@@ -1,0 +1,6 @@
+[O Presidente Lula discursou, nesta terça-feira, na abertura da 62ª Assembléia Geral da ONU.]WHAT/WHO_AGENT/WHEN/SITUATION
+[Seu discurso foi focado nas questões ambientais, citando que a produção de biocombustíveis não afeta a segurança alimentar, pois a cana-de-açúcar ocupa apenas 1%  das terras agricultáveis do Brasil.]WHAT_EXTRA
+[Segundo Lula, o mundo precisa de uma nova matriz energética, e o etanol pode ser mais que uma alternativa de energia limpa.]WHO_AGENT/DECLARATION
+[A experiência do Brasil no biodiesel e etanol pode ser útil a outros países e a eqüidade social é a melhor arma contra a degradação do planeta, sendo possível combinar biocombustíveis, preservação ambiental e produção de alimentos.]COMMENT
+[O presidente propôs a realização de uma conferência, a Rio +20, nos moldes da ECO-92, a fim de avaliar os resultados da ECO-92 e discutir as questões ambientais.]WHO_AGENT/WHAT_EXTRA
+[Foi ressaltado que, se a humanidade não for capaz de mudar seus padrões de produção e consumo, não haverá solução para os efeitos da mudança climática.]COMMENT

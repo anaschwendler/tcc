@@ -1,0 +1,8 @@
+	thiago	erick_vinicius
+1-1	dir	dir
+1-2	esq	esq
+2-1	dir	none
+2-3	dir	dir
+3-4	dir	dir
+4-4	dir	dir
+4-6	esq	none

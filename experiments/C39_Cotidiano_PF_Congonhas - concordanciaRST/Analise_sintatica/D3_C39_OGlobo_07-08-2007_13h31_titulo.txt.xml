@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xml>
+<corpus>
+
+	<body>
+<s id="s1" ref="1" source="Running text" forest="1" text="PF faz operação de busca e apreensão em departamentos de controle de tráfego aéreo.">
+	<graph root="s1_500">
+		<terminals>
+			<t id="s1_1" word="PF" lemma="PF" pos="prop" morph="M/F S" sem="--" extra="org"/>
+			<t id="s1_2" word="faz" lemma="fazer" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s1_3" word="operação" lemma="operação" pos="n" morph="F S" sem="act-d" extra="--"/>
+			<t id="s1_4" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_5" word="busca" lemma="busca" pos="n" morph="F S" sem="activity" extra="cjt-head cjt-head-DP"/>
+			<t id="s1_6" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-prparg co-prparg"/>
+			<t id="s1_7" word="apreensão" lemma="apreensão" pos="n" morph="F S" sem="act sem-c" extra="cjt-DP"/>
+			<t id="s1_8" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s1_9" word="departamentos" lemma="departamento" pos="n" morph="M P" sem="inst" extra="--"/>
+			<t id="s1_10" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_11" word="controle" lemma="controle" pos="n" morph="M S" sem="am" extra="--"/>
+			<t id="s1_12" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_13" word="tráfego" lemma="tráfego" pos="n" morph="M S" sem="activity" extra="--"/>
+			<t id="s1_14" word="aéreo" lemma="aéreo" pos="adj" morph="M S" sem="--" extra="np-close"/>
+			<t id="s1_15" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s1_500" cat="s">
+				<edge label="STA" idref="s1_501"/>
+			</nt>
+			<nt id="s1_501" cat="fcl">
+				<edge label="S" idref="s1_1"/>
+				<edge label="P" idref="s1_2"/>
+				<edge label="Od" idref="s1_502"/>
+				<edge label="fA" idref="s1_505"/>
+				<edge label="PU" idref="s1_15"/>
+			</nt>
+			<nt id="s1_502" cat="np">
+				<edge label="H" idref="s1_3"/>
+				<edge label="DN" idref="s1_503"/>
+			</nt>
+			<nt id="s1_503" cat="pp">
+				<edge label="H" idref="s1_4"/>
+				<edge label="DP" idref="s1_504"/>
+			</nt>
+			<nt id="s1_504" cat="par">
+				<edge label="CJT" idref="s1_5"/>
+				<edge label="CO" idref="s1_6"/>
+				<edge label="CJT" idref="s1_7"/>
+			</nt>
+			<nt id="s1_505" cat="pp">
+				<edge label="H" idref="s1_8"/>
+				<edge label="DP" idref="s1_506"/>
+			</nt>
+			<nt id="s1_506" cat="np">
+				<edge label="H" idref="s1_9"/>
+				<edge label="DN" idref="s1_507"/>
+			</nt>
+			<nt id="s1_507" cat="pp">
+				<edge label="H" idref="s1_10"/>
+				<edge label="DP" idref="s1_508"/>
+			</nt>
+			<nt id="s1_508" cat="np">
+				<edge label="H" idref="s1_11"/>
+				<edge label="DN" idref="s1_509"/>
+			</nt>
+			<nt id="s1_509" cat="pp">
+				<edge label="H" idref="s1_12"/>
+				<edge label="DP" idref="s1_510"/>
+			</nt>
+			<nt id="s1_510" cat="np">
+				<edge label="H" idref="s1_13"/>
+				<edge label="DN" idref="s1_14"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+	</body>
+</corpus>
+</xml>

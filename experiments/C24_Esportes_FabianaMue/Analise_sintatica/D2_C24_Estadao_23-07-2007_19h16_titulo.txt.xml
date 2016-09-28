@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xml>
+<corpus>
+
+	<body>
+<s id="s1" ref="1" source="Running text" forest="1" text="Fabiana Murer é ouro no salto com vara;">
+	<graph root="s1_500">
+		<terminals>
+			<t id="s1_1" word="Fabiana_Murer" lemma="Fabiana_Murer" pos="prop" morph="M S" sem="--" extra="hum"/>
+			<t id="s1_2" word="é" lemma="ser" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s1_3" word="ouro" lemma="ouro" pos="n" morph="M S" sem="mat ac-cat" extra="--"/>
+			<t id="s1_4" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s1_5" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s1_6" word="salto_com_vara" lemma="salto_com_vara" pos="n" morph="M S" sem="sport" extra="--"/>
+			<t id="s1_7" word=";" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s1_500" cat="s">
+				<edge label="STA" idref="s1_501"/>
+			</nt>
+			<nt id="s1_501" cat="fcl">
+				<edge label="S" idref="s1_1"/>
+				<edge label="P" idref="s1_2"/>
+				<edge label="Cs" idref="s1_502"/>
+				<edge label="PU" idref="s1_7"/>
+			</nt>
+			<nt id="s1_502" cat="np">
+				<edge label="H" idref="s1_3"/>
+				<edge label="DN" idref="s1_503"/>
+			</nt>
+			<nt id="s1_503" cat="pp">
+				<edge label="H" idref="s1_4"/>
+				<edge label="DP" idref="s1_504"/>
+			</nt>
+			<nt id="s1_504" cat="np">
+				<edge label="DN" idref="s1_5"/>
+				<edge label="H" idref="s1_6"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s2" ref="2" source="Running text" forest="1" text="29.º para o Brasil Atleta confirma favoritismo e conquista a primeira medalha de ouro do atletismo brasileir.">
+	<graph root="s2_500">
+		<terminals>
+			<t id="s2_1" word="29.º" lemma="29.º" pos="adj" morph="M S" sem="--" extra="n NUM-ord"/>
+			<t id="s2_2" word="para" lemma="para" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s2_3" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s2_4" word="Brasil_Atleta" lemma="Brasil_Atleta" pos="prop" morph="M S" sem="inst" extra="--"/>
+			<t id="s2_5" word="confirma" lemma="confirmar" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="predco predco fmc mv"/>
+			<t id="s2_6" word="favoritismo" lemma="favoritismo" pos="n" morph="M S" sem="ism" extra="--"/>
+			<t id="s2_7" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-fin co-fmc co-fin"/>
+			<t id="s2_8" word="conquista" lemma="conquistar" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="nosubj cjt-STA nosubj cjt-STA fmc mv"/>
+			<t id="s2_9" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s2_10" word="primeira" lemma="primeiro" pos="adj" morph="F S" sem="--" extra="NUM-ord"/>
+			<t id="s2_11" word="medalha" lemma="medalha" pos="n" morph="F S" sem="cc" extra="--"/>
+			<t id="s2_12" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s2_13" word="ouro" lemma="ouro" pos="n" morph="M S" sem="mat ac-cat" extra="--"/>
+			<t id="s2_14" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s2_15" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="clb  -sam"/>
+			<t id="s2_16" word="atletismo" lemma="atletismo" pos="n" morph="M S" sem="sport" extra="--"/>
+			<t id="s2_17" word="brasileir" lemma="brasileir" pos="v-inf" morph="3S" sem="--" extra="mv"/>
+			<t id="s2_18" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s2_500" cat="s">
+				<edge label="STA" idref="s2_501"/>
+			</nt>
+			<nt id="s2_501" cat="fcl">
+				<edge label="S" idref="s2_502"/>
+				<edge label="X" idref="s2_505"/>
+				<edge label="PU" idref="s2_18"/>
+			</nt>
+			<nt id="s2_502" cat="np">
+				<edge label="H" idref="s2_1"/>
+				<edge label="DN" idref="s2_503"/>
+			</nt>
+			<nt id="s2_503" cat="pp">
+				<edge label="H" idref="s2_2"/>
+				<edge label="DP" idref="s2_504"/>
+			</nt>
+			<nt id="s2_504" cat="np">
+				<edge label="DN" idref="s2_3"/>
+				<edge label="H" idref="s2_4"/>
+			</nt>
+			<nt id="s2_505" cat="par">
+				<edge label="CJT" idref="s2_506"/>
+				<edge label="CO" idref="s2_7"/>
+				<edge label="CJT" idref="s2_507"/>
+			</nt>
+			<nt id="s2_506" cat="x">
+				<edge label="P" idref="s2_5"/>
+				<edge label="Od" idref="s2_6"/>
+			</nt>
+			<nt id="s2_507" cat="x">
+				<edge label="P" idref="s2_8"/>
+				<edge label="Od" idref="s2_508"/>
+			</nt>
+			<nt id="s2_508" cat="np">
+				<edge label="DN" idref="s2_9"/>
+				<edge label="DN" idref="s2_10"/>
+				<edge label="H" idref="s2_11"/>
+				<edge label="DN" idref="s2_509"/>
+			</nt>
+			<nt id="s2_509" cat="pp">
+				<edge label="H" idref="s2_12"/>
+				<edge label="DP" idref="s2_510"/>
+			</nt>
+			<nt id="s2_510" cat="np">
+				<edge label="H" idref="s2_13"/>
+				<edge label="DN" idref="s2_511"/>
+			</nt>
+			<nt id="s2_511" cat="pp">
+				<edge label="H" idref="s2_14"/>
+				<edge label="DP" idref="s2_512"/>
+			</nt>
+			<nt id="s2_512" cat="fcl">
+				<edge label="S" idref="s2_513"/>
+				<edge label="P" idref="s2_17"/>
+			</nt>
+			<nt id="s2_513" cat="np">
+				<edge label="DN" idref="s2_15"/>
+				<edge label="H" idref="s2_16"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+	</body>
+</corpus>
+</xml>

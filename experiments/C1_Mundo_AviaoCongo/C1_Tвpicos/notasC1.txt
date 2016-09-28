@@ -1,0 +1,39 @@
+*formação dos subtópicos do cluster 1
+SUBTOPICO 1: D1T1, D2T1, D3T1
+SUBTOPICO 2: D1T2
+SUBTOPICO 3: D2T3, D3T3
+
+			documento_numeroDeSentencas_quantidade de palavras
+SUBTOPICO 1: D1T1_5_93, D2T1_6_100, D3T1_6_98 = 17 sentenças ; 291 palavras
+SUBTOPICO 2: D1T2_5_87 = 5 sentenças; 87 palavras
+SUBTOPICO 3: D2T3_1_27, D3T3_1_27 = 2 sentenças ; 54 palavras
+
+Cluster tem 432 palavras
+SUBTOPICO 1 = 67,37% do cluster //acidente aéreo
+SUBTOPICO 2 = 20,13%  //histórico
+SUBTOPICO 3 = 12,5%  //detalhes do avião
+
+
+Sumário humano: 5 sentenças ; 60 palavras
+S1: 14 palavras
+S2: 14
+S3: 3
+S4: 22
+S5: 7
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico
+S1: D1T1, D2T1, D3T1 - SUBTOPICO 1
+S2: D1T1, D2T1, D3T1 - SUBTOPICO 1
+S3: D2T1, D3T1 - SUBTOPICO 1
+S4: D1T1, D2T1, D3T1 - SUBTOPICO 1
+S5: D2T3, D3T3 - SUBTOPICO 3
+
+*% dos subtopicos no sumário
+Sentenças de 1 a 4 = 53 palavras. = 88,3%. Só Subtopico 1 [tem 17 sentenças, 291 palavras]
+Sentença 5 = 7 palavras	= 11,7%. Só Subtopico 3 [tem 2 sentenças, 38 palavras]
+
+Não entrou no sumário Subtópico 2
+
+
+

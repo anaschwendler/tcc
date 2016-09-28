@@ -1,0 +1,54 @@
+<R SDID="D2_C2_Estadao.txt.seg" SSENT="1" TDID="D4_C2_Globo.txt.seg" TSENT="1">
+<RELATION TYPE="Overlap" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C2_Estadao.txt.seg" SSENT="1" TDID="D4_C2_Globo.txt.seg" TSENT="2">
+<RELATION TYPE="Overlap" JUDGE="thiago"/>
+</R>
+<R SDID="D4_C2_Globo.txt.seg" SSENT="2" TDID="D2_C2_Estadao.txt.seg" TSENT="2">
+<RELATION TYPE="Subsumption" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C2_Estadao.txt.seg" SSENT="3" TDID="D4_C2_Globo.txt.seg" TSENT="3">
+<RELATION TYPE="Subsumption" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C2_Estadao.txt.seg" SSENT="3" TDID="D4_C2_Globo.txt.seg" TSENT="4">
+<RELATION TYPE="Subsumption" JUDGE="thiago"/>
+</R>
+<R SDID="D4_C2_Globo.txt.seg" SSENT="6" TDID="D2_C2_Estadao.txt.seg" TSENT="4">
+<RELATION TYPE="Subsumption" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C2_Estadao.txt.seg" SSENT="5" TDID="D4_C2_Globo.txt.seg" TSENT="1">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C2_Estadao.txt.seg" SSENT="5" TDID="D4_C2_Globo.txt.seg" TSENT="8">
+<RELATION TYPE="Subsumption" JUDGE="thiago"/>
+</R>
+<R SDID="D4_C2_Globo.txt.seg" SSENT="2" TDID="D2_C2_Estadao.txt.seg" TSENT="6">
+<RELATION TYPE="Follow-up" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C2_Estadao.txt.seg" SSENT="8" TDID="D4_C2_Globo.txt.seg" TSENT="2">
+<RELATION TYPE="Follow-up" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C2_Estadao.txt.seg" SSENT="9" TDID="D4_C2_Globo.txt.seg" TSENT="7">
+<RELATION TYPE="Follow-up" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C2_Estadao.txt.seg" SSENT="10" TDID="D4_C2_Globo.txt.seg" TSENT="2">
+<RELATION TYPE="Follow-up" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C2_Estadao.txt.seg" SSENT="12" TDID="D4_C2_Globo.txt.seg" TSENT="7">
+<RELATION TYPE="Follow-up" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C2_Estadao.txt.seg" SSENT="13" TDID="D4_C2_Globo.txt.seg" TSENT="1">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C2_Estadao.txt.seg" SSENT="16" TDID="D4_C2_Globo.txt.seg" TSENT="3">
+<RELATION TYPE="Follow-up" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C2_Estadao.txt.seg" SSENT="17" TDID="D4_C2_Globo.txt.seg" TSENT="4">
+<RELATION TYPE="Follow-up" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C2_Estadao.txt.seg" SSENT="18" TDID="D4_C2_Globo.txt.seg" TSENT="1">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C2_Estadao.txt.seg" SSENT="21" TDID="D4_C2_Globo.txt.seg" TSENT="8">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>

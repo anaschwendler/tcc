@@ -1,0 +1,253 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="34" relname="span">O senador João Pedro</segment>
+    <segment id="28" parent="1" relname="parenthetical"> (PT-AM),</segment>
+    <segment id="29" parent="35" relname="span"> relator da segunda representação contra Renan Calheiros </segment>
+    <segment id="30" parent="29" relname="parenthetical">(PMDB-AL) </segment>
+    <segment id="31" parent="36" relname="span">no Senado, confirmou que vai apresentar nesta quarta-feira, 26, na reunião doConselho de Ética, pedido de sobrestamento</segment>
+    <segment id="32" parent="31" relname="parenthetical"> (suspensão temporária) </segment>
+    <segment id="33" parent="37" relname="same-unit">das investigações sobre o caso.</segment>
+    <segment id="2" parent="42" relname="contrast"> 
+
+O petista havia dado indícios de que iria pedir o arquivamento do caso,</segment>
+    <segment id="38" parent="43" relname="span"> mas a idéia agora é esperar até que as investigações sejam concluídas na Câmara dos Deputados,</segment>
+    <segment id="39" parent="41" relname="span"> porque há o envolvimento do irmão de Renan, deputado Olavo Calheiros</segment>
+    <segment id="40" parent="39" relname="parenthetical"> (PMDB-AL).</segment>
+    <segment id="3" parent="47" relname="list">
+
+Ele teria vendido uma fábrica com preço acima do de mercado para a cervejaria Schincariol.</segment>
+    <segment id="4" parent="46" relname="span"> Em troca, a empresa, com dívidas de R$ 100 milhões no Instituto Nacional do Seguro Social</segment>
+    <segment id="44" parent="4" relname="parenthetical"> (INSS),</segment>
+    <segment id="45" parent="49" relname="same-unit"> teria sido favorecida pelo senador Renan Calheiros junto à Previdência.</segment>
+    <segment id="5" parent="53" relname="attribution">
+
+Segundo João Pedro,</segment>
+    <segment id="50" parent="53" relname="span">  o objetivo é parar o processo no Senado </segment>
+    <segment id="52" parent="54" relname="list">até que a Câmara conclua suas investigações</segment>
+    <segment id="51" parent="54" relname="list"> ou, pelo menos, confirme que Renan Calheiros supostamente praticou tráfico de influência em favor da Schincariol.</segment>
+    <segment id="6" parent="58" relname="concession"> 
+
+&quot;Sobrestar não é arquivar,</segment>
+    <segment id="58" parent="66" relname="span"> é retomar os trabalhos mais à frente&quot;,</segment>
+    <segment id="59" parent="66" relname="attribution"> disse ao negar que a paralisação seja uma manobra para arquivar a representação.</segment>
+    <segment id="7" parent="71" relname="span"> &quot;Não estamos arquivando.</segment>
+    <segment id="8" parent="7" relname="restatement"> Não existe arquivamento da representação número dois.</segment>
+    <segment id="9" parent="69" relname="span"> Estamos aguardando</segment>
+    <segment id="60" parent="68" relname="span"> e isso pode aprofundar,</segment>
+    <segment id="61" parent="60" relname="non-volitional-result"> ter desdobramentos na investigação&quot;,</segment>
+    <segment id="62" parent="69" relname="attribution"> acrescentou.</segment>
+    <segment id="10" parent="79" relname="span">
+
+João Pedro deixou claro que vai &quot;acompanhar sistematicamente&quot; as investigações do Conselho de Ética da Câmara.</segment>
+    <segment id="11" parent="76" relname="list"> &quot;Os trabalhos da Câmara já estão adiantados</segment>
+    <segment id="63" parent="76" relname="list"> e podem trazer novos elementos ao processo.</segment>
+    <segment id="12" parent="75" relname="span"> Vamos ter acesso aos autos e aos depoimentos</segment>
+    <segment id="64" parent="12" relname="elaboration"> que envolvem Olavo Calheiros&quot;, </segment>
+    <segment id="65" parent="77" relname="attribution">afirmou.</segment>
+    <segment id="13" parent="87" relname="span">
+
+A proposta </segment>
+    <segment id="81" parent="13" relname="elaboration">que será apresentado pelo senador </segment>
+    <segment id="82" parent="88" relname="same-unit">deve passar por votação dos demais membros do Conselho de Ética.</segment>
+    <segment id="14" parent="91" relname="span"> &quot;O sobrestamento teve a concordância de um número significativo de integrantes da Câmara&quot;, </segment>
+    <segment id="83" parent="14" relname="attribution">comentou.</segment>
+    <segment id="15" parent="90" relname="attribution">
+
+João Pedro ainda informou que</segment>
+    <segment id="84" parent="89" relname="span"> nesta terça deve se encontrar com o relator do caso na Câmara, deputado José Carlos Araújo</segment>
+    <segment id="85" parent="84" relname="parenthetical"> (PR-BA),</segment>
+    <segment id="86" parent="89" relname="purpose"> para tratar do assunto.</segment>
+    <segment id="16" parent="98" relname="span">
+
+O presidente do Conselho de Ética do Senado, senador Leomar Quintanilha</segment>
+    <segment id="96" parent="16" relname="parenthetical"> (PMDB-TO),</segment>
+    <segment id="97" parent="99" relname="same-unit"> admitiu que vai trabalhar para tentar unificar pelos menos duas das três representações em curso contra o Renan, na reunião do órgão marcada para esta quarta.</segment>
+    <segment id="17" parent="18" relname="concession"> 
+
+Na semana passada, Quintanilha tinha se posicionado contra a possibilidade de junção dos processos.</segment>
+    <segment id="18" parent="100" relname="span"> Na segunda, porém, salientou que a unificação poderá agilizar as investigações.</segment>
+    <segment id="19" parent="107" relname="span"> 
+
+A medida, </segment>
+    <segment id="101" parent="19" relname="attribution">segundo ele, </segment>
+    <segment id="102" parent="108" relname="same-unit">também resolveria outro problema:</segment>
+    <segment id="103" parent="108" relname="parenthetical"> a dificuldade de encontrar relatores para os processos.</segment>
+    <segment id="20" parent="104" relname="justify"> &quot;Encontrar um único relator já está difícil,</segment>
+    <segment id="104" parent="110" relname="span"> imagina encontrar um para cada processo&quot;,</segment>
+    <segment id="105" parent="110" relname="attribution"> ponderou.</segment>
+    <segment id="21" parent="113" relname="contrast"> A posição de Quintanilha tem o apoio de alguns senadores,</segment>
+    <segment id="106" parent="113" relname="contrast"> mas não é bem vista pela oposição.</segment>
+    <segment id="22" parent="121" relname="attribution"> 
+
+Segundo ele,</segment>
+    <segment id="115" parent="121" relname="span"> poderiam ser unificadas as representações de número três e quatro contra Renan</segment>
+    <segment id="116" parent="119" relname="span"> e que tratam, respectivamente, da acusação de compra de rádios e jornal</segment>
+    <segment id="118" parent="116" relname="means"> por meio de laranjas</segment>
+    <segment id="117" parent="120" relname="list"> e a de coleta de propina em ministérios chefiados pelo PMDB.</segment>
+    <segment id="23" parent="130" relname="span"> 
+
+&quot;Unificar a representação da Schincariol seria difícil</segment>
+    <segment id="123" parent="23" relname="justify"> porque ela já está em outro estágio&quot;,</segment>
+    <segment id="124" parent="130" relname="attribution"> afirmou o presidente do Conselho de Ética,</segment>
+    <segment id="125" parent="132" relname="span"> referindo-se às investigações sobre o suposto favorecimento da cervejaria, por intermédio de Renan, junto ao Instituto Nacional do Seguro Social</segment>
+    <segment id="126" parent="125" relname="parenthetical"> (INSS)</segment>
+    <segment id="127" parent="133" relname="same-unit"> e à Receita Federal,</segment>
+    <segment id="128" parent="134" relname="span"> depois de a Schincariol ter comprado uma fábrica de refrigerantes da família Calheiros por R$ 27 milhões, </segment>
+    <segment id="129" parent="128" relname="concession">quando não valeria mais do que R$ 10 milhões, segundo avaliações de mercado.</segment>
+    <segment id="24" parent="147" relname="contrast">
+
+A posição de Quintanilha tem o apoio de alguns senadores, </segment>
+    <segment id="141" parent="147" relname="contrast">mas não é bem vista pela oposição.</segment>
+    <segment id="25" parent="146" relname="span"> A reunião do conselho foi marcada para analisar o parecer do relator João Pedro</segment>
+    <segment id="142" parent="25" relname="parenthetical"> (PT-AM)</segment>
+    <segment id="143" parent="148" relname="same-unit"> exatamente sobre o processo relacionado à Schincariol.</segment>
+    <segment id="26" parent="149" relname="attribution"> 
+
+João Pedro já avisou que</segment>
+    <segment id="144" parent="149" relname="span"> pretende pedir a paralisação da matéria diante de um consenso de que seria melhor esperar os resultados das investigações </segment>
+    <segment id="145" parent="144" relname="elaboration">que a Câmara dos Deputados está fazendo sobre a mesma denúncia.</segment>
+    <segment id="27" parent="151" relname="elaboration"> A reunião está marcada para as 17 horas.</segment>
+<group id="34" type="span" parent="37" relname="same-unit" />
+<group id="35" type="span" parent="37" relname="same-unit" />
+<group id="36" type="span" parent="37" relname="same-unit" />
+<group id="37" type="multinuc" parent="56" relname="span" />
+<group id="41" type="span" parent="38" relname="explanation" />
+<group id="42" type="multinuc" parent="48" relname="span" />
+<group id="43" type="span" parent="42" relname="contrast" />
+<group id="46" type="span" parent="49" relname="same-unit" />
+<group id="47" type="multinuc" parent="42" relname="elaboration" />
+<group id="48" type="span" parent="37" relname="explanation" />
+<group id="49" type="multinuc" parent="47" relname="list" />
+<group id="54" type="multinuc" parent="50" relname="circumstance" />
+<group id="53" type="span" parent="55" relname="span" />
+<group id="55" type="span" parent="74" relname="span" />
+<group id="56" type="span" parent="57" relname="span" />
+<group id="57" type="span" parent="95" relname="span" />
+<group id="66" type="span" parent="67" relname="span" />
+<group id="67" type="span" parent="73" relname="span" />
+<group id="68" type="span" parent="9" relname="explanation" />
+<group id="69" type="span" parent="70" relname="span" />
+<group id="70" type="span" parent="71" relname="explanation" />
+<group id="71" type="span" parent="72" relname="span" />
+<group id="72" type="span" parent="67" relname="explanation" />
+<group id="73" type="span" parent="55" relname="elaboration" />
+<group id="74" type="span" parent="80" relname="span" />
+<group id="75" type="span" parent="77" relname="list" />
+<group id="76" type="multinuc" parent="77" relname="list" />
+<group id="77" type="multinuc" parent="78" relname="span" />
+<group id="78" type="span" parent="10" relname="elaboration" />
+<group id="79" type="span" parent="74" relname="elaboration" />
+<group id="80" type="span" parent="56" relname="purpose" />
+<group id="87" type="span" parent="88" relname="same-unit" />
+<group id="88" type="multinuc" parent="94" relname="span" />
+<group id="89" type="span" parent="90" relname="span" />
+<group id="90" type="span" parent="92" relname="span" />
+<group id="91" type="span" parent="93" relname="list" />
+<group id="92" type="span" parent="93" relname="list" />
+<group id="93" type="multinuc" parent="88" relname="elaboration" />
+<group id="94" type="span" parent="57" relname="elaboration" />
+<group id="95" type="span" parent="155" relname="list" />
+<group id="98" type="span" parent="99" relname="same-unit" />
+<group id="99" type="multinuc" parent="140" relname="span" />
+<group id="100" type="span" parent="138" relname="span" />
+<group id="107" type="span" parent="108" relname="same-unit" />
+<group id="108" type="multinuc" parent="109" relname="span" />
+<group id="109" type="span" parent="112" relname="span" />
+<group id="110" type="span" parent="111" relname="span" />
+<group id="111" type="span" parent="109" relname="elaboration" />
+<group id="112" type="span" parent="114" relname="span" />
+<group id="113" type="multinuc" parent="112" relname="elaboration" />
+<group id="114" type="span" parent="100" relname="explanation" />
+<group id="119" type="span" parent="120" relname="list" />
+<group id="120" type="multinuc" parent="115" relname="elaboration" />
+<group id="121" type="span" parent="122" relname="span" />
+<group id="122" type="span" parent="137" relname="list" />
+<group id="130" type="span" parent="131" relname="span" />
+<group id="131" type="span" parent="136" relname="span" />
+<group id="132" type="span" parent="133" relname="same-unit" />
+<group id="133" type="multinuc" parent="135" relname="span" />
+<group id="134" type="span" parent="133" relname="circumstance" />
+<group id="135" type="span" parent="131" relname="background" />
+<group id="136" type="span" parent="137" relname="list" />
+<group id="137" type="multinuc" parent="138" relname="elaboration" />
+<group id="138" type="span" parent="139" relname="span" />
+<group id="139" type="span" parent="99" relname="elaboration" />
+<group id="140" type="span" parent="153" relname="span" />
+<group id="146" type="span" parent="148" relname="same-unit" />
+<group id="147" type="multinuc" parent="140" relname="elaboration" />
+<group id="148" type="multinuc" parent="151" relname="span" />
+<group id="149" type="span" parent="150" relname="span" />
+<group id="150" type="span" parent="148" relname="elaboration" />
+<group id="151" type="span" parent="152" relname="span" />
+<group id="152" type="span" parent="155" relname="elaboration" />
+<group id="153" type="span" parent="154" relname="span" />
+<group id="154" type="span" parent="155" relname="list" />
+<group id="155" type="multinuc" parent="156" relname="span" />
+<group id="156" type="span" />
+  </body>
+</rst>

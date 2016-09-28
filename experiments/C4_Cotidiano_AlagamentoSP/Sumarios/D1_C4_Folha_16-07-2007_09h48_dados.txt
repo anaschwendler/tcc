@@ -1,0 +1,10 @@
+GIST: São Paulo tem oito alagamentos e mais de 100 km de lentidão
+
+Tamanho do texto-fonte: 266 palavras
+
+Tamanho pretendido do sumário: 80 palavras
+
+Sumário: O CGE da Prefeitura de São Paulo registrava oito pontos de alagamento, às 9h30 desta segunda-feira. Segundo a CET, havia 110 km de congestionamento na cidade enquanto a média para o horário era de 76 km. O congestionamento esteve ainda maior às 9h, quando chegou a 113 km de extensão para uma média de 32 km. 
+Não havia registro de acidentes graves, ainda às 9h30. Três pessoas teriam ficado ilhadas em uma casa na rua Quimili, no Jardim Alfredo. 
+
+Tamanho real do sumário: 79 palavras

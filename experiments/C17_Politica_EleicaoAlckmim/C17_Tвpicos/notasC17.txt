@@ -1,0 +1,39 @@
+*formação dos subtópicos do cluster 17
+SUBTOPICO 1: D1T1_8_249 , D2T1_8_163 = 16 sentenças ; 412 palavras
+SUBTOPICO 2: D1T2_2_55 = 2 sentenças ; 55 palavras
+SUBTOPICO 3: D1T3_3_57 = 3 sentenças ; 57 palavras
+SUBTOPICO 4: D1T4_3_63 = 3 sentenças ; 63 palavras
+SUBTOPICO 5: D1T5_6_159 , D2T5_4_93 = 10 sentenças ; 252 palavras
+SUBTOPICO 6: D2T6_7_125 = 7 sentenças ; 125 palavras
+
+Cluster tem 964 palavras
+SUBTOPICO 1 = 42.7% do cluster  //acusação de Alckmim a Lula
+SUBTOPICO 2 = 5.7%  //crítica de ACM a Alckmim
+SUBTOPICO 3 = 6%  	//disputa no segundo turno
+SUBTOPICO 4 = 6.5%	//campanha PSDB
+SUBTOPICO 5 = 26.1%	//campanha de Alckmim
+SUBTOPICO 6 = 13%	//campanha de Lula
+
+Sumário humano: 6 sentenças ; 185 palavras
+S1: 33 palavras
+S2: 23
+S3: 50
+S4: 36
+S5: 23
+S6: 20
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico  //A barra | indica diferente subtopico
+S1: D2T6 - SUBTOPICO 6
+S2: D1T1, D2T1 - SUBTOPICO 1
+S3: D1T1, D2T1 - SUBTOPICO 1
+S4: D1T2 | D2T1 - SUBTOPICO 1 [18 palavras] e SUBTOPICO 2 [18 palavras]
+S5: D2T1 - SUBTOPICO 1
+S6: D1T1, D2T1 - SUBTOPICO 1
+
+*% dos subtopicos no sumário
+Sentença 1 = 33 palavras - 17.8% Subtopico 6
+Sentenças 2, 3, 4, 5 e 6 =  134 palavras - 72.5% Subtopico 1
+Sentença 4 = 18 palavras - 9.7% Subtopico 2
+
+*nao apareceram 3, 4 e 5

@@ -1,0 +1,160 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="4" relname="list">Ao menos 549 pessoas morreram </segment>
+    <segment id="14" parent="4" relname="list">e outras 295 ainda estão desaparecidas</segment>
+    <segment id="15" parent="19" relname="span"> em conseqüência das enchentes</segment>
+    <segment id="16" parent="15" relname="elaboration"> que atingiram a Coréia do Norte em julho, segundo um jornal japonês pró-Pyongyang.</segment>
+    <segment id="2" parent="22" relname="span">
+
+A mídia norte-coreana já havia confirmado “centenas” de mortes provocadas pelas chuvas fortes</segment>
+    <segment id="17" parent="21" relname="span"> que atingiram o país</segment>
+    <segment id="18" parent="17" relname="circumstance"> durante vários dias no mês passado.</segment>
+    <segment id="3" parent="23" relname="contrast">
+
+Mas os números publicados pelo diário japonês Chosun Shinbo são os mais específicos já divulgados em relação à extensão do desastre.</segment>
+    <segment id="13" parent="30" relname="span"> 
+
+No mês passado, a FAO</segment>
+    <segment id="25" parent="13" relname="parenthetical"> (agência da ONU para alimentação) </segment>
+    <segment id="26" parent="31" relname="same-unit">estimou que cerca de 60 mil pessoas haviam sido desabrigadas pelas chuvas na Coréia do Norte.</segment>
+    <segment id="5" parent="32" relname="span">
+
+Mais de 7 mil casas foram destruídas ou danificadas,</segment>
+    <segment id="27" parent="5" relname="attribution"> segundo o Chosun Shinbo,</segment>
+    <segment id="28" parent="33" relname="list"> e quase 16 mil hectares de terra cultivada foram inundadas.</segment>
+    <segment id="6" parent="34" relname="span">
+
+“Esforços de recuperação estão ocorrendo em uma velocidade rápida”,</segment>
+    <segment id="29" parent="6" relname="attribution"> disse o jornal em sua página na internet.</segment>
+    <segment id="7" parent="46" relname="span">
+
+Na Coréia do Sul, o líder do opositor Grande Partido Nacional, Kang Jae-sup, pediu o estabelecimento de uma missão de investigação </segment>
+    <segment id="37" parent="7" relname="elaboration">para ser enviada ao país comunista</segment>
+    <segment id="38" parent="46" relname="purpose"> para determinar a extensão real dos estragos,</segment>
+    <segment id="39" parent="47" relname="attribution"> segundo a agência de notícias Yonhap.</segment>
+    <segment id="8" parent="40" relname="attribution">
+
+Um grupo de ativistas sugeriu que</segment>
+    <segment id="40" parent="49" relname="span"> o número de mortos ou desaparecidos pode chegar a 10 mil,</segment>
+    <segment id="41" parent="49" relname="elaboration"> mas não revelou de onde obteve a informação.</segment>
+    <segment id="9" parent="51" relname="span">
+
+O regime norte-coreano costuma manter segredo sobre detalhes de acidentes ou desastres naturais,</segment>
+    <segment id="42" parent="9" relname="volitional-result"> tornando difícil a confirmação de qualquer informação desse tipo.</segment>
+    <segment id="10" parent="52" relname="span">
+
+Mas as autoridades norte-coreanas cancelaram uma grande apresentação de ginástica, </segment>
+    <segment id="43" parent="53" relname="span">chamada Arirang,</segment>
+    <segment id="44" parent="43" relname="elaboration"> que é uma importante fonte de recursos para o país,</segment>
+    <segment id="45" parent="52" relname="purpose"> para se concentrar nos esforços de recuperação após as enchentes.</segment>
+    <segment id="11" parent="65" relname="span">
+
+A Coréia do Norte recusou ofertas de agências internacionais para o lançamento de campanhas de ajuda ao país,</segment>
+    <segment id="59" parent="63" relname="attribution"> mas uma autoridade local disse na semana passada que </segment>
+    <segment id="60" parent="63" relname="span">Pyongyang aceitaria ajuda da Coréia do Sul</segment>
+    <segment id="61" parent="60" relname="condition"> se fosse dada sem condições.</segment>
+    <segment id="12" parent="66" relname="span">
+
+A Coréia do Sul suspendeu o envio de alimentos ao norte </segment>
+    <segment id="62" parent="12" relname="explanation">por causa de suas preocupações sobre a paralisação nas negociações sobre o programa nuclear norte-coreano e os recentes testes de mísseis realizados por Pyongyang.</segment>
+<group id="4" type="multinuc" parent="20" relname="span" />
+<group id="19" type="span" parent="4" relname="non-volitional-cause" />
+<group id="20" type="span" parent="24" relname="span" />
+<group id="21" type="span" parent="2" relname="elaboration" />
+<group id="22" type="span" parent="23" relname="contrast" />
+<group id="23" type="multinuc" parent="20" relname="elaboration" />
+<group id="24" type="span" parent="58" relname="list" />
+<group id="30" type="span" parent="31" relname="same-unit" />
+<group id="31" type="multinuc" parent="35" relname="span" />
+<group id="32" type="span" parent="33" relname="list" />
+<group id="33" type="multinuc" parent="31" relname="non-volitional-cause" />
+<group id="34" type="span" parent="35" relname="non-volitional-result" />
+<group id="35" type="span" parent="36" relname="span" />
+<group id="36" type="span" parent="58" relname="list" />
+<group id="46" type="span" parent="47" relname="span" />
+<group id="47" type="span" parent="48" relname="span" />
+<group id="48" type="span" parent="56" relname="list" />
+<group id="49" type="span" parent="50" relname="span" />
+<group id="50" type="span" parent="56" relname="list" />
+<group id="51" type="span" parent="55" relname="contrast" />
+<group id="52" type="span" parent="54" relname="span" />
+<group id="53" type="span" parent="10" relname="elaboration" />
+<group id="54" type="span" parent="55" relname="contrast" />
+<group id="55" type="multinuc" parent="56" relname="explanation" />
+<group id="56" type="multinuc" parent="57" relname="span" />
+<group id="57" type="span" parent="58" relname="elaboration" />
+<group id="58" type="multinuc" parent="68" relname="span" />
+<group id="63" type="span" parent="64" relname="span" />
+<group id="64" type="span" parent="67" relname="span" />
+<group id="65" type="span" parent="68" relname="elaboration" />
+<group id="66" type="span" parent="64" relname="justify" />
+<group id="67" type="span" parent="11" relname="antithesis" />
+<group id="68" type="span" parent="69" relname="span" />
+<group id="69" type="span" />
+  </body>
+</rst>

@@ -1,0 +1,52 @@
+<ET ID="00" TIPO="TEMPO_CALEND" SUBTIPO="DATA" VAL_NORM="+20060807T0928E--LM-">
+Quinze funcionários locais de uma organização de caridade francesa no Sri Lanka foram encontrados mortos na cidade de Muttur, no norte do país.
+Segundo um representante do grupo Action Contre la Faim, os corpos foram encontrados no escritório da organização. 
+
+Confrontos entre o Exército e o grupo rebelde Tigres Tâmeis eclodiram na região de Muttur 
+<ET ID="01" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S2D0H0M0S0">
+há duas semanas
+</ET>
+, após a guerrilha ter cortado o suprimento de água para alguns vilarejos.
+
+<ET ID="02" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">
+No domingo
+</ET>
+, o Exército bombardeou posições rebeldes na área.
+
+Os ataques ocorreram apesar de um acordo assinado pelos Tigres Tâmeis para permitir a reabertura do reservatório de água e a ameaça de que novos bombardeios seriam considerados pelo grupo como uma declaração de guerra.
+
+Ainda não se sabe quem cometeu os assassinatos dos funcionários da organização francesa.
+
+O diretor-geral da Action Contre la Faim, Benoit Miribel, disse que a organização nunca havia sofrido uma perda tão grande 
+<ET ID="03" TIPO="TEMPO_CALEND" TIPO="INTERVALO" TEMPO_REF1="ENUNCIACAO" SENTIDO1="ANTERIOR" VAL_DELTA1="A25M0S0D0H0M0S0" TEMPO_REF2="ENUNCIACAO" SENTIDO2="SIMULT" VAL_DELTA2="A0M0S0D0H0M0S0"><!--Como?Intervalo! de 25 anos atras ateh hoje nao havia sofrido perda tão grande-->
+em 25 anos
+</ET>
+de existência.
+
+Segundo ele, o grupo pretendia enviar uma equipe à região, mas foi impedido por soldados.
+
+“Nossa simpatia está com as famílias das vítimas e com todos os civis afetados por este massacre, cuja escala ainda é desconhecida”, disse Miribel.
+
+Os funcionários da organização, da etnia tâmil, trabalhavam com ajuda humanitária e reconstrução pós-tsunami.
+
+Uma página na internet pró-Tigres Tâmeis responsabilizou o governo pelas mortes, mas o Exército rejeitou a acusação.
+
+O líder da ala política do grupo, S. P. Thamilselvan, disse que a decisão do governo de retomar os bombardeios é “uma declaração de guerra”. 
+
+Mas o Exército do Sri Lanka disse que os Tigres Tâmeis haviam iniciado os ataques.
+
+“Quando os terroristas abriram com sua artilharia, nós não tivemos escolha senão retaliar”, disse o porta-voz do Exército Abdullah Jayawardene à BBC.
+
+Os confrontos em Muttur têm sido os mais intensos na ilha desde a assinatura de um cessar-fogo 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A4M0S0D0H0M0S0">
+há quatro anos
+</ET>
+.
+
+O governo diz estar comprometido com a trégua, mas a situação política com os rebeldes, que lutam pela independência do norte e do leste do país, permanece em um impasse. 
+
+Pelo menos 60 mil pessoas já morreram no país por conta da violência desde o início da insurgência rebelde, 
+<ET ID="04" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A30M0S0D0H0M0S0">
+há três décadas
+</ET>
+.

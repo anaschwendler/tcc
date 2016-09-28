@@ -1,0 +1,15 @@
+<R SDID="D1_C49_Folha.txt.seg" SSENT="1" TDID="D4_C49_JB.txt.seg" TSENT="1">
+<RELATION TYPE="Overlap" JUDGE="thiago"/>
+</R>
+<R SDID="D4_C49_JB.txt.seg" SSENT="5" TDID="D1_C49_Folha.txt.seg" TSENT="1">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C49_Folha.txt.seg" SSENT="2" TDID="D4_C49_JB.txt.seg" TSENT="5">
+<RELATION TYPE="Overlap" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C49_Folha.txt.seg" SSENT="2" TDID="D4_C49_JB.txt.seg" TSENT="6">
+<RELATION TYPE="Subsumption" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C49_Folha.txt.seg" SSENT="4" TDID="D4_C49_JB.txt.seg" TSENT="8">
+<RELATION TYPE="Subsumption" JUDGE="thiago"/>
+</R>

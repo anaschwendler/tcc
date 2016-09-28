@@ -1,0 +1,137 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="35" relname="span">O CGE</segment>
+    <segment id="10" parent="1" relname="parenthetical"> (Centro de Gerenciamento de Emergências)</segment>
+    <segment id="11" parent="37" relname="same-unit"> da Prefeitura de São Paulo registrava oito pontos de alagamento na cidade, às 9h30 desta segunda-feira.</segment>
+    <segment id="2" parent="36" relname="span"> Naquele horário, segundo a CET </segment>
+    <segment id="12" parent="2" relname="parenthetical">(Companhia de Engenharia de Tráfego)</segment>
+    <segment id="13" parent="38" relname="span">, havia 110 km de congestionamento em toda a cidade</segment>
+    <segment id="14" parent="13" relname="comparison"> enquanto a média para o horário era de 76 km.</segment>
+    <segment id="3" parent="41" relname="span"> 
+
+O congestionamento esteve ainda maior às 9h,</segment>
+    <segment id="15" parent="3" relname="evidence"> quando chegou a 113 km de extensão para uma média de 32 km.</segment>
+    <segment id="4" parent="43" relname="attribution"> 
+
+Segundo o CGE,</segment>
+    <segment id="16" parent="43" relname="list"> às 9h30 havia alagamentos no viaduto José Colassuono;</segment>
+    <segment id="17" parent="43" relname="list"> na pista expressa da avenida Alcântara Machado, sentido bairro, altura da rua Doutor Fomm;</segment>
+    <segment id="18" parent="43" relname="list"> na avenida Airton Pretini, sentido centro;</segment>
+    <segment id="19" parent="43" relname="list"> na avenida Magalhães de Castro, sentido Castello Branco;</segment>
+    <segment id="20" parent="43" relname="list"> na avenida das Nações Unidas, sentido Castello Branco,</segment>
+    <segment id="21" parent="43" relname="list"> na rua João Alfredo, sentido centro;</segment>
+    <segment id="22" parent="43" relname="list"> na marginal Tietê, sentido centro;</segment>
+    <segment id="23" parent="43" relname="list"> e na avenida Otaviano Alves de Lima, sentido Castello Branco.</segment>
+    <segment id="5" parent="46" relname="span"> 
+
+O estado de atenção na cidade foi suspenso às 9h25.</segment>
+    <segment id="24" parent="45" relname="span"> Ele havia sido decretado pelo CGE</segment>
+    <segment id="25" parent="24" relname="non-volitional-cause"> devido ao risco de que novos alagamentos surgissem.</segment>
+    <segment id="6" parent="49" relname="list"> 
+
+Os motoristas, ainda às 9h30, enfrentavam trânsito lento principalmente na pista expressa da marginal Pinheiros, sentido Interlagos;</segment>
+    <segment id="26" parent="47" relname="span"> no corredor norte-sul </segment>
+    <segment id="27" parent="26" relname="parenthetical">(avenidas 23 de Maio, Rubem Berta e Moreira Guimarães)</segment>
+    <segment id="28" parent="48" relname="same-unit">, sentido Santana;</segment>
+    <segment id="29" parent="49" relname="list"> na Radial Leste, sentido centro;</segment>
+    <segment id="30" parent="49" relname="list"> e na avenida dos Bandeirantes, sentido marginal.</segment>
+    <segment id="7" parent="55" relname="list"> 
+
+Não havia registro de acidentes graves, ainda às 9h30. </segment>
+    <segment id="9" parent="54" relname="span">
+
+O Corpo de Bombeiros de São Paulo registrava apenas uma ocorrência grave ligada à chuva, às 9h30.</segment>
+    <segment id="31" parent="50" relname="span"> Três pessoas</segment>
+    <segment id="32" parent="31" relname="parenthetical"> --incluindo uma criança--</segment>
+    <segment id="33" parent="52" relname="span"> teriam ficado ilhadas em uma casa na rua Quimili, no Jardim Alfredo</segment>
+    <segment id="34" parent="33" relname="parenthetical"> (zona sul de São Paulo).</segment>
+    <segment id="8" parent="51" relname="elaboration"> Não há informações sobre o estado de saúde dos envolvidos.</segment>
+<group id="35" type="span" parent="37" relname="same-unit" />
+<group id="36" type="span" parent="39" relname="span" />
+<group id="37" type="multinuc" parent="40" relname="sequence" />
+<group id="38" type="span" parent="36" relname="attribution" />
+<group id="39" type="span" parent="42" relname="list" />
+<group id="40" type="multinuc" parent="56" relname="span" />
+<group id="41" type="span" parent="42" relname="list" />
+<group id="42" type="multinuc" parent="40" relname="sequence" />
+<group id="43" type="multinuc" parent="44" relname="span" />
+<group id="44" type="span" parent="55" relname="list" />
+<group id="45" type="span" parent="5" relname="elaboration" />
+<group id="46" type="span" parent="55" relname="list" />
+<group id="47" type="span" parent="48" relname="same-unit" />
+<group id="48" type="multinuc" parent="49" relname="list" />
+<group id="49" type="multinuc" parent="55" relname="list" />
+<group id="50" type="span" parent="51" relname="same-unit" />
+<group id="51" type="multinuc" parent="53" relname="span" />
+<group id="52" type="span" parent="51" relname="same-unit" />
+<group id="53" type="span" parent="9" relname="explanation" />
+<group id="54" type="span" parent="55" relname="list" />
+<group id="55" type="multinuc" parent="40" relname="elaboration" />
+<group id="56" type="span" />
+  </body>
+</rst>

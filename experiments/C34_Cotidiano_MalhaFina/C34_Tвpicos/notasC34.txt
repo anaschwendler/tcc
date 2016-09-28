@@ -1,0 +1,53 @@
+*formação dos subtópicos do cluster 34
+SUBTOPICO 1: D1T1_8_156, D2T1_13_237, D3T1_4_83 = 25 sentenças - 476 palavras
+SUBTOPICO 2: D1T2_10_173, D2T2_5_68, D3T2_2_92 = 17 sentenças - 333 palavras
+SUBTOPICO 3: D1T3_3_77 = 3 sentenças - 77 palavras
+SUBTOPICO 4: D2T4_6_103 = 6 sentenças - 103 palavrs
+SUBTOPICO 5: D2T5_8_142 = 8 sentenças - 142 palavras
+
+Cluster tem 1131 palavras
+SUBTOPICO 1: [42.08] 42.1% //Receita Federal intensifica fiscalização - Motivo que leva à malha fina -intensificação da fiscalização e consequente aumento de autuações - Formas de sonegação - aumento do número de inadimplentes na RF - irregularidades mais comuns
+D1 [1 a 5; 16 a 18]
+D2 [1 a 8; 14 a 18]
+D3 [1 a 3; 6]
+
+SUBTOPICO 2: [29.44] 29.4% //aumento do número de inadimplentes e do valor do imposto - mudança no processo de fiscalização - como é feito o trabalho
+D1 [6 a 15]
+D2 [9 a 13]
+D3 [4 a 5]
+3
+SUBTOPICO 3: [6.80] 6.8% //onde consultar e como regularizar inadimplências
+D1 [19 a 21]
+
+SUBTOPICO 4: [9.10] 9.1% //Pessoas físicas
+D2 [19 a 24]
+
+SUBTOPICO 5: [12.55] 12.6% //setores cuja fiscalização foi intensificada
+D2 [25 a 32]
+
+Sumário humano: 8 sentenças ; 169 palavras
+S1: 14 palavras
+S2: 21
+S3: 16
+S4: 44
+S5: 28
+S6: 9
+S7: 25
+S8: 12
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico  //A barra | indica diferente subtopico
+S1: D1T1, D2T1 - SUBTOPICO 1
+S2: D1T2 | D2T1, D3T1 - SUBTOPICO 1 [11 palavras] e SUBTOPICO 2 [10 palavras]
+S3: D1T1, D2T1, D3T1 - SUBTOPICO 1
+S4: D1T1 | D1T2, D2T2, D3T2 - SUBTOPICO 1 [22 palavras] e SUBTOPICO 2 [22 palavras]
+S5: D1T2, D3T2 - SUBTOPICO 2
+S6: D1T2 - - SUBTOPICO 2
+S7: D1T1, D2T1, D3T1 - SUBTOPICO 1
+S8: D1T1, D2T1 - SUBTOPICO 1
+
+Sentenças 1, 2, 3, 4, 7 e 8 - 100 palavras - SUBTOPICO 1 [59.17] 59.2%
+Sentenças 2, 4, 5 e 6 - 69 palavras - SUBTOPICO 2 40.8%
+
+* nao apareceu 3,4,5,
+

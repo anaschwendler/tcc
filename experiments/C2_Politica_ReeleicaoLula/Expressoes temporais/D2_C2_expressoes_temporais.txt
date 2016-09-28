@@ -1,0 +1,60 @@
+<ET ID="00" TIPO="TEMPO_CALEND" SUBTIPO="DATA" VAL_NORM="+20060804T1244--LM-">
+BRASÍLIA - A pesquisa CNI/Ibope realizada 
+<ET ID="01" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M1S0D0H0M0S0">
+em julho
+</ET>
+e divulgada
+<ET ID="02" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D0H0M0S0">
+nesta sexta-feira
+</ET>
+mostra que o presidente Luiz Inácio da Silva teria 44% dos votos no primeiro turno, enquanto o candidato tucano Geraldo Alckmin teria 25% das intenções de voto. A senadora do PSOL, Heloísa Helena, ficaria com 11%. 
+
+O senador Cristovam Buarque (PDT) e Luciano Bivar (PSL) ficaram cada um com 1% das intenções de voto, enquanto José Maria Eymael (PDC) e Rui Costa Pimenta (PCO) não receberam indicação. A margem de erro é de 2 pontos porcentuais.
+
+A CNI explica que a pesquisa não traz a comparação com pesquisas anteriores para primeiro turno porque é a primeira vez que o Ibope utiliza a lista oficial de candidatos a presidente da República. Embora não permita comparações, vale relembrar que na pesquisa 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M2S0D0H0M0S0">
+de junho
+</ET>
+Lula tinha 48% das intenções de voto; Alckmin 18% e Heloísa Helena, 5%. 
+<ET>
+Naquela ocasião
+</ET>
+, faziam parte da lista da pesquisa CNI/Ibope Enéas (Prona), que tinha 2%; Pedro Simon (PMDB), também 2%, além de Cristovam Buarque e Eymael, cada com 1% das intenções. 
+
+No segundo turno, as intenções de voto do presidente Lula caíram de 53% 
+<ET ID="04" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M2S0D0H0M0S0">
+em junho
+</ET>
+para 50% 
+<ET ID="05" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M2S0D0H0M0S0">
+em julho
+</ET>
+, enquanto o candidato Alckmin subiu de 29% para 36%. Os votos brancos e nulos somaram 10% e aqueles que não sabem ou não opinaram são 4%. 
+
+Na hipótese de um segundo turno com a candidata Heloísa Helena, Lula também teve uma redução nas intenções de voto de 57% para 53%. A senadora subiu de 21% para 30
+<ET ID="06" TIPO1="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ENUNCIACAO" SENTIDO1="ANTERIOR" VAL_DELTA1="A0M2S0D0H0M0S0"
+	TEMPO_REF2="ENUNCIACAO" VAL_DELTA2="A0M1S0D0H0M0S0">
+entre junho e julho
+</ET>
+. Brancos e nulos somam 12% e os que não sabem ou não opinaram, 5%. 
+
+A rejeição ao presidente Luiz Inácio Lula da Silva subiu de 28%
+<ET ID="07" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M2S0D0H0M0S0">
+em junho
+</ET>
+para 32%
+<ET ID="08" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M2S0D0H0M0S0">
+em julho
+</ET>
+. O candidato tucano Geraldo Alckmin, caiu de 34% para 28%. Já o índice da candidata do PSOL, Heloísa Helena, caiu de 36% para 32%. 
+
+O senador Cristovam Buarque, candidato pelo PDT, teve alta de 29% para 32%. O candidato José Maria Eymael teve o índice de rejeição de 36%, Luciano Bivar 32% e Rui Pimenta 32%. 
+
+A Pesquisa CNI/Ibope ainda revela que caiu de 67% para 64% os eleitores que afirmam que votariam com certeza no presidente Lula. Em relação ao candidato Geraldo Alckmin, o número de entrevistados que afirmam que votariam com certeza cresceu de 42% para 52%. Heloísa Helena subiu de 29% para 40%.
+
+A pesquisa foi realizada
+<ET ID="09" TIPO1="TEMPO_CALEND" SUBTIPO="INTERVALO" TEMPO_REF1="ENUNCIACAO" SENTID1="ANTERIOR" VAL_DELTA1="A0M0S0D4H0M0S0"
+	TEMPO_REF2="ENUNCIACAO" SENTIDO1="ANTERIOR" VAL_DELTA2="A0M0S0D6H0M0S0">
+entre os dias 29 e 31 de julho
+</ET>
+e foi registrada no TSE com o número 12.197/2006.

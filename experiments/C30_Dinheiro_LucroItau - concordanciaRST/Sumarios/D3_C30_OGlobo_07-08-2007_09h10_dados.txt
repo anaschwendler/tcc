@@ -1,0 +1,9 @@
+Gist: O banco Itaú obteve o maior lucro líquido já registrado por um banco privado nos primeiros seis meses do ano.
+
+Tamanho do texto-fonte: 408
+
+Tamanho pretendido do sumário: 122
+
+Sumário: O banco Itaú obteve o maior lucro líquido já registrado por um banco privado nos primeiros seis meses do ano, chegando a R$ 4,016 bilhões, 35,7% acima dos R$ 2,958 bilhões no mesmo período em 2006. Ele superou o Bradesco, ficando na liderança do ranking dos bancos privados, e só perde para o Banco do Brasil (banco público). Esse valor se deve principalmente a lucros não recorrentes, como a venda de participação acionária da empresa de informações de crédito Serasa e da sede do BankBoston em São Paulo, e a lucros recorrentes, como o crescimento da carteira de empréstimos. O desempenho da carteira foi puxado por financiamento de veículos e por crédito para empresas. O retorno sobre o patrimônio líquido médio anualizado ficou em 32,8%, abaixo dos 35,1% há um ano. 
+
+Tamanho real do sumário: 131

@@ -1,0 +1,122 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="23" relname="span">Maradona voltou a ter problemas de saúde no fim de semana.</segment>
+    <segment id="4" parent="20" relname="non-volitional-result"> Internado em um hospital em Buenos Aires,</segment>
+    <segment id="14" parent="18" relname="list"> ele teve uma recaída</segment>
+    <segment id="11" parent="18" relname="list"> e voltou a sentir dores </segment>
+    <segment id="15" parent="19" relname="span">devido a hepatite aguda</segment>
+    <segment id="16" parent="15" relname="elaboration"> que o atinge,</segment>
+    <segment id="17" parent="21" relname="attribution"> segundo seu médico pessoal, Alfredo Cahe.</segment>
+    <segment id="2" parent="31" relname="list">
+
+&quot;Agora está estável.</segment>
+    <segment id="5" parent="24" relname="concession"> Mesmo com esta melhora,</segment>
+    <segment id="24" parent="30" relname="span"> ele continuará internado&quot;,</segment>
+    <segment id="12" parent="31" relname="attribution"> disse o médico, </segment>
+    <segment id="13" parent="34" relname="span">que descartou a possibilidade do ex-jogador ter uma pancreatite </segment>
+    <segment id="25" parent="33" relname="list">(inflamação do pâncreas, órgão situado atrás do estômago</segment>
+    <segment id="26" parent="33" relname="list"> e que influencia na digestão).</segment>
+    <segment id="6" parent="27" relname="attribution"> Cahe reforçou que</segment>
+    <segment id="27" parent="36" relname="span"> Maradona ainda tem problemas.</segment>
+    <segment id="7" parent="37" relname="list"> &quot;Os valores hepáticos dele na avaliação não estão equilibrados</segment>
+    <segment id="28" parent="37" relname="list"> e ele não está bem.</segment>
+    <segment id="8" parent="37" relname="elaboration"> Mas não é nada grave&quot;,</segment>
+    <segment id="29" parent="38" relname="attribution"> afirma, em entrevista ao diário La Nación.</segment>
+    <segment id="3" parent="46" relname="list">
+
+No domingo, Maradona assistiu ao empate por 1 a 1 no clássico Boca Juniors e River Plate pela televisão.</segment>
+    <segment id="9" parent="44" relname="span"> Os torcedores do Boca,</segment>
+    <segment id="42" parent="9" relname="elaboration"> que compareceram em grande número ao Estádio La Bombonera, </segment>
+    <segment id="43" parent="45" relname="same-unit">levaram muitas faixas e bandeiras com mensagens de apoio ao ídolo argentino.</segment>
+    <segment id="10" parent="46" relname="list"> Sua filha, Dalma, foi ao estádio assistir ao jogo.</segment>
+<group id="18" type="multinuc" parent="20" relname="span" />
+<group id="19" type="span" parent="18" relname="non-volitional-cause" />
+<group id="20" type="span" parent="21" relname="span" />
+<group id="21" type="span" parent="22" relname="span" />
+<group id="22" type="span" parent="1" relname="elaboration" />
+<group id="23" type="span" parent="47" relname="span" />
+<group id="30" type="span" parent="31" relname="list" />
+<group id="31" type="multinuc" parent="32" relname="span" />
+<group id="32" type="span" parent="35" relname="span" />
+<group id="33" type="multinuc" parent="13" relname="parenthetical" />
+<group id="34" type="span" parent="32" relname="elaboration" />
+<group id="35" type="span" parent="41" relname="span" />
+<group id="36" type="span" parent="40" relname="span" />
+<group id="37" type="multinuc" parent="38" relname="span" />
+<group id="38" type="span" parent="39" relname="span" />
+<group id="39" type="span" parent="36" relname="justify" />
+<group id="40" type="span" parent="35" relname="elaboration" />
+<group id="41" type="span" parent="23" relname="elaboration" />
+<group id="44" type="span" parent="45" relname="same-unit" />
+<group id="45" type="multinuc" parent="46" relname="list" />
+<group id="46" type="multinuc" parent="47" relname="non-volitional-result" />
+<group id="47" type="span" parent="48" relname="span" />
+<group id="48" type="span" />
+  </body>
+</rst>

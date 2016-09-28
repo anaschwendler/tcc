@@ -1,0 +1,96 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="12" relname="span">A equipe formada por Thiago Pereira, Rodrigo Castro, Lucas Salatta e Nicolas Oliveira deu ao Brasil nesta terça-feira o terceiro ouro nos Jogos Pan-Americanos do Rio-2007, na prova do revezamento 4 x 200 m livre da natação.</segment>
+    <segment id="2" parent="1" relname="elaboration"> Jamais na história do Pan os Estados Unidos haviam perdido o ouro nesta modalidade.</segment>
+    <segment id="3" parent="11" relname="span"> 
+
+O quarteto brasileiro terminou a prova com o tempo de 7min12s27, recorde pan-americano, à frente dos EUA, segundo lugar, e do Canadá, </segment>
+    <segment id="8" parent="3" relname="elaboration">que ficou com o bronze.</segment>
+    <segment id="4" parent="13" relname="elaboration"> 
+
+O grande destaque da prova foi Nicolas Oliveira, quarto nadador brasileiro a cair na água.</segment>
+    <segment id="5" parent="15" relname="span"> 
+
+Pouco antes Thiago Pereira já havia conquistado a segunda medalha de ouro brasileira no dia na final dos 400 m medley, </segment>
+    <segment id="9" parent="5" relname="elaboration">superando o norte-americano Robert Margalis e o canadense Keith Beavers.</segment>
+    <segment id="6" parent="17" relname="span"> 
+
+Também nesta terça, outras duas medalhas também foram conquistadas por brasileiros, ambas no remo.</segment>
+    <segment id="7" parent="16" relname="list"> Marcelus Marcili ficou com o bronze no skiff simples,</segment>
+    <segment id="10" parent="16" relname="list"> e a dupla formada por Anderson Nocetti e Alan Bitencourt também ficou em terceiro na final da categoria dois sem timoneiro.</segment>
+<group id="11" type="span" parent="12" relname="elaboration" />
+<group id="12" type="span" parent="13" relname="span" />
+<group id="13" type="span" parent="14" relname="span" />
+<group id="14" type="span" parent="18" relname="span" />
+<group id="15" type="span" parent="14" relname="elaboration" />
+<group id="16" type="multinuc" parent="6" relname="evidence" />
+<group id="17" type="span" parent="18" relname="elaboration" />
+<group id="18" type="span" parent="19" relname="span" />
+<group id="19" type="span" />
+  </body>
+</rst>

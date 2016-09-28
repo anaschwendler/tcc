@@ -1,0 +1,42 @@
+*formação dos subtópicos do cluster 22
+SUBTOPICO 1: D2T1_6_179, D4T1_8_115, D5T1_8_140 - 22 sentenças ; 434 palavras
+SUBTOPICO 2: D2T2_2_51, D4T2_3_43, D5T2_3_32 - 8 sentenças ; 126 palavras
+SUBTOPICO 3: D2T3_4_92, D4T3_7_143 = 11 sentenças ; 235 palavras
+SUBTOPICO 4: D2T4_2_63 = 2 sentenças ; 63 palavras
+SUBTOPICO 5: D5T5_6_96 = 6 sentenças ; 96 palavras
+
+Cluster tem 954 palavras
+SUBTOPICO 1 = 45.5% do cluster  //voos cancelados em congonhas
+SUBTOPICO 2 = 13.2%  //voos em cumbica/guarulhos
+SUBTOPICO 3 = 24.7%  //situação de outros aeroportos
+SUBTOPICO 4 = 6.6//rodovias
+SUBTOPICO 5 = 10% //consequências da chuva em Congonhas no dia anterior ao evento descrito na noticia
+
+Sumário humano: 9 sentenças ; 139 palavras
+S1: 36 palavras
+S2: 11
+S3: 8
+S4: 10
+S5: 11
+S6: 19
+S7: 15 
+S8: 10
+S9: 19
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico  //A barra | indica diferente subtopico
+S1: D2T1, D4T1 - SUBTOPICO 1
+S2: D2T1, D5T1 - SUBTOPICO 1 
+S3: D4T1 - SUBTOPICO 1
+S4: D2T1, D4T1, D5T1 - SUBTOPICO 1
+S5: D2T1 - SUBTOPICO 1
+S6: D2T1 - SUBTOPICO 1
+S7: D2T3, D4T3 - SUBTOPICO 3
+S8: D4T3 - SUBTOPICO 3
+S9: D3T3 - SUBTOPICO 3
+
+*% dos subtopicos no sumário
+Sentenças 1, 2, 3, 4, 5 e 6 = 95 palavras Subtopico 1 - 68.3%
+Sentenças 7,8 e 9 - 44 palavras Subtopico 3 - 31.7%
+
+*não apareceram os subtópicos 2, 4 e 5

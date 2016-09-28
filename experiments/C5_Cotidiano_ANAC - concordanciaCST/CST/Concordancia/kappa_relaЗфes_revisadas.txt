@@ -1,0 +1,51 @@
+----------- KAPPA -------------
+K=0.848, P(A)=0.897, P(E)=0.325, N=13, k=3,  n=5 ( follow-up elaboration no-relation subsumption historical-background )
+
+---- COLLAPSING CATEGORIES ----
+
+Collapsing elaboration and follow-up:
+K=0.906, P(A)=0.949, P(E)=0.457, N=13, k=3,  n=4 ( elaborationfollow-up no-relation subsumption historical-background )
+
+Collapsing elaboration and no-relation:
+K=0.839, P(A)=0.897, P(E)=0.365, N=13, k=3,  n=4 ( follow-up subsumption historical-background elaborationno-relation )
+
+Collapsing elaboration and subsumption:
+K=0.843, P(A)=0.897, P(E)=0.345, N=13, k=3,  n=4 ( follow-up no-relation elaborationsubsumption historical-background )
+
+Collapsing elaboration and historical-background:
+K=0.920, P(A)=0.949, P(E)=0.358, N=13, k=3,  n=4 ( follow-up no-relation elaborationhistorical-background subsumption )
+
+Collapsing follow-up and no-relation:
+K=0.802, P(A)=0.897, P(E)=0.483, N=13, k=3,  n=4 ( elaboration follow-upno-relation subsumption historical-background )
+
+Collapsing follow-up and subsumption:
+K=0.828, P(A)=0.897, P(E)=0.404, N=13, k=3,  n=4 ( follow-upsubsumption elaboration no-relation historical-background )
+
+Collapsing follow-up and historical-background:
+K=0.811, P(A)=0.897, P(E)=0.457, N=13, k=3,  n=4 ( follow-uphistorical-background elaboration no-relation subsumption )
+
+Collapsing historical-background and no-relation:
+K=0.839, P(A)=0.897, P(E)=0.365, N=13, k=3,  n=4 ( follow-up elaboration subsumption historical-backgroundno-relation )
+
+Collapsing historical-background and subsumption:
+K=0.843, P(A)=0.897, P(E)=0.345, N=13, k=3,  n=4 ( follow-up elaboration no-relation historical-backgroundsubsumption )
+
+Collapsing no-relation and subsumption:
+K=0.842, P(A)=0.897, P(E)=0.349, N=13, k=3,  n=4 ( follow-up elaboration no-relationsubsumption historical-background )
+
+----- ISOLATING CATEGORIES ----
+
+Isolating elaboration:
+K=0.541, P(A)=0.897, P(E)=0.776, N=13, k=3,  n=2 ( elaboration X )
+
+Isolating follow-up:
+K=0.897, P(A)=0.949, P(E)=0.500, N=13, k=3,  n=2 ( follow-up X )
+
+Isolating historical-background:
+K=0.771, P(A)=0.949, P(E)=0.776, N=13, k=3,  n=2 ( X historical-background )
+
+Isolating no-relation:
+K=1.000, P(A)=1.000, P(E)=0.740, N=13, k=3,  n=2 ( no-relation X )
+
+Isolating subsumption:
+K=1.000, P(A)=1.000, P(E)=0.858, N=13, k=3,  n=2 ( X subsumption )

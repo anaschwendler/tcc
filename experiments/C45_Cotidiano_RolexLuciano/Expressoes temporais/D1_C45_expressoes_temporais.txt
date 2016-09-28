@@ -1,0 +1,64 @@
+<ET ID="00" TIPO="TEMPO_CALEND" SUBTIPO="DATA" VAL_NORM="+20071018T0803E--LM-">
+A polícia de São Paulo afirmou 
+<ET ID="01" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">
+ontem
+</ET>
+ter detido dois suspeitos de ter participado do roubo do relógio Rolex do apresentador Luciano Huck, da TV Globo, em um semáforo do Itaim Bibi (zona oeste de SP). 
+
+"O delegado me telefonou com a notícia. Estou indo para São Paulo 
+<ET ID="02" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+amanhã [hoje]
+</ET>
+para fazer o reconhecimento", disse Huck, que usava um relógio Nike, à Folha, em camarote VIP no Maracanã, no Rio, onde assistiu 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">
+ontem
+</ET>
+ao jogo da seleção brasileira contra o Equador. 
+
+Um dos suspeitos detidos pela polícia, 
+<ET ID="04" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="TEXTUAL" SENTIDO="POSTERIOR" VAL_DELTA="A0M0S0D17H0M0S0">
+17 dias
+</ET>
+após o assalto, é o garçom Wagner do Nascimento Marinho, 22. De acordo com o Deic (Departamento de Investigações sobre Crime Organizado), ele estava foragido da penitenciária de Valparaiso (a 577 km de SP) onde cumpria pena por tentativa de roubo seguida de tentativa de homicídio e por roubo de outro relógio, também da marca suíça Rolex. 
+
+O outro suspeito tem 27 anos, é grafiteiro e, segundo o Deic, tem passagem por roubo, mas já cumpriu a pena. A polícia não divulgou o nome dele. 
+
+O Deic diz que prendeu o garçom e o grafiteiro seguindo informações de um informante da delegacia, segundo o qual os dois teriam roubado --e já vendido-- o acessório de luxo do apresentador da TV Globo, avaliado em cerca de R$ 10 mil. 
+
+A prisão aconteceu em Taboão da Serra, na Grande São Paulo. Wagner, afirma o Deic, apresentou identidade falsa com nome de Antônio Edgar Torres Câmara ao ser abordado pelos policiais. Com ele, foi encontrada também uma moto Honda Twister prateada. 
+
+O assalto ao apresentador, em um semáforo do Itaim (zona oeste), veio à tona após artigo publicado pelo apresentador na Folha, 
+<ET ID="05" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D0H0M0S0">
+no dia 1º de outubro
+</ET>
+. 
+
+No texto, Huck afirmava: "Passei 
+<ET ID="06" TIPO="DURACAO" VAL_NORM="A0M0S0D0H0M0S0"><!--?Duracao-->
+um dia
+</ET>
+na cidade 
+</ET><!--Quando da duracao acima-->
+nesta semana
+</ET>
+-moro no Rio por motivos profissionais- e três assaltos passaram por mim. Meu irmão, uma funcionária e eu. Foi-se um relógio que acabara de ganhar da minha esposa em comemoração ao meu aniversário. Todos nos Jardins, com assaltantes armados, de motos e revólveres... Onde está a polícia? Onde está a "Elite da Tropa'? Quem sabe até a "Tropa de Elite'! Chamem o comandante Nascimento!" 
+
+Huck, porém, não registrou queixa do roubo. Ele alegou que, por motivos profissionais, não teve tempo de ir à polícia. 
+
+O Deic anunciará, em entrevista coletiva, 
+<ET ID="06" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+na tarde de hoje
+</ET>
+, a prisão do comerciante Jurandi Ferreira Santos, 48, acusado por vender jóias roubadas. 
+
+Ele foi preso 
+<ET ID="05" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">
+ontem
+</ET>
+em uma sala comercial da rua Barão de Itapetininga, no centro, que funcionava como ponto-de-venda de jóias roubadas, dólares, euros e cheques de viagem. A polícia ainda tentará identificar os donos das jóias roubadas. 
+
+Também foram presos José Ailton dos Santos, 29, e João Alcino da Silva, 29, que, segundo o Deic, trabalhavam como vendedores das mercadorias. "Foram 
+<ET ID="05" TIPO="DURACAO" VAL_NORM="A0M2S0D0H0M0S0">
+dois meses
+</ET>
+de investigação e encontramos o comerciante a partir de interceptação de telefonemas, nos quais ele negociava a venda das jóias roubadas", afirmou o delegado Edson Santi. 

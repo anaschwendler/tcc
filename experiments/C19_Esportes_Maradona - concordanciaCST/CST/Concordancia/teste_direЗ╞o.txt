@@ -1,0 +1,13 @@
+	thiago		erick
+1-2	none		none
+1-4	none		esq
+2-2	none		none
+2-3	esq_none	esq_none
+3-2	dir_none	dir_none
+3-3	none		none
+3-4	esq		esq
+3-5	esq		esq
+5-1	dir		dir
+5-2	dir		dir
+5-4	none		none
+5-5	none		elaboration

@@ -1,0 +1,27 @@
+<R SDID="D1_C12_Folha_07-08-2006_08h30.txt.seg" SSENT="1" TDID="D3_C12_GPovo_07-08-2006_08h28.txt.seg" TSENT="1">
+<RELATION TYPE="Subsumption" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C12_Folha_07-08-2006_08h30.txt.seg" SSENT="2" TDID="D3_C12_GPovo_07-08-2006_08h28.txt.seg" TSENT="1">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C12_Folha_07-08-2006_08h30.txt.seg" SSENT="2" TDID="D3_C12_GPovo_07-08-2006_08h28.txt.seg" TSENT="2">
+<RELATION TYPE="Overlap" JUDGE="thiago"/>
+</R>
+<R SDID="D3_C12_GPovo_07-08-2006_08h28.txt.seg" SSENT="7" TDID="D1_C12_Folha_07-08-2006_08h30.txt.seg" TSENT="2">
+<RELATION TYPE="Follow-up" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C12_Folha_07-08-2006_08h30.txt.seg" SSENT="3" TDID="D3_C12_GPovo_07-08-2006_08h28.txt.seg" TSENT="8">
+<RELATION TYPE="Contradiction" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C12_Folha_07-08-2006_08h30.txt.seg" SSENT="4" TDID="D3_C12_GPovo_07-08-2006_08h28.txt.seg" TSENT="8">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C12_Folha_07-08-2006_08h30.txt.seg" SSENT="7" TDID="D3_C12_GPovo_07-08-2006_08h28.txt.seg" TSENT="11">
+<RELATION TYPE="Overlap" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C12_Folha_07-08-2006_08h30.txt.seg" SSENT="10" TDID="D3_C12_GPovo_07-08-2006_08h28.txt.seg" TSENT="12">
+<RELATION TYPE="Overlap" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C12_Folha_07-08-2006_08h30.txt.seg" SSENT="6" TDID="D3_C12_GPovo_07-08-2006_08h28.txt.seg" TSENT="11">
+<RELATION TYPE="Overlap" JUDGE="thiago"/>
+</R>

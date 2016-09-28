@@ -1,0 +1,27 @@
+*formação dos subtópicos do cluster 40
+SUBTOPICO 1: D2T1_6_122, D3T1_3_83, D4T1_4_79 = 13 sentenças ; 284 palavras
+SUBTOPICO 2: D2T2_4_112, D3T2_9_270, D4T2_2_76 = 9 sentenças ; 458 palavras
+
+
+Cluster tem 742 palavras
+SUBTOPICO 1: [38.27] 38.3% //investigação a Renan Calheiros - os crimes praticados por Renan - o senador minimiza o pedido de abertura de inquérito - declaração de Renan Calheiros - Declaração de Renan Calheiros
+SUBTOPICO 2: [] 61.7% //formalização do pedido de investigação contra Renan - pedido de abertura de inquérito contra o senador Renan Calheiros - estratégias do Democratas frente à abertura de inquérito - decisão do PSDB
+
+
+Sumário humano: 4 sentenças ; 96 palavras
+S1: 36 palavras
+S2: 22
+S3: 11
+S4: 27
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico  //A barra | indica diferente subtopico
+S1: D2T1, D3T1 - SUBTOPICO 1
+S2: D2T2, D3T2 | D4T1 - SUBTOPICO 1 [11 palavras] e SUBTOPICO 2 [11 palavras]
+S3: D2T1, D3T1 | D3T2 - SUBTOPICO 1 [6 palavras] e SUBTOPICO 2 [5 palavras]
+S4: D3T2 - SUBTOPICO 2 
+
+Sentenças 1,2,3 - 36 palavras - SUBTOPICO 1: [] 55.2%
+Sentenças 2,3,4 - 38 palavras - SUBTOPICO 2: [44.79] 44.8% 
+
+

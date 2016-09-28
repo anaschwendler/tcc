@@ -1,0 +1,45 @@
+*formação dos subtópicos do cluster 2
+SUBTOPICO 1: D1T1, D2T1, D4T1
+SUBTOPICO 2: D1T2, D2T2
+SUBTOPICO 3: D1T3
+SUBTOPICO 4: D2T4
+
+	documento_numeroDeSentencas_quantidade de palavras
+SUBTOPICO 1: D1T1_7_177, D2T1_4_86, D4T1_8_170 = 19 sentenças ; 433 palavras
+SUBTOPICO 2: D1T2_6_72, D2T2_16_306 = 24 sentenças ; 378 palavras
+SUBTOPICO 3: D1T3_9_157 = 9 sentenças ; 157 palavras
+SUBTOPICO 4: D2T3_1_21 = 1 sentença ; 21 palavras
+
+Cluster tem 989 palavras
+SUBTOPICO 1 = 43.8% do cluster  //estimativa do IBOPE para primeiro turno
+SUBTOPICO 2 = 38.22%  			//estimativa do IBOPE para segundo turno
+SUBTOPICO 3 = 15.86%  			//resultados de pesquisas anteriores"
+SUBTOPICO 4 = 2.12%  			//validade da pesquisa
+
+Sumário humano: 7 sentenças ; 139 palavras
+S1: 33 palavras
+S2: 11
+S3: 9
+S4: 19
+S5: 18
+S6: 20
+S7: 29
+
+* alinhamento das sentenças do sumário com os subtópicos do cluster
+sentenca: documentos que contribuem com a sentença - identificador do subtópico
+S1: D1T1, D2T1, D4T1 - SUBTOPICO 1
+S2: D1T1, D2T1, D4T1 - SUBTOPICO 1
+S3: D1T1, D2T1, D4T1 - SUBTOPICO 1
+S4: D1T1, D2T2, D4T1 - SUBTOPICO 1 [10] e SUBTOPICO 2  [9] // dividir a sentença e distribuir igualmente
+S5: D1T1, D1T3, D2T1, D4T1 - SUBTOPICO 1 [9] e SUBTOPICO 3  [9] //
+S6: D1T2, D2T2	- SUBTOPICO 2
+S7: D1T1 - SUBTOPICO 1
+
+*% dos subtopicos no sumário
+Sentenças de 1 a 5 e 7 = 101 palavras = 72,6% Só Subtopico 1 [que tem 19 sentenças, 433 palavras]
+Sentenças 4 e ¨6 = 29 palavras = 20,86%. Só subtópico 2 [que tem 24 sentencas, 378 palavras]
+Sentença 5 = 9 palavras	= 6,48%. Só Subtopico 3 [tem 9 sentenças, 157 palavras]
+
+Não entrou no sumário Subtopico 4.
+
+

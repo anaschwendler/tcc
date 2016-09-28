@@ -1,0 +1,136 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="32" relname="attribution">Para especialistas,</segment>
+    <segment id="10" parent="32" relname="span"> a tragédia do Vôo 3054 não teria acontecido</segment>
+    <segment id="11" parent="10" relname="condition"> caso o Airbus da TAM tivesse pousando em Cumbica.</segment>
+    <segment id="2" parent="38" relname="attribution"> Segundo o perito aposentado do Departamento de Segurança de Vôo, Roberto Peterka,</segment>
+    <segment id="12" parent="13" relname="concession"> mesmo com problemas no reverso,</segment>
+    <segment id="13" parent="33" relname="span"> a aeronave teria pousado tranqüilamente.</segment>
+    <segment id="3" parent="35" relname="volitional-cause"> &quot;Por ser a pista maior,</segment>
+    <segment id="14" parent="34" relname="span"> o piloto não precisaria ter que arremeter,</segment>
+    <segment id="15" parent="14" relname="circumstance"> se realmente foi isso que ele fez,</segment>
+    <segment id="16" parent="35" relname="list"> e teria espaço maior para a desaceleração&quot;,</segment>
+    <segment id="17" parent="36" relname="attribution"> explica.</segment>
+    <segment id="4" parent="43" relname="attribution"> 
+ 
+De acordo com Peterka,</segment>
+    <segment id="18" parent="19" relname="concession"> o fato de Congonhas ter uma pista menor</segment>
+    <segment id="19" parent="43" relname="span"> não significa uma causa direta para o acidente.</segment>
+    <segment id="5" parent="42" relname="span"> &quot;Isso não quer dizer que o aeroporto de Congonhas teve influência decisiva no acidente&quot;,</segment>
+    <segment id="20" parent="5" relname="attribution"> conclui.</segment>
+    <segment id="6" parent="52" relname="attribution">
+ 
+O especialista também afirma que</segment>
+    <segment id="21" parent="51" relname="span"> o reverso,</segment>
+    <segment id="22" parent="21" relname="elaboration"> apontado como possível causa,</segment>
+    <segment id="23" parent="52" relname="same-unit"> não pode ser considerado o vilão do acidente.</segment>
+    <segment id="7" parent="24" relname="concession"> &quot;O reverso é um instrumento auxiliar na hora de frear o avião,</segment>
+    <segment id="24" parent="46" relname="span"> mas não é considerado fator importante para o pouso,</segment>
+    <segment id="25" parent="48" relname="same-unit"> portanto,</segment>
+    <segment id="28" parent="26" relname="concession"> mesmo não funcionando,</segment>
+    <segment id="26" parent="47" relname="span"> ele poderia ter brecado a aeronave sem problemas&quot;,</segment>
+    <segment id="27" parent="49" relname="attribution"> diz.</segment>
+    <segment id="8" parent="56" relname="span">
+ 
+Um dia antes do acidente, na segunda-feira, 16, o avião também teria apresentado problemas ao aterrissar em Congonhas, durante o vôo 3215,</segment>
+    <segment id="29" parent="55" relname="span"> procedente de Belo Horizonte </segment>
+    <segment id="30" parent="29" relname="parenthetical">(Confins)</segment>
+    <segment id="31" parent="56" relname="non-volitional-result">, só conseguindo parar muito próximo do final da pista.</segment>
+    <segment id="9" parent="57" relname="non-volitional-cause"> O piloto teria relatado à torre de controle que a pista estava muito escorregadia.</segment>
+<group id="32" type="span" parent="40" relname="span" />
+<group id="33" type="span" parent="38" relname="list" />
+<group id="34" type="span" parent="35" relname="list" />
+<group id="35" type="multinuc" parent="36" relname="span" />
+<group id="36" type="span" parent="37" relname="span" />
+<group id="37" type="span" parent="38" relname="list" />
+<group id="38" type="multinuc" parent="39" relname="span" />
+<group id="39" type="span" parent="40" relname="explanation" />
+<group id="40" type="span" parent="41" relname="span" />
+<group id="41" type="span" parent="60" relname="span" />
+<group id="42" type="span" parent="44" relname="restatement" />
+<group id="43" type="span" parent="44" relname="span" />
+<group id="44" type="span" parent="45" relname="span" />
+<group id="45" type="span" parent="59" relname="list" />
+<group id="46" type="span" parent="48" relname="evidence" />
+<group id="47" type="span" parent="48" relname="same-unit" />
+<group id="48" type="multinuc" parent="49" relname="span" />
+<group id="49" type="span" parent="50" relname="span" />
+<group id="50" type="span" parent="53" relname="explanation" />
+<group id="51" type="span" parent="52" relname="same-unit" />
+<group id="52" type="multinuc" parent="53" relname="span" />
+<group id="53" type="span" parent="54" relname="span" />
+<group id="54" type="span" parent="59" relname="list" />
+<group id="55" type="span" parent="8" relname="elaboration" />
+<group id="56" type="span" parent="57" relname="span" />
+<group id="57" type="span" parent="58" relname="span" />
+<group id="58" type="span" parent="60" relname="elaboration" />
+<group id="59" type="multinuc" parent="41" relname="elaboration" />
+<group id="60" type="span" parent="61" relname="span" />
+<group id="61" type="span" />
+  </body>
+</rst>

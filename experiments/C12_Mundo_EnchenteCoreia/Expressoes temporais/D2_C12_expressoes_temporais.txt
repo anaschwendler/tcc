@@ -1,0 +1,48 @@
+<ET ID="00" TIPO="TEMPO_CALEND" SUBTIPO="DATA" VAL_NORM="+20060807T0229E--LM-">
+Tóquio - Já está em 549 mortos e 295 desaparecidas com as inundações que afetaram a Coréia do Norte, informou 
+<ET ID="01" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+hoje
+</ET>
+um jornal pró norte-coreano publicado no Japão, que citou fontes oficiais de Pyongyang.
+
+Segundo o jornal "Choson Sinbo", publicado pela Associação de Residentes Coreanos no Japão, que é próxima ao regime comunista da Coréia do Norte, as fortes chuvas que alagaram grande parte desse país 
+<ET ID="02" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO"><!--Resolvivel?-->
+na segunda metade de julho
+</ET>
+provocaram "muitos danos".
+
+No entanto, a publicação, que cita autoridades norte-coreanas, desmentiu o número de até 10 mil mortos pelas inundações, calculado por algumas ONGs que trabalham na Coréia do Norte.
+
+Além do número de mortos e desaparecidos, o "Choson Sinbo" acrescenta um total de 3.043 feridos. A Federação Internacional da Cruz Vermelha indicou 
+<ET ID="02" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="" VAL_DELTA="A0M0S0D3H0M0S0">
+na sexta-feira
+</ET>
+que cerca de 17 mil famílias ficaram desabrigadas por causa das inundações.
+
+Apesar de o Governo norte-coreano ter rejeitado o envio de ajuda estrangeira para atenuar os danos causados pelas chuvas torrenciais, a emissora de TV oficial do país começou a transmitir 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR">
+nos últimos dias
+</ET>
+notícias sobre a iminente chegada de comida e bens de primeira necessidade do exterior.
+
+A agência sul-coreana "Yonhap" disse 
+<ET ID="04" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="" VAL_DELTA="A0M0S0D3H0M0S0">
+na sexta-feira
+</ET>
+que um alto funcionário de Pyongyang pediu o envio urgente de alimentos para seu país. As inundações destruíram grande parte dos cultivos de cereais na Coréia do Norte, que já sofre com um forte racionamento.
+
+Analistas indicaram 
+<ET ID="05" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR">
+nos últimos dias
+</ET>
+que o país pode passar por outra crise com a falta de alimentos, que 
+<ET ID="06" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ABSOLUTO" VAL_NORM="+1990----T----E--LM-">
+nos anos 90
+</ET>
+matou de fome entre um milhão e 2,5 milhões de pessoas, segundo diferentes dados. A Coréia do Sul interrompeu 
+<ET ID="07" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M1S0D0H0M0S0">
+em julho
+</ET>
+o envio de alimentos ao vizinho do norte depois de o regime comunista disparar sete mísseis balísticos em um gesto de desafio.
+
+No entanto, depois de conhecer a dimensão das inundações, o Governo de Seul manifestou sua predisposição em oferecer ajuda à Coréia do Norte caso aconteça uma nova crise alimentícia.

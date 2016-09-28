@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xml>
+<corpus>
+
+	<body>
+<s id="s1" ref="1" source="Running text" forest="1" text="Choque entre trens mata pelo menos 57 pessoas no Egito Número de mortos pode aumentar devido a o estado grave de vários dos feridos e aos cadáveres ainda existentes sob os vagões dos dois trens.">
+	<graph root="s1_500">
+		<terminals>
+			<t id="s1_1" word="Choque" lemma="choque" pos="n" morph="M S" sem="sick event" extra="cjt-head cjt-head-S cjt-head cjt-head-S disease"/>
+			<t id="s1_2" word="entre" lemma="entre" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_3" word="trens" lemma="trem" pos="n" morph="M P" sem="furn VV cm V" extra="--"/>
+			<t id="s1_4" word="mata" lemma="mata" pos="n" morph="F S" sem="BB" extra="cjt-S"/>
+			<t id="s1_5" word="pelo_menos" lemma="pelo_menos" pos="adv" morph="--" sem="--" extra="quant"/>
+			<t id="s1_6" word="57" lemma="57" pos="num" morph="F P" sem="--" extra="card"/>
+			<t id="s1_7" word="pessoas" lemma="pessoa" pos="n" morph="F P" sem="H" extra="--"/>
+			<t id="s1_8" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s1_9" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s1_10" word="Egito_Número" lemma="Egito_Número" pos="prop" morph="M S" sem="inst" extra="--"/>
+			<t id="s1_11" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_12" word="mortos" lemma="morto" pos="adj" morph="M P" sem="--" extra="--"/>
+			<t id="s1_13" word="pode" lemma="poder" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="fmc aux"/>
+			<t id="s1_14" word="aumentar" lemma="aumentar" pos="v-inf" morph="--" sem="--" extra="mv"/>
+			<t id="s1_15" word="devido_a" lemma="devido_a" pos="prp" morph="--" sem="--" extra="cjt-head cjt-head-fA sam-"/>
+			<t id="s1_16" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="-sam "/>
+			<t id="s1_17" word="estado" lemma="estado" pos="n" morph="M S" sem="Lciv state" extra="--"/>
+			<t id="s1_18" word="grave" lemma="grave" pos="adj" morph="M S" sem="--" extra="np-close"/>
+			<t id="s1_19" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_20" word="vários" lemma="vários" pos="pron-indef" morph="DET M P" sem="--" extra="quant"/>
+			<t id="s1_21" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s1_22" word="os" lemma="o" pos="art" morph="M P" sem="--" extra=" -sam"/>
+			<t id="s1_23" word="feridos" lemma="ferido" pos="adj" morph="M P" sem="--" extra="n"/>
+			<t id="s1_24" word="e" lemma="e" pos="conj-c" morph="--" sem="--" extra="co-advl"/>
+			<t id="s1_25" word="a" lemma="a" pos="prp" morph="--" sem="--" extra="cjt-fA sam-"/>
+			<t id="s1_26" word="os" lemma="o" pos="art" morph="M P" sem="--" extra="-sam "/>
+			<t id="s1_27" word="cadáveres" lemma="cadáver" pos="n" morph="M P" sem="H" extra="--"/>
+			<t id="s1_28" word="ainda" lemma="ainda" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s1_29" word="existentes" lemma="existente" pos="adj" morph="M/F P" sem="--" extra="np-close"/>
+			<t id="s1_30" word="sob" lemma="sob" pos="prp" morph="--" sem="--" extra="np-long"/>
+			<t id="s1_31" word="os" lemma="o" pos="art" morph="M P" sem="--" extra="--"/>
+			<t id="s1_32" word="vagões" lemma="vagão" pos="n" morph="M P" sem="V" extra="--"/>
+			<t id="s1_33" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam- np-close"/>
+			<t id="s1_34" word="os" lemma="o" pos="art" morph="M P" sem="--" extra=" -sam"/>
+			<t id="s1_35" word="dois" lemma="dois" pos="num" morph="M P" sem="--" extra="card"/>
+			<t id="s1_36" word="trens" lemma="trem" pos="n" morph="M P" sem="furn VV cm V" extra="--"/>
+			<t id="s1_37" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s1_500" cat="s">
+				<edge label="STA" idref="s1_501"/>
+			</nt>
+			<nt id="s1_501" cat="fcl">
+				<edge label="S" idref="s1_502"/>
+				<edge label="fCs" idref="s1_505"/>
+				<edge label="P" idref="s1_509"/>
+				<edge label="fA" idref="s1_510"/>
+				<edge label="PU" idref="s1_37"/>
+			</nt>
+			<nt id="s1_502" cat="par">
+				<edge label="CJT" idref="s1_503"/>
+				<edge label="CJT" idref="s1_4"/>
+			</nt>
+			<nt id="s1_503" cat="np">
+				<edge label="H" idref="s1_1"/>
+				<edge label="DN" idref="s1_504"/>
+			</nt>
+			<nt id="s1_504" cat="pp">
+				<edge label="H" idref="s1_2"/>
+				<edge label="DP" idref="s1_3"/>
+			</nt>
+			<nt id="s1_505" cat="np">
+				<edge label="DN" idref="s1_5"/>
+				<edge label="DN" idref="s1_6"/>
+				<edge label="H" idref="s1_7"/>
+				<edge label="DN" idref="s1_506"/>
+			</nt>
+			<nt id="s1_506" cat="pp">
+				<edge label="H" idref="s1_8"/>
+				<edge label="DP" idref="s1_507"/>
+			</nt>
+			<nt id="s1_507" cat="np">
+				<edge label="DN" idref="s1_9"/>
+				<edge label="H" idref="s1_10"/>
+				<edge label="DN" idref="s1_508"/>
+			</nt>
+			<nt id="s1_508" cat="pp">
+				<edge label="H" idref="s1_11"/>
+				<edge label="DP" idref="s1_12"/>
+			</nt>
+			<nt id="s1_509" cat="vp">
+				<edge label="Vaux" idref="s1_13"/>
+				<edge label="Vm" idref="s1_14"/>
+			</nt>
+			<nt id="s1_510" cat="par">
+				<edge label="CJT" idref="s1_511"/>
+				<edge label="CO" idref="s1_24"/>
+				<edge label="CJT" idref="s1_517"/>
+			</nt>
+			<nt id="s1_511" cat="pp">
+				<edge label="H" idref="s1_15"/>
+				<edge label="DP" idref="s1_512"/>
+			</nt>
+			<nt id="s1_512" cat="np">
+				<edge label="DN" idref="s1_16"/>
+				<edge label="H" idref="s1_17"/>
+				<edge label="DN" idref="s1_18"/>
+				<edge label="DN" idref="s1_513"/>
+			</nt>
+			<nt id="s1_513" cat="pp">
+				<edge label="H" idref="s1_19"/>
+				<edge label="DP" idref="s1_514"/>
+			</nt>
+			<nt id="s1_514" cat="np">
+				<edge label="H" idref="s1_20"/>
+				<edge label="DN" idref="s1_515"/>
+			</nt>
+			<nt id="s1_515" cat="pp">
+				<edge label="H" idref="s1_21"/>
+				<edge label="DP" idref="s1_516"/>
+			</nt>
+			<nt id="s1_516" cat="np">
+				<edge label="DN" idref="s1_22"/>
+				<edge label="H" idref="s1_23"/>
+			</nt>
+			<nt id="s1_517" cat="pp">
+				<edge label="H" idref="s1_25"/>
+				<edge label="DP" idref="s1_518"/>
+			</nt>
+			<nt id="s1_518" cat="np">
+				<edge label="DN" idref="s1_26"/>
+				<edge label="H" idref="s1_27"/>
+				<edge label="DN" idref="s1_519"/>
+				<edge label="DN" idref="s1_520"/>
+			</nt>
+			<nt id="s1_519" cat="adjp">
+				<edge label="DA" idref="s1_28"/>
+				<edge label="H" idref="s1_29"/>
+			</nt>
+			<nt id="s1_520" cat="pp">
+				<edge label="H" idref="s1_30"/>
+				<edge label="DP" idref="s1_521"/>
+			</nt>
+			<nt id="s1_521" cat="np">
+				<edge label="DN" idref="s1_31"/>
+				<edge label="H" idref="s1_32"/>
+				<edge label="DN" idref="s1_522"/>
+			</nt>
+			<nt id="s1_522" cat="pp">
+				<edge label="H" idref="s1_33"/>
+				<edge label="DP" idref="s1_523"/>
+			</nt>
+			<nt id="s1_523" cat="np">
+				<edge label="DN" idref="s1_34"/>
+				<edge label="DN" idref="s1_35"/>
+				<edge label="H" idref="s1_36"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+	</body>
+</corpus>
+</xml>

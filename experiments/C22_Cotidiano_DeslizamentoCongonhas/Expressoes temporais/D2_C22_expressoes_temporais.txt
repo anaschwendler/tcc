@@ -1,0 +1,64 @@
+<ET ID="00" TIPO="TEMPO_CALEND" SUBTIPO="DATA" VAL_NORM="+20070724T0858E--LM-">
+SÃO PAULO - O Aeroporto de Congonhas continuava fechado para pousos 
+<ET ID="01" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+na manhã desta terça-feira, 24
+</ET>
+, por conta do nevoeiro que cobria a região sul de São Paulo, e metade dos vôos programados 
+<ET ID="02" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" VAL_NORM1="+--------T0600E--LM-" VAL_NORM2="+--------T0600E--LM-">
+entre 6 e 8 horas
+</ET>
+foram cancelados. Por conta do fechamento, das 39 partidas previstas, 19 foram canceladas, mas a Empresa Brasileira de Infra-Estrutura Aeroportuária (Infraero) não contabilizava atrasos 
+<ET ID="03" TIPO="DURACAO" VAL_NORM="A0M0S0D0H1M0S0">
+superiores a uma hora
+</ET>
+, mas quase nenhum vôo saia no horário programado do aeroporto. 
+
+Com o fechamento de Congonhas e a interdição da pista principal, que está fechada 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D7H0M0S0"><!--Notar o 17 depois de "terça-feira"-->
+desde a terça-feira, 17
+</ET>
+, por conta do acidente com o vôo 3054 da TAM, algumas empresas transferiram vôos para o Aeroporto Internacional de São Paulo (Cumbica), em Guarulhos.
+
+A TAM cancelou 68 vôos previstos para 
+<ET ID="04" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+esta terça
+</ET>
+em Congonhas e transferiu outros 22 para Cumbica. A Ocean Air e a BRA também resolveram transferir todos os pousos e decolagens para Cumbica. 
+<ET ID="05" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">
+Depois de uma segunda-feira
+</ET>
+caótica, quando 38,1% dos vôos atrasaram em todo o País, 
+<ET ID="06" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+a terça-feira
+</ET>
+deve ser mais 
+<ET ID="07" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO"><!--Marcar-->
+um dia
+</ET>
+de longas filas nos aeroportos por conta dos problemas em Congonhas.
+
+<ET ID="08" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+Na manhã desta terça
+</ET>
+, no Aeroporto Internacional de São Paulo (Cumbica), em Guarulhos, as filas do check-in já estavam grandes e o movimento no saguão principal era muito intenso. Nenhuma partida ou chegada internacional, segundo os painéis da Infraero, estavam fora do horário, o que não ocorria com os vôos domésticos. 
+
+Os aeroportos do Rio de Janeiro operavam por instrumentos, 
+<ET ID="09" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+por volta das 8h30 desta terça-feira, 24
+</ET>
+, devido à chuva que cobria a cidade. No Aeroporto Tom Jobim, foram registrados atrasos em 14 chegadas e quatro foram canceladas 
+<ET ID="10" TIPO="TEMPO_CALEND" SUBTIPO="HORA" VAL_NORM="+--------T0930E--LM-">
+até as 9h30
+</ET>
+. As partidas com atrasos somavam cinco, sem nenhum cancelamento.
+
+Já no Santos Dumont, de onde sai a ponte aérea Rio-São Paulo, uma chegada apresentou alteração de horário e dez foram canceladas, todas vindas de São Paulo. Treze vôos que deveriam partir do aeroporto foram cancelados e apenas dois registraram atrasos de horário.
+
+Por conta do deslizamento da cabeceira da pista principal de Congonhas, justificado pela quebra da canaleta que ajuda no escoamento da água da chuva, segundo a Infraero, uma pista da Avenida Washington Luís continuava interditada 
+<ET ID="11" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+na manhã desta terça
+</ET>
+. A pista auxiliar, que dá acesso à Avenida dos Bandeirantes foi fechada devido à grande quantidade de lama que deslizou 
+<ET ID="12" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">
+na noite de segunda-feira
+</ET>.

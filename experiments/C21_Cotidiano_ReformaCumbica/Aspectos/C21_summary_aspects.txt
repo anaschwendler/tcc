@@ -1,0 +1,8 @@
+[A pista principal do Aeroporto Internacional de São Paulo (Cumbica), em Guarulhos, será totalmente reformada a partir de março de 2008, segundo informações do Ministério da Defesa.]WHAT/WHERE/WHEN/DECLARATION/WHO_AGENT
+[Com isso, a reforma emergencial, que começaria em breve, foi descartada.]CONSEQUENCE
+[De acordo com a Infraero, será possível realizar a obra em três etapas.]WHO_AGENT/DECLARATION
+[Na primeira etapa, será reformado um terço da pista, em uma das cabeceiras, ficando o restante disponível para pousos e decolagens.]HOW
+[Na segunda etapa, a parte concluída será reaberta e a obra passará a ser feita na outra cabeceira.]HOW
+[Por fim, será reformado o trecho central, quando a pista será fechada e os vôos que a utilizariam serão transferidos para o Aeroporto de Viracopos, em Campinas.]HOW/CONSEQUENCE/WHERE_EXTRA
+[O cronograma final da obra depende de estudos que estão sendo realizados pela Infraero.]WHAT_EXTRA
+[A transferência dos vôos de Guarulhos para Viracopos não poderá ser feita neste momento porque o aeroporto de Campinas necessitará de ampliação.]WHAT_EXTRA

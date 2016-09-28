@@ -1,0 +1,14 @@
+Gist: Airbus da TAM acidentado em SP tinha defeito no reversor direito
+
+Tamanho texto fonte: 613
+
+Tamanho pretendido do sumário: 183
+
+Sumário: 
+De acordo com o Jornal Nacional, o Airbus-A320 da TAM acidentado em São Paulo na última terça-feira (17) tinha um defeito no reversor direito. 
+Uma nova nota divulgada pela Infraero inclui falha mecânica entre as hipóteses para o acidente, que é o maior da aviação brasileira. Porém, a TAM negou essa hipótese. 
+A falha no reversor direito havia sido detectada pelo sistema eletrônico de checagem da própria aeronave, que continuou voando com o mesmo desligado. Entretanto, a TAM afirmou que essa falha não impediria a realização dos vôos. 
+Segundo o presidente da Infraero, o brigadeiro José Carlos Pereira, os peritos detectaram forte fumaça no motor esquerdo do avião, durante a análise das imagens do pouso da aeronave divulgadas pela Infraero. A fumaça pode indicar que os motores estavam funcionando em sentidos opostos, um impulsionando para frente e outro freando, o que explicaria o fato de o piloto não ter conseguido parar o avião. 
+Se a falha no reversor da aeronave se confirmar, as suspeitas de que o acidente tenha sido provocado por problemas na pista do aeroporto perdem força.
+
+Tamanho real do sumário: 179

@@ -1,0 +1,27 @@
+<R SDID="D1_C19_Folha.txt.seg" SSENT="1" TDID="D2_C19_Estadao.txt.seg" TSENT="2">
+<RELATION TYPE="Attribution" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C19_Folha.txt.seg" SSENT="1" TDID="D2_C19_Estadao.txt.seg" TSENT="2">
+<RELATION TYPE="Subsumption" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C19_Folha.txt.seg" SSENT="1" TDID="D2_C19_Estadao.txt.seg" TSENT="4">
+<RELATION TYPE="Overlap" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C19_Folha.txt.seg" SSENT="2" TDID="D2_C19_Estadao.txt.seg" TSENT="2">
+<RELATION TYPE="Overlap" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C19_Folha.txt.seg" SSENT="2" TDID="D2_C19_Estadao.txt.seg" TSENT="3">
+<RELATION TYPE="Overlap" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C19_Folha.txt.seg" SSENT="3" TDID="D2_C19_Estadao.txt.seg" TSENT="2">
+<RELATION TYPE="Overlap" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C19_Folha.txt.seg" SSENT="3" TDID="D2_C19_Estadao.txt.seg" TSENT="3">
+<RELATION TYPE="Overlap" JUDGE="Lucia"/>
+</R>
+<R SDID="D2_C19_Estadao.txt.seg" SSENT="5" TDID="D1_C19_Folha.txt.seg" TSENT="3">
+<RELATION TYPE="Elaboration" JUDGE="Lucia"/>
+</R>
+<R SDID="D1_C19_Folha.txt.seg" SSENT="5" TDID="D2_C19_Estadao.txt.seg" TSENT="2">
+<RELATION TYPE="Elaboration" JUDGE="Lucia"/>
+</R>

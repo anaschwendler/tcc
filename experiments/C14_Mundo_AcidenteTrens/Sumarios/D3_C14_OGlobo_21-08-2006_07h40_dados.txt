@@ -1,0 +1,11 @@
+GIST: Colisão entre trens deixa 80 mortos e 165 feridos no Egito
+
+TAMANHO DO TEXTO FONTE: 285
+
+TAMANHO PRETENDIDO DO SUMARIO: 85
+
+SUMARIO:
+Uma colisão entre dois trens de passageiros no delta do Nilo, ao norte do Cairo, no Egito, provocou a morte de pelo menos 80 pessoas e deixou 165 feridas. Muitos corpos ainda não foram recuperados dos vagões. Vários feridos estão em estado grave. O acidente ocorreu porque o trem circulava em alta velocidade e se chocou com a parte traseira de outro trem. Trata-se do terceiro acidente deste tipo no Delta do Nilo. O Egito tem em sua história vários acidentes ferroviários.
+
+TAMANHO REAL DO SUMÁRIO: 82
+

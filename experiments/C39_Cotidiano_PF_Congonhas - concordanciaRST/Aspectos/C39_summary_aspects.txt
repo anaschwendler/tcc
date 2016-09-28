@@ -1,0 +1,3 @@
+[A Polícia Federal e o Ministério Público realizam nesta terça-feira operações simultâneas de busca e apreensão nos departamentos de controle de tráfego aéreo de Cumbica, em Guarulhos, de Congonhas, na capital paulista, e no Centro Integrado de Defesa Aérea e Controle de Tráfego Aéreo (Cindacta I), em Brasília.]WHO_AGENT/WHAT/WHEN/WHERE
+[O objetivo das buscas é garantir a apreensão dos registros de ocorrências que contêm informações sobre as falhas no controle de tráfego aéreo.]GOAL
+[Esse trabalho permitirá avaliar os riscos aos quais estão expostos os passageiros e tripulantes de aeronaves e tomar medidas necessárias para aumentar a segurança no setor aéreo.]PREDICTION

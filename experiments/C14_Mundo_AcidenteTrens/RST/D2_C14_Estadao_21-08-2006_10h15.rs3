@@ -1,0 +1,149 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="37" relname="attribution">O ministro da Saúde egípcio, Hatem El-Gabaly, informou nesta segunda-feira que</segment>
+    <segment id="10" parent="37" relname="list"> 57 pessoas morreram</segment>
+    <segment id="11" parent="37" relname="list"> e 128 ficaram feridas no choque entre dois trens de passageiros no delta do Nilo, ao norte do Cairo.</segment>
+    <segment id="2" parent="40" relname="span"> 
+
+Os feridos, vários deles em estado grave, foram levados para seis hospitais da região</segment>
+    <segment id="12" parent="39" relname="span"> onde aconteceu o acidente,</segment>
+    <segment id="14" parent="12" relname="elaboration"> um dos piores ocorridos no Egito desde 2002,</segment>
+    <segment id="13" parent="42" relname="span"> disse El-Gabaly, </segment>
+    <segment id="15" parent="13" relname="elaboration">citado pela agência egípcia de notícias Mena.</segment>
+    <segment id="3" parent="16" relname="attribution"> 
+
+Fontes policiais e médicas informaram anteriormente que</segment>
+    <segment id="16" parent="64" relname="span"> pelo menos 80 pessoas tinham morrido no acidente.</segment>
+    <segment id="4" parent="43" relname="span"> 
+
+O acidente ocorreu às 7h15 </segment>
+    <segment id="17" parent="4" relname="parenthetical">(1h15 em Brasília)</segment>
+    <segment id="18" parent="45" relname="span"> entre um trem procedente da cidade nortista de Lardo e outro</segment>
+    <segment id="19" parent="18" relname="elaboration"> que esperava na estação Qalyoub, 20 quilômetros ao norte da capital do Egito.</segment>
+    <segment id="5" parent="62" relname="sequence"> 
+
+Mais de 45 ambulâncias levaram as vítimas aos hospitais de Qaliubiya e de Shebin al-Qanater.</segment>
+    <segment id="6" parent="63" relname="list"> Efetivos do Exército, membros da Defesa Civil e equipes médicas participam dos trabalhos de resgate.</segment>
+    <segment id="7" parent="46" relname="span"> 
+
+O Governador de Qaluibiya, Adli Hussein,</segment>
+    <segment id="20" parent="7" relname="elaboration"> que se deslocou junto com outros vários altos funcionários egípcios ao local do acidente,</segment>
+    <segment id="21" parent="47" relname="same-unit"> afirmou que</segment>
+    <segment id="22" parent="51" relname="span"> a colisão ocorreu</segment>
+    <segment id="23" parent="48" relname="span"> quando o trem número 808</segment>
+    <segment id="24" parent="23" relname="elaboration"> que circulava em alta velocidade</segment>
+    <segment id="25" parent="50" relname="span"> se chocou com a parte traseira de outro,</segment>
+    <segment id="26" parent="25" relname="elaboration"> que vinha da de Qaliub.</segment>
+    <segment id="8" parent="53" relname="attribution"> 
+
+Fontes do Ministério de Transporte disseram que</segment>
+    <segment id="27" parent="53" relname="sequence"> vários vagões descarrilaram</segment>
+    <segment id="28" parent="53" relname="sequence"> e tombaram, e que</segment>
+    <segment id="29" parent="54" relname="span"> os bombeiros conseguiram controlar um incêndio no trem</segment>
+    <segment id="30" parent="29" relname="elaboration"> que procedia de Lardo.</segment>
+    <segment id="9" parent="60" relname="span"> 
+
+A maior tragédia ferroviária da história do Egito ocorreu em fevereiro de 2002,</segment>
+    <segment id="31" parent="58" relname="span"> após o incêndio de um trem</segment>
+    <segment id="32" parent="57" relname="span"> que cobria o trajeto entre Cairo e Luxor </segment>
+    <segment id="33" parent="32" relname="parenthetical">(sul),</segment>
+    <segment id="34" parent="56" relname="list"> lotado de passageiros,</segment>
+    <segment id="35" parent="58" relname="elaboration"> e que deixou 376 mortos,</segment>
+    <segment id="36" parent="60" relname="attribution"> segundo números oficiais.</segment>
+<group id="37" type="multinuc" parent="38" relname="span" />
+<group id="38" type="span" parent="65" relname="span" />
+<group id="39" type="span" parent="2" relname="elaboration" />
+<group id="40" type="span" parent="41" relname="span" />
+<group id="41" type="span" parent="63" relname="list" />
+<group id="42" type="span" parent="40" relname="attribution" />
+<group id="43" type="span" parent="44" relname="same-unit" />
+<group id="44" type="multinuc" parent="62" relname="sequence" />
+<group id="45" type="span" parent="44" relname="same-unit" />
+<group id="46" type="span" parent="47" relname="same-unit" />
+<group id="47" type="multinuc" parent="51" relname="attribution" />
+<group id="48" type="span" parent="49" relname="same-unit" />
+<group id="49" type="multinuc" parent="22" relname="circumstance" />
+<group id="50" type="span" parent="49" relname="same-unit" />
+<group id="51" type="span" parent="52" relname="span" />
+<group id="52" type="span" parent="63" relname="list" />
+<group id="53" type="multinuc" parent="55" relname="span" />
+<group id="54" type="span" parent="53" relname="sequence" />
+<group id="55" type="span" parent="63" relname="list" />
+<group id="56" type="multinuc" parent="31" relname="elaboration" />
+<group id="57" type="span" parent="56" relname="list" />
+<group id="58" type="span" parent="59" relname="span" />
+<group id="59" type="span" parent="9" relname="non-volitional-cause" />
+<group id="60" type="span" parent="66" relname="span" />
+<group id="62" type="multinuc" parent="63" relname="list" />
+<group id="63" type="multinuc" parent="38" relname="elaboration" />
+<group id="64" type="span" parent="63" relname="list" />
+<group id="65" type="span" parent="67" relname="span" />
+<group id="66" type="span" parent="65" relname="comparison" />
+<group id="67" type="span" />
+  </body>
+</rst>

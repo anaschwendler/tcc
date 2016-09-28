@@ -1,0 +1,67 @@
+<ET ID="00" TIPO="TEMPO_CALEND" SUBTIPO="DATA" VAL_NORM="+20070724T0851E--LM-">
+Quase metade dos vôos previstos para decolar 
+<ET ID="01" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+na manhã desta terça-feira (24)
+</ET>
+no Aeroporto de Congonhas, na Zona Sul de São Paulo, foi cancelada, de acordo com informações da Infraero. Das 39 decolagens previstas 
+<ET ID="02" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" VAL_NORM1="+--------T0600E--LM-" VAL_NORM2="+--------T0800E--LM-">
+entre as 6h e as 8h
+</ET>
+, 19 sofreram cancelamentos ou o equivalente a 48,7% do total. 
+
+A TAM anunciou o cancelamento de 68 vôos 
+<ET ID="03" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="SIMULT" VAL_DELTA="A0M0S0D0H0M0S0">
+nesta terça (24)
+</ET>
+e o remanejamento de outros 22. Dos vôos cancelados, 8 passariam pelo Paraná. Dois vôos que sairiam de Curitiba para Congonhas foram remanejados para Guarulhos.
+
+A pista auxilar de Congonhas abriu 
+<ET ID="04" TIPO="TEMPO_CALEND" SUBTIPO="HORA" VAL_NORM="+--------T0600E--LM-">
+às 6h
+</ET>
+, apenas para decolagens. A pista principal está fechada 
+<ET ID="05" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S1D0H0M0S0">
+há uma semana
+</ET>
+, desde o acidente com o vôo 3054 da TAM. 
+
+Oito pousos que deveriam ocorrer 
+<ET ID="06" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" VAL_NORM1="+--------T0600E--LM-" VAL_NORM2="+--------T0800E--LM-">
+entre as 6h e as 8h
+</ET>
+foram alternados para o Aeroporto Internacional de Cumbica, em Guarulhos, zona metropolitana de São Paulo.
+
+Cumbica opera por instrumentos 
+<ET ID="07" TIPO="TEMPO_CALEND" SUBTIPO="HORA" VAL_NORM="+--------T0715E--LM-">
+desde as 7h15
+</ET>
+, por causa da visibilidade ruim. Das 48 partidas previstas 
+<ET ID="08" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" VAL_NORM1="+--------T0000E--LM-" VAL_NORM2="+--------T0800E--LM-">
+entre a meia-noite e as 8h
+</ET>
+, quatro partiram com atraso. Segundo a Infraero, nenhuma foi cancelada.
+
+<ET ID="09" TIPO="TEMPO_CALEND" SUBTIPO="DATA" TEMPO_REF="ENUNCIACAO" SENTIDO="ANTERIOR" VAL_DELTA="A0M0S0D1H0M0S0">
+Na segunda-feira (23)
+</ET>
+, a chuva que atingiu a cidade provocou o fechamento da pista auxiliar de Congonhas por quatro vezes, três delas 
+<ET ID="10" TIPO="TEMPO_CALEND" SUBTIPO="INTERVALO" VAL_NORM1="+--------T1025E--LM-" VAL_NORM2="+--------T1317E--LM-">
+entre as 10h25 e as 13h17
+</ET>
+. Os saguões e corredores ficaram lotados. Passageiros ficaram indignados.
+
+Por causa da chuva 
+<ET ID="11" TIPO="DURACAO"><!--Marcado assim!-->
+durante todo o dia
+</ET>
+, vários aviões foram desviados para outros aeroportos, pois os pilotos não quiseram arriscar o pouso em Congonhas.
+
+Uma chuva fina atinge pontos isolados da cidade 
+<ET ID="12" TIPO="TEMPO_CALEND">
+esta manhã
+</ET>
+, de acordo com o Centro de Gerenciamento de Emergências (CGE). A previsão é que a chuva persista e se intensifique
+<ET ID="12" TIPO="DURACAO"><!--Marcado assim!-->
+ao longo do dia
+</ET>
+. 

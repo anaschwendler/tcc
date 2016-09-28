@@ -1,0 +1,30 @@
+<R SDID="D2_C5_GPovo.txt.seg" SSENT="1" TDID="D1_C5_JB.txt.seg" TSENT="1">
+<RELATION TYPE="Follow-up" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C5_GPovo.txt.seg" SSENT="1" TDID="D1_C5_JB.txt.seg" TSENT="3">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C5_GPovo.txt.seg" SSENT="2" TDID="D1_C5_JB.txt.seg" TSENT="3">
+<RELATION TYPE="Historical-background" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C5_GPovo.txt.seg" SSENT="3" TDID="D1_C5_JB.txt.seg" TSENT="3">
+<RELATION TYPE="Follow-up" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C5_GPovo.txt.seg" SSENT="10" TDID="D1_C5_JB.txt.seg" TSENT="3">
+<RELATION TYPE="Historical-background" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C5_JB.txt.seg" SSENT="4" TDID="D2_C5_GPovo.txt.seg" TSENT="1">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C5_GPovo.txt.seg" SSENT="6" TDID="D1_C5_JB.txt.seg" TSENT="4">
+<RELATION TYPE="Elaboration" JUDGE="thiago"/>
+</R>
+<R SDID="D1_C5_JB.txt.seg" SSENT="4" TDID="D2_C5_GPovo.txt.seg" TSENT="9">
+<RELATION TYPE="Subsumption" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C5_GPovo.txt.seg" SSENT="4" TDID="D1_C5_JB.txt.seg" TSENT="6">
+<RELATION TYPE="Follow-up" JUDGE="thiago"/>
+</R>
+<R SDID="D2_C5_GPovo.txt.seg" SSENT="8" TDID="D1_C5_JB.txt.seg" TSENT="6">
+<RELATION TYPE="Follow-up" JUDGE="thiago"/>
+</R>

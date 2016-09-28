@@ -1,0 +1,27 @@
+<R SDID="D1_C35_Folha.txt.seg" SSENT="1" TDID="D4_C35_JB.txt.seg" TSENT="1">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D1_C35_Folha.txt.seg" SSENT="1" TDID="D4_C35_JB.txt.seg" TSENT="2">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D1_C35_Folha.txt.seg" SSENT="1" TDID="D4_C35_JB.txt.seg" TSENT="3">
+<RELATION TYPE="Overlap" JUDGE="Erick"/>
+</R>
+<R SDID="D1_C35_Folha.txt.seg" SSENT="3" TDID="D4_C35_JB.txt.seg" TSENT="1">
+<RELATION TYPE="Elaboration" JUDGE="Erick"/>
+</R>
+<R SDID="D1_C35_Folha.txt.seg" SSENT="4" TDID="D4_C35_JB.txt.seg" TSENT="3">
+<RELATION TYPE="Elaboration" JUDGE="Erick"/>
+</R>
+<R SDID="D1_C35_Folha.txt.seg" SSENT="5" TDID="D4_C35_JB.txt.seg" TSENT="2">
+<RELATION TYPE="Follow-up" JUDGE="Erick"/>
+</R>
+<R SDID="D1_C35_Folha.txt.seg" SSENT="6" TDID="D4_C35_JB.txt.seg" TSENT="2">
+<RELATION TYPE="Elaboration" JUDGE="Erick"/>
+</R>
+<R SDID="D1_C35_Folha.txt.seg" SSENT="11" TDID="D4_C35_JB.txt.seg" TSENT="1">
+<RELATION TYPE="Elaboration" JUDGE="Erick"/>
+</R>
+<R SDID="D1_C35_Folha.txt.seg" SSENT="14" TDID="D4_C35_JB.txt.seg" TSENT="3">
+<RELATION TYPE="Follow-up" JUDGE="Erick"/>
+</R>

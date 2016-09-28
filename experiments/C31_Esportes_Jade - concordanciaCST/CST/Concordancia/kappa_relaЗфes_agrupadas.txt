@@ -1,0 +1,24 @@
+----------- KAPPA -------------
+K=0.736, P(A)=0.857, P(E)=0.459, N=7, k=2,  n=3 ( complemento no-relation redundancia )
+
+---- COLLAPSING CATEGORIES ----
+
+Collapsing complemento and no-relation:
+K=1.000, P(A)=1.000, P(E)=0.510, N=7, k=2,  n=2 ( complementono-relation redundancia )
+
+Collapsing complemento and redundancia:
+K=-0.077, P(A)=0.857, P(E)=0.867, N=7, k=2,  n=2 ( no-relation complementoredundancia )
+
+Collapsing no-relation and redundancia:
+K=0.689, P(A)=0.857, P(E)=0.541, N=7, k=2,  n=2 ( complemento no-relationredundancia )
+
+----- ISOLATING CATEGORIES ----
+
+Isolating complemento:
+K=0.689, P(A)=0.857, P(E)=0.541, N=7, k=2,  n=2 ( complemento X )
+
+Isolating no-relation:
+K=-0.077, P(A)=0.857, P(E)=0.867, N=7, k=2,  n=2 ( no-relation X )
+
+Isolating redundancia:
+K=1.000, P(A)=1.000, P(E)=0.510, N=7, k=2,  n=2 ( X redundancia )

@@ -1,0 +1,211 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="attribution" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="comparison" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="conclusion" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="explanation" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="non-volitional-cause" type="rst" />
+      <rel name="non-volitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="parenthetical" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="other-rel" type="rst" />
+      <rel name="antithesis-e" type="rst" />
+      <rel name="attribution-e" type="rst" />
+      <rel name="background-e" type="rst" />
+      <rel name="circumstance-e" type="rst" />
+      <rel name="comparison-e" type="rst" />
+      <rel name="concession-e" type="rst" />
+      <rel name="conclusion-e" type="rst" />
+      <rel name="condition-e" type="rst" />
+      <rel name="elaboration-e" type="rst" />
+      <rel name="enablement-e" type="rst" />
+      <rel name="explanation-e" type="rst" />
+      <rel name="evaluation-e" type="rst" />
+      <rel name="evidence-e" type="rst" />
+      <rel name="interpretation-e" type="rst" />
+      <rel name="justify-e" type="rst" />
+      <rel name="means-e" type="rst" />
+      <rel name="motivation-e" type="rst" />
+      <rel name="non-volitional-cause-e" type="rst" />
+      <rel name="non-volitional-result-e" type="rst" />
+      <rel name="otherwise-e" type="rst" />
+      <rel name="purpose-e" type="rst" />
+      <rel name="restatement-e" type="rst" />
+      <rel name="solutionhood-e" type="rst" />
+      <rel name="summary-e" type="rst" />
+      <rel name="volitional-cause-e" type="rst" />
+      <rel name="volitional-result-e" type="rst" />
+      <rel name="other-rel-e" type="rst" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="same-unit" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+      <rel name="other-rel" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="66" relname="list">Para a surpresa da maioria, a Seleção Brasileira apresentou um futebol de alto nível</segment>
+    <segment id="25" parent="66" relname="list"> e com propriedade aplicou uma goleada de 3 a 0 na Argentina</segment>
+    <segment id="26" parent="67" relname="span"> para conquistar o título da Copa América de 2007.</segment>
+    <segment id="27" parent="69" relname="contrast"> Depois de apresentar jogos de nível mediano durante toda a competição,</segment>
+    <segment id="28" parent="68" relname="sequence"> os comandados do estreante Dunga jogaram tudo o que podiam na final </segment>
+    <segment id="29" parent="68" relname="sequence">e tiveram o prazer de levantar o caneco para o Brasil com uma vitória sobre a Argentina.</segment>
+    <segment id="2" parent="97" relname="span">
+
+É de se pensar se a conquista não irá maquiar o atual panorama da seleção, </segment>
+    <segment id="24" parent="70" relname="list">que apresentou muitas falhas </segment>
+    <segment id="30" parent="71" relname="span">e trouxe jogadores </segment>
+    <segment id="31" parent="30" relname="elaboration">que não corresponderam às expectativas depositadas neles.</segment>
+    <segment id="3" parent="72" relname="list"> Mas, verdade seja dita, o Brasil fez valer a máxima de que “clássico é clássico” </segment>
+    <segment id="32" parent="72" relname="list">e conseguiu uma bela vitória sobre seu mais tradicional rival.</segment>
+    <segment id="4" parent="115" relname="span"> 
+
+Dunga conquistou seu primeiro título como treinador </segment>
+    <segment id="33" parent="4" relname="non-volitional-result">e calou críticos por todo o país.</segment>
+    <segment id="5" parent="117" relname="list"> O Brasil é a melhor seleção das américas pela oitava vez.</segment>
+    <segment id="6" parent="102" relname="span">
+
+O pessimismo da grande maioria dos brasileiros era visível antes da partida contra a Argentina começar.</segment>
+    <segment id="7" parent="75" relname="span"> Após acompanhar o belo futebol apresentado pelos “hermanos” durante toda a Copa América, </segment>
+    <segment id="34" parent="7" relname="elaboration">que foi conduzida pelos habilidosos pés de Riquelme e Messi, </segment>
+    <segment id="35" parent="73" relname="span">o Brasil foi a campo sem o tradicional status de favorito </segment>
+    <segment id="36" parent="35" relname="elaboration">que o acompanha há muito.</segment>
+    <segment id="8" parent="101" relname="span">
+  
+Argentino Riquelme faz cara feia para a boa apresentação do Brasil,</segment>
+    <segment id="37" parent="8" relname="elaboration"> que rendeu ao título da Copa América para a &quot;canarinho&quot;  </segment>
+    <segment id="23" parent="76" relname="purpose">
+ 
+Para apagar essa impressão,</segment>
+    <segment id="38" parent="77" relname="span"> logo no terceiro minutos Elano</segment>
+    <segment id="39" parent="38" relname="parenthetical"> – que entrara neste jogo em substituição a Gilberto Silva –</segment>
+    <segment id="40" parent="103" relname="span"> faz um belo lançamento para Julio Batista.</segment>
+    <segment id="9" parent="78" relname="sequence"> Dentro da área, o jogador mata com categoria,</segment>
+    <segment id="41" parent="78" relname="sequence"> faz uma linda finta na marcação </segment>
+    <segment id="42" parent="78" relname="sequence">e chutou com muita categoria no ângulo do goleiro Abbodanzieri.</segment>
+    <segment id="10" parent="106" relname="span"> A resposta quase veio aos 8 minutos, </segment>
+    <segment id="43" parent="79" relname="list">quando Messi fez o cruzamento da esquerda,</segment>
+    <segment id="44" parent="79" relname="list"> verón ajeitou de cabeça</segment>
+    <segment id="45" parent="79" relname="list"> e Riquelme disparou uma bomba na trave esquerda de Doni.</segment>
+    <segment id="11" parent="113" relname="span">
+
+Com mais posse de bola, o Brasil seguiu pressionando.</segment>
+    <segment id="12" parent="81" relname="sequence"> O atacante Robinho fez belo passe </segment>
+    <segment id="46" parent="81" relname="sequence">para Maicon dominar</segment>
+    <segment id="47" parent="82" relname="span"> e chutar rasteiro para a defesa do camisa 1 argentino, </segment>
+    <segment id="48" parent="80" relname="sequence">que quase bateu roupa </segment>
+    <segment id="49" parent="80" relname="sequence">e tomou um frango.</segment>
+    <segment id="13" parent="108" relname="span"> Ainda na pressão, o Brasil chega com perigo na jogada de Maicon, </segment>
+    <segment id="50" parent="83" relname="sequence">que deu uma meia lua na marcação </segment>
+    <segment id="51" parent="83" relname="sequence">e cruzou para Robinho.</segment>
+    <segment id="14" parent="83" relname="sequence"> Antes do domínio, Zanetti fez o corte.</segment>
+    <segment id="15" parent="124" relname="span"> 
+
+A Argentina mostrou que não estava morta em campo </segment>
+    <segment id="52" parent="84" relname="sequence">e Tevez tentou o chute </segment>
+    <segment id="53" parent="84" relname="sequence">e acabou travado pela marcação.</segment>
+    <segment id="16" parent="85" relname="sequence"> Na seqüência disparou uma bomba</segment>
+    <segment id="54" parent="55" relname="volitional-cause"> e Doni fez linda defesa,</segment>
+    <segment id="55" parent="86" relname="span"> evitando o empate.</segment>
+    <segment id="17" parent="111" relname="span"> Empate este que ficou mais distante aos 39 minutos, </segment>
+    <segment id="56" parent="87" relname="sequence">quando Daniel Alves desceu pela direita </segment>
+    <segment id="57" parent="87" relname="sequence">e cruzou com força para a pequena área.</segment>
+    <segment id="18" parent="90" relname="span"> Ayala deu o carrinho </segment>
+    <segment id="58" parent="18" relname="purpose">para fazer o corte</segment>
+    <segment id="59" parent="88" relname="sequence"> e tocou para dentro do seu próprio gol.</segment>
+    <segment id="19" parent="91" relname="list">
+
+Para o segundo tempo as equipes voltaram iguais </segment>
+    <segment id="60" parent="91" relname="list">e a Argentina melhorou um pouco.</segment>
+    <segment id="20" parent="118" relname="span"> Com mais vontade, os jogadores argentinos foram para cima </segment>
+    <segment id="61" parent="20" relname="purpose">e tentavam diminuir a diferença.</segment>
+    <segment id="21" parent="93" relname="same-unit"> Mas, </segment>
+    <segment id="63" parent="92" relname="list">para a alegria dos brasileiro</segment>
+    <segment id="64" parent="92" relname="list"> e para apimentar ainda mais a rivalidade entre os países, </segment>
+    <segment id="62" parent="94" relname="span">foi a “canarinho” quem balançou as redes.</segment>
+    <segment id="22" parent="95" relname="sequence"> Vagner Love fez lindo passe para Daniel Alves,</segment>
+    <segment id="65" parent="95" relname="sequence"> que chutou forte e cruzado no fundo das redes de Abbodanzieri.</segment>
+<group id="66" type="multinuc" parent="26" relname="volitional-cause" />
+<group id="67" type="span" parent="96" relname="span" />
+<group id="68" type="multinuc" parent="69" relname="contrast" />
+<group id="69" type="multinuc" parent="67" relname="explanation" />
+<group id="70" type="multinuc" parent="2" relname="elaboration" />
+<group id="71" type="span" parent="70" relname="list" />
+<group id="72" type="multinuc" parent="97" relname="concession" />
+<group id="73" type="span" parent="74" relname="sequence" />
+<group id="74" type="multinuc" parent="100" relname="list" />
+<group id="75" type="span" parent="74" relname="sequence" />
+<group id="76" type="multinuc" parent="104" relname="span" />
+<group id="77" type="span" parent="76" relname="same-unit" />
+<group id="78" type="multinuc" parent="40" relname="elaboration" />
+<group id="79" type="multinuc" parent="10" relname="circumstance" />
+<group id="80" type="multinuc" parent="47" relname="elaboration" />
+<group id="81" type="multinuc" parent="107" relname="list" />
+<group id="82" type="span" parent="81" relname="sequence" />
+<group id="83" type="multinuc" parent="109" relname="span" />
+<group id="84" type="multinuc" parent="110" relname="span" />
+<group id="85" type="multinuc" parent="84" relname="sequence" />
+<group id="86" type="span" parent="112" relname="span" />
+<group id="87" type="multinuc" parent="89" relname="span" />
+<group id="89" type="span" parent="17" relname="circumstance" />
+<group id="88" type="multinuc" parent="87" relname="sequence" />
+<group id="90" type="span" parent="88" relname="sequence" />
+<group id="91" type="multinuc" parent="125" relname="span" />
+<group id="92" type="multinuc" parent="62" relname="purpose" />
+<group id="93" type="multinuc" parent="121" relname="span" />
+<group id="94" type="span" parent="120" relname="span" />
+<group id="95" type="multinuc" parent="94" relname="explanation" />
+<group id="96" type="span" parent="99" relname="span" />
+<group id="97" type="span" parent="98" relname="span" />
+<group id="98" type="span" parent="96" relname="evaluation" />
+<group id="99" type="span" parent="116" relname="span" />
+<group id="100" type="multinuc" parent="6" relname="evidence" />
+<group id="101" type="span" parent="100" relname="list" />
+<group id="102" type="span" parent="122" relname="span" />
+<group id="103" type="span" parent="76" relname="same-unit" />
+<group id="104" type="span" parent="105" relname="sequence" />
+<group id="105" type="multinuc" parent="114" relname="span" />
+<group id="106" type="span" parent="105" relname="sequence" />
+<group id="107" type="multinuc" parent="11" relname="evidence" />
+<group id="108" type="span" parent="107" relname="list" />
+<group id="109" type="span" parent="13" relname="elaboration" />
+<group id="110" type="span" parent="15" relname="evidence" />
+<group id="111" type="span" parent="86" relname="elaboration" />
+<group id="112" type="span" parent="85" relname="sequence" />
+<group id="113" type="span" parent="105" relname="sequence" />
+<group id="114" type="span" parent="102" relname="elaboration" />
+<group id="115" type="span" parent="117" relname="list" />
+<group id="116" type="span" parent="126" relname="span" />
+<group id="117" type="multinuc" parent="99" relname="non-volitional-result" />
+<group id="118" type="span" parent="119" relname="span" />
+<group id="119" type="span" parent="91" relname="evidence" />
+<group id="120" type="span" parent="93" relname="same-unit" />
+<group id="121" type="span" parent="118" relname="concession" />
+<group id="122" type="span" parent="123" relname="sequence" />
+<group id="123" type="multinuc" parent="116" relname="elaboration" />
+<group id="124" type="span" parent="123" relname="sequence" />
+<group id="125" type="span" parent="123" relname="sequence" />
+<group id="126" type="span" />
+  </body>
+</rst>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xml>
+<corpus>
+
+	<body>
+<s id="s1" ref="1" source="Running text" forest="1" text="Depois da queda de April Steiner, a brasileira Fabiana Murer leva a medalha de ouro no salto com vara, com 4m50 - novo recorde pan-americano.">
+	<graph root="s1_500">
+		<terminals>
+			<t id="s1_1" word="Depois" lemma="depois" pos="adv" morph="--" sem="--" extra="--"/>
+			<t id="s1_2" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s1_3" word="a" lemma="o" pos="art" morph="F S" sem="--" extra=" -sam"/>
+			<t id="s1_4" word="queda" lemma="queda" pos="n" morph="F S" sem="event" extra="--"/>
+			<t id="s1_5" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_6" word="April_Steiner" lemma="April_Steiner" pos="prop" morph="M/F S" sem="--" extra="top"/>
+			<t id="s1_7" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_8" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s1_9" word="brasileira" lemma="brasileira" pos="n" morph="F S" sem="Hnat" extra="--"/>
+			<t id="s1_10" word="Fabiana_Murer" lemma="Fabiana_Murer" pos="prop" morph="F S" sem="--" extra="hum np-close"/>
+			<t id="s1_11" word="leva" lemma="levar" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s1_12" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s1_13" word="medalha" lemma="medalha" pos="n" morph="F S" sem="cc" extra="--"/>
+			<t id="s1_14" word="de" lemma="de" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s1_15" word="ouro" lemma="ouro" pos="n" morph="M S" sem="mat ac-cat" extra="--"/>
+			<t id="s1_16" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s1_17" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s1_18" word="salto_com_vara" lemma="salto_com_vara" pos="n" morph="M S" sem="sport" extra="--"/>
+			<t id="s1_19" word="," lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_20" word="com" lemma="com" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s1_21" word="4m50" lemma="4m50" pos="n" morph="M P" sem="temp" extra="--"/>
+			<t id="s1_22" word="¬" lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+			<t id="s1_23" word="novo" lemma="novo" pos="adj" morph="M S" sem="--" extra="--"/>
+			<t id="s1_24" word="recorde" lemma="recorde" pos="n" morph="M S" sem="ac" extra="--"/>
+			<t id="s1_25" word="pan-americano" lemma="pan-americano" pos="adj" morph="M S" sem="--" extra="np-close"/>
+			<t id="s1_26" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s1_500" cat="s">
+				<edge label="STA" idref="s1_501"/>
+			</nt>
+			<nt id="s1_501" cat="fcl">
+				<edge label="fA" idref="s1_502"/>
+				<edge label="PU" idref="s1_7"/>
+				<edge label="S" idref="s1_506"/>
+				<edge label="P" idref="s1_11"/>
+				<edge label="Od" idref="s1_507"/>
+				<edge label="fA" idref="s1_509"/>
+				<edge label="PU" idref="s1_19"/>
+				<edge label="fA" idref="s1_511"/>
+				<edge label="PU" idref="s1_22"/>
+				<edge label="fCsta" idref="s1_512"/>
+				<edge label="PU" idref="s1_26"/>
+			</nt>
+			<nt id="s1_502" cat="advp">
+				<edge label="H" idref="s1_1"/>
+				<edge label="DA" idref="s1_503"/>
+			</nt>
+			<nt id="s1_503" cat="pp">
+				<edge label="H" idref="s1_2"/>
+				<edge label="DP" idref="s1_504"/>
+			</nt>
+			<nt id="s1_504" cat="np">
+				<edge label="DN" idref="s1_3"/>
+				<edge label="H" idref="s1_4"/>
+				<edge label="DN" idref="s1_505"/>
+			</nt>
+			<nt id="s1_505" cat="pp">
+				<edge label="H" idref="s1_5"/>
+				<edge label="DP" idref="s1_6"/>
+			</nt>
+			<nt id="s1_506" cat="np">
+				<edge label="DN" idref="s1_8"/>
+				<edge label="H" idref="s1_9"/>
+				<edge label="DN" idref="s1_10"/>
+			</nt>
+			<nt id="s1_507" cat="np">
+				<edge label="DN" idref="s1_12"/>
+				<edge label="H" idref="s1_13"/>
+				<edge label="DN" idref="s1_508"/>
+			</nt>
+			<nt id="s1_508" cat="pp">
+				<edge label="H" idref="s1_14"/>
+				<edge label="DP" idref="s1_15"/>
+			</nt>
+			<nt id="s1_509" cat="pp">
+				<edge label="H" idref="s1_16"/>
+				<edge label="DP" idref="s1_510"/>
+			</nt>
+			<nt id="s1_510" cat="np">
+				<edge label="DN" idref="s1_17"/>
+				<edge label="H" idref="s1_18"/>
+			</nt>
+			<nt id="s1_511" cat="pp">
+				<edge label="H" idref="s1_20"/>
+				<edge label="DP" idref="s1_21"/>
+			</nt>
+			<nt id="s1_512" cat="np">
+				<edge label="DN" idref="s1_23"/>
+				<edge label="H" idref="s1_24"/>
+				<edge label="DN" idref="s1_25"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s2" ref="2" source="Running text" forest="1" text="É a 29ª medalha para o Brasil no Pan.">
+	<graph root="s2_500">
+		<terminals>
+			<t id="s2_1" word="É" lemma="ser" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s2_2" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s2_3" word="29ª" lemma="29ª" pos="adj" morph="F S" sem="--" extra="NUM-ord"/>
+			<t id="s2_4" word="medalha" lemma="medalha" pos="n" morph="F S" sem="cc" extra="--"/>
+			<t id="s2_5" word="para" lemma="para" pos="prp" morph="--" sem="--" extra="np-close"/>
+			<t id="s2_6" word="o" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s2_7" word="Brasil" lemma="Brasil" pos="prop" morph="M S" sem="--" extra="civ"/>
+			<t id="s2_8" word="em" lemma="em" pos="prp" morph="--" sem="--" extra="sam-"/>
+			<t id="s2_9" word="o" lemma="o" pos="art" morph="M S" sem="--" extra=" -sam"/>
+			<t id="s2_10" word="Pan" lemma="pan" pos="ec" morph="--" sem="--" extra="--"/>
+			<t id="s2_11" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s2_500" cat="s">
+				<edge label="STA" idref="s2_501"/>
+			</nt>
+			<nt id="s2_501" cat="fcl">
+				<edge label="P" idref="s2_1"/>
+				<edge label="Cs" idref="s2_502"/>
+				<edge label="fA" idref="s2_8"/>
+				<edge label="DN" idref="s2_9"/>
+				<edge label="PREF" idref="s2_10"/>
+				<edge label="PU" idref="s2_11"/>
+			</nt>
+			<nt id="s2_502" cat="np">
+				<edge label="DN" idref="s2_2"/>
+				<edge label="DN" idref="s2_3"/>
+				<edge label="H" idref="s2_4"/>
+				<edge label="DN" idref="s2_503"/>
+			</nt>
+			<nt id="s2_503" cat="pp">
+				<edge label="H" idref="s2_5"/>
+				<edge label="DP" idref="s2_504"/>
+			</nt>
+			<nt id="s2_504" cat="np">
+				<edge label="DN" idref="s2_6"/>
+				<edge label="H" idref="s2_7"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+<s id="s3" ref="3" source="Running text" forest="1" text="O bronze vai para a cubana Yarisley Silva.">
+	<graph root="s3_500">
+		<terminals>
+			<t id="s3_1" word="O" lemma="o" pos="art" morph="M S" sem="--" extra="--"/>
+			<t id="s3_2" word="bronze" lemma="bronze" pos="n" morph="M S" sem="mat" extra="--"/>
+			<t id="s3_3" word="vai" lemma="ir" pos="v-fin" morph="PR 3S IND VFIN" sem="--" extra="fmc mv"/>
+			<t id="s3_4" word="para" lemma="para" pos="prp" morph="--" sem="--" extra="--"/>
+			<t id="s3_5" word="a" lemma="o" pos="art" morph="F S" sem="--" extra="--"/>
+			<t id="s3_6" word="cubana" lemma="cubana" pos="n" morph="F S" sem="Hnat" extra="--"/>
+			<t id="s3_7" word="Yarisley_Silva" lemma="Yarisley_Silva" pos="prop" morph="F S" sem="--" extra="hum np-close"/>
+			<t id="s3_8" word="." lemma="--" pos="pu" morph="--" sem="--" extra="--"/>
+		</terminals>
+
+		<nonterminals>
+			<nt id="s3_500" cat="s">
+				<edge label="STA" idref="s3_501"/>
+			</nt>
+			<nt id="s3_501" cat="fcl">
+				<edge label="S" idref="s3_502"/>
+				<edge label="P" idref="s3_3"/>
+				<edge label="fA" idref="s3_503"/>
+				<edge label="PU" idref="s3_8"/>
+			</nt>
+			<nt id="s3_502" cat="np">
+				<edge label="DN" idref="s3_1"/>
+				<edge label="H" idref="s3_2"/>
+			</nt>
+			<nt id="s3_503" cat="pp">
+				<edge label="H" idref="s3_4"/>
+				<edge label="DP" idref="s3_504"/>
+			</nt>
+			<nt id="s3_504" cat="np">
+				<edge label="DN" idref="s3_5"/>
+				<edge label="H" idref="s3_6"/>
+				<edge label="DN" idref="s3_7"/>
+			</nt>
+		</nonterminals>
+	</graph>
+</s>
+
+	</body>
+</corpus>
+</xml>
