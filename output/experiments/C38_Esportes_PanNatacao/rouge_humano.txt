@@ -1,1 +1,0 @@
-{'rouge_su4_precision': 1.0, 'rouge_1_precision': 1.0, 'rouge_4_recall': 1.0, 'rouge_1_f_score': 1.0, 'rouge_su4_f_score': 1.0, 'rouge_3_recall': 1.0, 'rouge_4_precision': 1.0, 'rouge_4_f_score': 1.0, 'rouge_2_recall': 1.0, 'rouge_3_f_score': 1.0, 'rouge_3_precision': 1.0, 'rouge_2_precision': 1.0, 'rouge_2_f_score': 1.0, 'rouge_1_recall': 1.0, 'rouge_su4_recall': 1.0}
