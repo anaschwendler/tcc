@@ -126,3 +126,9 @@ The texts are annotated in different ways for discourse organization, following 
 
 - Resultados de média que tínhamos antes, com desvio padrão, com análises
 
+- Graficos:
+1. Médias com desvio padrão
+2. Rouge2
+3. Rouge3-precision: email 
+4. Ruído - hoje a noite (se o resultado for bom)
+
