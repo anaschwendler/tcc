@@ -104,8 +104,25 @@ The texts are annotated in different ways for discourse organization, following 
 - [x] attempt to adjust the lexRank algorithm to concept version
 - [x] write about the project, to clear things
 - [x] collect results for our algorithm to one document
-- [ ] collect results for our algorithm for all CST documents.
-- [ ] bar graph representando média de valores pra todas as métricas pra todos os valores.
-- [ ] media com desvio padrao.
+- [x] collect results for our algorithm for all CST documents.
+- [x] bar graph representando média de valores pra todas as métricas pra todos os valores.
+- [x] media com desvio padrao.
+- [ ] improve rouge s and su definition - what we are using
+- [ ] write about the rouge mesure meanings and precision and recall definition
+- [ ] add explanation "about the work" picture (PageRank - extrair saliência do grafo)
+- [ ] write about the result obtained
 
+
+## Results - wip
+
+- Não foi avaliado: resultados para domínios ruidosos - com problemas de escrita (sugestão: trocar 10% das palavras)
+- Hoje a noite
+
+- Recall para rouge 2 obteve bons resultados. (gráfico do email)
+- Significância estátistica pro resultado do rouge 2
+
+- Type-token: existe melhora onde a relação type-token é muito baixa
+- type-token: relação entre tamanho do vocabulário pelo tamanho de palavras (tokens)
+
+- Resultados de média que tínhamos antes, com desvio padrão, com análises
 
