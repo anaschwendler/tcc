@@ -119,7 +119,7 @@ In our experiments we used the [CSTNews corpus](http://conteudo.icmc.usp.br/pess
 
 To generate automatic summaries we used three methods of extractive summarization: [CSTSumm](http://seer.ufrgs.br/index.php/rita/article/view/RITA-VOL23-NR1-183/37492), Concept Rank, a method that we are proposing, and LexRank, a traditional method to extract summaries.
 
-To compare the quality of the automatic and the human generated extract, we used the evaluation method [ROUGE](http://anthology.aclweb.org/W/W04/W04-1013.pdf), the measures count the number of olverlapping units such as n-gram, word sequences and word pairs between the computer-generated summary to be evaluated and the ideal summaries created by humans.
+To compare the quality of the automatic and the human generated extract, we used the evaluation method [ROUGE](http://anthology.aclweb.org/W/W04/W04-1013.pdf), the measures count the number of overlapping units such as n-gram, word sequences and word pairs between the computer-generated summary to be evaluated and the ideal summaries created by humans.
 
 Evaluating all those methods, our average results are:
 - Resultados de média que tínhamos antes, com desvio padrão, com análises
@@ -134,7 +134,7 @@ And by notable results we discovered that:
 
 ![Rouge2 Recall](rouge2-recall.png)
 
-2 - ConceptRank mostra um bom resultado quando a relação type-token é muito baixa.
+2 - ConceptRank shows a great result when the realtion type-token is very low.
 - Type-token: existe melhora onde a relação type-token é muito baixa
 - type-token: relação entre tamanho do vocabulário pelo tamanho de palavras (tokens)
 
