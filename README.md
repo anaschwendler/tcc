@@ -113,22 +113,31 @@ The texts are annotated in different ways for discourse organization, following 
 - [ ] write about the result obtained
 
 
-## Results - wip
+## Experiments and Evaluation Results
 
-- Não foi avaliado: resultados para domínios ruidosos - com problemas de escrita (sugestão: trocar 10% das palavras)
-- Hoje a noite
+In our experiments we used the [CSTNews corpus](http://conteudo.icmc.usp.br/pessoas/taspardo/rst2011-cardosoetal1.pdf) and evaluate the summarization between human extract and CSTSumm, Concept Rank and LexRank methods. The CSTNews corpus is composed of 50 groups of news articles written in Brazilian Portuguese collected from several sections (Politics, Sports, World, Daily News, Money and Science) of mainstream online news agencies (Folha de São Paulo, Estadão, O Globo, Jornal do Brasil and Gazeta do Povo). Specifically, each group of 2 or 3 sources texts on the same topic from diferent agencies (in a total of 140 documents) and a multi-document human abstract for each group.
 
+To generate automatic summaries we used three methods of extractive summarization: [CSTSumm](http://seer.ufrgs.br/index.php/rita/article/view/RITA-VOL23-NR1-183/37492), Concept Rank, a method that we are proposing, and LexRank, a traditional method to extract summaries.
+
+To compare the quality of the automatic and the human generated extract, we used the evaluation method [ROUGE](http://anthology.aclweb.org/W/W04/W04-1013.pdf), the measures count the number of olverlapping units such as n-gram, word sequences and word pairs between the computer-generated summary to be evaluated and the ideal summaries created by humans.
+
+Evaluating all those methods, our average results are:
+- Resultados de média que tínhamos antes, com desvio padrão, com análises
+
+![Average Results](average-total.png)
+
+And by notable results we discovered that:
+
+1 - Recall for rouge2 mesure gave us great results for ConceptRank
 - Recall para rouge 2 obteve bons resultados. (gráfico do email)
 - Significância estátistica pro resultado do rouge 2
 
+![Rouge2 Recall](rouge2-recall.png)
+
+2 - ConceptRank mostra um bom resultado quando a relação type-token é muito baixa.
 - Type-token: existe melhora onde a relação type-token é muito baixa
 - type-token: relação entre tamanho do vocabulário pelo tamanho de palavras (tokens)
 
-- Resultados de média que tínhamos antes, com desvio padrão, com análises
+![Rouge3 Precision](rouge3-precision.png)
 
-- Graficos:
-1. Médias com desvio padrão
-2. Rouge2
-3. Rouge3-precision: email 
-4. Ruído - hoje a noite (se o resultado for bom)
 
