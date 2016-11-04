@@ -138,6 +138,6 @@ And by notable results we discovered that:
 - Type-token: existe melhora onde a relação type-token é muito baixa
 - type-token: relação entre tamanho do vocabulário pelo tamanho de palavras (tokens)
 
-![Rouge3 Precision](rouge3-precision.png)
-
+![Rouge3 Recall](rouge3-recall.png)
+![Rouge3 Precision](rouge3-f-score.png)
 
