@@ -1,3 +1,7 @@
+[UNDER REFACTOR]
+PS.: When I developed my thesis everything was throwed here, in order to finish everything. Now that I already graduated, I'll be refactoring my work, in order to be more extensible and organized.
+By saying that, I'll be adding the correct results, and evaluations
+
 # Graph-based conceptual centrality as salience in extractive text summarization
 
 ## Automatic text summarization (AS)
@@ -24,12 +28,12 @@ Is the process of reducing a textual document in order to create a summary that 
 * Input document relation
     * Single document: the sentences are extract from one only text.
     * Multi-document: the information can be digested from multiple text sources into one single document.
-    
+
 * Language relation
     * Monolingual: the output language is the same as the input text language.
     * Multilingual: the output language can be the same as the input language, but it can work in more than one language.
     * Cross-lingual: it get a source text in a particular language and built the summary in another language.
-    
+
 ## Model and representation
 Extractive summarization relies on graph representation of documents for computing relative importance (salience) of its textual units[Erkan and Radev 2004]. That representation consists in sentences being representated as nodes and its similarity are represented by edges. The salient nodes represent the most representative sentences, which should be included in the final summary.
 - There are two points that should be considered in the definition of centrality.
@@ -40,7 +44,7 @@ Extractive summarization relies on graph representation of documents for computi
 Answering about the points above, the similarity between two sentences can be defined as the amount of information in commom that they share. For example, to define the similarity between two sentences using the **cosine between two vectors**, defined by the value of the corresponding dimension of the vector representation of the sentence (number of ocurrence of the word in the sentence * idf of the word) can be affected by NLP problems, as we mentioned before.
 
 **Concepts** represent real world attributes and they help understanding ideas and ideologies present in texts. Concepts are not in the same level of terms of words, so it can minimize the vocabulary problem, and the effort necessary to extract useful information.
-The first thing to do is to identify or extract concepts from documents (in our case, sentences). To do it is sugested by [Loh et al. 2000] applying an automatic **categorization** task. 
+The first thing to do is to identify or extract concepts from documents (in our case, sentences). To do it is sugested by [Loh et al. 2000] applying an automatic **categorization** task.
 - This categorization is guided by a set of *rules* that describe how a concept should be identified.
 - These rules include cue *terms* that once found in a document may indicate the presence of concept.
 - The terms may include synonyms, lexical variations and derivations, and semantic related words.
@@ -77,7 +81,7 @@ This method improve the basic LCS method, it add an weight to remember the lengh
 
 * ROUGE-S: Skip-Bigram Co-Occurrence Statistics
 Skip-bigram is any pair of words in their sentence order, allowing for arbitrary gaps. Skip-bigram co-occurrence statistics measure the overlap of skip-bigrams between a candidate translation and a set of reference translations.
-Example: 
+Example:
 
 S1 - police killed the gunman
 
@@ -101,16 +105,10 @@ The texts are annotated in different ways for discourse organization, following 
 
 ## Tasks
 
-- [x] attempt to adjust the lexRank algorithm to concept version
-- [x] write about the project, to clear things
-- [x] collect results for our algorithm to one document
-- [x] collect results for our algorithm for all CST documents.
-- [x] bar graph representando média de valores pra todas as métricas pra todos os valores.
-- [x] media com desvio padrao.
-- [ ] improve rouge s and su definition - what we are using
-- [ ] write about the rouge mesure meanings and precision and recall definition
-- [ ] add explanation "about the work" picture (PageRank - extrair saliência do grafo)
-- [ ] write about the result obtained
+- [ ] Organize all items in respectives folders
+- [ ] Create `.py` files in order to separate code from analysis
+- [ ] Organize the results from the thesis
+- [ ] Organize the explanation of the thesis at all.
 
 
 ## Experiments and Evaluation Results
@@ -121,23 +119,26 @@ To generate automatic summaries we used three methods of extractive summarizatio
 
 To compare the quality of the automatic and the human generated extract, we used the evaluation method [ROUGE](http://anthology.aclweb.org/W/W04/W04-1013.pdf), the measures count the number of overlapping units such as n-gram, word sequences and word pairs between the computer-generated summary to be evaluated and the ideal summaries created by humans.
 
-Evaluating all those methods, our average results are:
+0.
+- Evaluating all those methods, our average results are:
 - Resultados de média que tínhamos antes, com desvio padrão, com análises
 
-![Average Results](average-total.png)
+![Average Results](results/average-total.png)
 
 And by notable results we discovered that:
 
-1 - Recall for rouge2 mesure gave us great results for ConceptRank
+1.
+- Recall for rouge2 mesure gave us great results for ConceptRank
 - Recall para rouge 2 obteve bons resultados. (gráfico do email)
 - Significância estátistica pro resultado do rouge 2
 
-![Rouge2 Recall](rouge2-recall.png)
+![Rouge2 Recall](results/rouge2-recall.png)
 
-2 - ConceptRank shows a great result when the realtion type-token is very low.
+2.
+- ConceptRank shows a great result when the realtion type-token is very low.
 - Type-token: existe melhora onde a relação type-token é muito baixa
 - type-token: relação entre tamanho do vocabulário pelo tamanho de palavras (tokens)
 
-![Rouge3 Recall](rouge3-recall.png)
-![Rouge3 Precision](rouge3-f-score.png)
+![Rouge3 Recall](results/rouge3-recall.png)
+![Rouge3 Precision](results/rouge3-f-score.png)
 
