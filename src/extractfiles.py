@@ -1,4 +1,4 @@
-# That script was created for moving only the necessary files to my work.
+# That script was created for moving only the necessary files to my work from the CSTCorpus.
 # By now, it does nothing, but it is pretty nice to have it, if one day it is nedded to copy
 # a large quantity of files to one folder to another
 
