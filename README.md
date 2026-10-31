@@ -24,27 +24,32 @@ reproducible pipeline:
 - [x] Clean up the repository and freeze the original results
 - [x] Python 3 project managed with uv
 - [x] Move the summarizers from notebooks into the `conceptrank` package
-- [ ] Rewrite corpus ingestion and ROUGE evaluation for Portuguese
+- [x] Rewrite corpus ingestion and ROUGE evaluation for Portuguese
 - [ ] Fix the known methodological issues, one at a time, measuring each
   - [ ] Keep hyphenated words: re-run with the current tokenizer and compare
         ROUGE against the 2016 summaries (same evaluator for both)
 - [ ] Re-run the analysis with baselines and significance tests
 
-## Results (2016, under review)
+## Results (2016 summaries, under review)
 
-Mean ROUGE over the 50 CSTNews clusters, scored against the human extracts:
+The thesis reported ROUGE-1 recall of 0.774 for ConceptRank against 0.755 for
+LexRank and 0.699 for CSTSumm. While refactoring it turned out that those
+scores were computed on **characters** rather than words, because of how the
+scoring library was called. Re-scoring the same 2016 summaries with standard
+word-level ROUGE against the CSTNews human extracts (means over 50 clusters):
 
-| System | ROUGE-1 R | ROUGE-2 R | ROUGE-3 R | ROUGE-SU4 F |
+| System | ROUGE-1 R | ROUGE-2 R | ROUGE-1 F | ROUGE-2 F |
 |---|---|---|---|---|
-| LexRank | 0.755 | 0.645 | 0.476 | 0.739 |
-| **ConceptRank** | **0.774** | **0.664** | **0.502** | 0.740 |
-| CSTSumm | 0.699 | 0.604 | 0.465 | **0.745** |
+| LexRank | 0.523 | 0.315 | 0.521 | 0.316 |
+| ConceptRank | **0.546** | 0.351 | 0.529 | 0.340 |
+| CSTSumm | 0.522 | **0.358** | **0.566** | **0.392** |
 
-These are the numbers reported in the thesis. They are kept unchanged in
-[results/legacy/](results/legacy/) as the baseline for the refactor, together
-with standard deviations, the analyses by text length and type-token ratio,
-and a list of known issues in how they were produced. The differences between
-systems have not been tested for significance.
+ConceptRank keeps a higher mean recall than LexRank, but the difference is not
+statistically significant (Wilcoxon p = 0.17 for ROUGE-1, 0.20 for ROUGE-2),
+and CSTSumm has the best F-scores. These summaries still carry other known
+issues that the refactor will fix and measure one at a time.
+[results/legacy/](results/legacy/) has the original numbers, the full
+comparison and the list of issues.
 
 ## Running locally
 
@@ -84,7 +89,8 @@ code and do not run as-is.
 │   ├── graph.py              # sentence graph and power method
 │   ├── lexrank.py            # LexRank similarity (TF-IDF cosine)
 │   ├── concept.py            # ConceptRank similarity (WIVES)
-│   └── summarize.py          # summarize all clusters as in the thesis
+│   ├── summarize.py          # summarize all clusters as in the thesis
+│   └── evaluation.py         # ROUGE with a Portuguese tokenizer
 ├── tests/                    # regression tests against the 2016 summaries
 ├── data/README.md            # how to get CSTNews
 ├── results/legacy/           # thesis results, frozen
