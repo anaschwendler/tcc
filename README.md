@@ -1,5 +1,7 @@
 # ConceptRank
 
+[![tests](https://github.com/anaschwendler/tcc/actions/workflows/tests.yml/badge.svg)](https://github.com/anaschwendler/tcc/actions/workflows/tests.yml)
+
 **Graph-based conceptual centrality as salience in extractive text summarization**
 
 ConceptRank is an extractive multi-document summarizer for Brazilian
