@@ -50,6 +50,9 @@ These are known from reading the code and have not yet been measured:
 - All system summaries were decoded as Latin-1 before scoring, although most
   are UTF-8; the reference was decoded as UTF-8.
 - Sentences in the generated summaries are joined with no separator.
+- The reference (`extrato_humano.txt`) still had a source tag at the end of
+  every sentence (`<D1_C1_Folha; p1-s1>`), so tokens such as "D1", "Folha"
+  and "p1" counted as reference words for every system.
 - Summary length is `count('.')` in the CSTSumm summary.
 - ConceptRank uses word length (`len(term)`) as the concept weight instead of
   the per-document term weight of the original WIVES similarity
