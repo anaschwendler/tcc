@@ -47,13 +47,18 @@ human extract):
 | System | ROUGE-1 R | ROUGE-2 R | ROUGE-1 F | ROUGE-2 F |
 |---|---|---|---|---|
 | LexRank | 0.569 | 0.364 | 0.570 | 0.365 |
-| ConceptRank | **0.579** | **0.376** | **0.579** | 0.377 |
-| CSTSumm | 0.505 | 0.343 | 0.562 | **0.385** |
+| ConceptRank | 0.579 | 0.376 | 0.579 | 0.377 |
+| CSTSumm | 0.505 | 0.343 | 0.562 | 0.385 |
+| Lead (baseline) | **0.587** | **0.404** | **0.586** | **0.404** |
+| Random (baseline) | 0.514 | 0.286 | 0.515 | 0.287 |
 
 ConceptRank is ahead of LexRank by about 0.01, which is not statistically
-significant over 50 clusters (Wilcoxon p > 0.8). CSTSumm's summaries are
-shorter than the budget, so its recall is lower; on F-score the three systems
-are level. Details in [results/fixes/](results/fixes/README.md).
+significant over 50 clusters (Wilcoxon p > 0.8). Both are clearly better than
+random sentences (p < 0.001), but neither beats Lead, which takes the opening
+sentences of each news text; the gap is not significant either way. CSTSumm's
+summaries are shorter than the budget, so its recall is lower; on F-score it is
+level with the others. Details in [results/fixes/](results/fixes/README.md) and
+[results/analysis/](results/analysis/README.md).
 
 ### How this differs from the thesis
 
