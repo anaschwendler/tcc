@@ -109,3 +109,49 @@ stays ahead of both. One possible reason, not tested: the reference is a human
 extract made of source sentences, and if annotators also picked information
 repeated across the news agencies, penalizing repetition does not bring a
 summary closer to it.
+
+## By text length and type-token ratio
+
+The thesis claimed that ConceptRank does better on short texts (ROUGE-2 recall
+by number of words) and on texts with a low type-token ratio (ROUGE-3 recall),
+from bar charts with cumulative thresholds (`<=`) and character-level ROUGE.
+`by_text.py` redoes both on the corrected pipeline, with words and type-token
+ratio measured on each cluster's source sentences (ROUGE tokenizer). The two
+measures are correlated (Spearman −0.55): longer texts repeat more words.
+
+Clusters are split into terciles by each measure, with a paired Wilcoxon test
+against LexRank inside each tercile. "ConceptRank" uses the WIVES weights;
+"thesis similarity" is the original port.
+
+**Number of words, ROUGE-2 recall**
+
+| Tercile | Words | Clusters | LexRank | ConceptRank | ConceptRank (thesis similarity) | ConceptRank vs LexRank p | Thesis similarity vs LexRank p |
+|---|---|---|---|---|---|---|---|
+| Low | 220–809 | 17 | 0.412 | 0.424 | 0.387 | 0.756 | 0.854 |
+| Middle | 833–1011 | 16 | 0.349 | 0.390 | 0.426 | 0.597 | 0.005 |
+| High | 1068–1632 | 17 | 0.331 | 0.316 | 0.335 | 0.890 | 0.517 |
+
+**Type-token ratio, ROUGE-3 recall**
+
+| Tercile | Type-token | Clusters | LexRank | ConceptRank | ConceptRank (thesis similarity) | ConceptRank vs LexRank p | Thesis similarity vs LexRank p |
+|---|---|---|---|---|---|---|---|
+| Low | 0.238–0.346 | 17 | 0.262 | 0.263 | 0.317 | 0.927 | 0.088 |
+| Middle | 0.360–0.413 | 16 | 0.317 | 0.313 | 0.283 | 0.650 | 0.464 |
+| High | 0.413–0.546 | 17 | 0.353 | 0.382 | 0.387 | 0.510 | 0.301 |
+
+Spearman correlation over all 50 clusters between each measure and the
+advantage over LexRank:
+
+| Measure | ConceptRank | ConceptRank (thesis similarity) |
+|---|---|---|
+| Number of words | +0.02 (p = 0.879) | +0.05 (p = 0.744) |
+| Type-token ratio | +0.07 (p = 0.625) | −0.04 (p = 0.773) |
+
+Neither claim holds. ConceptRank's advantage over LexRank does not change with
+text length or type-token ratio. On the shortest texts the thesis similarity
+is in fact behind LexRank. The one small p-value (0.005, thesis similarity on
+middle-length texts) is one of 12 tercile tests, is above the Bonferroni
+threshold (0.05 / 12 ≈ 0.004), and does not show up in the correlation, so it
+is most likely chance. In the low type-token tercile the thesis similarity
+leads, as the thesis said, but not significantly (p = 0.088), and the
+correlation over all clusters is flat.

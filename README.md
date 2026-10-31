@@ -34,10 +34,11 @@ reproducible pipeline:
   - [x] Corpus sentence segmentation
   - [x] WIVES weights as in the Java original
   - [x] All fixes together
-- [ ] Re-run the analysis with baselines and significance tests
+- [x] Re-run the analysis with baselines and significance tests
       ([results/analysis/](results/analysis/))
   - [x] Lead and random baselines
   - [x] Redundancy removal (MMR)
+  - [x] Results by text length and type-token ratio
 
 ## Results
 
@@ -60,6 +61,11 @@ sentences of each news text; the gap is not significant either way. CSTSumm's
 summaries are shorter than the budget, so its recall is lower; on F-score it is
 level with the others. Details in [results/fixes/](results/fixes/README.md) and
 [results/analysis/](results/analysis/README.md).
+
+The thesis also claimed that ConceptRank does better on short texts and on
+texts with a low type-token ratio; on the corrected pipeline neither holds
+(see [results/analysis/](results/analysis/README.md)). Removing redundancy
+with MMR made no difference either.
 
 ### How this differs from the thesis
 
