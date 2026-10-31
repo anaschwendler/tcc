@@ -78,12 +78,13 @@ versions were not recorded; the latest releases at the time were
 **sumy 0.4.1** and **nltk 3.2.1**.
 
 Running `conceptrank.summarize lexrank` (the ported code) under sumy 0.4.1 and
-nltk 3.2.1 reproduces all 50 LexRank summaries. With the versions in
-`uv.lock` it reproduces only 24, for these reasons:
+nltk 3.2.1 reproduces 49 of the 50 LexRank summaries byte for byte, and the
+text of the 50th (C49, see below). With the versions in `uv.lock` only 24 are
+identical; the other 26 differ for these reasons:
 
 | Cause | Clusters | Detail |
 |---|---|---|
-| sumy word filter | 47 | sumy 0.4.1 kept only tokens made of letters (`^[^\W\d_]+$`), dropping every hyphenated word. Later versions keep them. |
+| sumy word filter | 23 | sumy 0.4.1 kept only tokens made of letters (`^[^\W\d_]+$`), dropping every hyphenated word. Later versions keep them. |
 | nltk word tokenizer | C45, C50 | Words in single quotes (`'seduzir'`) kept the quote attached in nltk 3.2.1 and were then dropped by the filter; current nltk splits the quote off. |
 | File not closed | C49 | The 2016 file ends with a duplicated `pública."`, left over from a file handle that was never closed. The summary text is the same. |
 
