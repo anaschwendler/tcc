@@ -123,7 +123,7 @@ To compare the quality of the automatic and the human generated extract, we used
 - Evaluating all those methods, our average results are:
 - Resultados de média que tínhamos antes, com desvio padrão, com análises
 
-![Average Results](results/average-total.png)
+![Average Results](results/legacy/average-total.png)
 
 And by notable results we discovered that:
 
@@ -132,13 +132,13 @@ And by notable results we discovered that:
 - Recall para rouge 2 obteve bons resultados. (gráfico do email)
 - Significância estátistica pro resultado do rouge 2
 
-![Rouge2 Recall](results/rouge2-recall.png)
+![Rouge2 Recall](results/legacy/rouge2-recall.png)
 
 2.
 - ConceptRank shows a great result when the realtion type-token is very low.
 - Type-token: existe melhora onde a relação type-token é muito baixa
 - type-token: relação entre tamanho do vocabulário pelo tamanho de palavras (tokens)
 
-![Rouge3 Recall](results/rouge3-recall.png)
-![Rouge3 Precision](results/rouge3-f-score.png)
+![Rouge3 Recall](results/legacy/rouge3-recall.png)
+![Rouge3 Precision](results/legacy/rouge3-f-score.png)
 
