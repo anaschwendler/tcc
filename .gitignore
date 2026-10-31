@@ -1,1 +1,21 @@
 *.html
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Raw corpus (CSTNews is not redistributed here)
+data/raw/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
