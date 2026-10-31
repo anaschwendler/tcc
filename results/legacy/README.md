@@ -59,3 +59,10 @@ These are known from reading the code and have not yet been measured:
   defined (its definition is in commits `2ab0e35` and `7400d92`).
 - Both notebooks are Python 2 and depend on cells run out of order; the
   figures have not been regenerated since 2017.
+- `average-total.png` has wrong x-axis labels for 13 of its 15 metrics:
+  labels follow the CSV column order, but bar heights follow Python 2 `dict`
+  order. The heights are correct means, and the three systems share the same
+  order, so comparisons within a bar group hold. For example, the bars
+  labelled `rouge_2_recall` are ROUGE-4 recall, and those labelled
+  `rouge_4_f_score` are ROUGE-2 recall. Only `rouge_1_recall` and
+  `rouge_su4_recall` are labelled correctly. Use the table above instead.
