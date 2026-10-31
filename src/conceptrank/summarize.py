@@ -48,8 +48,8 @@ def sentences_count(cluster_dir):
     return text.count(".")
 
 
-def summarize_cluster(cluster_dir, summarizer_cls, language=LANGUAGE):
-    parser = PlaintextParser.from_file(cluster_dir / "original.txt", LegacyTokenizer(language))
+def summarize_cluster(cluster_dir, summarizer_cls, language=LANGUAGE, tokenizer_cls=LegacyTokenizer):
+    parser = PlaintextParser.from_file(cluster_dir / "original.txt", tokenizer_cls(language))
     summarizer = summarizer_cls(Stemmer(language))
     summarizer.stop_words = get_stop_words(language)
     sentences = summarizer(parser.document, sentences_count(cluster_dir))
