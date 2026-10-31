@@ -3,8 +3,8 @@
 Compares against the files in output/experiments/, generated in 2016. See
 results/legacy/README.md for why some clusters cannot match.
 
-ConceptRank is not covered yet: its output depends on set iteration order,
-which Python 3 randomizes.
+ConceptRank is not covered: the 2016 output depended on Python 2 set
+iteration order, which cannot be reproduced (see src/conceptrank/concept.py).
 """
 
 from pathlib import Path

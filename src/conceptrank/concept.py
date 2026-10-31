@@ -9,8 +9,10 @@ two documents, while this port uses the word length (len(term)) as a running
 maximum, and wordWeightMin never leaves 0. See results/legacy/README.md.
 
 Because of that running maximum, the score depends on the order in which
-common_words is iterated. Python 3 randomizes string hashing, so summaries
-change between runs unless PYTHONHASHSEED is fixed.
+common_words is iterated. The thesis ran on Python 2, where that order was
+fixed but arbitrary; Python 3 randomizes string hashing, so it changed between
+runs. Common words are now iterated in sorted order, which makes the output
+deterministic but different from the 2016 summaries.
 """
 
 import math
@@ -38,7 +40,7 @@ class ConceptSummarizer(GraphSummarizer):
         # calculates similarity
         wordWeightMax = 0
         wordWeightMin = 0
-        for term in common_words:
+        for term in sorted(common_words):
             if wordWeightMax < len(term):
                 wordWeightMax = len(term)
             if wordWeightMin > len(term):

@@ -93,5 +93,6 @@ sets of versions.
 
 ConceptRank cannot be reproduced the same way: its similarity depends on the
 iteration order of a set of words, which was fixed (but arbitrary) in
-Python 2 and is randomized per run in Python 3. See
-`src/conceptrank/concept.py`.
+Python 2 and is randomized per run in Python 3. The ported code now iterates
+in sorted order, so it is deterministic, but only 8 of the 50 summaries match
+2016. See `src/conceptrank/concept.py`.
