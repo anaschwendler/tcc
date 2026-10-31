@@ -40,10 +40,8 @@ def label(metric, attr):
     return f"{metric.replace('rouge', 'ROUGE-')} {'R' if attr == 'recall' else 'F'}"
 
 
-if __name__ == "__main__":
-    corpus = load_corpus()
-    refs = references()
-    budgets = reference_word_counts(refs)
+def corrected_summaries(corpus, budgets):
+    """{system: {cluster_id: summary}} for SYSTEMS and CSTSumm, all fixes applied."""
     summaries = summarize_all(
         word_budgets=budgets,
         sentences={c.id: c.sentences for c in corpus},
@@ -53,21 +51,34 @@ if __name__ == "__main__":
         stop_words=stopwords.words("portuguese"),
     )
     summaries["CSTSumm"] = {c.id: " ".join(c.cstsumm.split()[:budgets[c.id]]) for c in corpus}
-    scores = score_all(summaries, refs)
+    return summaries
 
+
+def print_means(scores, summaries):
     print("| System | Words | " + " | ".join(label(m, a) for m, a in METRICS) + " |")
     print("|---|---|" + "---|" * len(METRICS))
     for system, per_cluster in scores.items():
         means = [statistics.mean(getattr(s[m], a) for s in per_cluster.values()) for m, a in METRICS]
         print(f"| {system} | {mean_words(summaries[system])} | " + " | ".join(f"{x:.3f}" for x in means) + " |")
 
+
+def print_pairs(scores, pairs):
     print("\n| Comparison | Metric | Diff | Better / worse | Wilcoxon p |")
     print("|---|---|---|---|---|")
-    for a, b in PAIRS:
+    for a, b in pairs:
         for metric, attr in METRICS:
-            x = [getattr(scores[a][cid][metric], attr) for cid in refs]
-            y = [getattr(scores[b][cid][metric], attr) for cid in refs]
+            x = [getattr(scores[a][cid][metric], attr) for cid in scores[a]]
+            y = [getattr(scores[b][cid][metric], attr) for cid in scores[a]]
             better = sum(p > q for p, q in zip(x, y))
             worse = sum(p < q for p, q in zip(x, y))
             print(f"| {a} vs {b} | {label(metric, attr)} | {statistics.mean(x) - statistics.mean(y):+.3f} | "
                   f"{better} / {worse} | {_p_value(x, y):.3f} |")
+
+
+if __name__ == "__main__":
+    corpus = load_corpus()
+    refs = references()
+    summaries = corrected_summaries(corpus, reference_word_counts(refs))
+    scores = score_all(summaries, refs)
+    print_means(scores, summaries)
+    print_pairs(scores, PAIRS)

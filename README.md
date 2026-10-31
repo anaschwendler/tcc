@@ -35,6 +35,8 @@ reproducible pipeline:
   - [x] WIVES weights as in the Java original
   - [x] All fixes together
 - [ ] Re-run the analysis with baselines and significance tests
+      ([results/analysis/](results/analysis/))
+  - [x] Lead and random baselines
 
 ## Results
 
