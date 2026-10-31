@@ -2,14 +2,15 @@
 
 Ported from the corpus loops in src/BetaRank.ipynb and src/ConceptRank.ipynb.
 The legacy choices are kept so the output can be compared with
-output/experiments/: English tokenizer, stemmer and stop words; summary length
-taken from the number of '.' in the CSTSumm summary; sentences written with no
-separator.
+output/experiments/: English tokenizer, stemmer and stop words; the sumy 0.4.1
+word filter, which drops hyphenated words; summary length taken from the
+number of '.' in the CSTSumm summary; sentences written with no separator.
 
     uv run python -m conceptrank.summarize lexrank output/experiments runs/legacy
 """
 
 import argparse
+import re
 from pathlib import Path
 
 from sumy.nlp.stemmers import Stemmer
@@ -28,13 +29,27 @@ SUMMARIZERS = {
 }
 
 
+class LegacyTokenizer(Tokenizer):
+    """Tokenizer with the word filter of sumy 0.4.1, used for the thesis.
+
+    Only tokens made entirely of letters count as words, so "segunda-feira"
+    or "porta-voz" are dropped. Newer sumy versions keep them.
+    """
+
+    _WORD_PATTERN = re.compile(r"^[^\W\d_]+$", re.UNICODE)
+
+    @staticmethod
+    def _is_word(word):
+        return bool(LegacyTokenizer._WORD_PATTERN.search(word))
+
+
 def sentences_count(cluster_dir):
     text = (cluster_dir / "sumario_automatico_CSTSumm.txt").read_text(encoding="latin-1")
     return text.count(".")
 
 
 def summarize_cluster(cluster_dir, summarizer_cls, language=LANGUAGE):
-    parser = PlaintextParser.from_file(cluster_dir / "original.txt", Tokenizer(language))
+    parser = PlaintextParser.from_file(cluster_dir / "original.txt", LegacyTokenizer(language))
     summarizer = summarizer_cls(Stemmer(language))
     summarizer.stop_words = get_stop_words(language)
     sentences = summarizer(parser.document, sentences_count(cluster_dir))
