@@ -26,6 +26,8 @@ reproducible pipeline:
 - [ ] Move the summarizers from notebooks into the `conceptrank` package
 - [ ] Rewrite corpus ingestion and ROUGE evaluation for Portuguese
 - [ ] Fix the known methodological issues, one at a time, measuring each
+  - [ ] Keep hyphenated words: re-run with the current tokenizer and compare
+        ROUGE against the 2016 summaries (same evaluator for both)
 - [ ] Re-run the analysis with baselines and significance tests
 
 ## Results (2016, under review)
