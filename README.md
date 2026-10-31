@@ -28,6 +28,7 @@ reproducible pipeline:
 - [ ] Fix the known methodological issues, one at a time, measuring each
       ([results/fixes/](results/fixes/))
   - [x] Keep hyphenated words
+  - [x] Word budget from the human extract
   - [x] Portuguese stemmer and stop words (re-measure after the length fix)
 - [ ] Re-run the analysis with baselines and significance tests
 

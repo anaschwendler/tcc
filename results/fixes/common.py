@@ -15,7 +15,7 @@ from scipy.stats import wilcoxon
 
 from conceptrank.concept import ConceptSummarizer
 from conceptrank.corpus import load_corpus
-from conceptrank.evaluation import reference_text, score
+from conceptrank.evaluation import PortugueseTokenizer, reference_text, score
 from conceptrank.lexrank import LexRankSummarizer
 from conceptrank.summarize import summarize_cluster
 
@@ -28,13 +28,29 @@ def references():
     return {c.id: reference_text(c) for c in load_corpus()}
 
 
-def summarize_all(**options):
-    """{system: {cluster_id: summary}} for every archived cluster."""
-    clusters = sorted(ARCHIVE.iterdir())
+def summarize_all(word_budgets=None, **options):
+    """{system: {cluster_id: summary}} for every archived cluster.
+
+    `word_budgets` maps cluster id to a word budget for that cluster."""
+    clusters = {d.name.split("_")[0]: d for d in sorted(ARCHIVE.iterdir())}
+
+    def budget(cid):
+        return {} if word_budgets is None else {"word_budget": word_budgets[cid]}
+
     return {
-        system: {d.name.split("_")[0]: summarize_cluster(d, cls, **options) for d in clusters}
+        system: {cid: summarize_cluster(d, cls, **options, **budget(cid)) for cid, d in clusters.items()}
         for system, cls in SYSTEMS.items()
     }
+
+
+def reference_word_counts(refs):
+    return {cid: len(text.split()) for cid, text in refs.items()}
+
+
+def mean_words(texts):
+    """Mean length in ROUGE tokens of {cluster_id: text}."""
+    tokenizer = PortugueseTokenizer()
+    return round(statistics.mean(len(tokenizer.tokenize(t)) for t in texts.values()), 1)
 
 
 def score_all(summaries, refs):

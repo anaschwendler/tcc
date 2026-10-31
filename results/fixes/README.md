@@ -26,6 +26,7 @@ Needs the raw corpus in `data/raw/CSTNews/` (see [data/README.md](../../data/REA
 | Fix | Script | LexRank | ConceptRank |
 |---|---|---|---|
 | Keep hyphenated words | `hyphens.py` | +0.005 to +0.016, not significant | +0.012 to +0.019, p ≤ 0.049 on all 4 metrics |
+| Word budget from the human extract | `length.py` | ROUGE-1 F +0.028 (p = 0.007); others +0.011 to +0.026, not significant | ROUGE-1 F +0.036 (p < 0.001); others +0.008 to +0.024, not significant |
 | Portuguese stemmer and stop words | `portuguese.py` | −0.030 to −0.007, not significant; summaries 6.6% shorter | −0.006 to +0.002, not significant; summaries 4.8% shorter |
 
 ## Keep hyphenated words
@@ -48,6 +49,33 @@ keeps them. Summaries changed: LexRank 26, ConceptRank 18.
 
 Keeping hyphenated words helps both systems on average; the gain is
 consistent for ConceptRank and within noise for LexRank.
+
+## Word budget from the human extract
+
+The thesis gave each summary as many sentences as there are '.' characters in
+the CSTSumm summary of the cluster, which miscounts sentences ("1.5", "Jr.")
+and leaves the number of words free. The variant uses the word count of the
+cluster's human extract as a budget: sentences are taken by rating until it is
+reached, the last one taken is cut to fit (like ROUGE's `-l` option), and the
+summary keeps document order. Summaries changed: all 50 for both systems.
+
+Mean length in words: reference 190.6; baseline LexRank 176.8, ConceptRank
+189.3; variant LexRank 190.5, ConceptRank 190.8.
+
+| System | Metric | Baseline | Variant | Diff | Better / worse | Wilcoxon p |
+|---|---|---|---|---|---|---|
+| LexRank | ROUGE-1 R | 0.523 | 0.549 | +0.026 | 29 / 20 | 0.110 |
+| LexRank | ROUGE-2 R | 0.315 | 0.328 | +0.013 | 26 / 17 | 0.134 |
+| LexRank | ROUGE-1 F | 0.522 | 0.549 | +0.028 | 33 / 17 | 0.007 |
+| LexRank | ROUGE-2 F | 0.316 | 0.328 | +0.011 | 29 / 21 | 0.184 |
+| ConceptRank | ROUGE-1 R | 0.540 | 0.563 | +0.024 | 27 / 23 | 0.372 |
+| ConceptRank | ROUGE-2 R | 0.337 | 0.345 | +0.008 | 24 / 21 | 0.808 |
+| ConceptRank | ROUGE-1 F | 0.527 | 0.563 | +0.036 | 35 / 15 | 0.000 |
+| ConceptRank | ROUGE-2 F | 0.330 | 0.345 | +0.015 | 25 / 25 | 0.337 |
+
+Matching the reference length improves ROUGE-1 F significantly for both
+systems. It also removes length as a confounder, so later comparisons are
+fairer.
 
 ## Portuguese stemmer and stop words
 

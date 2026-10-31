@@ -48,17 +48,37 @@ def sentences_count(cluster_dir):
     return text.count(".")
 
 
+def select_by_word_budget(sentences, ratings, word_budget):
+    """Take sentences from the highest rated down until `word_budget` words,
+    cutting the last one taken to fit, and return them in document order."""
+    by_rating = sorted(range(len(sentences)), key=lambda i: ratings[sentences[i]], reverse=True)
+    chosen = {}
+    remaining = word_budget
+    for i in by_rating:
+        if remaining <= 0:
+            break
+        words = str(sentences[i]).split()
+        chosen[i] = " ".join(words[:remaining])
+        remaining -= len(words)
+    return [chosen[i] for i in sorted(chosen)]
+
+
 def summarize_cluster(cluster_dir, summarizer_cls, language=LANGUAGE, tokenizer_cls=LegacyTokenizer,
-                      tokenizer_language=None, stop_words=None):
+                      tokenizer_language=None, stop_words=None, word_budget=None):
     """`language` sets the stemmer and, unless `stop_words` is given, sumy's
     stop words; `tokenizer_language`, which defaults to it, sets sentence and
-    word splitting."""
+    word splitting. Without `word_budget`, the summary has as many sentences as
+    there are '.' in the CSTSumm summary, as in the thesis."""
     tokenizer = tokenizer_cls(tokenizer_language or language)
     parser = PlaintextParser.from_file(cluster_dir / "original.txt", tokenizer)
     summarizer = summarizer_cls(Stemmer(language))
     summarizer.stop_words = get_stop_words(language) if stop_words is None else stop_words
-    sentences = summarizer(parser.document, sentences_count(cluster_dir))
-    return "".join(str(sentence) for sentence in sentences)
+    if word_budget is None:
+        sentences = summarizer(parser.document, sentences_count(cluster_dir))
+        return "".join(str(sentence) for sentence in sentences)
+    sentences = parser.document.sentences
+    ratings = summarizer.rate_sentences(parser.document)
+    return "".join(select_by_word_budget(sentences, ratings, word_budget))
 
 
 def summarize_corpus(experiments_dir, out_dir, system):

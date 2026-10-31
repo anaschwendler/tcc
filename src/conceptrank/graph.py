@@ -27,18 +27,24 @@ class GraphSummarizer(AbstractSummarizer):
         self._stop_words = frozenset(map(self.normalize_word, words))
 
     def __call__(self, document, sentences_count):
+        ratings = self.rate_sentences(document)
+        if not ratings:
+            return tuple()
+
+        return self._get_best_sentences(document.sentences, sentences_count, ratings)
+
+    def rate_sentences(self, document):
+        """{sentence: centrality score}. Repeated sentences share one entry."""
         sentences_words = [self._to_words_set(s) for s in document.sentences]
         if not sentences_words:
-            return tuple()
+            return {}
 
         tf_metrics = self._compute_tf(sentences_words)
         idf_metrics = self._compute_idf(sentences_words)
 
         matrix = self._create_matrix(sentences_words, self.threshold, tf_metrics, idf_metrics)
         scores = self.power_method(matrix, self.epsilon)
-        ratings = dict(zip(document.sentences, scores))
-
-        return self._get_best_sentences(document.sentences, sentences_count, ratings)
+        return dict(zip(document.sentences, scores))
 
     @staticmethod
     def compute_distance(sentence1, sentence2, tf1, tf2, idf_metrics):
