@@ -1,7 +1,7 @@
 """Graph-based sentence ranking shared by LexRank and ConceptRank.
 
 Ported from the BetaSummarizer / ConceptSummarizer classes in the legacy
-notebooks (src/BetaRank.ipynb, src/ConceptRank.ipynb), which were copies of
+notebooks (archive/BetaRank.ipynb, archive/ConceptRank.ipynb), which were copies of
 sumy's LexRank. Behaviour is kept as it was; only the similarity function
 differs between subclasses.
 """

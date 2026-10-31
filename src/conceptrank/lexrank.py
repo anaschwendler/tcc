@@ -1,7 +1,7 @@
 """LexRank: sentence similarity is the TF-IDF cosine.
 
 Erkan and Radev (2004), Graph-based Centrality as Salience in Text
-Summarization. Ported from BetaSummarizer in src/BetaRank.ipynb.
+Summarization. Ported from BetaSummarizer in archive/BetaRank.ipynb.
 """
 
 import math

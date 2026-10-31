@@ -1,6 +1,6 @@
 """Summarize every CSTNews cluster the way the thesis did.
 
-Ported from the corpus loops in src/BetaRank.ipynb and src/ConceptRank.ipynb.
+Ported from the corpus loops in archive/BetaRank.ipynb and archive/ConceptRank.ipynb.
 The legacy choices are kept so the output can be compared with
 output/experiments/: English tokenizer, stemmer and stop words; the sumy 0.4.1
 word filter, which drops hyphenated words; summary length taken from the

@@ -6,12 +6,12 @@ should be measured against these numbers. **Do not regenerate or edit them.**
 
 ## How they were produced
 
-1. `src/read_archives.py` and `src/extract_files.py` copied source texts, human
+1. `archive/read_archives.py` and `archive/extract_files.py` copied source texts, human
    extracts and CSTSumm summaries from CSTNews into `output/experiments/`.
-2. `src/BetaRank.ipynb` (LexRank) and `src/ConceptRank.ipynb` wrote
+2. `archive/BetaRank.ipynb` (LexRank) and `archive/ConceptRank.ipynb` wrote
    `lexrank_summ.txt` and `concept_summ.txt` for each cluster, with the
    number of sentences taken from the CSTSumm summary.
-3. `src/rouge.ipynb` scored each summary against `extrato_humano.txt` with
+3. `archive/rouge.ipynb` scored each summary against `extrato_humano.txt` with
    `pyrouge` (ROUGE-1.5.5, Python 2) and wrote `rouge_*.txt`.
 4. `results_by_n_words.ipynb` collected the `rouge_*.txt` files into the CSVs
    and plotted the analyses by text length and type-token ratio.

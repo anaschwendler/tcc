@@ -20,3 +20,6 @@ data/raw/
 .DS_Store
 .vscode/
 .idea/
+
+# Summaries generated locally
+/runs

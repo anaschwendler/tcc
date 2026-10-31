@@ -1,6 +1,6 @@
 """ConceptRank: sentence similarity is the WIVES similarity (Loh et al.).
 
-Ported from ConceptSummarizer in src/ConceptRank.ipynb, which in turn was
+Ported from ConceptSummarizer in archive/ConceptRank.ipynb, which in turn was
 ported from docs/reference/wives_similarity.java.
 
 Known deviation from the Java original, kept on purpose so results match the

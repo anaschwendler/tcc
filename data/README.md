@@ -36,14 +36,14 @@ archive you download.
 
 ### Running the legacy extraction scripts
 
-`src/extract_files.py` and `src/read_archives.py` still read from
+`archive/extract_files.py` and `archive/read_archives.py` still read from
 `experiments/` relative to the current directory. Until they are rewritten,
 link the corpus there and run them from the repository root:
 
 ```sh
 ln -s data/raw/CSTNews experiments
-python src/read_archives.py   # -> output/experiments/<cluster>/original.txt
-python src/extract_files.py   # -> extrato_humano.txt, sumario_automatico_CSTSumm.txt
+python archive/read_archives.py   # -> output/experiments/<cluster>/original.txt
+python archive/extract_files.py   # -> extrato_humano.txt, sumario_automatico_CSTSumm.txt
 ```
 
 ## Processed data: `output/experiments/<cluster>/`
@@ -53,8 +53,8 @@ python src/extract_files.py   # -> extrato_humano.txt, sumario_automatico_CSTSum
 | `original.txt` | All source texts of the cluster concatenated (no separator between texts) |
 | `extrato_humano.txt` | Human extract, the reference used for ROUGE |
 | `sumario_automatico_CSTSumm.txt` | CSTSumm summary, from the corpus |
-| `lexrank_summ.txt` | LexRank summary (`src/BetaRank.ipynb`) |
-| `concept_summ.txt` | ConceptRank summary (`src/ConceptRank.ipynb`) |
+| `lexrank_summ.txt` | LexRank summary (`archive/BetaRank.ipynb`) |
+| `concept_summ.txt` | ConceptRank summary (`archive/ConceptRank.ipynb`) |
 | `rouge_*.txt` | ROUGE scores per system, stored as a Python `dict` literal |
 
 Known quirks, to be fixed when ingestion is rewritten:

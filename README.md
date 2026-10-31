@@ -23,7 +23,7 @@ reproducible pipeline:
 
 - [x] Clean up the repository and freeze the original results
 - [x] Python 3 project managed with uv
-- [ ] Move the summarizers from notebooks into the `conceptrank` package
+- [x] Move the summarizers from notebooks into the `conceptrank` package
 - [ ] Rewrite corpus ingestion and ROUGE evaluation for Portuguese
 - [ ] Fix the known methodological issues, one at a time, measuring each
   - [ ] Keep hyphenated words: re-run with the current tokenizer and compare
@@ -64,32 +64,34 @@ where to download CSTNews and where to put it. The processed texts, generated
 summaries and ROUGE scores for all 50 clusters are already in
 `output/experiments/`, so you can browse them without the corpus.
 
-To open the notebooks:
+To summarize every cluster the way the thesis did, and to check the result
+against the 2016 summaries:
 
 ```sh
-uv run jupyter lab
+uv run python -m conceptrank.summarize lexrank output/experiments runs/lexrank
+uv run python -m conceptrank.summarize concept output/experiments runs/concept
+uv run pytest
 ```
 
-The notebooks in `src/` and `results/legacy/` are still the original Python 2
-code and do not run as-is. Porting them to the `conceptrank` package is the
-next step of the refactor.
+The original notebooks and scripts are kept in `archive/`. They are Python 2
+code and do not run as-is.
 
 ## Repository layout
 
 ```
-├── src/
-│   ├── conceptrank/          # Python package (being filled in)
-│   ├── BetaRank.ipynb        # LexRank summarizer (legacy)
-│   ├── ConceptRank.ipynb     # ConceptRank summarizer (legacy)
-│   ├── rouge.ipynb           # ROUGE evaluation (legacy)
-│   └── *.py                  # corpus extraction scripts (legacy)
+├── src/conceptrank/
+│   ├── graph.py              # sentence graph and power method
+│   ├── lexrank.py            # LexRank similarity (TF-IDF cosine)
+│   ├── concept.py            # ConceptRank similarity (WIVES)
+│   └── summarize.py          # summarize all clusters as in the thesis
+├── tests/                    # regression tests against the 2016 summaries
 ├── data/README.md            # how to get CSTNews
 ├── output/experiments/       # per-cluster texts, summaries and ROUGE scores
 ├── results/legacy/           # thesis results, frozen
 ├── docs/
 │   ├── background.md         # theoretical background
 │   └── reference/            # original WIVES similarity (Java)
-└── archive/                  # early prototype on cluster C1
+└── archive/                  # original notebooks, scripts and C1 prototype
 ```
 
 ## Background
