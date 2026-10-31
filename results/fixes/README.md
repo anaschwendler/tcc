@@ -36,6 +36,7 @@ and F):
 |---|---|---|---|
 | Keep hyphenated words | `hyphens.py` | +0.011 to +0.018, p ≤ 0.033 on all 4 metrics | +0.008 to +0.014, p ≤ 0.017 on all 4 metrics |
 | Titles not ranked as sentences | `titles.py` | +0.027 to +0.037, p ≤ 0.004 on all 4 metrics | +0.010 to +0.019, p ≤ 0.047 on all 4 metrics |
+| Corpus sentence segmentation (both without titles) | `segmentation.py` | −0.003 to +0.002, not significant | −0.008 to −0.005, not significant |
 | Portuguese stemmer and stop words | `portuguese.py` | +0.013 to +0.020, not significant | +0.003 to +0.004, not significant |
 
 The word budget itself, against the thesis' fixed sentence count:
@@ -184,3 +185,28 @@ changed):
 Removing titles helps both systems on all metrics, LexRank more than
 ConceptRank; without titles the two are almost level (ROUGE-1 R 0.576 and
 0.573). The script also prints the fixed-sentence-count comparison.
+
+## Corpus sentence segmentation
+
+The thesis split sentences with sumy's tokenizer (NLTK punkt, English model).
+The corpus ships its own segmentation in "Textos-fonte segmentados", which
+`conceptrank.corpus` loads; those files are also a revised copy of the texts
+(datelines such as "RIO -", a few quotes and full stops fixed). Since that
+segmentation leaves titles out, both sides here use text without titles, so
+only segmentation changes. punkt finds 2225 sentences in the 50 clusters, the
+corpus segmentation 2081. Both sides on the word budget; LexRank and
+ConceptRank 49 summaries changed.
+
+| System | Metric | Baseline | Variant | Diff | Better / worse | Wilcoxon p |
+|---|---|---|---|---|---|---|
+| LexRank | ROUGE-1 R | 0.576 | 0.573 | -0.003 | 21 / 22 | 0.772 |
+| LexRank | ROUGE-2 R | 0.365 | 0.366 | +0.001 | 21 / 22 | 0.655 |
+| LexRank | ROUGE-1 F | 0.577 | 0.574 | -0.002 | 22 / 22 | 0.870 |
+| LexRank | ROUGE-2 F | 0.365 | 0.367 | +0.002 | 22 / 23 | 0.773 |
+| ConceptRank | ROUGE-1 R | 0.573 | 0.567 | -0.006 | 9 / 21 | 0.057 |
+| ConceptRank | ROUGE-2 R | 0.364 | 0.356 | -0.008 | 14 / 21 | 0.461 |
+| ConceptRank | ROUGE-1 F | 0.573 | 0.568 | -0.005 | 14 / 23 | 0.102 |
+| ConceptRank | ROUGE-2 F | 0.364 | 0.356 | -0.008 | 19 / 22 | 0.496 |
+
+Segmentation makes no measurable difference. The corpus segmentation is still
+the cleaner input, but ROUGE does not tell the two apart.

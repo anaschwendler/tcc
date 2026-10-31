@@ -13,6 +13,7 @@ import argparse
 import re
 from pathlib import Path
 
+from sumy.models.dom import ObjectDocumentModel, Paragraph, Sentence
 from sumy.nlp.stemmers import Stemmer
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.parsers.plaintext import PlaintextParser
@@ -64,25 +65,28 @@ def select_by_word_budget(sentences, ratings, word_budget):
 
 
 def summarize_cluster(cluster_dir, summarizer_cls, language=LANGUAGE, tokenizer_cls=LegacyTokenizer,
-                      tokenizer_language=None, stop_words=None, word_budget=None, text=None):
+                      tokenizer_language=None, stop_words=None, word_budget=None, text=None,
+                      sentences=None):
     """`language` sets the stemmer and, unless `stop_words` is given, sumy's
     stop words; `tokenizer_language`, which defaults to it, sets sentence and
     word splitting. Without `word_budget`, the summary has as many sentences as
     there are '.' in the CSTSumm summary, as in the thesis. `text` replaces
-    the cluster's original.txt as input."""
+    the cluster's original.txt as input, and `sentences` replaces it with
+    sentences that are already split."""
     tokenizer = tokenizer_cls(tokenizer_language or language)
-    if text is None:
-        parser = PlaintextParser.from_file(cluster_dir / "original.txt", tokenizer)
+    if sentences is not None:
+        document = ObjectDocumentModel([Paragraph([Sentence(s, tokenizer) for s in sentences])])
+    elif text is not None:
+        document = PlaintextParser.from_string(text, tokenizer).document
     else:
-        parser = PlaintextParser.from_string(text, tokenizer)
+        document = PlaintextParser.from_file(cluster_dir / "original.txt", tokenizer).document
     summarizer = summarizer_cls(Stemmer(language))
     summarizer.stop_words = get_stop_words(language) if stop_words is None else stop_words
     if word_budget is None:
-        sentences = summarizer(parser.document, sentences_count(cluster_dir))
-        return "".join(str(sentence) for sentence in sentences)
-    sentences = parser.document.sentences
-    ratings = summarizer.rate_sentences(parser.document)
-    return "".join(select_by_word_budget(sentences, ratings, word_budget))
+        chosen = summarizer(document, sentences_count(cluster_dir))
+        return "".join(str(sentence) for sentence in chosen)
+    ratings = summarizer.rate_sentences(document)
+    return "".join(select_by_word_budget(document.sentences, ratings, word_budget))
 
 
 def summarize_corpus(experiments_dir, out_dir, system):
