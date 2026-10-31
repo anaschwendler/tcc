@@ -2,6 +2,17 @@
 PS.: When I developed my thesis everything was throwed here, in order to finish everything. Now that I already graduated, I'll be refactoring my work, in order to be more extensible and organized.
 By saying that, I'll be adding the correct results, and evaluations
 
+## Setup
+
+Requires [uv](https://docs.astral.sh/uv/).
+
+```sh
+uv sync --all-groups                               # Python 3.12 + dependencies
+uv run python -c "import nltk; nltk.download('punkt_tab')"   # sentence tokenizer data
+```
+
+See [data/README.md](data/README.md) for the CSTNews corpus.
+
 # Graph-based conceptual centrality as salience in extractive text summarization
 
 ## Automatic text summarization (AS)

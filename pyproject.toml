@@ -1,0 +1,28 @@
+[project]
+name = "conceptrank"
+version = "0.1.0"
+description = "Graph-based conceptual centrality as salience in extractive text summarization"
+readme = "README.md"
+authors = [
+    { name = "Ana Schwendler", email = "schwendler@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.4",
+    "sumy>=0.13.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+analysis = [
+    "jupyterlab>=4.6.5",
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.0",
+    "seaborn>=0.13.2",
+]
+dev = [
+    "pytest>=9.2.0",
+]
