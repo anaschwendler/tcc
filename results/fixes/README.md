@@ -26,6 +26,7 @@ Needs the raw corpus in `data/raw/CSTNews/` (see [data/README.md](../../data/REA
 | Fix | Script | LexRank | ConceptRank |
 |---|---|---|---|
 | Keep hyphenated words | `hyphens.py` | +0.005 to +0.016, not significant | +0.012 to +0.019, p ≤ 0.049 on all 4 metrics |
+| Portuguese stemmer and stop words | `portuguese.py` | −0.030 to −0.007, not significant; summaries 6.6% shorter | −0.006 to +0.002, not significant; summaries 4.8% shorter |
 
 ## Keep hyphenated words
 
@@ -47,3 +48,34 @@ keeps them. Summaries changed: LexRank 26, ConceptRank 18.
 
 Keeping hyphenated words helps both systems on average; the gain is
 consistent for ConceptRank and within noise for LexRank.
+
+## Portuguese stemmer and stop words
+
+The thesis used the English Snowball stemmer and sumy's English stop words on
+Portuguese text. The variant uses the Portuguese Snowball stemmer and NLTK's
+Portuguese stop words; sentence and word splitting stay English so that only
+these two change. Needs `uv run python -c "import nltk; nltk.download('stopwords')"`.
+
+sumy's own Portuguese stop word list is broken: 36 of its 195 entries are
+stored as literal escapes (`n\xe3o` instead of `não`), so "não", "já", "são",
+"há" and "você" are never removed, and a few entries are two words joined by a
+comma. The script also runs it, for reference; its results are similar.
+
+Summaries changed: LexRank 50, ConceptRank 49.
+
+| System | Metric | Baseline | Variant | Diff | Better / worse | Wilcoxon p |
+|---|---|---|---|---|---|---|
+| LexRank | ROUGE-1 R | 0.523 | 0.492 | -0.030 | 17 / 30 | 0.079 |
+| LexRank | ROUGE-2 R | 0.315 | 0.303 | -0.011 | 24 / 26 | 0.598 |
+| LexRank | ROUGE-1 F | 0.522 | 0.505 | -0.017 | 22 / 28 | 0.282 |
+| LexRank | ROUGE-2 F | 0.316 | 0.310 | -0.007 | 28 / 22 | 0.878 |
+| ConceptRank | ROUGE-1 R | 0.540 | 0.533 | -0.006 | 21 / 27 | 0.418 |
+| ConceptRank | ROUGE-2 R | 0.337 | 0.337 | +0.000 | 22 / 24 | 0.823 |
+| ConceptRank | ROUGE-1 F | 0.527 | 0.528 | +0.001 | 23 / 26 | 0.972 |
+| ConceptRank | ROUGE-2 F | 0.330 | 0.331 | +0.002 | 25 / 24 | 0.784 |
+
+Almost every summary changes, but quality does not measurably improve. The
+change is confounded with summary length: the number of sentences is fixed,
+and the variant picks shorter ones (LexRank 176.8 → 165.1 words on average,
+ConceptRank 189.3 → 180.2), which lowers recall while F-scores hold. This
+should be measured again once summary length is fixed by a word budget.
