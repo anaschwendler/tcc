@@ -46,6 +46,21 @@ class GraphSummarizer(AbstractSummarizer):
         scores = self.power_method(matrix, self.epsilon)
         return dict(zip(document.sentences, scores))
 
+    def scores_and_similarities(self, document):
+        """Centrality score of each sentence and the n×n similarity matrix
+        before thresholding, both indexed by sentence position."""
+        sentences_words = [self._to_words_set(s) for s in document.sentences]
+        tf_metrics = self._compute_tf(sentences_words)
+        idf_metrics = self._compute_idf(sentences_words)
+
+        similarities = numpy.array([
+            [self.compute_distance(words1, words2, tf1, tf2, idf_metrics)
+             for words2, tf2 in zip(sentences_words, tf_metrics)]
+            for words1, tf1 in zip(sentences_words, tf_metrics)
+        ])
+        matrix = self._create_matrix(sentences_words, self.threshold, tf_metrics, idf_metrics)
+        return self.power_method(matrix, self.epsilon), similarities
+
     @staticmethod
     def compute_distance(sentence1, sentence2, tf1, tf2, idf_metrics):
         raise NotImplementedError

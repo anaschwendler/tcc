@@ -40,15 +40,17 @@ def label(metric, attr):
     return f"{metric.replace('rouge', 'ROUGE-')} {'R' if attr == 'recall' else 'F'}"
 
 
-def corrected_summaries(corpus, budgets):
-    """{system: {cluster_id: summary}} for SYSTEMS and CSTSumm, all fixes applied."""
+def corrected_summaries(corpus, budgets, systems=SYSTEMS, **options):
+    """{system: {cluster_id: summary}} for `systems` and CSTSumm, all fixes
+    applied; `options` go to summarize_cluster()."""
     summaries = summarize_all(
         word_budgets=budgets,
         sentences={c.id: c.sentences for c in corpus},
-        systems=SYSTEMS,
+        systems=systems,
         language="portuguese",
         tokenizer_cls=Tokenizer,
         stop_words=stopwords.words("portuguese"),
+        **options,
     )
     summaries["CSTSumm"] = {c.id: " ".join(c.cstsumm.split()[:budgets[c.id]]) for c in corpus}
     return summaries

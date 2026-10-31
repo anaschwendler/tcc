@@ -64,15 +64,42 @@ def select_by_word_budget(sentences, ratings, word_budget):
     return [chosen[i] for i in sorted(chosen)]
 
 
+def select_mmr(sentences, scores, similarities, word_budget, mmr_lambda):
+    """Maximal Marginal Relevance under a word budget.
+
+    Repeatedly takes the sentence maximizing
+    mmr_lambda * score / max(scores) - (1 - mmr_lambda) * (highest similarity
+    to a sentence already taken), cutting the last one to fit the budget.
+    Returns the sentences in document order.
+    """
+    top = max(scores) or 1
+    candidates = list(range(len(sentences)))
+    chosen = {}
+    remaining = word_budget
+
+    def mmr(i):
+        redundancy = max((similarities[i][j] for j in chosen), default=0)
+        return mmr_lambda * scores[i] / top - (1 - mmr_lambda) * redundancy
+
+    while remaining > 0 and candidates:
+        best = max(candidates, key=mmr)
+        candidates.remove(best)
+        words = str(sentences[best]).split()
+        chosen[best] = " ".join(words[:remaining])
+        remaining -= len(words)
+    return [chosen[i] for i in sorted(chosen)]
+
+
 def summarize_cluster(cluster_dir, summarizer_cls, language=LANGUAGE, tokenizer_cls=LegacyTokenizer,
                       tokenizer_language=None, stop_words=None, word_budget=None, text=None,
-                      sentences=None):
+                      sentences=None, mmr_lambda=None):
     """`language` sets the stemmer and, unless `stop_words` is given, sumy's
     stop words; `tokenizer_language`, which defaults to it, sets sentence and
     word splitting. Without `word_budget`, the summary has as many sentences as
     there are '.' in the CSTSumm summary, as in the thesis. `text` replaces
     the cluster's original.txt as input, and `sentences` replaces it with
-    sentences that are already split."""
+    sentences that are already split. `mmr_lambda` (with a word budget)
+    selects sentences with MMR instead of by score alone."""
     tokenizer = tokenizer_cls(tokenizer_language or language)
     if sentences is not None:
         document = ObjectDocumentModel([Paragraph([Sentence(s, tokenizer) for s in sentences])])
@@ -85,6 +112,9 @@ def summarize_cluster(cluster_dir, summarizer_cls, language=LANGUAGE, tokenizer_
     if word_budget is None:
         chosen = summarizer(document, sentences_count(cluster_dir))
         return "".join(str(sentence) for sentence in chosen)
+    if mmr_lambda is not None:
+        scores, similarities = summarizer.scores_and_similarities(document)
+        return "".join(select_mmr(document.sentences, scores, similarities, word_budget, mmr_lambda))
     ratings = summarizer.rate_sentences(document)
     return "".join(select_by_word_budget(document.sentences, ratings, word_budget))
 

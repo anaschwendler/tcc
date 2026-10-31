@@ -37,6 +37,7 @@ reproducible pipeline:
 - [ ] Re-run the analysis with baselines and significance tests
       ([results/analysis/](results/analysis/))
   - [x] Lead and random baselines
+  - [x] Redundancy removal (MMR)
 
 ## Results
 
