@@ -25,7 +25,7 @@ reproducible pipeline:
 - [x] Python 3 project managed with uv
 - [x] Move the summarizers from notebooks into the `conceptrank` package
 - [x] Rewrite corpus ingestion and ROUGE evaluation for Portuguese
-- [ ] Fix the known methodological issues, one at a time, measuring each
+- [x] Fix the known methodological issues, one at a time, measuring each
       ([results/fixes/](results/fixes/))
   - [x] Keep hyphenated words
   - [x] Word budget from the human extract
@@ -33,28 +33,41 @@ reproducible pipeline:
   - [x] Titles not ranked as sentences
   - [x] Corpus sentence segmentation
   - [x] WIVES weights as in the Java original
+  - [x] All fixes together
 - [ ] Re-run the analysis with baselines and significance tests
 
-## Results (2016 summaries, under review)
+## Results
 
-The thesis reported ROUGE-1 recall of 0.774 for ConceptRank against 0.755 for
-LexRank and 0.699 for CSTSumm. While refactoring it turned out that those
-scores were computed on **characters** rather than words, because of how the
-scoring library was called. Re-scoring the same 2016 summaries with standard
-word-level ROUGE against the CSTNews human extracts (means over 50 clusters):
+Corrected pipeline on the 50 CSTNews clusters, scored with word-level ROUGE
+against the human extracts (means; every summary cut to the length of the
+human extract):
 
 | System | ROUGE-1 R | ROUGE-2 R | ROUGE-1 F | ROUGE-2 F |
 |---|---|---|---|---|
-| LexRank | 0.523 | 0.315 | 0.521 | 0.316 |
-| ConceptRank | **0.546** | 0.351 | 0.529 | 0.340 |
-| CSTSumm | 0.522 | **0.358** | **0.566** | **0.392** |
+| LexRank | 0.569 | 0.364 | 0.570 | 0.365 |
+| ConceptRank | **0.579** | **0.376** | **0.579** | 0.377 |
+| CSTSumm | 0.505 | 0.343 | 0.562 | **0.385** |
 
-ConceptRank keeps a higher mean recall than LexRank, but the difference is not
-statistically significant (Wilcoxon p = 0.17 for ROUGE-1, 0.20 for ROUGE-2),
-and CSTSumm has the best F-scores. These summaries still carry other known
-issues that the refactor will fix and measure one at a time.
-[results/legacy/](results/legacy/) has the original numbers, the full
-comparison and the list of issues.
+ConceptRank is ahead of LexRank by about 0.01, which is not statistically
+significant over 50 clusters (Wilcoxon p > 0.8). CSTSumm's summaries are
+shorter than the budget, so its recall is lower; on F-score the three systems
+are level. Details in [results/fixes/](results/fixes/README.md).
+
+### How this differs from the thesis
+
+The thesis reported ROUGE-1 recall of 0.774 for ConceptRank, 0.755 for LexRank
+and 0.699 for CSTSumm. While refactoring it turned out that those scores were
+computed on **characters** rather than words, because of how the scoring
+library was called. Scored at word level, the 2016 summaries reach 0.546
+(ConceptRank), 0.523 (LexRank) and 0.522 (CSTSumm), with no significant
+difference between ConceptRank and LexRank
+([results/legacy/](results/legacy/README.md)).
+
+The pipeline also had several issues, each fixed and measured on its own in
+[results/fixes/](results/fixes/README.md). Removing titles from the input,
+keeping hyphenated words and fixing summary length helped; Portuguese stemming,
+the corpus' sentence segmentation and the WIVES weights of the original Java
+code made no significant difference.
 
 ## Running locally
 

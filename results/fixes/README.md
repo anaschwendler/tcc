@@ -27,6 +27,49 @@ uv run python results/fixes/<fix>.py
 
 Needs the raw corpus in `data/raw/CSTNews/` (see [data/README.md](../../data/README.md)).
 
+## All fixes together
+
+`all_fixes.py` runs the corrected pipeline: corpus sentence segmentation (no
+titles), sumy's current tokenizer (hyphenated words kept), Portuguese stemmer
+and NLTK stop words, and the word budget. CSTSumm is the corpus' summary cut to
+the same budget; its summaries are shorter than the human extracts (144.8 words
+on average against about 190), so its recall is at a disadvantage and F is the
+fairer comparison for it.
+
+| System | Words | ROUGE-1 R | ROUGE-2 R | ROUGE-1 F | ROUGE-2 F |
+|---|---|---|---|---|---|
+| LexRank | 190.1 | 0.569 | 0.364 | 0.570 | 0.365 |
+| ConceptRank | 190.4 | 0.579 | 0.376 | 0.579 | 0.377 |
+| ConceptRank (thesis similarity) | 190.0 | 0.581 | 0.382 | 0.583 | 0.383 |
+| CSTSumm | 144.8 | 0.505 | 0.343 | 0.562 | 0.385 |
+
+ConceptRank uses the WIVES weights of the Java original; "thesis similarity"
+is the original port.
+
+| Comparison | Metric | Diff | Better / worse | Wilcoxon p |
+|---|---|---|---|---|
+| ConceptRank vs LexRank | ROUGE-1 R | +0.010 | 24 / 23 | 0.857 |
+| ConceptRank vs LexRank | ROUGE-2 R | +0.012 | 23 / 26 | 0.933 |
+| ConceptRank vs LexRank | ROUGE-1 F | +0.009 | 26 / 23 | 0.901 |
+| ConceptRank vs LexRank | ROUGE-2 F | +0.012 | 23 / 26 | 0.917 |
+| ConceptRank (thesis similarity) vs LexRank | ROUGE-1 R | +0.012 | 28 / 21 | 0.244 |
+| ConceptRank (thesis similarity) vs LexRank | ROUGE-2 R | +0.018 | 31 / 18 | 0.124 |
+| ConceptRank (thesis similarity) vs LexRank | ROUGE-1 F | +0.012 | 28 / 21 | 0.255 |
+| ConceptRank (thesis similarity) vs LexRank | ROUGE-2 F | +0.018 | 31 / 19 | 0.116 |
+| ConceptRank vs CSTSumm | ROUGE-1 R | +0.074 | 33 / 17 | 0.001 |
+| ConceptRank vs CSTSumm | ROUGE-2 R | +0.033 | 29 / 21 | 0.128 |
+| ConceptRank vs CSTSumm | ROUGE-1 F | +0.018 | 29 / 21 | 0.234 |
+| ConceptRank vs CSTSumm | ROUGE-2 F | -0.008 | 26 / 24 | 0.947 |
+| LexRank vs CSTSumm | ROUGE-1 R | +0.064 | 33 / 16 | 0.006 |
+| LexRank vs CSTSumm | ROUGE-2 R | +0.021 | 24 / 25 | 0.496 |
+| LexRank vs CSTSumm | ROUGE-1 F | +0.008 | 24 / 25 | 0.724 |
+| LexRank vs CSTSumm | ROUGE-2 F | -0.020 | 22 / 28 | 0.426 |
+
+The fixes raise every system: against the 2016 summaries scored at word level,
+LexRank goes from 0.523 to 0.569 ROUGE-1 recall and ConceptRank from 0.546 to
+0.579. ConceptRank stays ahead of LexRank by about 0.01 to 0.02, which is not
+significant over 50 clusters. On F-score all three are level with CSTSumm.
+
 ## Summary
 
 Main comparison, both sides on the word budget (diffs over ROUGE-1/2 recall
