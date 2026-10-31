@@ -20,7 +20,7 @@ with [ROUGE](http://anthology.aclweb.org/W/W04/W04-1013.pdf).
 ## Status
 
 The thesis was finished in 2016 and the code was written to meet a deadline:
-notebooks, Python 2 and hard-coded paths. It is now being refactored into a
+notebooks, Python 2 and hard-coded paths. It has since been refactored into a
 reproducible pipeline:
 
 - [x] Clean up the repository and freeze the original results
@@ -41,6 +41,7 @@ reproducible pipeline:
   - [x] Lead and random baselines
   - [x] Redundancy removal (MMR)
   - [x] Results by text length and type-token ratio
+- [x] Tests and linting on GitHub Actions
 
 ## Results
 
