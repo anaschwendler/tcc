@@ -2,11 +2,11 @@
 
 Ported from the corpus loops in archive/BetaRank.ipynb and archive/ConceptRank.ipynb.
 The legacy choices are kept so the output can be compared with
-output/experiments/: English tokenizer, stemmer and stop words; the sumy 0.4.1
+archive/experiments_2016/: English tokenizer, stemmer and stop words; the sumy 0.4.1
 word filter, which drops hyphenated words; summary length taken from the
 number of '.' in the CSTSumm summary; sentences written with no separator.
 
-    uv run python -m conceptrank.summarize lexrank output/experiments runs/legacy
+    uv run python -m conceptrank.summarize lexrank archive/experiments_2016 runs/legacy
 """
 
 import argparse

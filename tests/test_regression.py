@@ -1,6 +1,6 @@
 """The ported summarizers must reproduce the thesis summaries.
 
-Compares against the files in output/experiments/, generated in 2016. See
+Compares against the files in archive/experiments_2016/, generated in 2016. See
 results/legacy/README.md for why some clusters cannot match.
 
 ConceptRank is not covered: the 2016 output depended on Python 2 set
@@ -14,7 +14,7 @@ import pytest
 from conceptrank.lexrank import LexRankSummarizer
 from conceptrank.summarize import LegacyTokenizer, summarize_cluster
 
-EXPERIMENTS = Path(__file__).parents[1] / "output" / "experiments"
+EXPERIMENTS = Path(__file__).parents[1] / "archive" / "experiments_2016"
 CLUSTERS = sorted(d for d in EXPERIMENTS.iterdir() if (d / "original.txt").exists())
 
 KNOWN_DIFFERENCES = {

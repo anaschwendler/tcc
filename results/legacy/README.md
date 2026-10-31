@@ -7,7 +7,7 @@ should be measured against these numbers. **Do not regenerate or edit them.**
 ## How they were produced
 
 1. `archive/read_archives.py` and `archive/extract_files.py` copied source texts, human
-   extracts and CSTSumm summaries from CSTNews into `output/experiments/`.
+   extracts and CSTSumm summaries from CSTNews into `archive/experiments_2016/`.
 2. `archive/BetaRank.ipynb` (LexRank) and `archive/ConceptRank.ipynb` wrote
    `lexrank_summ.txt` and `concept_summ.txt` for each cluster, with the
    number of sentences taken from the CSTSumm summary.
@@ -29,7 +29,7 @@ should be measured against these numbers. **Do not regenerate or edit them.**
 
 The CSVs have no cluster column. Row *i* is the same cluster in all three
 files (rows follow `os.walk` order: C16, C6, C29, C20, …). Every row matches
-exactly one `output/experiments/<cluster>/rouge_*.txt` file.
+exactly one `archive/experiments_2016/<cluster>/rouge_*.txt` file.
 
 ## Summary (mean ± std over 50 clusters)
 
@@ -55,6 +55,8 @@ These are known from reading the code and have not yet been measured:
   the per-document term weight of the original WIVES similarity
   (`docs/reference/wives_similarity.java`).
 - No redundancy removal across source texts.
+- `original.txt` includes each text's `*_titulo.txt`, so titles were ranked as
+  sentences.
 - The text-length and type-token analyses filter with `<=` thresholds, so each
   bar is cumulative rather than a bin.
 - No statistical significance test is present in the code.
@@ -72,7 +74,7 @@ These are known from reading the code and have not yet been measured:
 
 ## Reproducing the summaries
 
-The summaries in `output/experiments/` were generated in October 2016
+The summaries in `archive/experiments_2016/` were generated in October 2016
 (ConceptRank on the 3rd, LexRank on the 9th), with Python 2.7. The library
 versions were not recorded; the latest releases at the time were
 **sumy 0.4.1** and **nltk 3.2.1**.

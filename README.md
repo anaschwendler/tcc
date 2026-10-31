@@ -60,16 +60,16 @@ uv run python -c "import nltk; nltk.download('punkt_tab')"
 ```
 
 The raw corpus is not included. [data/README.md](data/README.md) explains
-where to download CSTNews and where to put it. The processed texts, generated
-summaries and ROUGE scores for all 50 clusters are already in
-`output/experiments/`, so you can browse them without the corpus.
+where to get CSTNews and where to put it. The processed texts, summaries and
+ROUGE scores from the thesis, for all 50 clusters, are in
+`archive/experiments_2016/`, so you can browse them without the corpus.
 
 To summarize every cluster the way the thesis did, and to check the result
 against the 2016 summaries:
 
 ```sh
-uv run python -m conceptrank.summarize lexrank output/experiments runs/lexrank
-uv run python -m conceptrank.summarize concept output/experiments runs/concept
+uv run python -m conceptrank.summarize lexrank archive/experiments_2016 runs/lexrank
+uv run python -m conceptrank.summarize concept archive/experiments_2016 runs/concept
 uv run pytest
 ```
 
@@ -86,12 +86,13 @@ code and do not run as-is.
 │   └── summarize.py          # summarize all clusters as in the thesis
 ├── tests/                    # regression tests against the 2016 summaries
 ├── data/README.md            # how to get CSTNews
-├── output/experiments/       # per-cluster texts, summaries and ROUGE scores
 ├── results/legacy/           # thesis results, frozen
 ├── docs/
 │   ├── background.md         # theoretical background
 │   └── reference/            # original WIVES similarity (Java)
-└── archive/                  # original notebooks, scripts and C1 prototype
+└── archive/
+    ├── experiments_2016/     # per-cluster texts, summaries and ROUGE (2016)
+    └── ...                   # original notebooks, scripts and C1 prototype
 ```
 
 ## Background

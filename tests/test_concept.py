@@ -5,7 +5,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-EXPERIMENTS = Path(__file__).parents[1] / "output" / "experiments"
+EXPERIMENTS = Path(__file__).parents[1] / "archive" / "experiments_2016"
 
 SCRIPT = """
 import sys
