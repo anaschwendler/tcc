@@ -80,6 +80,7 @@ code and do not run as-is.
 
 ```
 ├── src/conceptrank/
+│   ├── corpus.py             # load the raw CSTNews corpus
 │   ├── graph.py              # sentence graph and power method
 │   ├── lexrank.py            # LexRank similarity (TF-IDF cosine)
 │   ├── concept.py            # ConceptRank similarity (WIVES)

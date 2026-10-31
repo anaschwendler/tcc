@@ -40,6 +40,10 @@ mkdir -p data/raw/CSTNews
 git archive 79eb0ab experiments | tar -x -C data/raw/CSTNews --strip-components=1
 ```
 
+`conceptrank.corpus.load_corpus()` reads it into one `Cluster` per folder; its
+docstring lists how it cleans the data. Tests that need the corpus are skipped
+when it is absent.
+
 ### Running the legacy extraction scripts
 
 `archive/extract_files.py` and `archive/read_archives.py` still read from
