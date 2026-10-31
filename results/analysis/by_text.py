@@ -24,11 +24,11 @@ from scipy.stats import spearmanr, wilcoxon
 
 sys.path.insert(0, str(Path(__file__).parents[1] / "fixes"))
 
-from all_fixes import corrected_summaries  # noqa: E402
-from common import reference_word_counts, references, score_all  # noqa: E402
-
 from conceptrank.corpus import load_corpus  # noqa: E402
 from conceptrank.evaluation import PortugueseTokenizer  # noqa: E402
+
+from all_fixes import corrected_summaries  # noqa: E402
+from common import reference_word_counts, references, score_all  # noqa: E402
 
 COMPARED = ["ConceptRank", "ConceptRank (thesis similarity)"]
 ANALYSES = [("words", "rouge2", "Number of words"), ("type_token", "rouge3", "Type-token ratio")]

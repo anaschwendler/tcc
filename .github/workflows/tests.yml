@@ -13,6 +13,8 @@ jobs:
       - uses: astral-sh/setup-uv@v6
       - name: Install Python and dependencies
         run: uv sync
+      - name: Lint
+        run: uv run ruff check .
       - name: Download NLTK sentence tokenizer data
         run: uv run python -c "import nltk; nltk.download('punkt_tab')"
       - name: Run tests

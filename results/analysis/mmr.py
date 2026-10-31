@@ -15,13 +15,13 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parents[1] / "fixes"))
 
-from all_fixes import corrected_summaries, print_pairs  # noqa: E402
-from baselines import lead_summary  # noqa: E402
-from common import compare, reference_word_counts, references, score_all  # noqa: E402
-
 from conceptrank.concept import WivesSummarizer  # noqa: E402
 from conceptrank.corpus import load_corpus  # noqa: E402
 from conceptrank.lexrank import LexRankSummarizer  # noqa: E402
+
+from all_fixes import corrected_summaries, print_pairs  # noqa: E402
+from baselines import lead_summary  # noqa: E402
+from common import compare, reference_word_counts, references, score_all  # noqa: E402
 
 MMR_LAMBDA = 0.7
 SWEEP = (0.5, 0.6, 0.8, 0.9)

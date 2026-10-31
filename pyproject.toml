@@ -27,7 +27,19 @@ analysis = [
 ]
 dev = [
     "pytest>=9.2.0",
+    "ruff>=0.17.3",
 ]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+extend-exclude = ["archive", "results/legacy/*.ipynb"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+
+[tool.ruff.lint.isort]
+# helper modules imported by the scripts in results/fixes and results/analysis
+known-local-folder = ["all_fixes", "baselines", "common", "titles"]

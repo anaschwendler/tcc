@@ -10,8 +10,15 @@ ROUGE's length limit (-l) would.
     uv run python results/fixes/length.py
 """
 
-from common import (changed_summaries, mean_words, print_comparison, reference_word_counts,
-                    references, score_all, summarize_all)
+from common import (
+    changed_summaries,
+    mean_words,
+    print_comparison,
+    reference_word_counts,
+    references,
+    score_all,
+    summarize_all,
+)
 
 if __name__ == "__main__":
     refs = references()

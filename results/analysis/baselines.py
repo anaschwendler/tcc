@@ -15,13 +15,13 @@ from rouge_score.scoring import Score
 
 sys.path.insert(0, str(Path(__file__).parents[1] / "fixes"))
 
-from all_fixes import corrected_summaries, print_means, print_pairs  # noqa: E402
-from common import reference_word_counts, references, score_all  # noqa: E402
-
 from conceptrank.baselines import lead_ratings, random_ratings  # noqa: E402
 from conceptrank.corpus import load_corpus  # noqa: E402
 from conceptrank.evaluation import score  # noqa: E402
 from conceptrank.summarize import select_by_word_budget  # noqa: E402
+
+from all_fixes import corrected_summaries, print_means, print_pairs  # noqa: E402
+from common import reference_word_counts, references, score_all  # noqa: E402
 
 RANDOM_SEEDS = range(10)
 PAIRS = [
