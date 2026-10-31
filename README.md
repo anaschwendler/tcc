@@ -30,6 +30,7 @@ reproducible pipeline:
   - [x] Keep hyphenated words
   - [x] Word budget from the human extract
   - [x] Portuguese stemmer and stop words
+  - [x] Titles not ranked as sentences
 - [ ] Re-run the analysis with baselines and significance tests
 
 ## Results (2016 summaries, under review)

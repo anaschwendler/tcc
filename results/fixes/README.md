@@ -27,6 +27,7 @@ Needs the raw corpus in `data/raw/CSTNews/` (see [data/README.md](../../data/REA
 |---|---|---|---|
 | Keep hyphenated words | `hyphens.py` | +0.005 to +0.016, not significant | +0.012 to +0.019, p ≤ 0.049 on all 4 metrics |
 | Word budget from the human extract | `length.py` | ROUGE-1 F +0.028 (p = 0.007); others +0.011 to +0.026, not significant | ROUGE-1 F +0.036 (p < 0.001); others +0.008 to +0.024, not significant |
+| Titles not ranked as sentences | `titles.py` | With the word budget: +0.027 to +0.037, p ≤ 0.004 on all 4 metrics | With the word budget: +0.010 to +0.019, p ≤ 0.047 on all 4 metrics |
 | Portuguese stemmer and stop words | `portuguese.py` | With the word budget: +0.013 to +0.020, not significant (without it: −0.030 to −0.007, from shorter summaries) | With the word budget: +0.003 to +0.004, not significant |
 
 ## Keep hyphenated words
@@ -124,3 +125,33 @@ With both sides on the word budget (see above), so that length is equal:
 The earlier drop came from length. With equal length, Portuguese stemming and
 stop words lean positive for LexRank and make no difference for ConceptRank,
 but neither change is significant over 50 clusters.
+
+## Titles not ranked as sentences
+
+The thesis built `original.txt` from every file in `Textos-fonte`, including
+the `*_titulo.txt` files. Those hold the headline, sometimes a subheadline, and
+in some clusters hundreds of padding spaces. Headlines have no full stop, so
+they were glued to the first sentence of the next text. The variant removes the
+content of every title file from `original.txt`, keeping order and joins
+otherwise identical. C29 and C47 each have two texts with the same title; both
+copies are removed.
+
+With a fixed sentence count the variant's summaries are shorter (LexRank 176.8
+→ 157.8 words, ConceptRank 189.3 → 176.3), so recall drops while F rises. With
+both sides on the word budget (LexRank 46 and ConceptRank 44 summaries
+changed):
+
+| System | Metric | Baseline | Variant | Diff | Better / worse | Wilcoxon p |
+|---|---|---|---|---|---|---|
+| LexRank | ROUGE-1 R | 0.549 | 0.576 | +0.027 | 30 / 14 | 0.001 |
+| LexRank | ROUGE-2 R | 0.328 | 0.365 | +0.037 | 28 / 16 | 0.004 |
+| LexRank | ROUGE-1 F | 0.549 | 0.577 | +0.028 | 32 / 13 | 0.001 |
+| LexRank | ROUGE-2 F | 0.328 | 0.365 | +0.037 | 29 / 16 | 0.003 |
+| ConceptRank | ROUGE-1 R | 0.563 | 0.573 | +0.010 | 26 / 12 | 0.036 |
+| ConceptRank | ROUGE-2 R | 0.345 | 0.364 | +0.019 | 25 / 16 | 0.047 |
+| ConceptRank | ROUGE-1 F | 0.563 | 0.573 | +0.011 | 28 / 13 | 0.031 |
+| ConceptRank | ROUGE-2 F | 0.345 | 0.364 | +0.019 | 27 / 16 | 0.040 |
+
+Removing titles helps both systems on all metrics, LexRank more than
+ConceptRank; without titles the two are almost level (ROUGE-1 R 0.576 and
+0.573). The script also prints the fixed-sentence-count comparison.

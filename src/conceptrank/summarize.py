@@ -64,13 +64,17 @@ def select_by_word_budget(sentences, ratings, word_budget):
 
 
 def summarize_cluster(cluster_dir, summarizer_cls, language=LANGUAGE, tokenizer_cls=LegacyTokenizer,
-                      tokenizer_language=None, stop_words=None, word_budget=None):
+                      tokenizer_language=None, stop_words=None, word_budget=None, text=None):
     """`language` sets the stemmer and, unless `stop_words` is given, sumy's
     stop words; `tokenizer_language`, which defaults to it, sets sentence and
     word splitting. Without `word_budget`, the summary has as many sentences as
-    there are '.' in the CSTSumm summary, as in the thesis."""
+    there are '.' in the CSTSumm summary, as in the thesis. `text` replaces
+    the cluster's original.txt as input."""
     tokenizer = tokenizer_cls(tokenizer_language or language)
-    parser = PlaintextParser.from_file(cluster_dir / "original.txt", tokenizer)
+    if text is None:
+        parser = PlaintextParser.from_file(cluster_dir / "original.txt", tokenizer)
+    else:
+        parser = PlaintextParser.from_string(text, tokenizer)
     summarizer = summarizer_cls(Stemmer(language))
     summarizer.stop_words = get_stop_words(language) if stop_words is None else stop_words
     if word_budget is None:

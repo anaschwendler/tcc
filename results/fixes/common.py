@@ -28,17 +28,23 @@ def references():
     return {c.id: reference_text(c) for c in load_corpus()}
 
 
-def summarize_all(word_budgets=None, **options):
+def summarize_all(word_budgets=None, texts=None, **options):
     """{system: {cluster_id: summary}} for every archived cluster.
 
-    `word_budgets` maps cluster id to a word budget for that cluster."""
+    `word_budgets` and `texts` map cluster id to that cluster's word budget
+    and input text."""
     clusters = {d.name.split("_")[0]: d for d in sorted(ARCHIVE.iterdir())}
 
-    def budget(cid):
-        return {} if word_budgets is None else {"word_budget": word_budgets[cid]}
+    def per_cluster(cid):
+        extra = {}
+        if word_budgets is not None:
+            extra["word_budget"] = word_budgets[cid]
+        if texts is not None:
+            extra["text"] = texts[cid]
+        return extra
 
     return {
-        system: {cid: summarize_cluster(d, cls, **options, **budget(cid)) for cid, d in clusters.items()}
+        system: {cid: summarize_cluster(d, cls, **options, **per_cluster(cid)) for cid, d in clusters.items()}
         for system, cls in SYSTEMS.items()
     }
 
