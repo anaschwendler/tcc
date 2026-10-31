@@ -142,6 +142,13 @@ code and do not run as-is.
 automatic summarization, graph-based centrality, conceptual similarity, ROUGE
 and the CSTNews corpus.
 
+## Terms of use
+
+This repository has no open-source license. Like the CSTNews corpus, which
+NILC makes available "for download and use for research purposes", the code
+and results are shared for research use. For anything else, please get in
+touch. The corpus keeps its own terms; see [data/README.md](data/README.md).
+
 ## Author
 
 Ana Schwendler
