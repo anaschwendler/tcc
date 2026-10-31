@@ -32,6 +32,7 @@ reproducible pipeline:
   - [x] Portuguese stemmer and stop words
   - [x] Titles not ranked as sentences
   - [x] Corpus sentence segmentation
+  - [x] WIVES weights as in the Java original
 - [ ] Re-run the analysis with baselines and significance tests
 
 ## Results (2016 summaries, under review)

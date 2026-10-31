@@ -37,6 +37,7 @@ and F):
 | Keep hyphenated words | `hyphens.py` | +0.011 to +0.018, p ≤ 0.033 on all 4 metrics | +0.008 to +0.014, p ≤ 0.017 on all 4 metrics |
 | Titles not ranked as sentences | `titles.py` | +0.027 to +0.037, p ≤ 0.004 on all 4 metrics | +0.010 to +0.019, p ≤ 0.047 on all 4 metrics |
 | Corpus sentence segmentation (both without titles) | `segmentation.py` | −0.003 to +0.002, not significant | −0.008 to −0.005, not significant |
+| WIVES weights as in the Java original (ConceptRank only) | `wives.py` | — | −0.018 to −0.008, not significant |
 | Portuguese stemmer and stop words | `portuguese.py` | +0.013 to +0.020, not significant | +0.003 to +0.004, not significant |
 
 The word budget itself, against the thesis' fixed sentence count:
@@ -210,3 +211,40 @@ ConceptRank 49 summaries changed.
 
 Segmentation makes no measurable difference. The corpus segmentation is still
 the cleaner input, but ROUGE does not tell the two apart.
+
+## WIVES weights as in the Java original
+
+ConceptRank's similarity was ported from the WIVES similarity (Loh et al.),
+`docs/reference/wives_similarity.java`. There, each word the two sentences
+share is weighted by its weight in each sentence, a value between 0 and 1.
+The thesis port used the word's length (`len(term)`) as a running maximum
+instead, with the minimum stuck at 0. The variant, `WivesSummarizer`, follows
+the Java formula with the normalized term frequency (tf / max tf in the
+sentence) as the weight, since the Java class that defined the weight is not
+in the repository. It also counts distinct words in the denominator, as the
+Java bag of words did. Only ConceptRank changes; both sides on the word budget;
+all 50 summaries changed.
+
+| System | Metric | Baseline | Variant | Diff | Better / worse | Wilcoxon p |
+|---|---|---|---|---|---|---|
+| ConceptRank | ROUGE-1 R | 0.563 | 0.554 | -0.009 | 22 / 27 | 0.547 |
+| ConceptRank | ROUGE-2 R | 0.345 | 0.327 | -0.018 | 22 / 26 | 0.415 |
+| ConceptRank | ROUGE-1 F | 0.563 | 0.555 | -0.008 | 22 / 28 | 0.566 |
+| ConceptRank | ROUGE-2 F | 0.345 | 0.327 | -0.018 | 22 / 27 | 0.423 |
+
+The fixed ConceptRank against LexRank, both on the word budget:
+
+| Comparison | Metric | LexRank | ConceptRank (fixed) | Diff | ConceptRank better / worse | Wilcoxon p |
+|---|---|---|---|---|---|---|
+| LexRank vs ConceptRank | ROUGE-1 R | 0.549 | 0.554 | +0.005 | 28 / 22 | 0.566 |
+| LexRank vs ConceptRank | ROUGE-2 R | 0.328 | 0.327 | -0.000 | 25 / 24 | 0.846 |
+| LexRank vs ConceptRank | ROUGE-1 F | 0.549 | 0.555 | +0.005 | 28 / 22 | 0.559 |
+| LexRank vs ConceptRank | ROUGE-2 F | 0.328 | 0.327 | -0.000 | 25 / 24 | 0.854 |
+
+Fixing the weights does not help: the thesis port did slightly, not
+significantly, better, and the fixed ConceptRank is level with LexRank. With
+term-frequency weights most words in a sentence weigh 1, so WIVES behaves much
+like a Jaccard overlap of stemmed words, close to LexRank's cosine. Note that
+the "concepts" were always stemmed words: the rule-based categorization of
+Loh et al. described in the thesis (cue terms, synonyms, weighted rules) was
+never implemented.

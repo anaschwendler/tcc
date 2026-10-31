@@ -59,3 +59,35 @@ class ConceptSummarizer(GraphSummarizer):
             result += 0.5*(m1+m2)
 
         return math.fabs(result / (minLen + maxLen - len(common_words) + EPSILON))
+
+
+class WivesSummarizer(GraphSummarizer):
+    """ConceptRank with the WIVES similarity as written in the Java original.
+
+    Each common word is weighted by its normalized term frequency in each
+    sentence (tf / max tf, so between 0 and 1), which GraphSummarizer already
+    computes. The Java class that defined the weight (BagOfWords) is not
+    available, so this is an assumption. The denominator counts distinct words,
+    as the Java BagOfWords did. The Java code pointed both of its "min" and
+    "max" documents at the same one when the two had the same size; the
+    formula is symmetric, so this version does not need that distinction.
+    """
+
+    @staticmethod
+    def compute_distance(sentence1, sentence2, tf1, tf2, idf_metrics):
+        words1, words2 = frozenset(sentence1), frozenset(sentence2)
+        common_words = words1 & words2
+
+        result = 0.0
+        for term in common_words:
+            weight1, weight2 = tf1[term], tf2[term]
+            negation1, negation2 = 1 - weight1, 1 - weight2
+
+            c1 = 1 if weight1 == 0 else weight2 / weight1
+            c2 = 1 if weight2 == 0 else weight1 / weight2
+            c3 = 1 if negation1 == 0 else negation2 / negation1
+            c4 = 1 if negation2 == 0 else negation1 / negation2
+
+            result += 0.5 * (min(c1, c2, 1) + min(c3, c4, 1))
+
+        return result / (len(words1) + len(words2) - len(common_words) + EPSILON)
