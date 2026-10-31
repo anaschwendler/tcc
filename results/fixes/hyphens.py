@@ -8,11 +8,11 @@ Variant: sumy's current Tokenizer, which keeps hyphenated words.
 
 from sumy.nlp.tokenizers import Tokenizer
 
-from common import changed_summaries, print_comparison, references, score_all, summarize_all
+from common import compare, reference_word_counts, references, summarize_all
 
 if __name__ == "__main__":
     refs = references()
-    baseline = summarize_all()
-    variant = summarize_all(tokenizer_cls=Tokenizer)
-    print("Summaries changed:", changed_summaries(baseline, variant), "\n")
-    print_comparison(score_all(baseline, refs), score_all(variant, refs))
+    compare("Fixed sentence count", summarize_all(), summarize_all(tokenizer_cls=Tokenizer), refs)
+    budgets = reference_word_counts(refs)
+    compare("Both with the word budget", summarize_all(word_budgets=budgets),
+            summarize_all(word_budgets=budgets, tokenizer_cls=Tokenizer), refs)

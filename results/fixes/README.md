@@ -11,6 +11,12 @@ paired Wilcoxon signed-rank tests. "Better / worse" counts the clusters whose
 score went up or down. Each script runs 8 tests (2 systems × 4 metrics), so a
 single p-value near 0.05 is weak evidence on its own.
 
+Summary length turned out to confound most fixes: with a fixed number of
+sentences, a change that makes the chosen sentences shorter lowers recall and
+raises precision. So the main comparison puts both sides on the same **word
+budget** (the word count of the cluster's human extract, see below); the
+comparison with the thesis' fixed sentence count is printed too, for reference.
+
 The baseline is the ported code, not the 2016 files: ConceptRank now iterates
 words in sorted order, so its baseline differs slightly from the thesis
 summaries (ROUGE-1 R 0.540 against 0.546).
@@ -23,12 +29,20 @@ Needs the raw corpus in `data/raw/CSTNews/` (see [data/README.md](../../data/REA
 
 ## Summary
 
+Main comparison, both sides on the word budget (diffs over ROUGE-1/2 recall
+and F):
+
 | Fix | Script | LexRank | ConceptRank |
 |---|---|---|---|
-| Keep hyphenated words | `hyphens.py` | +0.005 to +0.016, not significant | +0.012 to +0.019, p ≤ 0.049 on all 4 metrics |
+| Keep hyphenated words | `hyphens.py` | +0.011 to +0.018, p ≤ 0.033 on all 4 metrics | +0.008 to +0.014, p ≤ 0.017 on all 4 metrics |
+| Titles not ranked as sentences | `titles.py` | +0.027 to +0.037, p ≤ 0.004 on all 4 metrics | +0.010 to +0.019, p ≤ 0.047 on all 4 metrics |
+| Portuguese stemmer and stop words | `portuguese.py` | +0.013 to +0.020, not significant | +0.003 to +0.004, not significant |
+
+The word budget itself, against the thesis' fixed sentence count:
+
+| Fix | Script | LexRank | ConceptRank |
+|---|---|---|---|
 | Word budget from the human extract | `length.py` | ROUGE-1 F +0.028 (p = 0.007); others +0.011 to +0.026, not significant | ROUGE-1 F +0.036 (p < 0.001); others +0.008 to +0.024, not significant |
-| Titles not ranked as sentences | `titles.py` | With the word budget: +0.027 to +0.037, p ≤ 0.004 on all 4 metrics | With the word budget: +0.010 to +0.019, p ≤ 0.047 on all 4 metrics |
-| Portuguese stemmer and stop words | `portuguese.py` | With the word budget: +0.013 to +0.020, not significant (without it: −0.030 to −0.007, from shorter summaries) | With the word budget: +0.003 to +0.004, not significant |
 
 ## Keep hyphenated words
 
@@ -48,8 +62,23 @@ keeps them. Summaries changed: LexRank 26, ConceptRank 18.
 | ConceptRank | ROUGE-1 F | 0.527 | 0.538 | +0.012 | 15 / 3 | 0.006 |
 | ConceptRank | ROUGE-2 F | 0.330 | 0.347 | +0.018 | 12 / 6 | 0.028 |
 
-Keeping hyphenated words helps both systems on average; the gain is
-consistent for ConceptRank and within noise for LexRank.
+That table uses the thesis' fixed sentence count. With both sides on the word
+budget (LexRank 34 and ConceptRank 22 summaries changed):
+
+| System | Metric | Baseline | Variant | Diff | Better / worse | Wilcoxon p |
+|---|---|---|---|---|---|---|
+| LexRank | ROUGE-1 R | 0.549 | 0.560 | +0.011 | 20 / 9 | 0.027 |
+| LexRank | ROUGE-2 R | 0.328 | 0.345 | +0.018 | 19 / 7 | 0.026 |
+| LexRank | ROUGE-1 F | 0.549 | 0.560 | +0.011 | 21 / 11 | 0.033 |
+| LexRank | ROUGE-2 F | 0.328 | 0.345 | +0.018 | 20 / 12 | 0.032 |
+| ConceptRank | ROUGE-1 R | 0.563 | 0.571 | +0.008 | 14 / 7 | 0.013 |
+| ConceptRank | ROUGE-2 R | 0.345 | 0.359 | +0.014 | 14 / 3 | 0.009 |
+| ConceptRank | ROUGE-1 F | 0.563 | 0.571 | +0.008 | 14 / 8 | 0.017 |
+| ConceptRank | ROUGE-2 F | 0.345 | 0.358 | +0.014 | 14 / 5 | 0.009 |
+
+Keeping hyphenated words helps both systems. With a fixed sentence count the
+gain is consistent only for ConceptRank; with equal length it is significant on
+every metric for both.
 
 ## Word budget from the human extract
 

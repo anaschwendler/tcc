@@ -86,6 +86,15 @@ def print_comparison(baseline, variant):
                   f"{statistics.mean(y) - statistics.mean(x):+.3f} | {better} / {worse} | {_p_value(x, y):.3f} |")
 
 
+def compare(title, baseline, variant, refs):
+    """Print how many summaries changed, their mean length and the comparison table."""
+    print(f"\n### {title}\n")
+    print("Summaries changed:", changed_summaries(baseline, variant))
+    print("Mean length in words: baseline", {s: mean_words(t) for s, t in baseline.items()},
+          "| variant", {s: mean_words(t) for s, t in variant.items()}, "\n")
+    print_comparison(score_all(baseline, refs), score_all(variant, refs))
+
+
 def changed_summaries(baseline, variant):
     return {system: sum(baseline[system][cid] != variant[system][cid] for cid in baseline[system])
             for system in baseline}

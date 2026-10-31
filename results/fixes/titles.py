@@ -11,8 +11,7 @@ C47) have two texts with the same title; both copies are removed.
 
 from conceptrank.corpus import load_corpus
 
-from common import (ARCHIVE, changed_summaries, mean_words, print_comparison, reference_word_counts,
-                    references, score_all, summarize_all)
+from common import ARCHIVE, compare, reference_word_counts, references, summarize_all
 
 
 def texts_without_titles():
@@ -25,14 +24,6 @@ def texts_without_titles():
             text = text.replace(title.read_bytes(), b"")
         texts[cluster_id] = text.decode("utf-8")
     return texts
-
-
-def compare(title, baseline, variant, refs):
-    print(f"\n### {title}\n")
-    print("Summaries changed:", changed_summaries(baseline, variant))
-    print("Mean length in words: baseline", {s: mean_words(t) for s, t in baseline.items()},
-          "| variant", {s: mean_words(t) for s, t in variant.items()}, "\n")
-    print_comparison(score_all(baseline, refs), score_all(variant, refs))
 
 
 if __name__ == "__main__":

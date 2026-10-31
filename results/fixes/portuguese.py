@@ -15,16 +15,9 @@ literal escapes ("n\\xe3o" instead of "não"), so common words such as "não",
 
 from nltk.corpus import stopwords
 
-from common import (changed_summaries, print_comparison, reference_word_counts, references,
-                    score_all, summarize_all)
+from common import compare, reference_word_counts, references, summarize_all
 
 PORTUGUESE = {"language": "portuguese", "tokenizer_language": "english"}
-
-
-def compare(title, baseline_summaries, variant_summaries, refs):
-    print(f"\n### {title}\n")
-    print("Summaries changed:", changed_summaries(baseline_summaries, variant_summaries), "\n")
-    print_comparison(score_all(baseline_summaries, refs), score_all(variant_summaries, refs))
 
 
 if __name__ == "__main__":
