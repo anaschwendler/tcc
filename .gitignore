@@ -14,6 +14,7 @@ venv/
 
 # Raw corpus (CSTNews is not redistributed here)
 data/raw/
+/experiments
 
 # OS / editors
 .DS_Store
