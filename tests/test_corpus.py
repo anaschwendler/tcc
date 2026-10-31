@@ -46,6 +46,25 @@ def test_extract_points_to_existing_sources(corpus):
 
 
 @needs_corpus
+def test_extract_source_contains_the_sentence(corpus):
+    for cluster in corpus:
+        sources = {s.id: s for s in cluster.sources}
+        for e in cluster.human_extract:
+            if e.text in cluster.sentences:
+                assert e.text in sources[e.source_id].sentences
+
+
+@needs_corpus
+def test_extract_source_overrides_wrong_tag(corpus):
+    by_id = {c.id: c for c in corpus}
+    # Tagged "<D1_C31_Estadao; ...>", but D1 is Folha and the sentence is in D2.
+    assert {e.source_id for e in by_id["C31"].human_extract} == {"D2"}
+    # Tagged "<D1_C30_OGlobo; ...>", but D1 is Folha; two sentences are found in
+    # D3 (OGlobo) and two differ from the source, so the agency decides.
+    assert {e.source_id for e in by_id["C30"].human_extract} == {"D3"}
+
+
+@needs_corpus
 def test_text_has_no_encoding_leftovers(corpus):
     for cluster in corpus:
         texts = [cluster.cstsumm, cluster.human_abstract, *cluster.sentences]
