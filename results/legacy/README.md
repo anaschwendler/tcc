@@ -44,6 +44,9 @@ exactly one `output/experiments/<cluster>/rouge_*.txt` file.
 These are known from reading the code and have not yet been measured:
 
 - Stemmer and stop words are English (`LANGUAGE = "english"`).
+- Hyphenated words ("segunda-feira", "porta-voz", "vice-presidente") were
+  dropped by the tokenizer, so they never counted towards similarity (see
+  below).
 - All system summaries were decoded as Latin-1 before scoring, although most
   are UTF-8; the reference was decoded as UTF-8.
 - Sentences in the generated summaries are joined with no separator.
@@ -66,3 +69,28 @@ These are known from reading the code and have not yet been measured:
   labelled `rouge_2_recall` are ROUGE-4 recall, and those labelled
   `rouge_4_f_score` are ROUGE-2 recall. Only `rouge_1_recall` and
   `rouge_su4_recall` are labelled correctly. Use the table above instead.
+
+## Reproducing the summaries
+
+The summaries in `output/experiments/` were generated in October 2016
+(ConceptRank on the 3rd, LexRank on the 9th), with Python 2.7. The library
+versions were not recorded; the latest releases at the time were
+**sumy 0.4.1** and **nltk 3.2.1**.
+
+Running `conceptrank.summarize lexrank` (the ported code) under sumy 0.4.1 and
+nltk 3.2.1 reproduces all 50 LexRank summaries. With the versions in
+`uv.lock` it reproduces only 24, for these reasons:
+
+| Cause | Clusters | Detail |
+|---|---|---|
+| sumy word filter | 47 | sumy 0.4.1 kept only tokens made of letters (`^[^\W\d_]+$`), dropping every hyphenated word. Later versions keep them. |
+| nltk word tokenizer | C45, C50 | Words in single quotes (`'seduzir'`) kept the quote attached in nltk 3.2.1 and were then dropped by the filter; current nltk splits the quote off. |
+| File not closed | C49 | The 2016 file ends with a duplicated `pública."`, left over from a file handle that was never closed. The summary text is the same. |
+
+Sentence splitting, stop words and stemming are identical between the two
+sets of versions.
+
+ConceptRank cannot be reproduced the same way: its similarity depends on the
+iteration order of a set of words, which was fixed (but arbitrary) in
+Python 2 and is randomized per run in Python 3. See
+`src/conceptrank/concept.py`.
