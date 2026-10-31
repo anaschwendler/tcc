@@ -29,7 +29,7 @@ reproducible pipeline:
       ([results/fixes/](results/fixes/))
   - [x] Keep hyphenated words
   - [x] Word budget from the human extract
-  - [x] Portuguese stemmer and stop words (re-measure after the length fix)
+  - [x] Portuguese stemmer and stop words
 - [ ] Re-run the analysis with baselines and significance tests
 
 ## Results (2016 summaries, under review)

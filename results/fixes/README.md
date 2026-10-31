@@ -27,7 +27,7 @@ Needs the raw corpus in `data/raw/CSTNews/` (see [data/README.md](../../data/REA
 |---|---|---|---|
 | Keep hyphenated words | `hyphens.py` | +0.005 to +0.016, not significant | +0.012 to +0.019, p ≤ 0.049 on all 4 metrics |
 | Word budget from the human extract | `length.py` | ROUGE-1 F +0.028 (p = 0.007); others +0.011 to +0.026, not significant | ROUGE-1 F +0.036 (p < 0.001); others +0.008 to +0.024, not significant |
-| Portuguese stemmer and stop words | `portuguese.py` | −0.030 to −0.007, not significant; summaries 6.6% shorter | −0.006 to +0.002, not significant; summaries 4.8% shorter |
+| Portuguese stemmer and stop words | `portuguese.py` | With the word budget: +0.013 to +0.020, not significant (without it: −0.030 to −0.007, from shorter summaries) | With the word budget: +0.003 to +0.004, not significant |
 
 ## Keep hyphenated words
 
@@ -107,3 +107,20 @@ change is confounded with summary length: the number of sentences is fixed,
 and the variant picks shorter ones (LexRank 176.8 → 165.1 words on average,
 ConceptRank 189.3 → 180.2), which lowers recall while F-scores hold. This
 should be measured again once summary length is fixed by a word budget.
+
+With both sides on the word budget (see above), so that length is equal:
+
+| System | Metric | Baseline | Variant | Diff | Better / worse | Wilcoxon p |
+|---|---|---|---|---|---|---|
+| LexRank | ROUGE-1 R | 0.549 | 0.563 | +0.014 | 26 / 23 | 0.251 |
+| LexRank | ROUGE-2 R | 0.328 | 0.348 | +0.020 | 26 / 22 | 0.338 |
+| LexRank | ROUGE-1 F | 0.549 | 0.563 | +0.013 | 26 / 23 | 0.280 |
+| LexRank | ROUGE-2 F | 0.328 | 0.348 | +0.020 | 27 / 22 | 0.342 |
+| ConceptRank | ROUGE-1 R | 0.563 | 0.567 | +0.004 | 22 / 23 | 0.773 |
+| ConceptRank | ROUGE-2 R | 0.345 | 0.349 | +0.003 | 24 / 20 | 0.825 |
+| ConceptRank | ROUGE-1 F | 0.563 | 0.567 | +0.004 | 22 / 24 | 0.789 |
+| ConceptRank | ROUGE-2 F | 0.345 | 0.348 | +0.004 | 25 / 21 | 0.772 |
+
+The earlier drop came from length. With equal length, Portuguese stemming and
+stop words lean positive for LexRank and make no difference for ConceptRank,
+but neither change is significant over 50 clusters.
